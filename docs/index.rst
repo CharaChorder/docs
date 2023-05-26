@@ -10,7 +10,9 @@ Table of Contents
 =================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    ccos.rst
    cc1.md
+   CC1 Manual.md
+   
