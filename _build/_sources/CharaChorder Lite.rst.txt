@@ -1,2 +1,0 @@
-CharaChorder Lite - UNDER CONSTRUCTION
-=======================================

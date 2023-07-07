@@ -1,2 +1,0 @@
-CC Mission - UNDER CONSTRUCTION
-===================================

@@ -1,8 +1,0 @@
-# Chentry
-
-Lit. "Character Entry". 
-
-This term is a shortform of the process where one writes by typing one character at a time. It is the most common form of typing on a computer and requires no simultaneous key presses except to capitalize letters or to access certain symbols.
-
-
-# Remapping
