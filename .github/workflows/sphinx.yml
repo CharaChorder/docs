@@ -4,8 +4,8 @@ permissions:
     contents: write
 jobs:
   docs:
-#    runs-on: ubuntu-latest
-    runs-on: [self-hosted, Linux]
+    runs-on: ubuntu-latest
+#    runs-on: [self-hosted, Linux]
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v3
@@ -15,3 +15,10 @@ jobs:
       - name: Sphinx build
         run: |
           sphinx-build docs _build
+      - name: Deploy
+        uses: s0/git-publish-subdir-action@v2.6.0
+        env:
+          REPO: self
+          BRANCH: gh-pages
+          FOLDER: _build
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
