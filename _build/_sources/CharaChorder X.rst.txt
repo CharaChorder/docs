@@ -1,0 +1,2 @@
+CharaChorder X - UNDER CONSTRUCTION
+=======================================
