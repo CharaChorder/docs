@@ -53,9 +53,8 @@ CharaChorder One. Each half corresponds to each hand and is designed for
 the ergonomics and comfort of each hand. The halves are printed by
 injection mold and made of ABS plastic. Each half is actually two pieces
 which are the dome-shaped “shell” and the flat and circular “baseplate”.
-They are held together by 5 M3, CHECK INFO Philips screws which are
-under the “feet” of the device. The feet are round, rubberized CHECK
-INFO and help the device to have a grip on desks and other, smooth
+They are held together by 5 M2, Philips screws which are
+under the “feet” of the device. The feet are round, rubberized and help the device to have a grip on desks and other smooth
 surfaces.
 
 The left half contains the “brain” of the device, where it stores
@@ -124,8 +123,7 @@ lateral movement in order to work, just apply force onto the switch
 to a configurable key, which can include letters, numbers, symbols,
 control keys and even function keys. You can see the most current list
 of configurable action codes in `action
-codes <https://docs.google.com/spreadsheets/d/1--T9bXshCIC-OVly-CY3rK87fgb7AHgJl3IySh7cmHc/edit#gid=0>`__
-CHECK INFO.
+codes <https://docs.google.com/spreadsheets/d/1--T9bXshCIC-OVly-CY3rK87fgb7AHgJl3IySh7cmHc/edit#gid=0>`__.
 
 Connections
 -----------
@@ -142,7 +140,6 @@ cable, with both ends being male ends. The USB-C side of the cable fits
 into the USB-C port on the left side of the left half of the
 CharaChorder. The USB-A end of the cable is then plugged into your
 computer, or into a mobile device, usually with the help of an adapter.
-^9cddb9
 
 Communication
 ~~~~~~~~~~~~~
@@ -155,8 +152,7 @@ that’s capable of sending and receiving data, and not just an energy
 port.
 
 .. _TRS cable:
-In between the two CharaChorder halves, there’s a single 3.5mm TRS CHECK
-INFO cable, commonly known as an AUX cable. This cable facilitates
+In between the two CharaChorder halves, there’s a single 3.5mm TRS cable, commonly known as an AUX cable. This cable facilitates
 instant communication between the right half and the left half of the
 CharaChorder. However, as mentioned before, only the left half contains
 the “brain” of the CharaChorder which holds your chord library, layout,
