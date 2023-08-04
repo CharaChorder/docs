@@ -1,7 +1,7 @@
 Serial API
 ==========
 
-The Serial API allows users and developers to interact with their CCOS powered device over a serial connection.  This can be used to add and remove chords, change advanced parameters, and perform common commands such as resetting keymaps or to resetting to factory settings. You can utilize this serial API by using any serial terminal such as `serialterminal.com <https://www.serialterminal.com/>`_ on a `serial enabled web browser <https://caniuse.com/web-serial>`_. The serial connection operates at a baud rate of 115200 bps. In general, a success returns a 0 at the end, while a failure returns a number greater than zero, which represents an error code. 
+The Serial API allows users and developers to interact with their CCOS powered device over a serial connection.  This can be used to add and remove chords, change advanced parameters, and perform common commands such as resetting keymaps or resetting the device to factory settings. You can utilize this serial API by using any serial terminal such as `serialterminal.com <https://www.serialterminal.com/>`_ on a `serial enabled web browser <https://caniuse.com/web-serial>`_. The serial connection operates at a baud rate of 115200 bps. In general, a success returns a 0 at the end, while a failure returns a number greater than zero, which represents an error code. 
 
 .. figure:: /assets/serial/serialterminal.png
   :alt: Running some simple commands on serialterminal.com
