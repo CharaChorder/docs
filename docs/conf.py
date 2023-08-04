@@ -110,10 +110,28 @@ html_sidebars = {
 }
 
 # Appended HTML page title
-html_title = '<project> v<revision>'
+html_title = f'{project} v{version}'
 
 # Canonical URL
 html_baseurl = 'https://docs.charachorder.com'
+
+# Logos/icons
+html_logo = 'assets/images/CharaChorder-logo.png'
+html_favicon = 'assets/images/favicon.ico'
+
+html_copy_source = False
+
+html_use_opensearch = html_baseurl
+
+html_context = {
+    'display_github': True,
+    'github_user': 'CharaChorder',
+    'github_repo': 'docs',
+    'github_version': 'main/',
+    "conf_py_path": "/docs/",
+    "source_suffix": source_suffix,
+}
+
 
 # -- Options for HTMLHelp output ------------------------------------------
 
@@ -170,6 +188,3 @@ texinfo_documents = [
      author, 'CharaChorder', 'CharaChorder Documentation',
      'Miscellaneous'),
 ]
-
-
-
