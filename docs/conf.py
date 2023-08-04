@@ -112,6 +112,8 @@ html_sidebars = {
 # Appended HTML page title
 html_title = '<project> v<revision>'
 
+# Canonical URL
+html_baseurl = 'https://docs.charachorder.com'
 
 # -- Options for HTMLHelp output ------------------------------------------
 
