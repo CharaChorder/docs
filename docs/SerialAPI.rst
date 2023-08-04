@@ -8,6 +8,8 @@ The Serial API allows developers to add and remove chords and change more advanc
 
    Chords are stored on external flash and have a minimum of 100,000 commits before any degradation could be expected; however, we have a custom wear leveling algorithm that targets specific sectors so this should extend much farther and is less of a concern.
 
+.. note::
+   Throughout this document, lines prefixed with a ">" symbol represent user input in the examples shown.
 
 Commands Overview
 -----------------
@@ -25,7 +27,6 @@ Commands are all caps ASCII characters. The return is always one line and includ
    ":ref:`RST`", "Restarts/reboots the microcontroller hardware. It has additional arguments for Factory and Bootloader."
    ":ref:`RAM`", "Prints the current amount of SRAM available; this is primarily used for debugging."
    ":ref:`SIM`", "Simulates/injects a chord and outputs the chord output if the chord exists in the chord library; this is primarily used for debugging."
-
 
 Commands
 -----------------
@@ -45,11 +46,10 @@ The `CMD` command lists out all of the commands in the Serial API. All of the co
 
 Example(s): 
 
-.. csv-table::
-   :header: "I/O","Message"
+.. code-block:: none
 
-   "INPUT","CMD"
-   "OUTPUT","CMD CMD,ID,VERSION,CML,VAR,RST,RAM,SIM"
+   > CMD
+   CMD CMD,ID,VERSION,CML,VAR,RST,RAM,SIM
 
 ID
 ~~~
@@ -68,11 +68,10 @@ attached to the computer.
 
 Example(s):
 
-.. csv-table::
-   :header: "I/O","Message"
+.. code-block:: none
 
-   "INPUT","ID"
-   "OUTPUT","ID CHARACHORDER ONE M0"
+   > ID
+   ID CHARACHORDER ONE M0
 
 
 VERSION
@@ -89,11 +88,10 @@ The `VERSION` command returns the current version of the CCOS firmware.
 
 Example(s): 
 
-.. csv-table::
-   :header: "I/O","Message"
+.. code-block:: none
 
-   "INPUT","VERSION"
-   "OUTPUT","VERSION 1.1.1"
+   > VERSION
+   VERSION 1.1.1
 
 CML
 ~~~
@@ -123,11 +121,10 @@ GET_CHORDMAP_COUNT
 
 Example(s):
 
-.. csv-table::
-   :header: "I/O","Message"
+.. code-block:: none
 
-   "INPUT","CML C0"
-   "OUTPUT","CML C0 1347"
+   > CML C0
+   CML C0 1347
 
 GET_CHORDMAP_BY_INDEX
 ^^^^^^^^^^^^^^^^^^^^^
@@ -144,11 +141,12 @@ GET_CHORDMAP_BY_INDEX
    "OUTPUT","3","Chord","Hexadecimal Number","000000000000C1AE46DED6731EC20F2A","this will be 0 if index is out of bounds"
    "OUTPUT","4","Phrase","Hexadecimal CCActionCodes List","6361727065206469656D","carpe diem; this will be 0 if index is out of bounds"
 
-.. csv-table::
-   :header: "I/O","Message"
+Example(s):
 
-   "INPUT","CML C1 522"
-   "OUTPUT","CML C1 000000000000C1AE46DED6731EC20F2A 6361727065206469656D"
+.. code-block:: none
+
+   > CML C1 522
+   CML C1 000000000000C1AE46DED6731EC20F2A 6361727065206469656D
 
 GET_CHORDMAP_BY_CHORD
 ^^^^^^^^^^^^^^^^^^^^^
@@ -166,11 +164,10 @@ GET_CHORDMAP_BY_CHORD
 
 Example(s):
 
-.. csv-table::
-   :header: "I/O","Message"
+.. code-block:: none
 
-   "INPUT","CML C2 00000000E4E2B0160F84B20ACE7638C0"
-   "OUTPUT","CML C2 00000000E4E2B0160F84B20ACE7638C0 6361727065206469656D"
+   > CML C2 00000000E4E2B0160F84B20ACE7638C0
+   CML C2 00000000E4E2B0160F84B20ACE7638C0 6361727065206469656D
 
 SET_CHORDMAP_BY_CHORD
 ^^^^^^^^^^^^^^^^^^^^^
@@ -190,11 +187,10 @@ SET_CHORDMAP_BY_CHORD
 
 Example(s):
 
-.. csv-table::
-   :header: "I/O","Message"
+.. code-block:: none
 
-   "INPUT","CML C3 00000000E4E2B0160F84B20ACE7638C0 6361727065206469656D"
-   "OUTPUT","CML C3 00000000E4E2B0160F84B20ACE7638C0 6361727065206469656D 0"
+   > CML C3 00000000E4E2B0160F84B20ACE7638C0 6361727065206469656D
+   CML C3 00000000E4E2B0160F84B20ACE7638C0 6361727065206469656D 0
 
 DEL_CHORDMAP_BY_CHORD
 ^^^^^^^^^^^^^^^^^^^^^
@@ -212,11 +208,10 @@ DEL_CHORDMAP_BY_CHORD
 
 Example(s):
 
-.. csv-table::
-   :header: "I/O","Message"
+.. code-block:: none
 
-   "INPUT","CML C4 00000000E4E2B0160F84B20ACE7638C0"
-   "OUTPUT","CML C4 00000000E4E2B0160F84B20ACE7638C0 0"
+   > CML C4 00000000E4E2B0160F84B20ACE7638C0
+   CML C4 00000000E4E2B0160F84B20ACE7638C0 0
 
 VAR
 ~~~
@@ -318,11 +313,10 @@ CMD_VAR_COMMIT
 
 Example(s):
 
-.. csv-table::
-   :header: "I/O","Message"
+.. code-block:: none
 
-   "INPUT","VAR B0"
-   "OUTPUT","VAR B0 1"
+   > VAR B0
+   VAR B0 1
 
 CMD_VAR_GET_PARAMETER
 ^^^^^^^^^^^^^^^^^^^^^
@@ -341,11 +335,10 @@ CMD_VAR_GET_PARAMETER
 
 Example(s):
 
-.. csv-table::
-   :header: "I/O","Message"
+.. code-block:: none
 
-   "INPUT","VAR B1 2E"
-   "OUTPUT","VAR B1 2E 38 0"
+   > VAR B1 2E
+   VAR B1 2E 38 0
 
 CMD_VAR_SET_PARAMETER
 ^^^^^^^^^^^^^^^^^^^^^
@@ -365,11 +358,10 @@ CMD_VAR_SET_PARAMETER
 
 Example(s):
 
-.. csv-table::
-   :header: "I/O","Message"
+.. code-block:: none
 
-   "INPUT","VAR B2 2E 46"
-   "OUTPUT","VAR B2 2E 46 0"
+   > VAR B2 2E 46
+   VAR B2 2E 46 0
 
 CMD_VAR_GET_KEYMAP
 ^^^^^^^^^^^^^^^^^^^^^
@@ -390,11 +382,10 @@ CMD_VAR_GET_KEYMAP
 
 Example(s):
 
-.. csv-table::
-   :header: "I/O","Message"
-      
-   "INPUT","VAR B3 A0 24"
-   "OUTPUT","VAR B3 A0 24 111 0"
+.. code-block:: none
+
+   > VAR B3 A0 24
+   VAR B3 A0 24 111 0
 
 CMD_VAR_SET_KEYMAP
 ^^^^^^^^^^^^^^^^^^^^^
@@ -416,11 +407,10 @@ CMD_VAR_SET_KEYMAP
 
 Example(s):
 
-.. csv-table::
-   :header: "I/O","Message"
+.. code-block:: none
 
-   "INPUT","VAR B2 A0 24 112"
-   "OUTPUT","VAR B2 A0 24 112 0"
+   > VAR B2 A0 24 112
+   VAR B2 A0 24 112 0
 
 RST
 ~~~
@@ -466,11 +456,10 @@ The `RAM` command returns the current number of bytes availabe in SRAM. This is 
 
 Example(s):
 
-.. csv-table::
-   :header: "I/O","Message"
+.. code-block:: none
 
-   "INPUT","RAM"
-   "OUTPUT","RAM 425"
+   > RAM
+   RAM 425
 
 SIM
 ~~~
@@ -491,14 +480,12 @@ The `SIM` command provides a way to inject a chord or key states to be processed
 
 Example(s): 
 
-.. csv-table::
-   :header: "I/O","Message","Notes"
+.. code-block:: none
 
-   "INPUT","SIM CHORD 000000000000C1AE46DED6731EC20F2A",""
-   "OUTPUT","SIM CHORD 000000000000C1AE46DED6731EC20F2A 6361727065206469656D",""
+   > SIM CHORD 000000000000C1AE46DED6731EC20F2A
+   SIM CHORD 000000000000C1AE46DED6731EC20F2A 6361727065206469656D
 
-.. csv-table::
-   :header: "I/O","Message","Notes"
+.. code-block:: none
 
-   "INPUT","SIM CHORD 00000000E4E2B0160F84B20ACE7638C0",""
-   "OUTPUT","SIM CHORD 00000000E4E2B0160F84B20ACE7638C0 0","Returns a 0 if there is no chordmap in the library"
+   > SIM CHORD 00000000E4E2B0160F84B20ACE7638C0
+   SIM CHORD 00000000E4E2B0160F84B20ACE7638C0 0 # Returns a 0 if there is no chordmap in the library
