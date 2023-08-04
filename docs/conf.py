@@ -47,7 +47,7 @@ source_suffix = ['.rst', '.md']
 master_doc = 'index'
 
 # General information about the project.
-#project = ''
+project = 'CharaChorder Docs'
 copyright = '2023, CharaChorder'
 author = 'CharaChorder'
 
@@ -108,6 +108,9 @@ html_sidebars = {
         'searchbox.html',
     ]
 }
+
+# Appended HTML page title
+html_title = '<project> v<revision>'
 
 
 # -- Options for HTMLHelp output ------------------------------------------
