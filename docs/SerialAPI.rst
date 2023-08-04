@@ -1,7 +1,12 @@
 Serial API
 ==========
 
-The Serial API allows developers to add and remove chords and change more advanced parameters on your CCOS powered device. You can utilize this serial API using any serial terminal such as: https://www.serialterminal.com/. The serial connection operates at a baud rate of 115200 bps. In general, a success returns a 0 at the end, while a failure returns a number greater than zero, which represents an error code. 
+The Serial API allows users and developers to interact with their CCOS powered device over a serial connection.  This can be used to add and remove chords, change advanced parameters, and perform common commands such as resetting keymaps or to resetting to factory settings. You can utilize this serial API by using any serial terminal such as `serialterminal.com <https://www.serialterminal.com/>`_ on a `serial enabled web browser <https://caniuse.com/web-serial>`_. The serial connection operates at a baud rate of 115200 bps. In general, a success returns a 0 at the end, while a failure returns a number greater than zero, which represents an error code. 
+
+.. figure:: /assets/serial/serialterminal.png
+  :alt: Running some simple commands on serialterminal.com
+
+  Running some simple commands on serialterminal.com
 
 .. warning::
    Parameter and keymaps changes, when **committed**, will degrade the flash chip over time (generally a minimum of 10,000 to 25,000 commits are expected to be stable). If you use the commands below, keep in mind that if you accidentally write a program that unnecessarily commits parameters to your device you can wear it out prematurely.  If you plan to programmatically change layouts, for example, you shouldn’t commit the changes unless you need them to persist after power loss. 
