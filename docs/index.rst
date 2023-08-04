@@ -39,3 +39,4 @@ Table of Contents
    Logic behind the Layout.rst
    Remapping.rst
    Backups.rst
+   SerialAPI.rst
