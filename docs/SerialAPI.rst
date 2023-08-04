@@ -138,7 +138,7 @@ GET_CHORDMAP_BY_INDEX
    "OUTPUT","0","Command","Chars","CML",""
    "OUTPUT","1","SubCommand","Hexadecimal CML Code","C1",""
    "OUTPUT","2","Index","Decimal","522",""
-   "OUTPUT","3","Chord","Hexadecimal Number","000000000000C1AE46DED6731EC20F2A","this will be 0 if index is out of bounds"
+   "OUTPUT","3","Chord","Hexadecimal Number","001946418C0000000000000000000000","this will be 0 if index is out of bounds"
    "OUTPUT","4","Phrase","Hexadecimal CCActionCodes List","6361727065206469656D","carpe diem; this will be 0 if index is out of bounds"
 
 Example(s):
@@ -146,7 +146,7 @@ Example(s):
 .. code-block:: none
 
    > CML C1 522
-   CML C1 000000000000C1AE46DED6731EC20F2A 6361727065206469656D
+   CML C1 001946418C0000000000000000000000 6361727065206469656D
 
 GET_CHORDMAP_BY_CHORD
 ^^^^^^^^^^^^^^^^^^^^^
@@ -156,10 +156,10 @@ GET_CHORDMAP_BY_CHORD
 
    "INPUT","0","Command","Chars","CML",""
    "INPUT","1","SubCommand","Hexadecimal CML Code","C2","get chordmap by chord"
-   "INPUT","2","Chord","Hexadecimal Number","000000000000C1AE46DED6731EC20F2A",""
+   "INPUT","2","Chord","Hexadecimal Number","001946418C0000000000000000000000",""
    "OUTPUT","0","Command","Chars","CML",""
    "OUTPUT","1","SubCommand","Hexadecimal CML Code","C2",""
-   "OUTPUT","2","Chord","Hexadecimal Number","000000000000C1AE46DED6731EC20F2A",""
+   "OUTPUT","2","Chord","Hexadecimal Number","001946418C0000000000000000000000",""
    "OUTPUT","3","Phrase","Hexadecimal CCActionCodes List","6361727065206469656D","carpe diem; this will be 0 if chordmap is not in the library"
 
 Example(s):
@@ -177,11 +177,11 @@ SET_CHORDMAP_BY_CHORD
 
    "INPUT","0","Command","Chars","CML",""
    "INPUT","1","SubCommand","Hexadecimal CML Code","C3","set chordmap by chord"
-   "INPUT","2","Chord","Hexadecimal Number","000000000000C1AE46DED6731EC20F2A",""
+   "INPUT","2","Chord","Hexadecimal Number","001946418C0000000000000000000000",""
    "INPUT","3","Phrase","Hexadecimal CCActionCodes List","6361727065206469656D","carpe diem"
    "OUTPUT","0","Command","Chars","CML",""
    "OUTPUT","1","SubCommand","Hexadecimal CML Code","C3",""
-   "OUTPUT","2","Chord","Hexadecimal Number","000000000000C1AE46DED6731EC20F2A",""
+   "OUTPUT","2","Chord","Hexadecimal Number","001946418C0000000000000000000000",""
    "OUTPUT","3","Phrase","Hexadecimal CCActionCodes List","6361727065206469656D","carpe diem; this will be 0 if there was a problem adding this chordmap to the library"
    "OUTPUT","4","Success","Boolean Number","0","This will be 0 on success, or greater than zero for an error if the chordmap did not exist or the deletion was unsuccessful"
 
@@ -200,10 +200,10 @@ DEL_CHORDMAP_BY_CHORD
 
    "INPUT","0","Command","Chars","CML",""
    "INPUT","1","SubCommand","Hexadecimal CML Code","C4","delete chordmap by chord"
-   "INPUT","2","Chord","Hexadecimal Number","000000000000C1AE46DED6731EC20F2A",""
+   "INPUT","2","Chord","Hexadecimal Number","001946418C0000000000000000000000",""
    "OUTPUT","0","Command","Chars","CML",""
    "OUTPUT","1","SubCommand","Hexadecimal CML Code","C4",""
-   "OUTPUT","2","Chord","Hexadecimal Number","000000000000C1AE46DED6731EC20F2A","this will be 0 if the chordmap did not exist or the deletion was uns uccessful"
+   "OUTPUT","2","Chord","Hexadecimal Number","001946418C0000000000000000000000","this will be 0 if the chordmap did not exist or the deletion was uns uccessful"
    "OUTPUT","3","Success","Boolean Number","0","This will be 0 on success, or greater than zero for an error if the chordmap did not exist or the deletion was unsuccessful"
 
 Example(s):
@@ -471,10 +471,10 @@ The `SIM` command provides a way to inject a chord or key states to be processed
 
    "INPUT","0","Command","Chars","SIM",""
    "INPUT","1","SubCommand","Chars","CHORD","CHORD or KEYSTATE; may change this to Hexadecimal codes"
-   "INPUT","2","Data In","Hexadecimal Number","000000000000C1AE46DED6731EC20F2A","chords should be 32 characters"
+   "INPUT","2","Data In","Hexadecimal Number","001946418C0000000000000000000000","chords should be 32 characters"
    "OUTPUT","0","Command","Chars","SIM",""
    "OUTPUT","1","SubCommand","Chars","CHORD",""
-   "OUTPUT","2","Data In","Hexadecimal Number","000000000000C1AE46DED6731EC20F2A",""
+   "OUTPUT","2","Data In","Hexadecimal Number","001946418C0000000000000000000000",""
    "OUTPUT","3","Data Out","Hexadecimal CCActionCodes List","6361727065206469656D","carpe diem"
 
 
@@ -482,8 +482,8 @@ Example(s):
 
 .. code-block:: none
 
-   > SIM CHORD 000000000000C1AE46DED6731EC20F2A
-   SIM CHORD 000000000000C1AE46DED6731EC20F2A 6361727065206469656D
+   > SIM CHORD 001946418C0000000000000000000000
+   SIM CHORD 001946418C0000000000000000000000 6361727065206469656D
 
 .. code-block:: none
 
