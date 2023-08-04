@@ -4,6 +4,11 @@ CharaChorder One
 Welcome to the Official CharaChorder One guide. You can select the links
 below to navigate to the topics that you find most relevant.
 
+.. _CC1:
+.. image:: CC1.png
+  :width: 1200
+  :alt: CharaChorder One
+
 | :ref:`Out of the Box<Out of the Box>`
 |	:ref:`Parts<Parts>` 
 |		:ref:`The Halves<The Halves>` 
@@ -35,11 +40,21 @@ Out of the Box
 Parts
 -----
 
+.. _CC1 Schematic:
+.. image:: CC1Scheme.png
+  :width: 1200
+  :alt: CC1 Scheme
+
 When you first receive your CharaChorder One, it will come in a black
 box with the CharaChorder logo on the outside. Once you open the box,
 you’ll find your brand new CharaChorder One inside its carrying case.
 You will also find an insert that includes the layout of the device and
 some functions that the CharaChorder One has.
+
+.. _CC1 Case:
+.. image:: CC1case.png
+  :width: 1200
+  :alt: CharaChorder One Travel Case
 
 Once you unzip the travel case, you’ll meet your shiny, new CharaChorder
 One. The CharaChorder One consists of two halves with 9, 5-way switches
@@ -231,6 +246,11 @@ something like this:
 
 ``Device ID CHARACHORDER ONE M0 --- CCOS VERSION 1.0.1``
 
+.. _Firmware Check:
+.. image:: DOTIOFW.png
+  :width: 1200
+  :alt: Checking the firmware on DOT I/O
+
 Updating the Firmware
 ~~~~~~~~~~~~~~~~~~~~~
 
@@ -382,8 +402,8 @@ together; it’s only required that the A3 layer access key is pressed
 while the target key is pressed.
 
 .. note::
-   EXAMPLE: On the CC English layout, you can access the MISSING by
-   pressing and holding the left pinky down and the right
+   EXAMPLE: On the CC English layout, you can access the F1 key by
+   pressing and holding either pinky down, into the device.
 
 Shift Modifier
 ^^^^^^^^^^^^^^
@@ -437,3 +457,8 @@ use it! Head over the the :doc:`training section<Tools>` for instructions
 on how to get started with learning your device. If you want to just
 jump in without having to read a minute longer, head on over to our
 training website; https://www.iq-eq.io/#/
+
+.. _Dot I/O:
+.. image:: DOTIO.png
+  :width: 1200
+  :alt: Practicing on DOT I/O
