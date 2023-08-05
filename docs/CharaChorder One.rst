@@ -5,7 +5,7 @@ Welcome to the Official CharaChorder One guide. You can select the links
 below to navigate to the topics that you find most relevant.
 
 .. _CC1:
-.. image:: CC1.png
+.. image:: /assets/images/CC1.png
   :width: 1200
   :alt: CharaChorder One
 
@@ -41,7 +41,7 @@ Parts
 -----
 
 .. _CC1 Schematic:
-.. image:: CC1Scheme.png
+.. image:: /assets/images/CC1scheme.png
   :width: 1200
   :alt: CC1 Scheme
 
@@ -52,7 +52,7 @@ You will also find an insert that includes the layout of the device and
 some functions that the CharaChorder One has.
 
 .. _CC1 Case:
-.. image:: CC1case.png
+.. image:: /assets/images/CC1case.png
   :width: 1200
   :alt: CharaChorder One Travel Case
 
@@ -247,7 +247,7 @@ something like this:
 ``Device ID CHARACHORDER ONE M0 --- CCOS VERSION 1.0.1``
 
 .. _Firmware Check:
-.. image:: DOTIOFW.png
+.. image:: /assets/images/DOTIOFW.png
   :width: 1200
   :alt: Checking the firmware on DOT I/O
 
@@ -323,7 +323,7 @@ The default CharaChorder layout, which we will refer to as the CC
 English layout, has been designed to favor :doc:`bigrams<Logic behind the Layout>` and :doc:`trigrams<Logic behind the Layout>` commonly used in the English language while making the letters accessible for a logical choice of :doc:`lexical<Chords>`. You can find the map below.
 
 .. _CCEnglish Layout:
-.. image:: CCEnglish.png
+.. image:: /assets/images/CCEnglish.png
   :width: 1200
   :alt: CC English Layout
 
@@ -459,6 +459,6 @@ jump in without having to read a minute longer, head on over to our
 training website; https://www.iq-eq.io/#/
 
 .. _Dot I/O:
-.. image:: DOTIO.png
+.. image:: /assets/images/DOTIO.png
   :width: 1200
   :alt: Practicing on DOT I/O
