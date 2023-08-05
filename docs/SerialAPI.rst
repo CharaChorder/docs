@@ -119,7 +119,7 @@ GET_CHORDMAP_COUNT
    :header: "I/O","Index","Name","Type","Example","Notes"
 
    "INPUT","0","Command","Chars","CML",""
-   "INPUT","1","SubCommand","Hexadecimal CML Code","C0","get chordmap count"
+   "INPUT","1","SubCommand","Hexadecimal CML Code","C0","Get chordmap count"
    "OUTPUT","0","Command","Chars","CML",""
    "OUTPUT","1","SubCommand","Hexadecimal CML Code","C0",""
    "OUTPUT","2","Data Out","Decimal Number","1347",""
@@ -138,13 +138,13 @@ GET_CHORDMAP_BY_INDEX
    :header: "I/O","Index","Name","Type","Example","Notes"
 
    "INPUT","0","Command","Chars","CML",""
-   "INPUT","1","SubCommand","Hexadecimal CML Code","C1","get chordmap by index"
+   "INPUT","1","SubCommand","Hexadecimal CML Code","C1","Get chordmap by index"
    "INPUT","2","Index","Decimal","522",""
    "OUTPUT","0","Command","Chars","CML",""
    "OUTPUT","1","SubCommand","Hexadecimal CML Code","C1",""
    "OUTPUT","2","Index","Decimal","522",""
-   "OUTPUT","3","Chord","Hexadecimal Number","001946418C0000000000000000000000","this will be 0 if index is out of bounds"
-   "OUTPUT","4","Phrase","Hexadecimal CCActionCodes List","6361727065206469656D","carpe diem; this will be 0 if index is out of bounds"
+   "OUTPUT","3","Chord","Hexadecimal Number","001946418C0000000000000000000000","This will be 0 if index is out of bounds"
+   "OUTPUT","4","Phrase","Hexadecimal CCActionCodes List","6361727065206469656D","`carpe diem`; this will be 0 if index is out of bounds"
 
 Example(s):
 
@@ -165,7 +165,7 @@ GET_CHORDMAP_BY_CHORD
    "OUTPUT","0","Command","Chars","CML",""
    "OUTPUT","1","SubCommand","Hexadecimal CML Code","C2",""
    "OUTPUT","2","Chord","Hexadecimal Number","001946418C0000000000000000000000",""
-   "OUTPUT","3","Phrase","Hexadecimal CCActionCodes List","6361727065206469656D","carpe diem; this will be 0 if chordmap is not in the library"
+   "OUTPUT","3","Phrase","Hexadecimal CCActionCodes List","6361727065206469656D","`carpe diem`; this will be 0 if chordmap is not in the library"
 
 Example(s):
 
@@ -183,11 +183,11 @@ SET_CHORDMAP_BY_CHORD
    "INPUT","0","Command","Chars","CML",""
    "INPUT","1","SubCommand","Hexadecimal CML Code","C3","set chordmap by chord"
    "INPUT","2","Chord","Hexadecimal Number","001946418C0000000000000000000000",""
-   "INPUT","3","Phrase","Hexadecimal CCActionCodes List","6361727065206469656D","carpe diem"
+   "INPUT","3","Phrase","Hexadecimal CCActionCodes List","6361727065206469656D","`carpe diem`"
    "OUTPUT","0","Command","Chars","CML",""
    "OUTPUT","1","SubCommand","Hexadecimal CML Code","C3",""
    "OUTPUT","2","Chord","Hexadecimal Number","001946418C0000000000000000000000",""
-   "OUTPUT","3","Phrase","Hexadecimal CCActionCodes List","6361727065206469656D","carpe diem; this will be 0 if there was a problem adding this chordmap to the library"
+   "OUTPUT","3","Phrase","Hexadecimal CCActionCodes List","6361727065206469656D","`carpe diem`; this will be 0 if there was a problem adding this chordmap to the library"
    "OUTPUT","4","Success","Boolean Number","0","This will be 0 on success, or greater than zero for an error if the chordmap did not exist or the deletion was unsuccessful"
 
 Example(s):
@@ -208,7 +208,7 @@ DEL_CHORDMAP_BY_CHORD
    "INPUT","2","Chord","Hexadecimal Number","001946418C0000000000000000000000",""
    "OUTPUT","0","Command","Chars","CML",""
    "OUTPUT","1","SubCommand","Hexadecimal CML Code","C4",""
-   "OUTPUT","2","Chord","Hexadecimal Number","001946418C0000000000000000000000","this will be 0 if the chordmap did not exist or the deletion was uns uccessful"
+   "OUTPUT","2","Chord","Hexadecimal Number","001946418C0000000000000000000000","This will be 0 if the chordmap did not exist or the deletion was uns uccessful"
    "OUTPUT","3","Success","Boolean Number","0","This will be 0 on success, or greater than zero for an error if the chordmap did not exist or the deletion was unsuccessful"
 
 Example(s):
@@ -260,7 +260,7 @@ Parameter codes
    "Enable Serial Mouse","7","boolean 0 or 1, default is 0"
    "Enable USB HID Keyboard","11","boolean 0 or 1, default is 1"
    "Enable Character Entry","12","boolean 0 or 1"
-   "GUI-CTRL Swap Mode","13","Boolean 0 or 1; 1 swaps keymap 0 and 1. (CCL only)"
+   "GUI-CTRL Swap Mode","13","boolean 0 or 1; 1 swaps keymap 0 and 1. (CCL only)"
    "Key Scan Duration","14","scan rate described in milliseconds; default is 2ms = 500Hz"
    "Key Debounce Press Duration","15","debounce time in milliseconds; default is 7ms on the One and 20ms on the Lite"
    "Key Debounce Release Duration","16","debounce time in milliseconds; default is 7ms on the One and 20ms on the Lite"
@@ -286,7 +286,7 @@ Parameter codes
    "LED Brightness","81","0-50 (CCL only); default is 5, which draws around 100 mA of current"
    "LED Color Code","82","Color Codes to be listed (CCL only)"
    "Enable LED Key Highlight (coming soon)","83","boolean 0 or 1"
-   "Operating System","91","OS Codes to be listed"
+   "Operating System","91",":ref:`Operating system codes<Operating system codes>` listed below"
    "Enable Realtime Feedback","92","boolean 0 or 1; default is 1"
    "Enable CharaChorder Ready on startup","93","boolean 0 or 1; default is 1"
 
@@ -305,13 +305,13 @@ Operating system codes
    "Unknown","255"
 
 CMD_VAR_COMMIT
-^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^
 
 .. csv-table::
    :header: "I/O","Index","Name","Type","Example","Notes"
 
    "INPUT","0","Command","Chars","VAR",""
-   "INPUT","1","SubCommand","Hexadecimal VAR Code","B0","commit p arameters to memory"
+   "INPUT","1","SubCommand","Hexadecimal VAR Code","B0","Commit p arameters to memory"
    "OUTPUT","0","Command","Chars","VAR",""
    "OUTPUT","1","SubCommand","Hexadecimal VAR Code","B0",""
    "OUTPUT","2","Success","Boolean Number","0","This will be 0 on success, or greater than zero for an error if there was a problem commiting"
@@ -330,7 +330,7 @@ CMD_VAR_GET_PARAMETER
    :header: "I/O","Index","Name","Type","Example","Notes"
 
    "INPUT","0","Command","Chars","VAR",""
-   "INPUT","1","SubCommand","Hexadecimal VAR Code","B1","get parameter value"
+   "INPUT","1","SubCommand","Hexadecimal VAR Code","B1","Get parameter value"
    "INPUT","2","Parameter Code","Decimal Parameter Code","2E",""
    "OUTPUT","0","Command","Chars","VAR",""
    "OUTPUT","1","SubCommand","Hexadecimal VAR Code","B1",""
@@ -352,7 +352,7 @@ CMD_VAR_SET_PARAMETER
    :header: "I/O","Index","Name","Type","Example","Notes"
 
    "INPUT","0","Command","Chars","VAR",""
-   "INPUT","1","SubCommand","Hexadecimal VAR Code","B2","set parameter value"
+   "INPUT","1","SubCommand","Hexadecimal VAR Code","B2","Set parameter value"
    "INPUT","2","Parameter Code","Decimal Parameter Code","2E",""
    "INPUT","3","Data In","Decimal Number","46",""
    "OUTPUT","0","Command","Chars","VAR",""
@@ -375,7 +375,7 @@ CMD_VAR_GET_KEYMAP
    :header: "I/O","Index","Name","Type","Example","Notes"
 
    "INPUT","0","Command","Chars","VAR",""
-   "INPUT","1","SubCommand","Hexadecimal VAR Code","B3","get keymap parameter value"
+   "INPUT","1","SubCommand","Hexadecimal VAR Code","B3","Get keymap parameter value"
    "INPUT","2","Keymap","Hexadecimal Keymap Code","A0",""
    "INPUT","3","Index","Decimal Number","24","For CC1, 0-89 are valid. For CCL, 0-66 are valid."
    "OUTPUT","0","Command","Chars","VAR",""
@@ -399,7 +399,7 @@ CMD_VAR_SET_KEYMAP
    :header: "I/O","Index","Name","Type","Example","Notes"
    
    "INPUT","0","Command","Chars","VAR",""
-   "INPUT","1","SubCommand","Hexadecimal VAR Code","B4","set keymap parameter value"
+   "INPUT","1","SubCommand","Hexadecimal VAR Code","B4","Set keymap parameter value"
    "INPUT","2","Keymap","Hexadecimal Keymap Code","A0",""
    "INPUT","3","Index","Decimal Number","24","For CC1, 0-89 are valid. For CCL, 0-66 are"
    "INPUT","4","Action Id","Decimal Number","112","Valid action Ids range from 8 thru 2047."
@@ -476,11 +476,11 @@ The `SIM` command provides a way to inject a chord or key states to be processed
 
    "INPUT","0","Command","Chars","SIM",""
    "INPUT","1","SubCommand","Chars","CHORD","CHORD or KEYSTATE; may change this to Hexadecimal codes"
-   "INPUT","2","Data In","Hexadecimal Number","001946418C0000000000000000000000","chords should be 32 characters"
+   "INPUT","2","Data In","Hexadecimal Number","001946418C0000000000000000000000","Chords should be 32 characters"
    "OUTPUT","0","Command","Chars","SIM",""
    "OUTPUT","1","SubCommand","Chars","CHORD",""
    "OUTPUT","2","Data In","Hexadecimal Number","001946418C0000000000000000000000",""
-   "OUTPUT","3","Data Out","Hexadecimal CCActionCodes List","6361727065206469656D","carpe diem"
+   "OUTPUT","3","Data Out","Hexadecimal CCActionCodes List","6361727065206469656D","`carpe diem`"
 
 
 Example(s): 
