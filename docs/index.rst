@@ -26,6 +26,7 @@ Table of Contents
    CharaChorder X.rst
    CharaChorder Engine.rst
    Wear-A-Chorder.rst
+
    Chords.rst
    Generative Text Menu (GTM).rst
    CharaChorder Keys.rst
