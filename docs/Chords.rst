@@ -49,7 +49,7 @@ to get the output “because”. In :ref:`chord notation<Chord Notation>`,
 we would write that chord input as ``b+c``. Since chord inputs are
 performed simultaneously, meaning that all of the keys needed for an
 input are pressed and released at the same time, chord inputs are not
-order-specific. ``b+c`` is the same as ``C+b``. 
+order-specific. ``b+c`` is the same as ``c+b``. 
 
 Chord Output 
 ~~~~~~~~~~~~~~~~~~
