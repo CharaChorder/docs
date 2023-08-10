@@ -230,7 +230,7 @@ OUTPUT 5. CONFIRM INPUT
    programmed to that input. If you continue, any conflicts will be
    overwritten.
 2. Call the impulse command with either GTM >I<mpulse OR with the hard
-   coded chord I+DUP (my personal preference).
+   coded chord ``i+DUP`` (my personal preference).
 3. Follow the prompt and type your output in character entry mode.
    (example: >I<mpulse output: burst ).
 4. Press enter to confirm your output.
@@ -258,7 +258,7 @@ OUTPUT, 5. CONFIRM INPUT
    programmed to that input. If you continue, any conflicts will be
    overwritten.
 2. Call the impulse command with either GTM >I<mpulse OR with the hard
-   coded chord I+DUP (my personal preference).
+   coded chord ``i+DUP`` (my personal preference).
 3. Follow the prompt and type your output in character entry mode.
    (example: >I<mpulse output: burst ).
 4. Press enter to confirm your output.
