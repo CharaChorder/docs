@@ -41,7 +41,7 @@ Parts
 -----
 
 .. _CC1 Schematic:
-.. image:: /assets/images/CC1scheme.png
+.. image:: /assets/images/CC1Scheme.png
   :width: 1200
   :alt: CC1 Scheme
 
