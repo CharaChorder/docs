@@ -438,12 +438,12 @@ RST SubCommands
 
    "RESTART","Restarts the microcontroller."
    "FACTORY","Performs a factory reset of the flash and emulated eeprom. During the process, the flash chip is erased."
-   "BOOTLOADER","Restarts the device into a bootloader mode."
+   "BOOTLOADER","Restarts the device into a bootloader mode. On a CC1 or CCL M0, the device may be stuck in UF2 bootloader mode until a UF2 file is pasted into the mass storage device. You can copy and paste the UF2 file already in the mass storage device."
    "PARAMS","Resets the parameters to factory defaults and commits."
    "KEYMAPS","Resets the keymaps to the factory defaults and commits."
    "STARTER","Adds starter chordmaps. This does not clear the chordmap library, but adds to it, replacing those that have the same chord."
    "CLEARCML","Permanently deletes all the chordmaps stored in the device memory."
-   "UPGRADECML","Attempts to upgrade chordmaps that the system detects are older."
+   "UPGRADECML","Attempts to upgrade chordmaps that the system detects are older. This is under development."
    "FUNC","Adds back in functional chords such as CAPSLOCKS and Backspace-X chords."
 
 
