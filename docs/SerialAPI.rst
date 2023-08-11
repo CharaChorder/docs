@@ -1,7 +1,7 @@
 Serial API
 ==========
 
-The Serial API allows users and developers to interact with their CCOS powered device over a serial connection.  This can be used to add and remove chords, change advanced parameters, and perform common commands such as resetting keymaps or resetting the device to factory settings. You can utilize this serial API by using any serial terminal such as `serialterminal.com <https://www.serialterminal.com/>`_ on a `serial enabled web browser <https://caniuse.com/web-serial>`_. The serial connection operates at a baud rate of 115200 bps. In general, a success returns a 0 at the end, while a failure returns a number greater than zero, which represents an error code. 
+The Serial API allows users and developers to interact with their CCOS powered device over a serial connection.  This can be used to add and remove chords, change advanced parameters, and perform common commands such as resetting keymaps or resetting the device to factory settings. You can utilize this serial API by using any serial terminal such as `serialterminal.com <https://www.serialterminal.com/>`_ on a `serial enabled web browser <https://caniuse.com/web-serial>`_. The serial connection operates at a baud rate of 115200 bps. In general, a success returns a 0 at the end, while a failure returns a number greater than zero, which represents an error code. When sending Serial API commands to a CharaChorder device, allow for at least 100 microseconds (us) between commands to allow time for the commands to be processed on the device. If there is no time allowed to process commands on the device, then the serial input buffer on the device can fill up and overflow, causing a system crash. Ideally, sequential Serial API commands should be called in a restful manner by waiting for a response from the previous command.
 
 .. figure:: /assets/serial/serialterminal.png
   :alt: Running some simple commands on serialterminal.com
@@ -286,6 +286,7 @@ Parameter codes
    "LED Brightness","81","0-50 (CCL only); default is 5, which draws around 100 mA of current"
    "LED Color Code","82","Color Codes to be listed (CCL only)"
    "Enable LED Key Highlight (coming soon)","83","boolean 0 or 1"
+   "Enable LEDs","84","boolean 0 or 1; default is 1"
    "Operating System","91",":ref:`Operating system codes<Operating system codes>` listed below"
    "Enable Realtime Feedback","92","boolean 0 or 1; default is 1"
    "Enable CharaChorder Ready on startup","93","boolean 0 or 1; default is 1"
@@ -437,12 +438,12 @@ RST SubCommands
 
    "RESTART","Restarts the microcontroller."
    "FACTORY","Performs a factory reset of the flash and emulated eeprom. During the process, the flash chip is erased."
-   "BOOTLOADER","Restarts the device into a bootloader mode."
+   "BOOTLOADER","Restarts the device into a bootloader mode. On a CC1 or CCL M0, the device may be stuck in UF2 bootloader mode until a UF2 file is pasted into the mass storage device. You can copy and paste the UF2 file already in the mass storage device."
    "PARAMS","Resets the parameters to factory defaults and commits."
    "KEYMAPS","Resets the keymaps to the factory defaults and commits."
    "STARTER","Adds starter chordmaps. This does not clear the chordmap library, but adds to it, replacing those that have the same chord."
    "CLEARCML","Permanently deletes all the chordmaps stored in the device memory."
-   "UPGRADECML","Attempts to upgrade chordmaps that the system detects are older."
+   "UPGRADECML","Attempts to upgrade chordmaps that the system detects are older. This is under development."
    "FUNC","Adds back in functional chords such as CAPSLOCKS and Backspace-X chords."
 
 
