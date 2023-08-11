@@ -49,7 +49,7 @@ to get the output “because”. In :ref:`chord notation<Chord Notation>`,
 we would write that chord input as ``b+c``. Since chord inputs are
 performed simultaneously, meaning that all of the keys needed for an
 input are pressed and released at the same time, chord inputs are not
-order-specific. ``b+c`` is the same as ``C+b``. 
+order-specific. ``b+c`` is the same as ``c+b``. 
 
 Chord Output 
 ~~~~~~~~~~~~~~~~~~
@@ -230,7 +230,7 @@ OUTPUT 5. CONFIRM INPUT
    programmed to that input. If you continue, any conflicts will be
    overwritten.
 2. Call the impulse command with either GTM >I<mpulse OR with the hard
-   coded chord I+DUP (my personal preference).
+   coded chord i+DUP.
 3. Follow the prompt and type your output in character entry mode.
    (example: >I<mpulse output: burst ).
 4. Press enter to confirm your output.
@@ -258,7 +258,7 @@ OUTPUT, 5. CONFIRM INPUT
    programmed to that input. If you continue, any conflicts will be
    overwritten.
 2. Call the impulse command with either GTM >I<mpulse OR with the hard
-   coded chord I+DUP (my personal preference).
+   coded chord i+DUP.
 3. Follow the prompt and type your output in character entry mode.
    (example: >I<mpulse output: burst ).
 4. Press enter to confirm your output.
