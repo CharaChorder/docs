@@ -510,13 +510,13 @@ The next 120-bit bits are segmented into 12 10-bit chunks. Each 10-bit value is 
    :widths: 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
 
    "bits", "8 bits", "10 bits", "10 bits", "10 bits", "10 bits", "10 bits", "10 bits", "10 bits", "10 bits", "10 bits", "10 bits", "10 bits", "10 bits"
-world
    "example 1", "0", "w", "r", "o", "l", "d", "", "", "", "", "", "", ""
    "decimal 1", "0", "119", "114", "111", "108", "100", "0", "0", "0", "0", "0", "0", "0"
    "example 2", "0", "DUP", "t", "m", "", "", "", "", "", "", "", "", ""
    "decimal 2", "0", "536", "116", "109", "0", "0", "0", "0", "0", "0", "0", "0", "0"
 
-	Note that yes it is possible to use the same CC action code multiple times for keys in a chord, but these chords cannot be activated unless the device's keymap has more than one instance of the same CC action code assigned to more than one of the keys on the A1 keymap layer.
-	If a chord is attempted to be formed by more than 12 keys, then the smallest key values after being sorted should be truncated to just 12 values. This chord bit structure can not support more than 12 10-bit keys.
-	Most chords will have trailing zeros.
-  To use these chords with the Serial API, they should be converted to a 16-character hexadecimal representation.
+Note that yes it is possible to use the same CC action code multiple times for keys in a chord, but these chords cannot be activated unless the device's keymap has more than one instance of the same CC action code assigned to more than one of the keys on the A1 keymap layer.
+If a chord is attempted to be formed by more than 12 keys, then the smallest key values after being sorted should be truncated to just 12 values. This chord bit structure can not support more than 12 10-bit keys.
+Most chords will have trailing zeros.
+
+To use these chords with the Serial API, they should be converted to a 16-character hexadecimal representation.
