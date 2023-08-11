@@ -6,7 +6,7 @@
 Welcome to the Official CharaChorder Guide!
 ============================================
 
-Welcome to the chord-tastic world of CharaChorder! If you're here, you are likely seeking guidance for your CharaChorder device or you're simply interested in CharaChorder and came here to read a little about what CharaChorder devices are capable of. Either way, we welcome you and hope that you enjoy reading this guide. If you are setting your CharaChorder device up for the first time, please continue reading below.
+Welcome to the wonderful world of CharaChorder! If you're here, you are likely seeking guidance for your CharaChorder device or you're simply interested in CharaChorder and came here to read a little about what CharaChorder devices are capable of. Either way, we welcome you and hope that you enjoy reading this guide. If you are setting your CharaChorder device up for the first time, please continue reading below.
 
 Before even unboxing your CharaChorder, we encourage you to set up your computer with an English Keyboard Language. We recommend ``US English`` for the best results. If you would like to read instructions on how to change your computer Keyboard Language, feel free to follow the applicable external link for `Windows <https://support.microsoft.com/en-us/office/switch-between-languages-using-the-language-bar-1c2242c0-fe15-4bc3-99bc-535de6f4f258>`__, `Mac <https://support.apple.com/guide/mac-help/write-in-another-language-on-mac-mchlp1406/mac>`__ or `Linux (Ubuntu) <https://help.ubuntu.com/stable/ubuntu-help/keyboard-layouts.html.en>`__. 
 
