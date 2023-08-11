@@ -501,9 +501,9 @@ Example(s):
 Chord Construction
 -----------------
 
-There are 128-bits in a chord. The first 8 bits will typically be 0x00, at this byte value is used to store an index value for chordmaps where the chord output is longer than what can be stored in memory in a single chordmap.
+There are 128-bits in a chord. The first 8 bits will typically be 0x00, as this byte value is used to store an index value for chordmaps where the chord output is longer than what can be stored in memory in a single chordmap, which has 192 bytes allocated per memory entry.
 
-The next 120-bit bits are segmented into 12 10-bit chunks. Each 10-bit value is a 10-bit CC action code. While CC action codes can reference up to 13-bits, only up to 10-bit values can be used for key inputs. The key inputs for a chord are sorted in descending order from greatest in value to least in value.
+The next 120-bit bits are segmented into twelve 10-bit chunks. Each 10-bit value is a 10-bit CC action code. While CC action codes can reference up to 13-bits, only up to 10-bit values can be used for key inputs. The key inputs for a chord are sorted in descending order from greatest in value to least in value.
 
 .. csv-table::
    :header: "","Chain Index", "Key 1", "Key 2", "Key 3", "Key 4", "Key 5", "Key 6", "Key 7", "Key 8", "Key 9", "Key 10", "Key 11", "Key 12"
@@ -516,7 +516,8 @@ The next 120-bit bits are segmented into 12 10-bit chunks. Each 10-bit value is 
    "decimal 2", "0", "536", "116", "109", "0", "0", "0", "0", "0", "0", "0", "0", "0"
 
 Note that yes it is possible to use the same CC action code multiple times for keys in a chord, but these chords cannot be activated unless the device's keymap has more than one instance of the same CC action code assigned to more than one of the keys on the A1 keymap layer.
-If a chord is attempted to be formed by more than 12 keys, then the smallest key values after being sorted should be truncated to just 12 values. This chord bit structure can not support more than 12 10-bit keys.
+
+If a chord is attempted to be formed by more than 12 keys, then the smallest key values after being sorted should be truncated to just 12 values. This chord bit structure can not support more than twelve 10-bit keys.
 Most chords will have trailing zeros.
 
 To use these chords with the Serial API, they should be converted to a 16-character hexadecimal representation.
