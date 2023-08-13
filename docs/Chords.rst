@@ -88,12 +88,12 @@ the different symbols used in chord notation in the table below.
 You can read some examples of chords written in chord notation below.
 You can try these chords on your CharaChorder device! 
 
-* ``y+o+u`` = you 
-* ``b+a+k`` = back 
-* ``t+d+o+n`` = don’t 
-* ``w+o+n+d`` = down 
-* ``c+b`` = because 
-* ``m+p+i`` = important 
+* ``y+u+o = you``
+* ``k+b+a = back``
+* ``t+o+n+d = don’t``
+* ``w+o+n+d = down``
+* ``c+b = because`` 
+* ``p+m+i = important``
 
 How do I make Chords? 
 ------------------------
@@ -154,16 +154,6 @@ Adding New Chords on Device Manager
     button
 9.  If you would like to add another chord, you can press the “Add Chord
     Map” again and repeat steps 5 through 8 for each additional entry.
-10. Once you are ready to save the chord(s), click the button labeled
-    “Save All”
-11. Count about 2 seconds per each chord entry before using your
-    CharaChorder
-
-WARNING: It’s possible that you will see a message similar to this one:
-“Commit Progress: 33% Please do not touch your device until completion.”
-The percentage might get stuck and never reach 100%. This is a known
-bug. As long as you count two seconds per each chord entry before using
-your CharaChorder, you should have no issues.
 
 Importing Chord Libraries on Device Manager
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -224,6 +214,7 @@ OUTPUT 5. CONFIRM INPUT
 .. image:: /assets/images/Impulsegif.gif
   :width: 1200
   :alt: Impulse chording on the CharaChorder One
+
 1. Anywhere that you can see a cursor, chord the input you want
    (example: ``b+u+r+s+t``). You will either see a jumble of letters
    (example: “tsubr”) or you will see a chord which is already
@@ -252,6 +243,7 @@ OUTPUT, 5. CONFIRM INPUT
 .. image:: /assets/images/Impulsegif.gif
   :width: 1200
   :alt: Impulse chording on the CharaChorder Lite
+
 1. Anywhere that you can see a cursor, chord the input you want
    (example: ``b+u+r+s+t``). You will either see a jumble of letters
    (example: “tsubr”) or you will see a chord which is already
@@ -280,6 +272,7 @@ OUTPUT, 5. CONFIRM INPUT
 .. image:: /assets/images/Impulsexgif.gif
   :width: 1200
   :alt: Impulse chording on the CharaChorder X
+  
 1. Anywhere that you can see a cursor, chord the input you want
    (example: ``b+u+r+s+t``). You will either see a jumble of letters
    (example: “tsubr”) or you will see a chord which is already

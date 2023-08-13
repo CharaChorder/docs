@@ -160,6 +160,7 @@ Communication
 ~~~~~~~~~~~~~
 
 .. _power cable:
+
 The Power Cable also doubles as a way for the CharaChorder One to
 communicate with your computer. For this reason, it’s important that the
 USB-A end of the power cable is inserted into a port on your computer
@@ -167,6 +168,7 @@ that’s capable of sending and receiving data, and not just an energy
 port.
 
 .. _TRS cable:
+
 In between the two CharaChorder halves, there’s a single 3.5mm TRS cable, commonly known as an AUX cable. This cable facilitates
 instant communication between the right half and the left half of the
 CharaChorder. However, as mentioned before, only the left half contains
@@ -269,7 +271,7 @@ site <https://www.charachorder.com/pages/update-your-firmware>`__.
 #. Download your update file from this site: `<https://www.charachorder.com/pages/update-your-firmware>`__
 
 .. warning::
-   ***IMPORTANT: Make sure that the file you download is named exactly
+   IMPORTANT: Make sure that the file you download is named exactly
    like this: CURRENT.UF2 . If there are any other characters in the
    file name, the file will not work. “CURRENT.UF2(1)” will NOT work.
    Additionally, the file name is case sensitive; all letters must be

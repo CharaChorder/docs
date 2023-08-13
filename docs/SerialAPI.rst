@@ -499,7 +499,7 @@ Example(s):
 
 
 Chord Construction
------------------
+------------------
 
 There are 128-bits in a chord. The first 8 bits will typically be 0x00, as this byte value is used to store an index value for chordmaps where the chord output is longer than what can be stored in memory in a single chordmap, which has 192 bytes allocated per memory entry.
 
