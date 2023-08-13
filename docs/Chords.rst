@@ -88,12 +88,12 @@ the different symbols used in chord notation in the table below.
 You can read some examples of chords written in chord notation below.
 You can try these chords on your CharaChorder device! 
 
-* y+o+u = you 
-* b+a+k = back 
-* t+d+o+n = don’t 
-* w+o+n+d = down 
-* c+b = because 
-* m+p+i = important 
+* ``y+o+u`` = you 
+* ``b+a+k`` = back 
+* ``t+d+o+n`` = don’t 
+* ``w+o+n+d`` = down 
+* ``c+b`` = because 
+* ``m+p+i`` = important 
 
 How do I make Chords? 
 ------------------------
@@ -225,12 +225,12 @@ OUTPUT 5. CONFIRM INPUT
   :width: 1200
   :alt: Impulse chording on the CharaChorder One
 1. Anywhere that you can see a cursor, chord the input you want
-   (example: b+u+r+s+t). You will either see a jumble of letters
+   (example: ``b+u+r+s+t``). You will either see a jumble of letters
    (example: “tsubr”) or you will see a chord which is already
    programmed to that input. If you continue, any conflicts will be
    overwritten.
 2. Call the impulse command with either GTM >I<mpulse OR with the hard
-   coded chord i+DUP.
+   coded chord ``i+DUP``.
 3. Follow the prompt and type your output in character entry mode.
    (example: >I<mpulse output: burst ).
 4. Press enter to confirm your output.
@@ -253,12 +253,12 @@ OUTPUT, 5. CONFIRM INPUT
   :width: 1200
   :alt: Impulse chording on the CharaChorder Lite
 1. Anywhere that you can see a cursor, chord the input you want
-   (example: b+u+r+s+t). You will either see a jumble of letters
+   (example: ``b+u+r+s+t``). You will either see a jumble of letters
    (example: “tsubr”) or you will see a chord which is already
    programmed to that input. If you continue, any conflicts will be
    overwritten.
 2. Call the impulse command with either GTM >I<mpulse OR with the hard
-   coded chord i+DUP.
+   coded chord ``i+DUP``.
 3. Follow the prompt and type your output in character entry mode.
    (example: >I<mpulse output: burst ).
 4. Press enter to confirm your output.
@@ -281,7 +281,7 @@ OUTPUT, 5. CONFIRM INPUT
   :width: 1200
   :alt: Impulse chording on the CharaChorder X
 1. Anywhere that you can see a cursor, chord the input you want
-   (example: b+u+r+s+t). You will either see a jumble of letters
+   (example: ``b+u+r+s+t``). You will either see a jumble of letters
    (example: “tsubr”) or you will see a chord which is already
    programmed to that input. If you continue, any conflicts will be
    overwritten.
