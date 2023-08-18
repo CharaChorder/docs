@@ -14,29 +14,11 @@ What is :doc:`chording<Chords>`? Put simply, :doc:`chording<Chords>` is the acti
 
 Although the CharaChorder X is a very powerful device, it is limited by the keyboard that you use it with. One example of this is that :doc:`chording<Chords>` relies on your keyboard's :doc:`rollover<Glossary>` limits. A keyboard with 3-key rollover (3KRO) will not be able to make use of :doc:`chords<Chords>` that use more than 3 keys in their :doc:`input<Chords>`. We recommend using a keyboard with N-key rollover (NKRO) for best results. Feel free to choose from the list below to read the topics that you find relevant.
 
-| :ref:`Out of the Box<Out of the Box>`
-|	:ref:`Parts<Parts>` 
-|		:ref:`The Body<The Body>` 
-|	:ref:`Connections<Connections>`
-|	:ref:`Plugging In<Plugging In>`
-|
-| :ref:`Getting Started<Getting Started>`
-|	:ref:`Updating your Device<Updating your Device>`
-|		:ref:`Checking your Device’s Firmware<Checking your Device’s Firmware>`
-|		:ref:`Updating the Firmware<Updating the Firmware>`
-|	:ref:`Understanding the Settings<Understanding the Settings>`
-|	:ref:`The Layout<The Layout>`
-|		:ref:`Layers<Layers>`
-|			:ref:`A1 Layer<A1 Layer>`
-|			:ref:`A2 Layer<A2 Layer>`
-|			:ref:`A3 Layer<A3 Layer>`
-|			:ref:`Shift Modifier<Shift Modifier>`
-|		:ref:`Configurability<Configurability>`
-|		:ref:`Practice<Practice>`
-
+.. contents::
+   :local:
 
 Out of the Box
-*****************
+**************
 
 Parts
 -----
@@ -53,7 +35,7 @@ You will also find an insert that gives instructions on how to connect the Chara
 
 
 The Body
-~~~~~~~~~~
+~~~~~~~~
 
 The CharaChorder X is a single piece comprised of a circuit board which is enclosed in an injection molded plastic shell. It has a single female USB-A port, and a single male USB-A connector. You can find the dimensions of the CharaChorder X in the table below.
 
@@ -112,7 +94,7 @@ If you have :doc:`realtime feedback<Generative Text Menu (GTM)>` enabled, once y
    IMPORTANT: :doc:`Realtime feedback<Generative Text Menu (GTM)>` is enabled by default on new CharaChorder devices.
 
 Getting Started
-*******************
+***************
 
 There are a few steps that you’ll likely want to take if this is your
 first time using your CharaChorder device. In the following section, we
@@ -155,7 +137,7 @@ which is the latest firmware release by visiting `this
 site <https://www.charachorder.com/pages/update-your-firmware>`__. 
 
 .. warning::
-   IMPORTANT: Before performing the below steps, please make sure that you have a :doc:`backup of your layout<Backups>`      as well as a :doc:`backup of your chord library<Backups>`. The update might reset those, so it's important that you    keep backup files handy. For instructions on how to restore backed up files, visit the :doc:`Backups<Backups>`    section. The update might also reset some of your :doc:`GTM<Generative Text Menu (GTM)>` settings. Be sure to write    down settings before you update.
+   **IMPORTANT**: Before performing the below steps, please make sure that you have a :doc:`backup of your layout<Backups>`      as well as a :doc:`backup of your chord library<Backups>`. The update might reset those, so it's important that you    keep backup files handy. For instructions on how to restore backed up files, visit the :doc:`Backups<Backups>`    section. The update might also reset some of your :doc:`GTM<Generative Text Menu (GTM)>` settings. Be sure to write    down settings before you update.
 
 #. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://www.iq-eq.io/#/manager>`__ 
 #. Click “Connect”
@@ -164,7 +146,7 @@ site <https://www.charachorder.com/pages/update-your-firmware>`__.
 #. Download your update file from this site: `<https://www.charachorder.com/pages/update-your-firmware>`__
 
 .. warning::
-   ***IMPORTANT: Make sure that the file you download is named exactly
+   **IMPORTANT**: Make sure that the file you download is named exactly
    like this: CURRENT.UF2 . If there are any other characters in the
    file name, the file will not work. “CURRENT.UF2(1)” will NOT work.
    Additionally, the file name is case sensitive; all letters must be
