@@ -9,33 +9,11 @@ below to navigate to the topics that you find most relevant.
   :width: 1200
   :alt: CharaChorder One
 
-| :ref:`Out of the Box<Out of the Box>`
-|	:ref:`Parts<Parts>` 
-|		:ref:`The Halves<The Halves>` 
-|		:ref:`The Center Bar<The Center Bar>`
-|		:ref:`The Switches<The Switches>`
-|	:ref:`Connections<Connections>`
-|		:ref:`Power<Power>`
-|		:ref:`Communication<Communication>`
-|	:ref:`Plugging In<Plugging In>`
-|
-| :ref:`Getting Started<Getting Started>`
-|	:ref:`Updating your Device<Updating your Device>`
-|		:ref:`Checking your Device’s Firmware<Checking your Device’s Firmware>`
-|		:ref:`Updating the Firmware<Updating the Firmware>`
-|	:ref:`Understanding the Settings<Understanding the Settings>`
-|	:ref:`Learning the Layout<Learning the Layout>`
-|		:ref:`Layers<Layers>`
-|			:ref:`A1 Layer<A1 Layer>`
-|			:ref:`A2 Layer<A2 Layer>`
-|			:ref:`A3 Layer<A3 Layer>`
-|			:ref:`Shift Modifier<Shift Modifier>`
-|		:ref:`Configurability<Configurability>`
-|		:ref:`Practice<Practice>`
-
+.. contents::
+   :local:
 
 Out of the Box
-*****************
+**************
 
 Parts
 -----
@@ -75,9 +53,9 @@ surfaces.
 The left half contains the “brain” of the device, where it stores
 chords, layouts, and settings. It also contains a female USB-C port on
 the left side of the half and a 3.5mm “audio jack” port on the right
-side of the half (See :ref:`Connections<Connections>`). The right half is nearly a mirror
+side of the half (See :ref:`Connections<CharaChorder One:Connections>`). The right half is nearly a mirror
 image of the left half. It has a 3.5mm “audio jack” port on the left
-side of the half and a no other ports (See :ref:`Connections<Connections>`).
+side of the half and a no other ports (See :ref:`Connections<CharaChorder One:Connections>`).
 
 The Center Bar
 ~~~~~~~~~~~~~~
@@ -192,11 +170,10 @@ the way in, otherwise, the CharaChorder might not function as intended.
 
 .. warning::
    IMPORTANT: During your first time plugging your CharaChorder in,
-   and every time thereafter when you have :ref:`realtime feedback<Realtime Feedback>`
-   enabled, it’s recommended
-   that you have your cursor in a blank typing space. The CharaChorder
-   has a welcome message that can send instructions to your computer
-   that are not intended by the user. This feature can be disabled in
+   and every time thereafter when you have :doc:`realtime feedback<Generative Text Menu (GTM)>` enabled, it’s
+   recommended that you have your cursor in a blank typing space. The 
+   CharaChorder has a welcome message that can send instructions to your 
+   computer that are not intended by the user. This feature can be disabled in
    the :doc:`GTM<Generative Text Menu (GTM)>`. 
 
 After making sure that all the cables on the CharaChorder are properly
@@ -209,11 +186,11 @@ whether or not your cursor is somewhere where text can be entered… - You
 will be able to see a small, lime colored light inside the space that
 holds the USB-C port on the left half of the CharaChorder One.
 
-If you have :ref:`realtime feedback<Realtime Feedback>` enabled, once you can see the highlighted text that reads
+If you have :doc:`realtime feedback<Generative Text Menu (GTM)>` enabled, once you can see the highlighted text that reads
 “CCOS is ready”, your device is ready to be used.
 
 .. note::
-   IMPORTANT: :ref:`Realtime feedback<Realtime Feedback>` is enabled by default on new CharaChorder devices.
+   IMPORTANT: :doc:`Realtime feedback<Generative Text Menu (GTM)>` is enabled by default on new CharaChorder devices.
 
 Getting Started
 *******************
@@ -231,6 +208,8 @@ Updating your Device
    it’s possible that it is running an obsolete firmware. You can read
    instructions on how to upgrade your device to our new CCOS :doc:`here<Upgrade to CCOS>`. If your device is not running    :doc:`CCOS<CharaChorder Operating System (CCOS)>`, you will be unable to follow the
    steps below to update your device.
+
+.. _charachorder-one-checking-your-devices-firmware:
 
 Checking your Device’s Firmware
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -283,7 +262,7 @@ site <https://www.charachorder.com/pages/update-your-firmware>`__.
 At this point, your CharaChorder One will automatically reboot and the
 CharaChorder drive will have disappeared. Congratulations! You have
 successfully updated your device. You can check your device’s firmware
-version by following the steps :ref:`here<Checking your Device’s Firmware>`.
+version by following the steps :ref:`here<charachorder-one-checking-your-devices-firmware>`.
 
 Understanding the Settings
 --------------------------
