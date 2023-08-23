@@ -16,6 +16,9 @@ The Serial API allows users and developers to interact with their CCOS powered d
 .. note::
    Throughout this document, lines prefixed with a ">" symbol represent user input in the examples shown.
 
+.. contents::
+   :local:
+
 Commands Overview
 -----------------
 
@@ -24,14 +27,14 @@ Commands are all caps ASCII characters. The return is always one line and includ
 .. csv-table::
    :header: "Command", "Description"
 
-   ":ref:`CMD<CMD>`", "Lists available commands."
-   ":ref:`ID`", "Identifies device, such as `CHARACHORDER ONE M0`."
-   ":ref:`VERSION`", "Returns the current firmware version, such as `1.1.1`"
-   ":ref:`CML`", "Used for getting, setting (adding or overwriting), and deleting chordmaps."
-   ":ref:`VAR`", "Used for getting and settings parameters; this includes setting custom chordmaps."
-   ":ref:`RST`", "Restarts/reboots the microcontroller hardware. It has additional arguments for Factory and Bootloader."
-   ":ref:`RAM`", "Prints the current amount of SRAM available; this is primarily used for debugging."
-   ":ref:`SIM`", "Simulates/injects a chord and outputs the chord output if the chord exists in the chord library; this is primarily used for debugging."
+   ":ref:`CMD<SerialAPI:CMD>`", "Lists available commands."
+   ":ref:`ID<SerialAPI:ID>`", "Identifies device, such as `CHARACHORDER ONE M0`."
+   ":ref:`VERSION<SerialAPI:VERSION>`", "Returns the current firmware version, such as `1.1.1`"
+   ":ref:`CML<SerialAPI:CML>`", "Used for getting, setting (adding or overwriting), and deleting chordmaps."
+   ":ref:`VAR<SerialAPI:VAR>`", "Used for getting and settings parameters; this includes setting custom chordmaps."
+   ":ref:`RST<SerialAPI:RST>`", "Restarts/reboots the microcontroller hardware. It has additional arguments for Factory and Bootloader."
+   ":ref:`RAM<SerialAPI:RAM>`", "Prints the current amount of SRAM available; this is primarily used for debugging."
+   ":ref:`SIM<SerialAPI:SIM>`", "Simulates/injects a chord and outputs the chord output if the chord exists in the chord library; this is primarily used for debugging."
 
 Commands
 -----------------
@@ -106,11 +109,11 @@ The `CML` command provides access to the Chordmap Library.
 .. csv-table::
    :header: "CML SubCommand","Code","Description"
 
-   ":ref:`GET_CHORDMAP_COUNT<GET_CHORDMAP_COUNT>`","C0","Gets the (decimal) number of chordmaps."
-   ":ref:`GET_CHORDMAP_BY_INDEX<GET_CHORDMAP_BY_INDEX>`","C1","Gets a chordmap by the index number (hexadecimal uint16) if within range."
-   ":ref:`GET_CHORDMAP_BY_CHORD<GET_CHORDMAP_BY_CHORD>`","C2","Gets a chordmap by the chord (hexadecimal) value if it is found in the library."
-   ":ref:`SET_CHORDMAP_BY_CHORD<SET_CHORDMAP_BY_CHORD>`","C3","Sets a chordmap with a chord and output bytes (hexadecimal)."
-   ":ref:`DEL_CHORDMAP_BY_CHORD<DEL_CHORDMAP_BY_CHORD>`","C4","Deletes a chordmap from the library if the chord exists."
+   ":ref:`GET_CHORDMAP_COUNT<SerialAPI:GET_CHORDMAP_COUNT>`","C0","Gets the (decimal) number of chordmaps."
+   ":ref:`GET_CHORDMAP_BY_INDEX<SerialAPI:GET_CHORDMAP_BY_INDEX>`","C1","Gets a chordmap by the index number (hexadecimal uint16) if within range."
+   ":ref:`GET_CHORDMAP_BY_CHORD<SerialAPI:GET_CHORDMAP_BY_CHORD>`","C2","Gets a chordmap by the chord (hexadecimal) value if it is found in the library."
+   ":ref:`SET_CHORDMAP_BY_CHORD<SerialAPI:SET_CHORDMAP_BY_CHORD>`","C3","Sets a chordmap with a chord and output bytes (hexadecimal)."
+   ":ref:`DEL_CHORDMAP_BY_CHORD<SerialAPI:DEL_CHORDMAP_BY_CHORD>`","C4","Deletes a chordmap from the library if the chord exists."
 
 GET_CHORDMAP_COUNT
 ^^^^^^^^^^^^^^^^^^
@@ -229,11 +232,11 @@ VAR Subcommands
 .. csv-table::
    :header: "VAR SubCommand","Code","Description"
 
-   ":ref:`CMD_VAR_COMMIT<CMD_VAR_COMMIT>`","B0","Commits any parameter changes to persistent memory."
-   ":ref:`CMD_VAR_GET_PARAMETER<CMD_VAR_GET_PARAMETER>`","B1","Gets the value of a parameter."
-   ":ref:`CMD_VAR_SET_PARAMETER<CMD_VAR_SET_PARAMETER>`","B2","Sets the value of a parameter."
-   ":ref:`CMD_VAR_GET_KEYMAP<CMD_VAR_GET_KEYMAP>`","B3","Gets the value of a key in a keymap."
-   ":ref:`CMD_VAR_SET_KEYMAP<CMD_VAR_SET_KEYMAP>`","B4","Sets the value of a key in a keymap."
+   ":ref:`CMD_VAR_COMMIT<SerialAPI:CMD_VAR_COMMIT>`","B0","Commits any parameter changes to persistent memory."
+   ":ref:`CMD_VAR_GET_PARAMETER<SerialAPI:CMD_VAR_GET_PARAMETER>`","B1","Gets the value of a parameter."
+   ":ref:`CMD_VAR_SET_PARAMETER<SerialAPI:CMD_VAR_SET_PARAMETER>`","B2","Sets the value of a parameter."
+   ":ref:`CMD_VAR_GET_KEYMAP<SerialAPI:CMD_VAR_GET_KEYMAP>`","B3","Gets the value of a key in a keymap."
+   ":ref:`CMD_VAR_SET_KEYMAP<SerialAPI:CMD_VAR_SET_KEYMAP>`","B4","Sets the value of a key in a keymap."
 
 Keymap codes
 ^^^^^^^^^^^^
@@ -287,7 +290,7 @@ Parameter codes
    "LED Color Code","82","Color Codes to be listed (CCL only)"
    "Enable LED Key Highlight (coming soon)","83","boolean 0 or 1"
    "Enable LEDs","84","boolean 0 or 1; default is 1"
-   "Operating System","91",":ref:`Operating system codes<Operating system codes>` listed below"
+   "Operating System","91",":ref:`Operating system codes<SerialAPI:Operating system codes>` listed below"
    "Enable Realtime Feedback","92","boolean 0 or 1; default is 1"
    "Enable CharaChorder Ready on startup","93","boolean 0 or 1; default is 1"
 
