@@ -52,9 +52,9 @@ surfaces.
 
 The left half contains the “brain” of the device, where it stores
 chords, layouts, and settings. It also contains a female USB-C port on
-the left side of the half and a 3.5mm “audio jack” port on the right
+the left side of the half and a 3.5 mm “audio jack” port on the right
 side of the half (See :ref:`Connections<CharaChorder One:Connections>`). The right half is nearly a mirror
-image of the left half. It has a 3.5mm “audio jack” port on the left
+image of the left half. It has a 3.5 mm “audio jack” port on the left
 side of the half and a no other ports (See :ref:`Connections<CharaChorder One:Connections>`).
 
 The Center Bar
@@ -62,7 +62,7 @@ The Center Bar
 
 Out of the box, your CharaChorder One will have a machined aluminum
 “bridge” which we can refer to as a metal bar. The metal bar is held in
-place by four M2x3mm screws, with two screws in each half. The metal bar
+place by four M2 x 3 mm screws, with two screws in each half. The metal bar
 is removable after having removed these four screws.
 
 The Switches
@@ -147,7 +147,7 @@ port.
 
 .. _TRS cable:
 
-In between the two CharaChorder halves, there’s a single 3.5mm TRS cable, commonly known as an AUX cable. This cable facilitates
+In between the two CharaChorder halves, there’s a single 3.5 mm TRS cable, commonly known as an AUX cable. This cable facilitates
 instant communication between the right half and the left half of the
 CharaChorder. However, as mentioned before, only the left half contains
 the “brain” of the CharaChorder which holds your chord library, layout,
