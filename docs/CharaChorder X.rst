@@ -48,13 +48,13 @@ The CharaChorder X is a single piece comprised of a circuit board which is enclo
      - Width
      - Height
    * - **Shell**
-     - 59mm (5/16in)
-     - 23.25mm (15/16in)
-     - 16.15mm (5/8in)
+     - 59 mm (5/16 in)
+     - 23.25 mm (15/16 in)
+     - 16.15 mm (5/8 in)
    * - **Shell + Connector**
-     - 71.5mm (2 7/8in)
-     - 23.25mm (15/16in)
-     - 16.15mm (5/8in)
+     - 71.5 mm (2 7/8 in)
+     - 23.25 mm (15/16 in)
+     - 16.15 mm (5/8 in)
 
 
 Connections
