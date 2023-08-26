@@ -4,20 +4,8 @@ One of CharaChorder devices’ greatest features is their
 :doc:`chording<Chords>` ability. Read this section to learn what
 chording is and how you can benefit from it on your own CharaChorder. 
 
-| :ref:`What are Chords?<What are Chords?>`
-| :ref:`How do I use Chords?<How do I use Chords?>`
-|	:ref:`Chord Input<Chord Input>`
-|	:ref:`Chord Output<Chord Output>`
-|	:ref:`Chord Notation<Chord Notation>`
-| :ref:`How do I make Chords?<How do I make Chords?>`
-| 	:ref:`On Dot I/O<On Dot I/O>`
-|		:ref:`Adding New Chords on Device Manager<Adding New Chords on Device Manager>`
-|		:ref:`Importing Chord Libraries on Device Manager<Importing Chord Libraries on Device Manager>`
-|	:ref:`Impulse Chording<Impulse Chording>`
-|		:ref:`Creating an Impulse Chord on the CharaChorder One<Creating an Impulse Chord on the CharaChorder One>`
-|		:ref:`Creating an Impulse Chord on the CharaChorder Lite<Creating an Impulse Chord on the CharaChorder Lite>`
-|		:ref:`Creating an Impulse Chord on the CharaChorder X<Creating an Impulse Chord on the CharaChorder X>`
-
+.. contents::
+   :local:
 
 What are Chords?
 -----------------
