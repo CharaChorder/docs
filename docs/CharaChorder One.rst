@@ -170,11 +170,11 @@ the way in, otherwise, the CharaChorder might not function as intended.
 
 .. warning::
    IMPORTANT: During your first time plugging your CharaChorder in,
-   and every time thereafter when you have :doc:`realtime feedback<Generative Text Menu (GTM)>` enabled, it’s
+   and every time thereafter when you have :doc:`realtime-feedback<GenerativeTextMenu>` enabled, it’s
    recommended that you have your cursor in a blank typing space. The 
    CharaChorder has a welcome message that can send instructions to your 
    computer that are not intended by the user. This feature can be disabled in
-   the :doc:`GTM<Generative Text Menu (GTM)>`. 
+   the :doc:`GTM<GenerativeTextMenu>`. 
 
 After making sure that all the cables on the CharaChorder are properly
 plugged in, connect the USB-A side of the :ref:`power cable<power cable>` into
@@ -186,18 +186,18 @@ whether or not your cursor is somewhere where text can be entered… - You
 will be able to see a small, lime colored light inside the space that
 holds the USB-C port on the left half of the CharaChorder One.
 
-If you have :doc:`realtime feedback<Generative Text Menu (GTM)>` enabled, once you can see the highlighted text that reads
+If you have :doc:`realtime feedback<GenerativeTextMenu:Realtime feedback>` enabled, once you can see the highlighted text that reads
 “CCOS is ready”, your device is ready to be used.
 
 .. note::
-   IMPORTANT: :doc:`Realtime feedback<Generative Text Menu (GTM)>` is enabled by default on new CharaChorder devices.
+   IMPORTANT: :doc:`Realtime feedback<GenerativeTextMenu:Realtime feedback>` is enabled by default on new CharaChorder devices.
 
 Getting Started
 *******************
 
 There are a few steps that you’ll likely want to take if this is your
 first time using your CharaChorder device. In the following section, we
-will update your device, explain navigation in the :doc:`GTM<Generative Text Menu (GTM)>`, and demonstrate the default layout on your new
+will update your device, explain navigation in the :doc:`GTM<GenerativeTextMenu>`, and demonstrate the default layout on your new
 device.
 
 Updating your Device
@@ -272,12 +272,12 @@ device is plug-and-play, you don’t need any software to edit the
 device’s settings; all you need is a place to type text. We call these
 settings the Generative Text Menu, or GTM for short.
 
-You can access the :doc:`GTM<Generative Text Menu (GTM)>` by
+You can access the :doc:`GTM<GenerativeTextMenu>` by
 :doc:`chording<Chords>` both pinkies `north`_ on any space that
 allows text entry such as a notepad app. For an explanation on chords
 and how to perform them, visit the :doc:`Chords<Chords>` section.
 
-Once you perform the chord to call up the :doc:`GTM<Generative Text Menu (GTM)>`, your CharaChorder will type out the menu and its options.
+Once you perform the chord to call up the :doc:`GTM<GenerativeTextMenu>`, your CharaChorder will type out the menu and its options.
 It will look something like this:
 
 
@@ -295,7 +295,7 @@ decrease these, you can use the arrow keys on your CharaChorder One.
 
 ``CharaChorder > Chording > Press Tolerance [ Use up/down arrow keys to adjust: 25ms ]``
 
-You can read an explanation on all of the settings on your CharaChorder device :doc:`here<Generative Text Menu (GTM)>`.
+You can read an explanation on all of the settings on your CharaChorder device :doc:`here<GenerativeTextMenu>`.
 
 Learning the Layout
 -------------------
