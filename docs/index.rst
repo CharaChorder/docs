@@ -20,24 +20,12 @@ Table of Contents
 
 .. toctree::
    :maxdepth: 2
-
+   
    CharaChorder One.rst
    CharaChorder Lite.rst
-   CharaChorder X.rst
    CharaChorder Engine.rst
-   Wear-A-Chorder.rst
-
-   Chords.rst
-   Generative Text Menu (GTM).rst
-   CharaChorder Keys.rst
-   Glossary.rst
+   CharaChorder X.rst
    CharaChorder Operating System (CCOS).rst
-   CharaChorder's Mission.rst
-   Device Manager.rst
-   Layout.rst
-   Tools.rst
-   Upgrade to CCOS.rst
-   Logic behind the Layout.rst
-   Remapping.rst
-   Backups.rst
+   Chords.rst
+   Glossary.rst
    SerialAPI.rst
