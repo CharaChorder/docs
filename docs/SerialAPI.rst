@@ -288,8 +288,8 @@ Parameter codes
    "Compound Tolerance","64","in milliseconds; default 1500ms"
    "LED Brightness","81","0-50 (CCL only); default is 5, which draws around 100 mA of current"
    "LED Color Code","82","Color Codes to be listed (CCL only)"
-   "Enable LED Key Highlight (coming soon)","83","boolean 0 or 1"
-   "Enable LEDs","84","boolean 0 or 1; default is 1"
+   "Enable LED Key Highlight (coming soon)","83","boolean 0 or 1 (CCL only)"
+   "Enable LEDs","84","boolean 0 or 1; default is 1 (CCL only)"
    "Operating System","91",":ref:`Operating system codes<SerialAPI:Operating system codes>` listed below"
    "Enable Realtime Feedback","92","boolean 0 or 1; default is 1"
    "Enable CharaChorder Ready on startup","93","boolean 0 or 1; default is 1"
@@ -315,7 +315,7 @@ CMD_VAR_COMMIT
    :header: "I/O","Index","Name","Type","Example","Notes"
 
    "INPUT","0","Command","Chars","VAR",""
-   "INPUT","1","SubCommand","Hexadecimal VAR Code","B0","Commit p arameters to memory"
+   "INPUT","1","SubCommand","Hexadecimal VAR Code","B0","Commit parameters to memory"
    "OUTPUT","0","Command","Chars","VAR",""
    "OUTPUT","1","SubCommand","Hexadecimal VAR Code","B0",""
    "OUTPUT","2","Success","Boolean Number","0","This will be 0 on success, or greater than zero for an error if there was a problem commiting"
@@ -335,7 +335,7 @@ CMD_VAR_GET_PARAMETER
 
    "INPUT","0","Command","Chars","VAR",""
    "INPUT","1","SubCommand","Hexadecimal VAR Code","B1","Get parameter value"
-   "INPUT","2","Parameter Code","Decimal Parameter Code","2E",""
+   "INPUT","2","Parameter Code","Hexadecimal Parameter Code","2E",""
    "OUTPUT","0","Command","Chars","VAR",""
    "OUTPUT","1","SubCommand","Hexadecimal VAR Code","B1",""
    "OUTPUT","2","Parameter Code","Hexadecimal Parameter Code","2E",""
@@ -357,7 +357,7 @@ CMD_VAR_SET_PARAMETER
 
    "INPUT","0","Command","Chars","VAR",""
    "INPUT","1","SubCommand","Hexadecimal VAR Code","B2","Set parameter value"
-   "INPUT","2","Parameter Code","Decimal Parameter Code","2E",""
+   "INPUT","2","Parameter Code","Hexadecimal Parameter Code","2E",""
    "INPUT","3","Data In","Decimal Number","46",""
    "OUTPUT","0","Command","Chars","VAR",""
    "OUTPUT","1","SubCommand","Hexadecimal VAR Code","B2",""
