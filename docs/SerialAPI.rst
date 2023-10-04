@@ -211,7 +211,7 @@ DEL_CHORDMAP_BY_CHORD
    "INPUT","2","Chord","Hexadecimal Number","001946418C0000000000000000000000",""
    "OUTPUT","0","Command","Chars","CML",""
    "OUTPUT","1","SubCommand","Hexadecimal CML Code","C4",""
-   "OUTPUT","2","Chord","Hexadecimal Number","001946418C0000000000000000000000","This will be 0 if the chordmap did not exist or the deletion was uns uccessful"
+   "OUTPUT","2","Chord","Hexadecimal Number","001946418C0000000000000000000000","This will be 0 if the chordmap did not exist or the deletion was unsuccessful"
    "OUTPUT","3","Success","Boolean Number","0","This will be 0 on success, or greater than zero for an error if the chordmap did not exist or the deletion was unsuccessful"
 
 Example(s):
@@ -412,7 +412,7 @@ CMD_VAR_SET_KEYMAP
    "OUTPUT","2","Keymap","Hexadecimal Keymap Code","A0",""
    "OUTPUT","3","Index","Decimal Number","24",""
    "OUTPUT","4","Action Id","Decimal Number","112","Valid action Ids range from 8 thru 2047. Returns a 00 if either the Keymap Code or Index or Action Id are out of range."
-   "OUTPUT","5","Success","Boolean Number","1","This will be 0 on success, or greater than zero for an error if the chordmap did not exist or the deletion was uns uccessful"
+   "OUTPUT","5","Success","Boolean Number","1","This will be 0 on success, or greater than zero for an error if the chordmap did not exist or the deletion was unsuccessful"
 
 Example(s):
 
