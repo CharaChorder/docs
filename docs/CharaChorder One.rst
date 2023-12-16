@@ -332,9 +332,8 @@ that you can access all of them without having to hold or press anything
 else. Your device will always be in the A1 layer upon boot.
 
 While the A1 layer is active on the CharaChorder One by default, you can
-map the A1 access key, which bears the name “KM_1_R” or “KM_1_L”, on the
-:doc:`CharaChorder-Config<Tools>` site or by
-:doc:`editing the layout csv and importing it onto your device<Remapping>`.
+map the A1 access key, which bears the name “Primary Keymap (Left)” or “Primary Keymap (Right)”, on the
+`Device Manager <https://manager.charachorder.com/config/layout/>`__.
 
 A2 Layer
 ^^^^^^^^
@@ -391,7 +390,7 @@ like other modifiers (such as Ctrl and Alt). The Shift modifier output
 is currently controlled by the Operating System that your CharaChorder is
 plugged to, and it is not possible to customize their outputs.
 
-In the above [[CharaChorder One layout card.webp|graphic]], you’ll see
+In the above graphic, you’ll see
 the Shift key labeled as “Shift”. In the `Device Manager <https://manager.charachorder.com/config/layout/>`__,
 this key has the name “Shift Keyboard Modifier (Left)” and “Shift Keyboard Modifier (Right)”, one for each side
 of the CharaChorder.
