@@ -390,7 +390,7 @@ like other modifiers (such as Ctrl and Alt). The Shift modifier output
 is currently controlled by the Operating System that your CharaChorder is
 plugged to, and it is not possible to customize their outputs.
 
-In the above [[CharaChorder One layout card.webp|graphic]], you’ll see
+In the above graphic, you’ll see
 the Shift key labeled as “Shift”. In the `Device Manager <https://manager.charachorder.com/config/layout/>`__,
 this key has the name “Shift Keyboard Modifier (Left)” and “Shift Keyboard Modifier (Right)”, one for each side
 of the CharaChorder.
