@@ -525,3 +525,12 @@ If a chord is attempted to be formed by more than 12 keys, then the smallest key
 Most chords will have trailing zeros.
 
 To use these chords with the Serial API, they should be converted to a 16-character hexadecimal representation.
+
+Action codes
+------------
+
+You can see the action codes below, or view them externally `here. <https://docs.google.com/spreadsheets/d/1--T9bXshCIC-OVly-CY3rK87fgb7AHgJl3IySh7cmHc/edit#gid=0>`__
+
+.. raw:: html
+
+    <iframe src="https://docs.google.com/spreadsheets/d/1--T9bXshCIC-OVly-CY3rK87fgb7AHgJl3IySh7cmHc/edit#gid=0" width="600" height="600"></iframe>
