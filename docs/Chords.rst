@@ -102,11 +102,11 @@ Dot I/O. Additionally, you, can create chords on the go by using
 :ref:`impulse chording<Impulse Chording>`. Read on for specific
 instructions on how to do that. 
 
-On Dot I/O
+On Device Manager
 ~~~~~~~~~~~~~
 
-Dot I/O is our official Device Manager designed for CharaChorder devices. On there, you can do a
-variety of things. You can read all about Dot I/O in this
+The CharaChorder Device Manager is our official web based configuration tool designed for CharaChorder devices. On there, you can do a
+variety of things. You can read all about Device Manager in this
 :doc:`section<Device Manager>`.
 
 The process for adding chords to your CharaChorder is the same on all of
@@ -118,62 +118,24 @@ Read how below.
 Adding New Chords on Device Manager
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.  On a chromium based browser, such as Chrome, go to the CharaChorder :doc:`device manager<Device Manager>` `Weblink <https://www.iq-eq.io/#/manager>`__
+1.  On a chromium based browser, such as Chrome, go to the CharaChorder :doc:`device manager<Device Manager>`: `Weblink <https://manager.charachorder.com/config/chords/>`__
 2.  Click “Connect”
-3.  When the popup box comes up that reads “www.iq-eq.io wants to
+3.  When the popup box comes up that reads “manager.charachorder.com wants to
     connect to a serial port”, choose your CharaChorder device, then
     click the blue “connect” button. You’ll know that you’re properly
-    connected if you can see your device ID and CCOS version, similar to
+    connected if you can see your device name and CCOS version, similar to
     the following text:
-    ``Device ID CHARACHORDER ONE M0 --- CCOS VERSION 1.1.1``
-4.  Under the “Library” section, click the button labeled “Add Chord
-    Map”. You should see a new box come up similar to the image below
-5.  Click the blue “Edit Chord” button. You should notice the text boxes
-    under “Output” and “Input” are now available to be typed in
-6.  In the “Output” section, type in your desired
+    ``CHARACHORDER ONE M0 --- Version 1.1.3``
+4.  Under the “Chords” section, click the button labeled “New chord”.
+5.  The button changes to "Hold chord". At this time, you should press and hold the keys press the keys that you want to use for your
+    :ref:`chord input<Chord Input>`. The order in which the keys are pressed
+    is not :ref:`important<Chord Input>`.
+6.  Once you are happy, let go and then in the box to the right, type in your desired
     :ref:`output<Chord Output>`
-7.  In the “Input” section, press the keys that you want to use for your
-    :ref:`chord input<Chord Input>`. You do not need to hold all the
-    keys down at the same time. The order in which the keys are pressed
-    is not :ref:`important<Chord Input>`. If you make a mistake, you
-    can use the backspace to erase whatever you have typed so far
-8.  Once you are satisfied with the :ref:`chord input<Chord Input>`
-    and the :ref:`chord output<Chord Output>`, click the green “Save”
-    button
-9.  If you would like to add another chord, you can press the “Add Chord
-    Map” again and repeat steps 5 through 8 for each additional entry.
-
-Importing Chord Libraries on Device Manager
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-In order to import an existing chord library, you will have to have to
-CSV (comma separated values) file handy, already downloaded on your
-computer. If you already have that file, follow the steps below.
-
-1. On a chromium based browser, such as Chrome, go to the CharaChorder :doc:`device manager<Device Manager>` `Weblink <https://www.iq-eq.io/#/manager>`__
-2. Click “Connect”
-3. When the popup box comes up that reads “www.iq-eq.io wants to connect
-   to a serial port”, choose your CharaChorder device, then click the
-   blue “connect” button. You’ll know that you’re properly connected if
-   you can see your device ID and CCOS version, similar to the following
-   text: ``Device ID CHARACHORDER ONE M0 --- CCOS VERSION 1.1.1``
-4. Under the “Library” section, click the button labeled “Import
-   Library”. Click it
-5. A window will open asking you to choose a file from your computer.
-   Select the previously downloaded CSV file and click “open”
-6. You should see the :doc:`device manager<Device Manager>` populate
-   with the chord entries from the library. Wait a few minutes until all
-   of the chord maps are imported
-7. After a review of the chord maps, if you want to add them to your
-   CharaChorder, click “Save All”
-8. Count about two seconds per each chord entry before using your
-   CharaChorder
-
-WARNING: It’s possible that you will see a message similar to this one:
-“Commit Progress: 33% Please do not touch your device until completion.”
-The percentage might get stuck and never reach 100%. This is a known
-bug. As long as you count two seconds per each chord entry before using
-your CharaChorder, you should have no issues. 
+7.  At this point you can add more chords, if you would like by repeating the previous steps.
+8.  Once you are satisfied with the :ref:`chord inputs<Chord Input>`
+    and the :ref:`chord outputs<Chord Output>`, click the “Save”
+    button at the top left.
 
 Impulse chording
 ~~~~~~~~~~~~~~~~~~~

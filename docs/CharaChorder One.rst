@@ -115,8 +115,7 @@ lateral movement in order to work, just apply force onto the switch
 “into” the device. Each of the five directions on a switch can be mapped
 to a configurable key, which can include letters, numbers, symbols,
 control keys and even function keys. You can see the most current list
-of configurable action codes in `action
-codes <https://docs.google.com/spreadsheets/d/1--T9bXshCIC-OVly-CY3rK87fgb7AHgJl3IySh7cmHc/edit#gid=0>`__.
+of configurable action codes in the `Device Manager <https://manager.charachorder.com/config/layout/>`__.
 
 Connections
 -----------
@@ -217,20 +216,20 @@ Checking your Device’s Firmware
 You can check your device’s current firmware by following the steps
 below: 
 
-#. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://www.iq-eq.io/#/manager>`__ 
+#. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://manager.charachorder.com/config/layout/>`__ 
 #. Click “Connect” 
-#. When the popup box comes up that reads “www.iq-eq.io wants to connect to a serial port”, choose your CharaChorder device, then click the blue “connect” button
+#. When the popup box comes up that reads “manager.charachorder.com wants to connect to a serial port”, choose your CharaChorder device, then click the blue “connect” button
 
 After following the above steps, you can find your
 firmware version right above the “Connect” button. It will read
 something like this:
 
-``Device ID CHARACHORDER ONE M0 --- CCOS VERSION 1.0.1``
+``CHARACHORDER ONE M0 --- Version 1.1.3``
 
 .. _Firmware Check:
-.. image:: /assets/images/DOTIOFW.png
-  :width: 1200
-  :alt: Checking the firmware on DOT I/O
+.. image:: /assets/images/DMFW.png
+  :width: 347
+  :alt: Checking the firmware on Device Manager
 
 Updating the Firmware
 ~~~~~~~~~~~~~~~~~~~~~
@@ -243,10 +242,10 @@ site <https://www.charachorder.com/pages/update-your-firmware>`__.
 .. warning::
    IMPORTANT: Before performing the below steps, please make sure that you have a :doc:`backup of your layout<Backups>`      as well as a :doc:`backup of your chord library<Backups>`. The update might reset those, so it's important that you    keep backup files handy. For instructions on how to restore backed up files, visit the :doc:`Backups<Backups>`    section. The update might also reset some of your :ref:`GTM<Generative Text Menu (GTM)>` settings. Be sure to write    down settings before you update.
 
-#. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://www.iq-eq.io/#/manager>`__ 
+#. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://manager.charachorder.com/config/layout/>`__ 
 #. Click “Connect”
-#. When the popup box comes up that reads “www.iq-eq.io wants to connect to a serial port”, choose your CharaChorder device, then click the blue “connect” button
-#. _`Click` “Bootloader”. Your CharaChorder will now appear as an external storage device on your computer’s file explorer or Finder app. It might be named one of the following: “Arduino”, “Seeduino”, or “CharaChorder One”.
+#. When the popup box comes up that reads “manager.charachorder.com wants to connect to a serial port”, choose your CharaChorder device, then click the blue “connect” button
+#. _`Click` “Boot Menu” (the power icon) followed by “Bootloader”. Your CharaChorder will now appear as an external storage device on your computer’s file explorer or Finder app. It might be named one of the following: “Arduino”, “Seeduino”, or “CharaChorder One”.
 #. Download your update file from this site: `<https://www.charachorder.com/pages/update-your-firmware>`__
 
 .. warning::
@@ -342,12 +341,9 @@ A2 Layer
 
 The A2 layer, sometimes referred to as the “number layer”, is accessible
 with the :doc:`A2 access key<CharaChorder Keys>`. In the above :ref:`graphic<CCEnglish Layout>`, you’ll see this labeled
-as “num-shift.” In the `Key remapping reference
-guide <https://docs.google.com/spreadsheets/d/1--T9bXshCIC-OVly-CY3rK87fgb7AHgJl3IySh7cmHc/edit#gid=0>`__,
-this key has the name “KM_2_L” and “KM_2_R”, one for each side of the
-CharaChorder. Additionally, on the webtool
-:doc:`CharaChorder-Config<Tools>`, this key is also
-assignable by the names “KM_2_L” and “KM_2_R”.
+as “num-shift.” In the `Device Manager <https://manager.charachorder.com/config/layout/>`__,
+this key has the name “Numeric Layer (Left)” and “Numeric Layer (Right)”, one for each side of the
+CharaChorder. 
 
 By default, the A2 Layer is accessible by pressing and holding either
 pinky finger outwards, that is, west on the left pinky or east on the
@@ -369,10 +365,9 @@ The A3 layer, sometimes referred to as the “function layer”, is
 accessible with the :ref:`A3 access key<CharaChorder Keys>`. This key is not
 in the above :ref:`graphic<CCEnglish Layout>`, and instead
 is accessible by pressing and holding either pinky down, into the
-device. In the `Remapping Reference Guide <https://docs.google.com/spreadsheets/d/1--T9bXshCIC-OVly-CY3rK87fgb7AHgJl3IySh7cmHc/edit#gid=0>`__,
-this key has the name “KM_3_L” and “KM_3_R”, one for each side of the
-CharaChorder. Additionally, on the webtool :doc:`CharaChorder-Config<Tools>`, this key is also
-assignable by the names “KM_3_L” and “KM_3_R”.
+device. In the `Device Manager <https://manager.charachorder.com/config/layout/>`__,
+this key has the name “Function Layer (Left)” and “Function Layer (Right)”, one for each side of the
+CharaChorder.
 
 By default, the A3 Layer is accessible by pressing and holding either
 pinky finger down. You do not have to hold them both in order to access
@@ -397,11 +392,9 @@ is currently controlled by the Operating System that your CharaChorder is
 plugged to, and it is not possible to customize their outputs.
 
 In the above [[CharaChorder One layout card.webp|graphic]], you’ll see
-the Shift key labeled as “Shift”. In the `Key Remapping Reference Guide <https://docs.google.com/spreadsheets/d/1--T9bXshCIC-OVly-CY3rK87fgb7AHgJl3IySh7cmHc/edit#gid=0>`__,
-this key has the name “Left_Shift” and “Right_Shift”, one for each side
-of the CharaChorder. Additionally, on the webtool
-:doc:`CharaChorder-config<Tools>`, this key is also
-assignable by the names “Left_Shift” and “Right_Shift”.
+the Shift key labeled as “Shift”. In the `Device Manager <https://manager.charachorder.com/config/layout/>`__,
+this key has the name “Shift Keyboard Modifier (Left)” and “Shift Keyboard Modifier (Right)”, one for each side
+of the CharaChorder.
 
 By default, the Shift is accessible by pressing and holding either pinky
 finger inwards, that is, east on the left pinky or west on the right
