@@ -104,29 +104,26 @@ device.
 Updating your Device
 --------------------
 
-.. note::
-   If you purchased your device as a kickstarter backer or during preorder, then your device is up to date. You can    safely skip the updating step. Skip :ref:`here<Understanding the Settings>`.
-
 Checking your Device’s Firmware
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You can check your device’s current firmware by following the steps
 below: 
 
-#. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://www.iq-eq.io/#/manager>`__ 
+#. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://manager.charachorder.com/config/layout/>`__ 
 #. Click “Connect” 
-#. When the popup box comes up that reads “www.iq-eq.io wants to connect to a serial port”, choose your CharaChorder device, then click the blue “connect” button. Your device might have the name "TinyUSB" or "TinyUSB CDC".
+#. When the popup box comes up that reads “manager.charachorder.com wants to connect to a serial port”, choose your CharaChorder device, then click the blue “connect” button
 
 After following the above steps, you can find your
 firmware version right above the “Connect” button. It will read
 something like this:
 
-``Device ID CHARACHORDER X S2 --- CCOS VERSION 1.1.2``
+``CHARACHORDER X S2 --- Version 1.1.3``
 
 .. _CCX Firmware Check:
-.. image:: /assets/images/CCXDotIO.png
-  :width: 1200
-  :alt: Checking the firmware on DOT I/O
+.. image:: /assets/images/DMFW-CCX.png
+  :width: 295
+  :alt: Checking the firmware on Device Manager
 
 Updating the Firmware
 ~~~~~~~~~~~~~~~~~~~~~
@@ -139,10 +136,10 @@ site <https://www.charachorder.com/pages/update-your-firmware>`__.
 .. warning::
    **IMPORTANT**: Before performing the below steps, please make sure that you have a :doc:`backup of your layout<Backups>`      as well as a :doc:`backup of your chord library<Backups>`. The update might reset those, so it's important that you    keep backup files handy. For instructions on how to restore backed up files, visit the :doc:`Backups<Backups>`    section. The update might also reset some of your :doc:`GTM<Generative Text Menu (GTM)>` settings. Be sure to write    down settings before you update.
 
-#. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://www.iq-eq.io/#/manager>`__ 
+#. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://manager.charachorder.com/config/layout/>`__ 
 #. Click “Connect”
-#. When the popup box comes up that reads “www.iq-eq.io wants to connect to a serial port”, choose your CharaChorder device, then click the blue “connect” button
-#. _`Click` “Bootloader”. Your CharaChorder will now appear as an external storage device on your computer’s file explorer or Finder app. It might be named one of the following: “Arduino”, “Seeduino”, “TinyUSB” or “CharaChorder X”.
+#. When the popup box comes up that reads “manager.charachorder.com wants to connect to a serial port”, choose your CharaChorder device, then click the blue “connect” button
+#. _`Click` “Boot Menu” (the power icon) followed by “Bootloader”. Your CharaChorder will now appear as an external storage device on your computer’s file explorer or Finder app. It might be named one of the following: “TinyUSB”, “TinyUSB CDC”, or “CharaChorder X”.
 #. Download your update file from this site: `<https://www.charachorder.com/pages/update-your-firmware>`__
 
 .. warning::
@@ -199,7 +196,7 @@ You can read an explanation on all of the settings on your CharaChorder device :
 The Layout
 -------------
 
-The CharaChorder X uses your keyboard's layout, so you don't have to learn a new one. The CharaChorder X reads the scancodes that your keyboard sends and makes use of them to produce outputs on your computer. The only drawback to this is that the CharaChorder X is unable to read keypresses that do not send a code. One common key that doesn't send a code is the Fn key. This key serves as a layer-access key, locally on your keyboard, that allows you to reach the F-keys. Although the CharaChorder X is unable to read the Fn keypress, the F-keys (F1-F24) will send out a scancode, and, thus, the CharaChorder X will send out that signal to the computer. 
+The CharaChorder X uses your keyboard's layout, so you don't have to learn a new one. The CharaChorder X reads the keycodes that your keyboard sends and makes use of them to produce outputs on your computer. The only drawback to this is that the CharaChorder X is unable to read keypresses that do not send a code. One common key that doesn't send a code is the Fn key. This key serves as a layer-access key, locally on your keyboard, that allows you to reach the F-keys. Although the CharaChorder X is unable to read the Fn keypress, the F-keys (F1-F24) will send out a keycode, and, thus, the CharaChorder X will send out that signal to the computer. 
 
 Additionally, the CharaChorder X enables you to make use of two extra layers as well. In order to reach those layers, you will have to :doc:`remap<Remapping>` your keyboard to include the layer access keys. Nonetheless, you can continue reading below to learn how the layers work on the CharaChorder X.
 
@@ -217,20 +214,15 @@ The A1 layer is the main layer that is active by default. You can access all of 
 else. This is the main layer. Your CharaChorder-connected keyboard will always be in the A1 layer upon boot.
 
 While the A1 layer is active on the CharaChorder X by default, you can
-map the A1 access key, which bears the name “KM_1_R” or “KM_1_L”, on the
-:doc:`CharaChorder-Config<Tools>` site or by
-:doc:`editing the layout csv and importing it onto your device<Remapping>`.
+map the A1 access key, which bears the name “Primary Keymap (Left)” or “Primary Keymap (Right)”, on the
+`Device Manager <https://manager.charachorder.com/config/layout/>`__.
 
 A2 Layer
 ^^^^^^^^
 
 The A2 layer, sometimes referred to as the “number layer”, is accessible
-with the :doc:`A2 access key<CharaChorder Keys>`. This key is NOT mapped on your CharaChorder X by default, because the CharaChorder X uses your keyboard's layout. In the `Key remapping reference
-guide <https://docs.google.com/spreadsheets/d/1--T9bXshCIC-OVly-CY3rK87fgb7AHgJl3IySh7cmHc/edit#gid=0>`__,
-this key has the name “KM_2_L” and “KM_2_R”, one for each side of the original
-CharaChorder One. Additionally, on the webtool
-:doc:`CharaChorder-Config<Tools>`, this key is also
-assignable by the names “KM_2_L” and “KM_2_R”.
+with the :doc:`A2 access key<CharaChorder Keys>`. This key is NOT mapped on your CharaChorder X by default, because the CharaChorder X uses your keyboard's layout. In the `Device Manager <https://manager.charachorder.com/config/layout/>`__,
+this key has the name “Numeric Layer (Left)” and “Numeric Layer (Right)”.
 
 Any key that is on the A2 Layer can only be accessed by pressing and
 holding the A2 Layer access key along with the target key. You do not
@@ -241,10 +233,8 @@ A3 Layer
 ^^^^^^^^
 
 The A3 layer, sometimes referred to as the “function layer”, is
-accessible with the :ref:`A3 access key<CharaChorder Keys>`. This key is NOT mapped on your CharaChorder X by default, because the CharaChorder X uses your keyboard's layout. In the `Remapping Reference Guide <https://docs.google.com/spreadsheets/d/1--T9bXshCIC-OVly-CY3rK87fgb7AHgJl3IySh7cmHc/edit#gid=0>`__,
-this key has the name “KM_3_L” and “KM_3_R”, one for each side of the original
-CharaChorder One. Additionally, on the webtool :doc:`CharaChorder-Config<Tools>`, this key is also
-assignable by the names “KM_3_L” and “KM_3_R”.
+accessible with the :ref:`A3 access key<CharaChorder Keys>`. This key is NOT mapped on your CharaChorder X by default, because the CharaChorder X uses your keyboard's layout. In the `Device Manager <https://manager.charachorder.com/config/layout/>`__,
+this key has the name “Function Layer (Left)” and “Function Layer (Right)”.
 
 Any key that is on the A3 Layer can only be accessed by
 pressing and holding the :doc:`A3 access key<CharaChorder Keys>`,
@@ -262,11 +252,9 @@ like other modifiers (such as CTRL and ALT). The Shift modifier output
 is currently controlled by the Operating System that your CharaChorder is
 plugged to, and it is not possible to customize their outputs.
 
-In the `Key Remapping Reference Guide <https://docs.google.com/spreadsheets/d/1--T9bXshCIC-OVly-CY3rK87fgb7AHgJl3IySh7cmHc/edit#gid=0>`__,
-this key has the name “Left_Shift” and “Right_Shift”, one for each side
-of the keyboard. Additionally, on the webtool
-:doc:`CharaChorder-config<Tools>`, this key is also
-assignable by the names “Left_Shift” and “Right_Shift”.
+In the `Device Manager <https://manager.charachorder.com/config/layout/>`__,
+this key has the name “Shift Keyboard Modifier (Left)” and “Shift Keyboard Modifier (Right)”, one for each side
+of the keyboard. 
 
 The Shift is accessible by pressing the key labeled "Shift" on your keyboard. Any key
 that requires the Shift Modifier can only be accessed by pressing and
