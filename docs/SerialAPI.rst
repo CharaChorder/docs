@@ -148,13 +148,14 @@ GET_CHORDMAP_BY_INDEX
    "OUTPUT","2","Index","Decimal","522",""
    "OUTPUT","3","Chord","Hexadecimal Number","001946418C0000000000000000000000","This will be 0 if index is out of bounds"
    "OUTPUT","4","Phrase","Hexadecimal CCActionCodes List","6361727065206469656D","`carpe diem`; this will be 0 if index is out of bounds"
+   "OUTPUT","5","Success","Boolean Number","0","This will be 0 on success, or greater than zero for an error if the chordmap did not exist"
 
 Example(s):
 
 .. code-block:: none
 
    > CML C1 522
-   CML C1 001946418C0000000000000000000000 6361727065206469656D
+   CML C1 522 001946418C0000000000000000000000 6361727065206469656D 0
 
 GET_CHORDMAP_BY_CHORD
 ^^^^^^^^^^^^^^^^^^^^^
