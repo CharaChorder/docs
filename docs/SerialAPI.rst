@@ -253,47 +253,47 @@ Parameter codes
 ^^^^^^^^^^^^^^^
 
 .. csv-table::
-   :header: "Parameter Codes","Code","Description"
+   :header: "Parameter Codes","Hexadecimal Code","Description"
 
-   "Enable Serial Header","1","boolean 0 or 1, default is 0"
-   "Enable Serial Logging","2","boolean 0 or 1, default is 0"
-   "Enable Serial Debugging","3","boolean 0 or 1, default is 0"
-   "Enable Serial Raw","4","boolean 0 or 1, default is 0"
-   "Enable Serial Chord","5","boolean 0 or 1, default is 0"
-   "Enable Serial Keyboard","6","boolean 0 or 1, default is 0"
-   "Enable Serial Mouse","7","boolean 0 or 1, default is 0"
-   "Enable USB HID Keyboard","11","boolean 0 or 1, default is 1"
-   "Enable Character Entry","12","boolean 0 or 1"
-   "GUI-CTRL Swap Mode","13","boolean 0 or 1; 1 swaps keymap 0 and 1. (CCL only)"
-   "Key Scan Duration","14","scan rate described in milliseconds; default is 2ms = 500Hz"
-   "Key Debounce Press Duration","15","debounce time in milliseconds; default is 7ms on the One and 20ms on the Lite"
-   "Key Debounce Release Duration","16","debounce time in milliseconds; default is 7ms on the One and 20ms on the Lite"
-   "Keyboard Output Character Microsecond Delays","17","delay time in microseconds (one delay for press and again for release); default is 480us; max is 10240us; increments of 40us"
-   "Enable USB HID Mouse","21","boolean 0 or 1; default is 1"
-   "Slow Mouse Speed","22","pixels to move at the mouse poll rate; default for CC1 is 5 = 250px/s"
-   "Fast Mouse Speed","23","pixels to move at the mouse poll rate; default for CC1 is 25 = 1250px/s"
-   "Enable Active Mouse","24","boolean 0 or 1; moves mouse back and forth every 60s"
-   "Mouse Scroll Speed","25","default is 1; polls at 1/4th the rate of the mouse move updates"
-   "Mouse Poll Duration","26","poll rate described in milliseconds; default is 20ms = 50Hz"
-   "Enable Chording","31","boolean 0 or 1"
-   "Enable Chording Character Counter Timeout","32","boolean 0 or 1; default is 1"
-   "Chording Character Counter Timeout Timer","33","0-255 deciseconds; default is 40 or 4.0 seconds"
-   "Chord Detection Press Tolerance(ms)","34","1-50 milliseconds"
-   "Chord Detection Release Tolerance(ms)","35","1-50 milliseconds"
-   "Enable Spurring","41","boolean 0 or 1; default is 1"
-   "Enable Spurring Character Counter Timeout","42","boolean 0 or 1; default is 1"
-   "Spurring Character Counter Timeout Timer","43","0-255 seconds; default is 240"
-   "Enable Arpeggiates","51","boolean 0 or 1; default is 1"
-   "Arpeggiate Tolerance","54","in milliseconds; default 800ms"
-   "Enable Compound Chording (coming soon)","61","boolean 0 or 1; default is 0"
-   "Compound Tolerance","64","in milliseconds; default 1500ms"
-   "LED Brightness","81","0-50 (CCL only); default is 5, which draws around 100 mA of current"
-   "LED Color Code","82","Color Codes to be listed (CCL only)"
-   "Enable LED Key Highlight (coming soon)","83","boolean 0 or 1 (CCL only)"
-   "Enable LEDs","84","boolean 0 or 1; default is 1 (CCL only)"
-   "Operating System","91",":ref:`Operating system codes<SerialAPI:Operating system codes>` listed below"
-   "Enable Realtime Feedback","92","boolean 0 or 1; default is 1"
-   "Enable CharaChorder Ready on startup","93","boolean 0 or 1; default is 1"
+   "Enable Serial Header","0x01","boolean 0 or 1, default is 0"
+   "Enable Serial Logging","0x02","boolean 0 or 1, default is 0"
+   "Enable Serial Debugging","0x03","boolean 0 or 1, default is 0"
+   "Enable Serial Raw","0x04","boolean 0 or 1, default is 0"
+   "Enable Serial Chord","0x05","boolean 0 or 1, default is 0"
+   "Enable Serial Keyboard","0x06","boolean 0 or 1, default is 0"
+   "Enable Serial Mouse","0x07","boolean 0 or 1, default is 0"
+   "Enable USB HID Keyboard","0x11","boolean 0 or 1, default is 1"
+   "Enable Character Entry","0x12","boolean 0 or 1"
+   "GUI-CTRL Swap Mode","0x13","boolean 0 or 1; 1 swaps keymap 0 and 1. (CCL only)"
+   "Key Scan Duration","0x14","scan rate described in milliseconds; default is 2ms = 500Hz"
+   "Key Debounce Press Duration","0x15","debounce time in milliseconds; default is 7ms on the One and 20ms on the Lite"
+   "Key Debounce Release Duration","0x16","debounce time in milliseconds; default is 7ms on the One and 20ms on the Lite"
+   "Keyboard Output Character Microsecond Delays","0x17","delay time in microseconds (one delay for press and again for release); default is 480us; max is 10240us; increments of 40us"
+   "Enable USB HID Mouse","0x21","boolean 0 or 1; default is 1"
+   "Slow Mouse Speed","0x22","pixels to move at the mouse poll rate; default for CC1 is 5 = 250px/s"
+   "Fast Mouse Speed","0x23","pixels to move at the mouse poll rate; default for CC1 is 25 = 1250px/s"
+   "Enable Active Mouse","0x24","boolean 0 or 1; moves mouse back and forth every 60s"
+   "Mouse Scroll Speed","0x25","default is 1; polls at 1/4th the rate of the mouse move updates"
+   "Mouse Poll Duration","0x26","poll rate described in milliseconds; default is 20ms = 50Hz"
+   "Enable Chording","0x31","boolean 0 or 1"
+   "Enable Chording Character Counter Timeout","0x32","boolean 0 or 1; default is 1"
+   "Chording Character Counter Timeout Timer","0x33","0-255 deciseconds; default is 40 or 4.0 seconds"
+   "Chord Detection Press Tolerance(ms)","0x34","1-50 milliseconds"
+   "Chord Detection Release Tolerance(ms)","0x35","1-50 milliseconds"
+   "Enable Spurring","0x41","boolean 0 or 1; default is 1"
+   "Enable Spurring Character Counter Timeout","0x42","boolean 0 or 1; default is 1"
+   "Spurring Character Counter Timeout Timer","0x43","0-255 seconds; default is 240"
+   "Enable Arpeggiates","0x51","boolean 0 or 1; default is 1"
+   "Arpeggiate Tolerance","0x54","in milliseconds; default 800ms"
+   "Enable Compound Chording (coming soon)","0x61","boolean 0 or 1; default is 0"
+   "Compound Tolerance","0x64","in milliseconds; default 1500ms"
+   "LED Brightness","0x81","0-50 (CCL only); default is 5, which draws around 100 mA of current"
+   "LED Color Code","0x82","Color Codes to be listed (CCL only)"
+   "Enable LED Key Highlight (coming soon)","0x83","boolean 0 or 1 (CCL only)"
+   "Enable LEDs","0x84","boolean 0 or 1; default is 1 (CCL only)"
+   "Operating System","0x91",":ref:`Operating system codes<SerialAPI:Operating system codes>` listed below"
+   "Enable Realtime Feedback","0x92","boolean 0 or 1; default is 1"
+   "Enable CharaChorder Ready on startup","0x93","boolean 0 or 1; default is 1"
 
 
 Operating system codes
@@ -336,19 +336,19 @@ CMD_VAR_GET_PARAMETER
 
    "INPUT","0","Command","Chars","VAR",""
    "INPUT","1","SubCommand","Hexadecimal VAR Code","B1","Get parameter value"
-   "INPUT","2","Parameter Code","Hexadecimal Parameter Code","2E",""
+   "INPUT","2","Parameter Code","Hexadecimal Parameter Code","0x15",""
    "OUTPUT","0","Command","Chars","VAR",""
    "OUTPUT","1","SubCommand","Hexadecimal VAR Code","B1",""
-   "OUTPUT","2","Parameter Code","Hexadecimal Parameter Code","2E",""
-   "OUTPUT","3","Data Out","Decimal Number","38",""
+   "OUTPUT","2","Parameter Code","Hexadecimal Parameter Code","0x15",""
+   "OUTPUT","3","Data Out","Decimal Number","7",""
    "OUTPUT","4","Success","Boolean Number","0","This will be 0 on success, or greater than zero for an error if the VAR Code or Parameter Code doesnt exist"
 
 Example(s):
 
 .. code-block:: none
 
-   > VAR B1 2E
-   VAR B1 2E 38 0
+   > VAR B1 0x15
+   VAR B1 0x15 7 0
 
 CMD_VAR_SET_PARAMETER
 ^^^^^^^^^^^^^^^^^^^^^
@@ -358,20 +358,20 @@ CMD_VAR_SET_PARAMETER
 
    "INPUT","0","Command","Chars","VAR",""
    "INPUT","1","SubCommand","Hexadecimal VAR Code","B2","Set parameter value"
-   "INPUT","2","Parameter Code","Hexadecimal Parameter Code","2E",""
-   "INPUT","3","Data In","Decimal Number","46",""
+   "INPUT","2","Parameter Code","Hexadecimal Parameter Code","0x15",""
+   "INPUT","3","Data In","Decimal Number","17",""
    "OUTPUT","0","Command","Chars","VAR",""
    "OUTPUT","1","SubCommand","Hexadecimal VAR Code","B2",""
-   "OUTPUT","2","Parameter Code","Hexadecimal Parameter Code","2E",""
-   "OUTPUT","3","Data Out","Decimal Number","46","This will be a 00 (double zero) if the VAR Code or Parameter Code doesn't exist or the input value is out of range"
+   "OUTPUT","2","Parameter Code","Hexadecimal Parameter Code","0x15",""
+   "OUTPUT","3","Data Out","Decimal Number","17","This will be a 00 (double zero) if the VAR Code or Parameter Code doesn't exist or the input value is out of range"
    "OUTPUT","4","Success","Boolean Number","0","This will be 0 on success, or greater than zero for an error if there was a problem"
 
 Example(s):
 
 .. code-block:: none
 
-   > VAR B2 2E 46
-   VAR B2 2E 46 0
+   > VAR B2 0x15 17
+   VAR B2 0x15 17 0
 
 CMD_VAR_GET_KEYMAP
 ^^^^^^^^^^^^^^^^^^^^^
