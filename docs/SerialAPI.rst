@@ -71,7 +71,7 @@ attached to the computer.
    "INPUT","0","Command","Chars","ID",""
    "OUTPUT","0","Command","Chars","ID",""
    "OUTPUT","1","Company","Chars","CHARACHORDER",""
-   "OUTPUT","2","Device","Chars","ONE","ONE, LITE, or X"
+   "OUTPUT","2","Device","Chars","ONE","ONE, LITE, ENGINE, or X"
    "OUTPUT","3","Chipset","Chars","M0","M0 or S2" 
 
 Example(s):
