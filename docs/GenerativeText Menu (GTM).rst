@@ -355,7 +355,7 @@ If your CCOS device suddenly loses its chording ability, it's a good idea to che
 Press Tolerance 
 ~~~~~~~~~~~~~~~~
 
-The press tolerance refers to a window of time in which a chord can be performed, measured in milliseconds (ms). This timer is initiated upon the first "press" action of the first key in a chord and ends once a key is released, or until the press tolerance runs out, whichever comes first.
+The press tolerance refers to a window of time in which a chord can be performed, measured in milliseconds (ms). This timer is initiated upon the first "press" action of the first key in a chord and ends once the last key of the chord is pressed, or until the press tolerance runs out, whichever comes first.
 
 .. _Tolerances:
 .. image:: /assets/images/Press-and-Release-Tolerances.WEBP
