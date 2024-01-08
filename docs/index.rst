@@ -27,13 +27,6 @@ Table of Contents
    CharaChorder X.rst
    CharaChorder Operating System (CCOS).rst
    Chords.rst
-<<<<<<< Updated upstream
    GenerativeTextMenu.rst
-=======
-<<<<<<< Updated upstream
-=======
-   Generative Text Menu (GTM).rst
->>>>>>> Stashed changes
->>>>>>> Stashed changes
    Glossary.rst
    SerialAPI.rst
