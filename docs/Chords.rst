@@ -26,6 +26,7 @@ of those is and how they affect chords on your CharaChorder device
 below. Throughout this guide, we might use the term “perform” when
 talking about carrying out a chord. 
 
+.. _Chord Input:
 Chord Input
 ~~~~~~~~~~~~~~~~~~
 
