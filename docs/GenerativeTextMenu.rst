@@ -17,15 +17,11 @@ You will notice that some settings have different press and release values. This
 .. warning::
 	Please note that updating your CCOS device might reset your GTM settings to default. Please make sure that you have a :doc:`backup of your GTM settings<Backups>` before updating your CCOS device. For instructions on how to restore backed up files, visit the :doc:`Backups<Backups>` section.
 
-
-Table of Contents of this Page
-==============================
-
-.. contents::
+.. contents:: Table of Contents of this Page
    :local:
 
 How to access the GTM
-**************************
+*********************
 
 First, move your cursor into any area where you can type. For best results, you may want to choose a text area that doesn't automatically format text since some of the keys that the GTM uses may trigger unwanted formatting. We recommend using a vanilla (basic) text editor such as Notepad. Please note, however, that Windows Notepad has been known to have issues with how the GTM is displayed on Windows 11 PCs.
 
@@ -41,7 +37,7 @@ Use the table below to find out how to trigger the GTM for your CCOS device. Ple
 
 .. _How to navigate through the GTM:
 How to navigate through the GTM
-*********************************
+*******************************
 
 The GTM has different submenus that we can call "pages". Each "page" of the GTM will have different options which can either adjust a specific setting or take you to another submenu. 
 
@@ -58,7 +54,7 @@ In some submenus, you will see numeric values. In order to increase or decrease 
 
 .. _Available Menus:
 Available Menus
-******************
+***************
 
 .. csv-table::
     :header: "Menu", "Description"
@@ -97,7 +93,7 @@ You can find the default scan rates of the different CharaChorder devices in the
 
 .. _Debounce Press:
 Debounce Press
-~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~
 
 The debounce press setting refers to the time frame (measured in milliseconds) in which  :doc:`CCOS<CharaChorder Operating System (CCOS)>` will filter out duplicate key activations on a press event. In other words, any duplicate activations within the given time frame will only be counted as one. 
 
@@ -119,7 +115,7 @@ You can find the default debounce press value of the different CharaChorder devi
 
 .. _Debounce Release:
 Debounce Release
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~
 
 The debounce release setting refers to the time frame (measured in milliseconds) in which :doc:`CCOS<CharaChorder Operating System (CCOS)>` will filter out duplicate key activations on a release event. In other words, any duplicate activations within the given time frame will only be counted as one. 
 
@@ -171,7 +167,7 @@ letters output by the CCOS device will be capitalized. When off, all letters out
 
 .. _Operating System:
 Operating System
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~
 
 This setting refers to your host computer's operating system. Because the keys on the different computer operating systems may vary, you can set your CCOS device up so that it matches your computer. 
 
@@ -192,7 +188,7 @@ The intent of this setting is to provide more accurate key mapping. As such, it 
 
 .. _GUI-CTRL Soft Swap (CharaChorder Lite only):
 GUI-CTRL Soft Swap (CharaChorder Lite only)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This setting will swap the behavior of the two keys on the bottom-left of the CharaChorder Lite. 
 
@@ -281,7 +277,7 @@ You can find the default settings for each device in the table below:
 
 .. _Fast Speed:
 Fast Speed
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~
 
 Fast speed is activated when you use two mouse keys in a single direction (as opposed to using only one key in the same direction). Increasing this setting will make your CCOS pointer move faster. 
 
@@ -353,12 +349,13 @@ If your CCOS device suddenly loses its chording ability, it's a good idea to che
 
 .. _Press Tolerance:
 Press Tolerance 
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~
 
 The press tolerance refers to a window of time in which a chord can be performed, measured in milliseconds (ms). This timer is initiated upon the first "press" action of the first key in a chord and ends once a key is released, or until the press tolerance runs out, whichever comes first.
 
 .. _Tolerances:
-.. image:: /assets/images/Press-and-Release-Tolerances.WEBP
+
+.. image:: /assets/images/Press-and-Release-Tolerances.png
   :width: 1200
   :alt: Diagram Explaining Tolerances
 
@@ -382,7 +379,7 @@ You can find the default settings for each device in the table below:
 
 .. _Release Tolerance:
 Release Tolerance
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~
 
 The release tolerance refers to a window of time in which a chord can be performed, measured in milliseconds (ms). This timer is initiated upon the first "release" action of any key in a chord and ends once the chord is fully performed, or until the release tolerance runs out, whichever comes first.
 
@@ -513,7 +510,7 @@ Realtime feedback refers to the helpful text like ``SPURRING_ON``, ``SPURRING_OF
 
 .. _Startup:
 Startup
-~~~~~~~~~~
+~~~~~~~
 
 Having this setting set to "ON" will result in your device displaying the text "CCOS is ready." after you have plugged your device into a computer. The startup text will be displayed wherever your cursor was last typing, if that window is active. This setting is useful so that you know when your CharaChorder device is ready to be used, since startup may take a couple of seconds.
 
@@ -535,13 +532,13 @@ The :doc:`CharaChorder Lite<CharaChorder Lite>` comes with RGB LEDs that light u
 
 .. _LED On/Off:
 On/Off
-^^^^^^^^
+^^^^^^
 
 Quickly toggle the LEDs on or off with this setting.
 
 .. _LED Color:
 Color 
-^^^^^^
+^^^^^
 
 Use this setting to change the color of the LED backlights on your CharaChorder Lite. In the GTM, there are 11 colors to choose from which you can see in the table below:
 
@@ -564,7 +561,7 @@ Please note that, as of December of 2023, the LEDs are NOT individually addressa
 
 .. _LED Brightness:
 Brightness
-^^^^^^^^^^^
+^^^^^^^^^^
 
 This setting lets you adjust the brightness of the LED backlights on your CharaChorder Lite. You can choose any number between 0 and 50, where 0 means that your LEDs are completely off and 50 means that your LEDs are at max brightness.
 

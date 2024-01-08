@@ -4,7 +4,7 @@ One of CharaChorder devices’ greatest features is their
 :doc:`chording<Chords>` ability. Read this section to learn what
 chording is and how you can benefit from it on your own CharaChorder. 
 
-.. contents::
+.. contents::  Table of Contents of this Page
    :local:
 
 What are Chords?
