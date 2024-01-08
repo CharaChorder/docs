@@ -241,7 +241,7 @@ which is the latest firmware release by visiting `this
 site <https://www.charachorder.com/pages/update-your-firmware>`__. 
 
 .. warning::
-   IMPORTANT: Before performing the below steps, please make sure that you have a :doc:`backup of your layout<Backups>`      as well as a :doc:`backup of your chord library<Backups>`. The update might reset those, so it's important that you    keep backup files handy. For instructions on how to restore backed up files, visit the :doc:`Backups<Backups>`    section. The update might also reset some of your :ref:`GTM<Generative Text Menu (GTM)>` settings. Be sure to write    down settings before you update.
+   IMPORTANT: Before performing the below steps, please make sure that you have a :doc:`backup of your layout<Backups>`      as well as a :doc:`backup of your chord library<Backups>` and a :doc:`backup of your GTM settings<Backups>`. The update might reset those, so it's important that you    keep backup files handy. For instructions on how to restore backed up files, visit the :doc:`Backups<Backups>`    section.
 
 #. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://www.iq-eq.io/#/manager>`__ 
 #. Click “Connect”
@@ -384,7 +384,7 @@ while the target key is pressed.
 
 .. note::
    EXAMPLE: On the CC English layout, you can access the F1 key by
-   pressing and holding either pinky down, into the device.
+   pressing and holding either pinky down, into the device, and adding the letter ``a`` or ``r`` (location of number 1 on the default layout) to it.
 
 Shift Modifier
 ^^^^^^^^^^^^^^
