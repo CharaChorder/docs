@@ -17,10 +17,7 @@ You will notice that some settings have different press and release values. This
 .. warning::
 	Please note that updating your CCOS device might reset your GTM settings to default. Please make sure that you have a :doc:`backup of your GTM settings<Backups>` before updating your CCOS device. For instructions on how to restore backed up files, visit the :doc:`Backups<Backups>` section.
 
-
-**Table of Contents of this Page**
-
-.. contents::
+.. contents:: Table of Contents of this Page
    :local:
 
 How to access the GTM
@@ -357,7 +354,8 @@ Press Tolerance
 The press tolerance refers to a window of time in which a chord can be performed, measured in milliseconds (ms). This timer is initiated upon the first "press" action of the first key in a chord and ends once a key is released, or until the press tolerance runs out, whichever comes first.
 
 .. _Tolerances:
-.. image:: /assets/images/Press-and-Release-Tolerances.WEBP
+
+.. image:: /assets/images/Press-and-Release-Tolerances.png
   :width: 1200
   :alt: Diagram Explaining Tolerances
 

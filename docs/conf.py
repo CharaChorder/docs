@@ -52,7 +52,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'CharaChorder Docs'
-copyright = '2023, CharaChorder'
+copyright = '2024, CharaChorder'
 author = 'CharaChorder'
 
 # The version info for the project you're documenting, acts as replacement for
