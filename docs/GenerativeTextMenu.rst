@@ -367,7 +367,7 @@ CCOS devices feature the ability to :doc:`chord<Chords>`. The following settings
 Character Only Mode
 ~~~~~~~~~~~~~~~~~~~
 
-``Path: GTM > Chording > Charachter Only Mode``
+``Path: GTM > Chording > Character Only Mode``
 
 This setting is a toggle that disables chording capabilities on CCOS devices. It is off by default and can be enabled in case we don't want any chording at all. This setting can be useful in cases where we don't want to accidentally trigger chords unintentionally, such as when gaming.
 
