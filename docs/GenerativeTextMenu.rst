@@ -75,6 +75,8 @@ Under this menu, you will be able to modify settings pertaining to how your CCOS
 Scan Rate
 ~~~~~~~~~
 
+``Path: GTM > Keyboard > Scan Rate``
+
 The scan rate, sometimes known as the "Key scan duration," refers to the frequency at which the device checks the state of the input keys. 
 For reference, 5 ms corresponds to 200 Hz, which means that :doc:`CCOS<CharaChorder Operating System (CCOS)>` checks the position of the keys once every 5 milliseconds, which equals 200 times in a second. Having a lower number is usually better as it makes CCOS more responsive, though the difference at low numbers is usually negligible. In the GTM, this setting is adjustable in millisecond (ms) units.
 
@@ -94,6 +96,8 @@ You can find the default scan rates of the different CharaChorder devices in the
 .. _Debounce Press:
 Debounce Press
 ~~~~~~~~~~~~~~
+
+``Path: GTM > Keyboard > Debounce Press``
 
 The debounce press setting refers to the time frame (measured in milliseconds) in which  :doc:`CCOS<CharaChorder Operating System (CCOS)>` will filter out duplicate key activations on a press event. In other words, any duplicate activations within the given time frame will only be counted as one. 
 
@@ -117,6 +121,8 @@ You can find the default debounce press value of the different CharaChorder devi
 Debounce Release
 ~~~~~~~~~~~~~~~~
 
+``Path: GTM > Keyboard > Debounce Release``
+
 The debounce release setting refers to the time frame (measured in milliseconds) in which :doc:`CCOS<CharaChorder Operating System (CCOS)>` will filter out duplicate key activations on a release event. In other words, any duplicate activations within the given time frame will only be counted as one. 
 
 We should adjust this setting if we are having unintentional duplicate characters while typing. Increasing this value will lower the probability that unwanted duplicate characters will appear because it tells :doc:`CCOS<CharaChorder Operating System (CCOS)>` to wait longer before typing an additional character that's assigned to the same switch-direction. However, having this setting set too high might also cause issues with :doc:`CCOS<CharaChorder Operating System (CCOS)>` not reading intentional double-presses, so it's recommended to try different numbers in small increments. This setting should be used in connection with the :ref:`debounce press <Debounce Press>` setting.
@@ -138,6 +144,8 @@ You can find the default debounce release value of the different  CharaChorder d
 .. _Keystroke Delay:
 Keystroke Delay
 ~~~~~~~~~~~~~~~
+
+``Path: GTM > Keyboard > Keystroke Delay``
 
 This setting adds a small delay to keystroke inputs. It is measured in microseconds (μs) and is very small by default. 
 
@@ -162,12 +170,16 @@ This value is adjusted in 40us increments. You can find the default debounce pre
 Capslock
 ~~~~~~~~
 
+``Path: GTM > Keyboard > Capslock``
+
 This setting is similar to a computer's Capslock: it toggles the state of the capslock. When on, all 
 letters output by the CCOS device will be capitalized. When off, all letters output by the CCOS device will be lowercase.
 
 .. _Operating System:
 Operating System
 ~~~~~~~~~~~~~~~~
+
+``Path: GTM > Keyboard > Operating System``
 
 This setting refers to your host computer's operating system. Because the keys on the different computer operating systems may vary, you can set your CCOS device up so that it matches your computer. 
 
@@ -189,6 +201,8 @@ The intent of this setting is to provide more accurate key mapping. As such, it 
 .. _GUI-CTRL Soft Swap (CharaChorder Lite only):
 GUI-CTRL Soft Swap (CharaChorder Lite only)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+``Path: GTM > Keyboard > GUI-CTRL Soft Swap``
 
 This setting will swap the behavior of the two keys on the bottom-left of the CharaChorder Lite. 
 
@@ -224,6 +238,8 @@ CCOS allows you to use your device as a mouse including functions like scrolling
 Poll Rate
 ~~~~~~~~~
 
+``Path: GTM > Mouse > Poll Rate``
+
 The polling rate (poll rate) is the frequency at which data from the CharaChorder's mouse functionality is sent to the device it's connected to. In other words, how often it updates the cursor's position to the computer. This is typically expressed in Hz (Hertz), with the average gaming mouse reporting data at 1000 Hz, which means 1000 times every second.
 
 However, :doc:`CCOS<CharaChorder Operating System (CCOS)>` uses ms (milliseconds) which is directly inverse to Hz. 1 ms is equal to 1000 Hz, 2 ms is equal to 500 Hz, and 1000 ms is equal to 1 Hz.
@@ -253,6 +269,8 @@ This setting is used in conjunction with the :ref:`slow speed <Slow Speed>` and 
 Slow Speed
 ~~~~~~~~~~
 
+``Path: GTM > Mouse > Slow Speed``
+
 Slow speed is activated when you use only one of the mouse keys in a single direction (as opposed to using 2 keys in the same direction). Increasing this setting will make your CCOS pointer move faster. 
 
 This setting is used in conjunction with :ref:`poll rate <Poll Rate>`. See the explanation below.
@@ -279,6 +297,8 @@ You can find the default settings for each device in the table below:
 Fast Speed
 ~~~~~~~~~~
 
+``Path: GTM > Mouse > Fast Speed``
+
 Fast speed is activated when you use two mouse keys in a single direction (as opposed to using only one key in the same direction). Increasing this setting will make your CCOS pointer move faster. 
 
 This setting is used in conjunction with :ref:`poll rate <Poll Rate>`. See the explanation below.
@@ -303,6 +323,8 @@ You can find the default settings for each device in the table below:
 .. _Scroll Speed:
 Scroll Speed
 ~~~~~~~~~~~~
+
+``Path: GTM > Mouse > Scroll Speed``
 
 Scroll speed refers to the speed at which your CCOS scroll will scroll. 
 
@@ -330,6 +352,8 @@ You can find the default settings for each device in the table below:
 Active Mode
 ~~~~~~~~~~~
 
+``Path: GTM > Mouse > Active Mode``
+
 Active mode nudges your mouse cursor one pixel every minute or so (not a specific timing).
 This setting can be used to keep your computer from going to sleep. You might turn this setting off if you notice desktop apps are preventing you from getting mobile notifications (for example on Discord or Microsoft Teams).
 
@@ -343,6 +367,8 @@ CCOS devices feature the ability to :doc:`chord<Chords>`. The following settings
 Character Only Mode
 ~~~~~~~~~~~~~~~~~~~
 
+``Path: GTM > Chording > Charachter Only Mode``
+
 This setting is a toggle that disables chording capabilities on CCOS devices. It is off by default and can be enabled in case we don't want any chording at all. This setting can be useful in cases where we don't want to accidentally trigger chords unintentionally, such as when gaming.
 
 If your CCOS device suddenly loses its chording ability, it's a good idea to check if this setting is toggled off. 
@@ -350,6 +376,8 @@ If your CCOS device suddenly loses its chording ability, it's a good idea to che
 .. _Press Tolerance:
 Press Tolerance 
 ~~~~~~~~~~~~~~~
+
+``Path: GTM > Chording > Press Tolerance``
 
 The press tolerance refers to a window of time in which a chord can be performed, measured in milliseconds (ms). This timer is initiated upon the first "press" action of the first key in a chord and ends once the last key of the chord is pressed, or until the press tolerance runs out, whichever comes first.
 
@@ -381,10 +409,13 @@ You can find the default settings for each device in the table below:
 Release Tolerance
 ~~~~~~~~~~~~~~~~~
 
+``Path: GTM > Chording > Release Tolerance``
+
 The release tolerance refers to a window of time in which a chord can be performed, measured in milliseconds (ms). This timer is initiated upon the first "release" action of any key in a chord and ends once the chord is fully performed, or until the release tolerance runs out, whichever comes first.
 
 .. _Tolerances:
-.. image:: /assets/images/Press-and-Release-Tolerances.WEBP
+
+.. image:: /assets/images/Press-and-Release-Tolerances.png
   :width: 1200
   :alt: Diagram Explaining Tolerances
 
@@ -411,6 +442,8 @@ You can find the default settings for each device in the table below:
 Timeout
 ~~~~~~~
 
+``Path: GTM > Chording > Timeout``
+
 This setting will change how long CCOS counts time in order to replace characters that precede a chord.
 
 CCOS devices have a running timer that starts after every single character that is entered in traditional chentry (character entry, i.e. one letter at a time). This timer controls whether or not the next chord that you perform deletes the preceding characters.
@@ -435,6 +468,8 @@ You can find the default settings for each device in the table below:
 Spurring
 ~~~~~~~~
 
+``Path: GTM > Chording > Spurring``
+
 A 'chording only' mode which tells your device to output chords on a press event rather than a press & release and release event. When in spurring mode, you can press the keys of a chord one at a time with a much longer waiting period, which makes it a useful mode for those who want to practice chording without worrying about proper :ref:`timing<Press Tolerance>`. 
 
 Spurring mode also enables you to jump from one chord to another without releasing everything. It can provide significant speed gains when chording, but also takes away the flexibility of character entry. Spurring mode can truly maximize speed when chording if a user has chords for all of the words they want to use. 
@@ -443,11 +478,15 @@ Spurring mode also enables you to jump from one chord to another without releasi
 Spurring On/Off
 ^^^^^^^^^^^^^^^
 
+``Path: GTM > Chording > Character Only Mode > Spurring Timeout``
+
 This setting will toggle spurring mode ON or OFF.
 
 .. _Spurring Timeout:
 Spurring Timeout
 ^^^^^^^^^^^^^^^^
+
+``Path: GTM > Chording > Spurring > Spurring Timeout``
 
 The time of inactivity to default back to fluid chorded/character entry mode (aka spurring off).
 
@@ -462,7 +501,9 @@ You can find the default settings for each device in the table below:
 
 .. _Arpeggiate:
 Arpeggiate
-~~~~~~~~~~~
+~~~~~~~~~~
+
+``Path: GTM > Chording > Arpeggiate``
 
 Arpeggiate actions are timed actions that can modify a chord after the chord is performed. A quick example of this is the use of :doc:`chord modifiers<Chord Modifiers>` after you perform the chord. You can read that section for information on how the :doc:`chord modifiers<Chord Modifiers>` work.
 
@@ -473,6 +514,8 @@ With arpeggiates enabled, you can chord the word ``run`` and then, within the :r
 Arpeggiate On/Off
 ^^^^^^^^^^^^^^^^^
 
+``Path: GTM > Chording > Arpeggiate > Arpeggiate On/Off``
+
 This setting will let you toggle the arpeggiate capability ON or OFF. 
 
 Some users dislike arpeggiates as, in really fast typing, it may cause unwanted modifications.
@@ -480,6 +523,8 @@ Some users dislike arpeggiates as, in really fast typing, it may cause unwanted 
 .. _Arpeggiate Timeout:
 Arpeggiate Timeout
 ^^^^^^^^^^^^^^^^^^
+
+``Path: GTM > Chording > Arpeggiate > Arpeggiate Timeout``
 
 The arpeggiate timeout is a window of time after a chord is performed during which CCOS will expect arpeggiates to be performed. After this timer runs out, CCOS will NO LONGER modify the preceding chord. 
 
@@ -495,11 +540,15 @@ Under this section, you'll find settings that deal with how your CharaChorder di
 Version
 ~~~~~~~
 
+``Path: GTM > Display > Version``
+
 Though this is not a setting that can be modified, it's a useful piece of text that will show you the CCOS version that your CharaChorder is currently on. You can use this to quickly check what version you are running on the fly, anywhere that you can read GTM
 
 .. _Realtime Feedback:
 Realtime Feedback
 ~~~~~~~~~~~~~~~~~
+
+``Path: GTM > Display > Realtime Feedback``
 
 This setting toggles realtime feedback ON or OFF. 
 
@@ -511,6 +560,8 @@ Realtime feedback refers to the helpful text like ``SPURRING_ON``, ``SPURRING_OF
 .. _Startup:
 Startup
 ~~~~~~~
+
+``Path: GTM > Display > Startup``
 
 Having this setting set to "ON" will result in your device displaying the text "CCOS is ready." after you have plugged your device into a computer. The startup text will be displayed wherever your cursor was last typing, if that window is active. This setting is useful so that you know when your CharaChorder device is ready to be used, since startup may take a couple of seconds.
 
@@ -525,6 +576,8 @@ If you would rather not have this message display every time that you connect yo
 LEDs (CharaChorder Lite only)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+``Path: GTM > Display > LEDs``
+
 The :doc:`CharaChorder Lite<CharaChorder Lite>` comes with RGB LEDs that light up the keys of the keyboard from below with a static light. This section contains settings pertaining to those LED lights.
 
 .. note::
@@ -534,11 +587,15 @@ The :doc:`CharaChorder Lite<CharaChorder Lite>` comes with RGB LEDs that light u
 On/Off
 ^^^^^^
 
+``Path: GTM > Display > LEDs > On/Off``
+
 Quickly toggle the LEDs on or off with this setting.
 
 .. _LED Color:
 Color 
 ^^^^^
+
+``Path: GTM > Display > LEDs > Color``
 
 Use this setting to change the color of the LED backlights on your CharaChorder Lite. In the GTM, there are 11 colors to choose from which you can see in the table below:
 
@@ -563,6 +620,8 @@ Please note that, as of December of 2023, the LEDs are NOT individually addressa
 Brightness
 ^^^^^^^^^^
 
+``Path: GTM > Display > LEDs > Brightness``
+
 This setting lets you adjust the brightness of the LED backlights on your CharaChorder Lite. You can choose any number between 0 and 50, where 0 means that your LEDs are completely off and 50 means that your LEDs are at max brightness.
 
 Please note that LEDs are NOT individually addressable as of December of 2023. The brightness setting adjusts the brightness for ALL LEDs equally.
@@ -581,6 +640,8 @@ You can find the default settings for the CharaChorder Lite in the table below:
 .. _Resources:
 Resources
 ---------
+
+``Path: GTM > Resources``
 
 This section contains links which may be helpful to you. These links include: 
 
