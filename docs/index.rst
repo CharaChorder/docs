@@ -27,6 +27,7 @@ Table of Contents
    CharaChorder X.rst
    CharaChorder Operating System (CCOS).rst
    Chords.rst
+   Layout.rst
    GenerativeTextMenu.rst
    Glossary.rst
    SerialAPI.rst
