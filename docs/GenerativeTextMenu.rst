@@ -507,7 +507,7 @@ Arpeggiate
 
 Arpeggiate actions are timed actions that can modify a chord after the chord is performed. A quick example of this is the use of :doc:`chord modifiers<Chord Modifiers>` after you perform the chord. You can read that section for information on how the :doc:`chord modifiers<Chord Modifiers>` work.
 
-With arpeggiates enabled, you can chord the word ``run`` and then, within the :ref:`arpeggiate timeout window<Arepeggiate Timeout>`, press the :doc:`past tense modifier<Paste Tense Modifier>` for the word to be "modified" into its past tense variant; in english, ``ran``.
+With arpeggiates enabled, you can chord the word ``run`` and then, within the :ref:`arpeggiate timeout window<Arepeggiate Timeout>`, press the :doc:`past tense modifier<Past Tense Modifier>` for the word to be "modified" into its past tense variant; in english, ``ran``.
  
 
 .. _Arpeggiate On/Off:
@@ -578,10 +578,10 @@ LEDs (CharaChorder Lite only)
 
 ``Path: GTM > Display > LEDs``
 
-The :doc:`CharaChorder Lite<CharaChorder Lite>` comes with RGB LEDs that light up the keys of the keyboard from below with a static light. This section contains settings pertaining to those LED lights.
+The :doc:`CharaChorder Lite<CharaChorder_Lite>` comes with RGB LEDs that light up the keys of the keyboard from below with a static light. This section contains settings pertaining to those LED lights.
 
 .. note::
-	LED settings only exist in the GTM for :doc:`CharaChorder Lite<CharaChorder Lite>` devices, not on any other CharaChorder devices.
+	LED settings only exist in the GTM for :doc:`CharaChorder Lite<CharaChorder_Lite>` devices, not on any other CharaChorder devices.
 
 .. _LED On/Off:
 On/Off
