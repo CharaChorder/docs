@@ -2,6 +2,7 @@
 __pycache__/
 _build/
 venv/
+.direnv/
 results/*.png
 results/*.txt
 processed_data/*.dat
