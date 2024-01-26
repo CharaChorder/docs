@@ -302,10 +302,46 @@ Learning the Layout
 The default CharaChorder layout, which we will refer to as the CC
 English layout, has been designed to favor :doc:`bigrams<Logic behind the Layout>` and :doc:`trigrams<Logic behind the Layout>` commonly used in the English language while making the letters accessible for a logical choice of :doc:`lexical<Chords>`. You can find the map below.
 
+.. note::
+   General consensus amongst the community is that, while not perfect,
+   the letter arrangement of the default layout is good enough that further mondifications would provide very little benefit
+   considering 500+ WPM have been reached in peak conditions.
+   
+   **Most commonly only special character and number placement is changed**, for example to benefit coding.
+
+   Some exceptions include optimizing for VIM bindings, though people have successfully used the default layout for VIM as well
+   and benefits of such modifications are debatable.
+
+
 .. _CCEnglish Layout:
 .. image:: /assets/images/CCEnglish.png
   :width: 1200
   :alt: CC English Layout
+
+.. details:: Design of the default layout
+
+  The design of the layout of the keys was by far the most time and iteration intensive part of designing the CC1.
+  80% science, 20% art.
+
+  However, trying to validate or prove that any layout is better than others,
+  like we have seen with the QWERTY keyboard,
+  is very complex and you know it is not a simple answer.
+
+  One of the big benefits of the CC1 is you are actually using your thumbs.
+  On the smartphone, your thumbs can type almost as fast as all of your other fingers together combined,
+  and yet on a normal keyboard layout they are both tethered to a single button.
+
+  So to maximize left vs right and finger vs thumb alterations.
+  To optimize, to pair and marry the frequency of the key with the ease of press-ability was the start of the layout,
+  the start of a highly iterative process which fills up notebooks and notebooks.
+
+  In total:
+
+  1. The keys were first rated based on the ease of use,
+     so which ones you are able to activate with your fingers in which directions.
+  2. Then keys were laid out based on the letter frequency in the language,
+     in such a manner that you are hitting the easier keys most often.
+  3. It was then also optimized to maximize the amount of left vs right hand as well as finger vs thumb alterations.
 
 Layers
 ~~~~~~
