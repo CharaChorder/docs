@@ -35,11 +35,25 @@ add it to index.rst if you'd like to have it shown on the left side bar.
 
 ## Linking
 
-.. \_Slow Speed: = Anchor to same section in same doc
-:ref:`slow speed <Slow Speed>` = link to anchor
+If you'd like to link to another page (just the page) use something like this:
+```
+:doc:`chording<Chords>` 
+```
+
+If you want to link to a specific header in another page or on the same page:
+
+```
+:ref:`startup<GenerativeTextMenu:Startup>`
+```
+
+If you want to link to a specific anchor:
+```
+:ref:`slow speed <Slow Speed>`
+```
 
 ## Tables
 
+```
 .. csv-table::
 :header: "Device", "Default", "Min. Value", "Max. Value", "Increments"
 
@@ -47,16 +61,20 @@ add it to index.rst if you'd like to have it shown on the left side bar.
     "CharaChorder Lite", ""
     "CharaChorder X", ""
     "CharaChorder Engine", ""
+```
 
 ## Dropdown
 
+```
 .. dropdown:: Title of the Dropdown, visible with the DD closed.
 
     Text inside the dropdown should skip a line then indent once (4 spaces).
+```
 
 ## Images
 
-.. \_Reference Name:
+```
 .. image:: /assets/images/PATH-TO-IMAGE.jpg
-:width: 1200
-:alt: Alt text for screen readers
+  :width: 1200
+  :alt: Alt text for screen readers
+```
