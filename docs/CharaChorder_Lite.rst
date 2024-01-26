@@ -367,6 +367,10 @@ While the A1 layer is active on the CharaChorder Lite by default, you can
 map the A1 access key, which bears the name “KM_1_R” or “KM_1_L”, on the
 :doc:`layout manager<Device Manager:layout>` site. There is no real need to map the A1 access keys.
 
+.. image:: /assets/images/LiteLayoutAlpha.png
+  :width: 1200
+  :alt: The default A1 layer on the CharaChorder Lite
+
 A2 Layer
 ^^^^^^^^
 
@@ -381,6 +385,10 @@ holding the A2 Layer access key along with the target key. You do not
 need to :doc:`chord<Chords>` the keys together; it’s only required that the
 A2 Layer access key is pressed while the target key is pressed.
 
+.. image:: /assets/images/LiteLayoutNumber.png
+  :width: 1200
+  :alt: The default A2 layer on the CharaChorder Lite
+
 A3 Layer
 ^^^^^^^^
 
@@ -394,6 +402,11 @@ pressing and holding the :doc:`A3 access key<CharaChorder Keys>`,
 along with the target key. You do not need to :doc:`chord<Chords>` the keys
 together; it’s only required that the A3 layer access key is pressed
 while the target key is pressed.
+
+.. image:: /assets/images/LiteLayoutFunction.png
+  :width: 1200
+  :alt: The default A3 layer on the CharaChorder Lite
+
 
 Shift Modifier
 ^^^^^^^^^^^^^^
