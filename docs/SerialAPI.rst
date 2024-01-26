@@ -433,6 +433,7 @@ The `RST` command restarts the CCOS device. This will most likely also break the
    "INPUT","0","Command","Chars","RST",""
    "OUTPUT","0","Command","Chars","RST","Without optional command, this just restarts the device"
    "OUTPUT","1","SubCommand","Chars","BOOTLOADER","See full list of subcommands below"
+   "OUTPUT","2","Success","Boolean Number","0","This will be 0 on success, or greater than zero for an error if the subcommand did not exist or the subcommand was unsuccessful"
 
 RST SubCommands
 ^^^^^^^^^^^^^^^
