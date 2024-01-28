@@ -92,7 +92,7 @@ When searching for switches that fit the CCL, make sure that the switches are la
     Despite being a 60% keyboard, the CharaChorder Lite DOES have 4 arrow keys.
 
 .. _Gateron Switch Reference:
-.. image:: /assets/images/GateronSwitches.JPEG
+.. image:: /assets/images/GateronSwitches.jpeg
   :width: 1200
   :alt: A table comparing the different Gateron Switches
 
