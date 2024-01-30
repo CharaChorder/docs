@@ -1,2 +1,2 @@
-Device Manager - UNDER CONSTRUCTION
+Device Manager
 ======================================
