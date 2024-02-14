@@ -56,6 +56,7 @@ Device Manager Website
 ************************
 
 .. _Devicebutton:
+
 The device manager comes with several useful buttons that "stick" around regardless of what page you go to. The button that really jumped out to you during your first visit was probably the "Device" button. This button is pink at first, before you connect your device, and will turn transparent once you have a device :ref:`connected<Device Manager:Connecting to the Device Manager>`.
 
 .. image:: /assets/images/DMpinkbutton.png
@@ -72,6 +73,7 @@ Device Menu
 The Device menu is the place where you can connect your CCOS-powered device to the device manager through a :doc:`serial connection<SerialAPI>`. Here, you can also view your device type and CCOS version, as well as disconnect your device from the website's :doc:`serial connection<SerialAPI>`.
 
 .. _Autoreconnect:
+
 Additionally, you'll find a helpful toggle labeled "Auto-connect". By enabling this, the device manager will automatically connect your paired device through a :doc:`serial connection<SerialAPI>` every time that you open it. In doing so, it will also read your chords to detect changes that you may have made since the last time you connected it. If you have this enabled, you won't have to manually connect your device to the manager ever again!
 
 To the right of the connect/disconnect button, you'll find the "terminal" button. Clicking it will take you to the :ref:`terminal<Device Manager:Terminal>` page where you can send serial commands to your device. Check out the :doc:`Serial API<SerialAPI>` docs for information on what commands you can use.
@@ -85,7 +87,7 @@ History Menu
   :width: 400
   :alt: The History Menu
 
-The History Menu is home to your backups as well as a the place to go to in order to restore your device by using a backup file. There are different kinds of backups that you can create and we'll cover all of them in the :ref:`backups<Device Manager:Backups>` section.
+The History Menu is home to your backups as well as the place to go to in order to restore your device by using a backup file. There are different kinds of backups that you can create and we'll cover all of them in the :ref:`backups<Device Manager:Backups>` section.
 
 If you toggle the "Store History" on, then the website will log all of the changes you make to your device so that you may "step back" to a previous state of the device. In other words, if you change your layout, but then decide that you want to revert back to a layout that you tested previously, you'll be able to click into that previous state and undo all of the changes done thereafter. Your history is stored in the browser that you're using at that time and remains on your computer, so only YOU can see the changes you make.
 
@@ -169,6 +171,7 @@ When you :ref:`connect<Device Manager:Connecting to the Device Manager>` your de
 Chords displayed here are shown in alphabetical order, using the list of :ref:`chord outputs<Chords:Chord Output>`. The number of chords shown on the chord manager depends on your screen size and browser zoom settings. Above the chords list, you'll see the search bar which will display the number of chords on your CCOS device until something is typed there.
 
 .. _search bar:
+
 You can search through your chords by searching :ref:`chord outputs<Chords:Chord Output>` (the word that displays once you've performed a chord). This textbox is not case sensitive, so you can type in capital or lowercase letters regardless of whether or not the chord has a capital letter in it. This search bar is also intuitive enough that you are also able to search partial words/phrases.
 
 To the right of the search bar, you'll find two numbers separated by a forward slash (``/``). These numbers indicate the page number that you're on out of the total number of pages that compose your chord library. Using the angle brackets to the right of those numbers will allow you to flip through the different pages of your chord library which is sorted in alphabetical order.
@@ -198,6 +201,7 @@ You can follow the steps below to create a new chord on the device manager.
 		If you click :ref:`save<Device Manager:Save Button>`, before defining a :ref:`chord output<Chords:Chord Output>` as described in :ref:`step three<Step 3>`, any chords that you've created will save to your device with a blank output and will lead to strange behavior.
 
 .. _Step 3:
+
 3. Click into the text box to the right of the :ref:`chord input<Chords:Chord Input>` that you created in the previous step and type your desired :ref:`chord output<Chords:Chord Output>`. 
 
 	.. dropdown:: Using Action Codes
@@ -693,6 +697,7 @@ Updating Your Device
 	Before performing the below steps, please make sure that you have a :ref:`backup of your layout<Device Manager:Backups>` as well as a :ref:`backup of your chord library<Device Manager:Backups>` and a :ref:`backup of your GTM settings<Device Manager:Backups>`. The update might reset those, so it's important that you    keep backup files handy. For instructions on how to restore backed-up files, visit the :ref:`Backups<Device Manager:Backups>` section.
 
 .. _step 1:
+
 1. Click “Boot Menu” (the power icon) followed by “Bootloader”. Your CharaChorder will now appear as an external storage device on your computer’s File Explorer or Finder app. It might be named one of the following: “Arduino”, “Seeduino”, or “CharaChorder One”.
 
 
