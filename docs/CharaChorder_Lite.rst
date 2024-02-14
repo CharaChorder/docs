@@ -221,7 +221,7 @@ which is the latest firmware release by visiting `this
 site <https://www.charachorder.com/pages/update-your-firmware>`__. 
 
 .. warning::
-   IMPORTANT: Before performing the below steps, please make sure that you have a :doc:`backup of your layout<Backups>`      as well as a :doc:`backup of your chord library<Backups>` and a :doc:`backup of your GTM settings<Backups>`. The update might reset those, so it's important that you    keep backup files handy. For instructions on how to restore backed-up files, visit the :doc:`Backups<Backups>` section.
+   IMPORTANT: Before performing the below steps, please make sure that you have a :ref:`backup of your layout<Device Manager:Backups>`      as well as a :ref:`backup of your chord library<Device Manager:Backups>` and a :ref:`backup of your GTM settings<Device Manager:Backups>`. The update might reset those, so it's important that you    keep backup files handy. For instructions on how to restore backed-up files, visit the :ref:`Backups<Device Manager:Backups>` section.
 
 1. On a chromium based browser, such as Chrome or Edge, go to the `CharaChorder Device Manager <https://manager.charachorder.com>`__ 
 
@@ -277,7 +277,7 @@ Your CharaChorder will now appear as an external storage device on your computer
 .. note::
 	You'll notice that there are two different versions of the CharaChorder Lite. Please be sure to download the version that corresponds to your device, whether it's M0 or S2. You can check your device's version by following the steps :ref:`here<CharaChorder_Lite:Checking your Device’s Firmware>`.
 
-.. warning::
+.. danger::
    Make sure that the file you download is named exactly
    like this: CURRENT.UF2 . If there are any other characters in the
    file name, the file will not work. “CURRENT(1).UF2” will NOT work.

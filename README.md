@@ -74,7 +74,7 @@ If you want to link to a specific anchor:
 ## Images
 
 ```
-.. image:: /assets/images/PATH-TO-IMAGE.jpg
+.. image:: /assets/images/PATH-TO-IMAGE.png
   :width: 1200
   :alt: Alt text for screen readers
 ```
