@@ -14,7 +14,7 @@ CCOS powered text entry device. If you are interested in learning how to utilize
 CharaChorder Engine, please visit the `CharaChorder Engine Discord channel <https://discord.gg/VngNWSyZJb>`_ 
 and ping Riley Keen or Matt Swarts.
 
-.. contents::
+.. contents:: Table of Contents of this Page
    :local:
 
 Pinout Diagram
@@ -34,6 +34,13 @@ library, and output the results back to the MCU (again over UART and later I2C o
 SPI). However, the layout of the Engine exposes USB pins, which could have a future
 capability for direct USB HID output. This could be limiting for some developers,
 as they may want to control their HID reports themselves through their MCU.
+
+Physical footprint
+------------------
+
+`Here is a zip file <https://drive.google.com/file/d/1B5MwTrgjcbVu-GyUrb3xXM8vcKKkh0U-/view?usp=drive_link>`__
+that contains a step file as well as KiCad files for the CharaChorder Engine
+that can be used to aid you in the design of your CCOS powered keyboard. 
 
 Communicating with Engine Devices
 *********************************
