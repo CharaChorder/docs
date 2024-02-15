@@ -27,14 +27,15 @@ below. Throughout this guide, we might use the term “perform” when
 talking about carrying out a chord. 
 
 .. _Chord Input:
+
 Chord Input
 ~~~~~~~~~~~~~~~~~~
 
 A chord input is the
 combination of keys used in order to get a desired, predetermined
-:ref:`output<Chord Output>`. For example, we can have a chord that
+:ref:`output<Chords:Chord Output>`. For example, we can have a chord that
 requires the simultaneous press and release of the keys ``b`` and ``c``
-to get the output “because”. In :ref:`chord notation<Chord Notation>`,
+to get the output “because”. In :ref:`chord notation<Chords:Chord Notation>`,
 we would write that chord input as ``b+c``. Since chord inputs are
 performed simultaneously, meaning that all of the keys needed for an
 input are pressed and released at the same time, chord inputs are not
@@ -46,9 +47,9 @@ Chord Output
 A chord
 output is the predetermined letters, words, phrases and/or actions that
 result after performing a chord. If we use the
-:ref:`chord input<Chord Input>` of ``b`` and ``c`` and the result is
+:ref:`chord input<Chords:Chord Input>` of ``b`` and ``c`` and the result is
 the word “because”, then the word “because” would be the output. In
-:ref:`chord notation<Chord Notation>`, we would write that chord (the
+:ref:`chord notation<Chords:Chord Notation>`, we would write that chord (the
 input and the output) as ``b+c = because``. 
 
 Chord Notation 
@@ -90,21 +91,20 @@ How do I make Chords?
 You can make chords for your
 CharaChorder using a few different methods which we will discuss below.
 In order to make a chord, you will have to indicate your desired
-:ref:`chord input<Chord Input>` as well as your desired
-:ref:`chord output<Chord Output>`.
+:ref:`chord input<Chords:Chord Input>` as well as your desired
+:ref:`chord output<Chords:Chord Output>`.
 
 Your CharaChorder device already comes with some chords loaded onto it.
 These cover some of the most common words in the English language. You
 can click on the link to see that list in an external tab: `Starter Chords <https://docs.google.com/spreadsheets/d/1G_A77DsyoM2hod3by2BzM7Wcj3JGJsmNw7dAz98wS3U/edit?usp=sharing>`_.
 
 
-You can create custom chords on the :ref:`Device Manager<On Dot I/O>`,
-Dot I/O. Additionally, you, can create chords on the go by using
-:ref:`impulse chording<Impulse Chording>`. Read on for specific
+You can create custom chords on the :doc:`Device Manager<Device Manager>`. Additionally, you, can create chords on the go by using
+:ref:`impulse chording<Chords:Impulse Chording>`. Read on for specific
 instructions on how to do that. 
 
 On Device Manager
-~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~
 
 The CharaChorder Device Manager is our official web based configuration tool designed for CharaChorder devices. On there, you can do a
 variety of things. You can read all about Device Manager in this
@@ -112,31 +112,14 @@ variety of things. You can read all about Device Manager in this
 
 The process for adding chords to your CharaChorder is the same on all of
 our CharaChorder devices. You can
-:ref:`add new chords<Adding New Chords on Device Manager>`, or
-:ref:`import an existing chord library<Importing Chord Libraries on Device Manager>`.
+:ref:`add new chords<Chords:Adding New Chords on Device Manager>`, or
+:ref:`import an existing chord library<Device Manager:Restoring from a Backup>`.
 Read how below. 
 
 Adding New Chords on Device Manager
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.  On a chromium based browser, such as Chrome, go to the CharaChorder :doc:`device manager<Device Manager>`: `Weblink <https://manager.charachorder.com/config/chords/>`__
-2.  Click “Connect”
-3.  When the popup box comes up that reads “manager.charachorder.com wants to
-    connect to a serial port”, choose your CharaChorder device, then
-    click the blue “connect” button. You’ll know that you’re properly
-    connected if you can see your device name and CCOS version, similar to
-    the following text:
-    ``CHARACHORDER ONE M0 --- Version 1.1.3``
-4.  Under the “Chords” section, click the button labeled “New chord”.
-5.  The button changes to "Hold chord". At this time, you should press and hold the keys press the keys that you want to use for your
-    :ref:`chord input<Chord Input>`. The order in which the keys are pressed
-    is not :ref:`important<Chord Input>`.
-6.  Once you are happy, let go and then in the box to the right, type in your desired
-    :ref:`output<Chord Output>`
-7.  At this point you can add more chords, if you would like by repeating the previous steps.
-8.  Once you are satisfied with the :ref:`chord inputs<Chord Input>`
-    and the :ref:`chord outputs<Chord Output>`, click the “Save”
-    button at the top left.
+The steps to do this are :ref:`in the Device Manager documentation<Device Manager:Creating a Chord>`.
 
 Impulse chording
 ~~~~~~~~~~~~~~~~~~~

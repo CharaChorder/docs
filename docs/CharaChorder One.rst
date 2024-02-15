@@ -185,11 +185,11 @@ whether or not your cursor is somewhere where text can be entered… - You
 will be able to see a small, lime colored light inside the space that
 holds the USB-C port on the left half of the CharaChorder One.
 
-If you have :doc:`realtime feedback<GenerativeTextMenu:Realtime feedback>` enabled, once you can see the highlighted text that reads
+If you have :ref:`realtime feedback<GenerativeTextMenu:Realtime feedback>` enabled, once you can see the highlighted text that reads
 “CCOS is ready”, your device is ready to be used.
 
 .. note::
-   IMPORTANT: :doc:`Realtime feedback<GenerativeTextMenu:Realtime feedback>` is enabled by default on new CharaChorder devices.
+   IMPORTANT: :ref:`Realtime feedback<GenerativeTextMenu:Realtime feedback>` is enabled by default on new CharaChorder devices.
 
 Getting Started
 *******************
@@ -240,7 +240,7 @@ which is the latest firmware release by visiting `this
 site <https://www.charachorder.com/pages/update-your-firmware>`__. 
 
 .. warning::
-   IMPORTANT: Before performing the below steps, please make sure that you have a :doc:`backup of your layout<Backups>`      as well as a :doc:`backup of your chord library<Backups>` and a :doc:`backup of your GTM settings<Backups>`. The update might reset those, so it's important that you    keep backup files handy. For instructions on how to restore backed up files, visit the :doc:`Backups<Backups>`    section.
+   IMPORTANT: Before performing the below steps, please make sure that you have a :ref:`backup of your layout<Device Manager:Backups>` as well as a :ref:`backup of your chord library<Device Manager:Backups>` and a :ref:`backup of your GTM settings<Device Manager:Backups>`. The update might reset those, so it's important that you    keep backup files handy. For instructions on how to restore backed up files, visit the :ref:`Backups<Device Manager:Restoring from a Backup>`    section.
 
 #. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://manager.charachorder.com/config/layout/>`__ 
 #. Click “Connect”
@@ -454,7 +454,7 @@ layout has been optimized for writing in English by
 :doc:`chentry<Glossary>` and :doc:`chording<Chords>`, some users may
 choose to :doc:`remap<Glossary>` their device’s layout to better
 suit their personal needs. For a thorough explanation on how remapping
-works and how to remap your device, visit the :doc:`remapping section<Remapping>`
+works and how to remap your device, visit the :ref:`remapping section<Device Manager:Remapping>`
 
 Practice
 ~~~~~~~~

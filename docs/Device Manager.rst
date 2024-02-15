@@ -78,7 +78,7 @@ Additionally, you'll find a helpful toggle labeled "Auto-connect". By enabling t
 
 To the right of the connect/disconnect button, you'll find the "terminal" button. Clicking it will take you to the :ref:`terminal<Device Manager:Terminal>` page where you can send serial commands to your device. Check out the :doc:`Serial API<SerialAPI>` docs for information on what commands you can use.
 
-One more step to the right and you'll land on the boot menu button. Here, you'll be able to reboot your device and put it into :ref:`bootloader<Bootloader>` mode.
+One more step to the right and you'll land on the boot menu button. Here, you'll be able to reboot your device and put it into :ref:`bootloader<Device Manager:Bootloader>` mode.
 
 History Menu
 ----------------
@@ -187,7 +187,7 @@ You can follow the steps below to create a new chord on the device manager.
 .. Note::
 	In order to follow these steps, you must already have your device :ref:`connected<Device Manager:Connecting to the Device Manager>` to the device manager.
 
-1. Find the "New chord" text under the :ref:`search bar<Device Manager:search bar>` and click it.
+1. Find the "New chord" text under the :ref:`search bar<search bar>` and click it.
 
 
 2. When the text displays "Hold chord," press and hold all of the keys that you want to use as your :ref:`chord input<Chords:Chord Input>`. Once you have pressed all of the keys, release the keys.
@@ -288,13 +288,13 @@ Layer Selector
 
 	**A2 Layer**
 
-	The A2 layer, sometimes referred to as the numeric layer, is accessible with the :doc:`A2 access key<CharaChorder Keys>`. In the :doc:`device manager<Device Manager>` this key has the name “Numeric Layer (Left)” and “Numeric Layer (Right)”, one for each hand.
+	The A2 layer, sometimes referred to as the numeric layer, is accessible with the :doc:`A2 access key<CharaChorder Keys>`. In the Device Manager, this key has the name “Numeric Layer (Left)” and “Numeric Layer (Right)”, one for each hand.
 
 	The A2 Layer is accessible by pressing and holding one layer access button. Any key that is mapped to the A2 Layer can only be accessed by pressing and holding the A2 Layer access key along with the target key. You do not need to :doc:`chord<Chords>` the keys together; it’s only required that the A2 Layer access key is pressed while the target key is pressed.
 
 	**A3 Layer**
 
-	The A3 layer, sometimes referred to as the “function layer”, is accessible with the :ref:`A3 access key<CharaChorder Keys>`. On the :ref:`CharaChorder Device Manager<Device Manager>`, this key is assignable by the names “Function Layer (Left)” and “Function Layer (Right)”.
+	The A3 layer, sometimes referred to as the “function layer”, is accessible with the :ref:`A3 access key<CharaChorder Keys>`. In the Device Manager, this key is assignable by the names “Function Layer (Left)” and “Function Layer (Right)”.
 
 	Once you've mapped the A3 layer access buttons, the A3 Layer is accessible by pressing and holding either one of them. You do not have to hold them both in order to access the A3 layer. Any key that is on the A3 Layer can only be accessed by pressing and holding the :doc:`A3 access key<CharaChorder Keys>`, along with the target key. You do not need to :doc:`chord<Chords>` the keys together; it’s only required that the A3 layer access key is pressed while the target key is pressed.
 
@@ -341,7 +341,7 @@ You can use action codes in chord outputs as well as while :ref:`remapping<Devic
 
 What are Action Codes
 ^^^^^^^^^^^^^^^^^^^^^^^
-Action codes are data that :ref:`CCOS<CharaChorder Operating System (CCOS)>` interprets as characters. **Put simply, they are the characters that we see while typing.** These include letters, numbers, special characters, function keys, and others. 
+Action codes are data that :doc:`CCOS<CharaChorder Operating System (CCOS)>` interprets as characters. **Put simply, they are the characters that we see while typing.** These include letters, numbers, special characters, function keys, and others. 
 
 Action Code Menu
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -351,7 +351,7 @@ You can open the action codes menu one of two ways:
 
 2. While editing your layout in the :ref:`layout editor<Device Manager:Layout Editor>`, click on a key to bring up the action codes menu.
 
-In this menu, you can scroll through :ref:`available action codes<Device Manager:Available Action Codes>` by :ref:`category<Action Code Categories>`, or simply search specific actions. 
+In this menu, you can scroll through :ref:`available action codes<Device Manager:Available Action Codes>` by :ref:`category<Device Manager:Action Code Categories>`, or simply search specific actions. 
 
 If you ever need to leave the action codes menu, simply click the X at the top right of the menu. This will close out the box and not make any changes.
 
@@ -406,7 +406,7 @@ You can see the action codes below, or view them externally `here. <https://docs
 
 Settings Menu
 ***************
-On the Settings tab in the top navigation bar of the Device Manager page, you can adjust the settings of your :ref:`connected<Device Manager:Connecting to the Device Manager>` CCOS device. Read on to see the different settings you can change. You can find more detailed explanations in the :ref:`GTM<GenerativeTextMenu>` section.
+On the Settings tab in the top navigation bar of the Device Manager page, you can adjust the settings of your :ref:`connected<Device Manager:Connecting to the Device Manager>` CCOS device. Read on to see the different settings you can change. You can find more detailed explanations in the :doc:`GTM<GenerativeTextMenu>` section.
 
 Spurring
 ----------
@@ -673,7 +673,7 @@ Additionally, you can restore your chords, your layout, and your settings on the
 3. Select a file to use to restore from. This file should be in .json format.
 
 	.. note::
-		Files that you can restore from will have been created ahead of time by following the :ref:`steps to create a backup<Creating a Backup>`. 
+		Files that you can restore from will have been created ahead of time by following the :ref:`steps to create a backup<Device Manager:Creating a Backup>`. 
 
 4. If there are changes, the :ref:`save button<Device Manager:Save Button>` will appear on the top left. Note the changes in the appropriate tab. If you restored chords, check the :ref:`chords tab<Device Manager:Chord Manager>`, if you restored a layout, check the :ref:`layout tab<Device Manager:Layout Editor>`, and if you restored settings, check the :ref:`settings tab<Device Manager:Settings Menu>`.
 
