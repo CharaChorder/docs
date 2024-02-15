@@ -71,12 +71,12 @@ additional software to work.
 
 .. warning::
    IMPORTANT: During your first time plugging your CharaChorder in,
-   and every time thereafter when you have :doc:`realtime feedback<Generative Text Menu (GTM)>`
+   and every time thereafter when you have :ref:`realtime feedback<GenerativeTextMenu:Realtime Feedback>`
    enabled, it’s recommended
    that you have your cursor in a blank typing space. The CharaChorder
    has a welcome message that can send instructions to your computer
    that are not intended by the user. This feature can be disabled in
-   the :doc:`GTM<Generative Text Menu (GTM)>`. 
+   the :doc:`GTM<GenerativeTextMenu>`. 
 
 Take the male USB-A connector from your keyboard and plug it into the CharaChorder X's female USB-A port. After that, take the male USB'A connector on the CharaChorder X and plug it into a female USB-A port on your computer. 
 
@@ -87,18 +87,18 @@ following things:
  
 - Regardless of whether or not your cursor is somewhere where text can be entered: You will be able to see a small, red colored light inside the shell of the CharaChorder X.
 
-If you have :doc:`realtime feedback<Generative Text Menu (GTM)>` enabled, once you can see the highlighted text that reads
+If you have :ref:`realtime feedback<GenerativeTextMenu:Realtime Feedback>` enabled, once you can see the highlighted text that reads
 “CCOS is ready”, your device is ready to be used.
 
 .. note::
-   IMPORTANT: :doc:`Realtime feedback<Generative Text Menu (GTM)>` is enabled by default on new CharaChorder devices.
+   IMPORTANT: :ref:`Realtime feedback<GenerativeTextMenu:Realtime Feedback>` is enabled by default on new CharaChorder devices.
 
 Getting Started
 ***************
 
 There are a few steps that you’ll likely want to take if this is your
 first time using your CharaChorder device. In the following section, we
-will update your device, explain navigation in the :doc:`GTM<Generative Text Menu (GTM)>`, and demonstrate the default layout on your new
+will update your device, explain navigation in the :doc:`GTM<GenerativeTextMenu>`, and demonstrate the default layout on your new
 device. 
 
 Updating your Device
@@ -134,7 +134,7 @@ which is the latest firmware release by visiting `this
 site <https://www.charachorder.com/pages/update-your-firmware>`__. 
 
 .. warning::
-   **IMPORTANT**: Before performing the below steps, please make sure that you have a :doc:`backup of your layout<Backups>`      as well as a :doc:`backup of your chord library<Backups>`. The update might reset those, so it's important that you    keep backup files handy. For instructions on how to restore backed up files, visit the :doc:`Backups<Backups>`    section. The update might also reset some of your :doc:`GTM<Generative Text Menu (GTM)>` settings. Be sure to write    down settings before you update.
+   **IMPORTANT**: Before performing the below steps, please make sure that you have a :ref:`backup of your layout<Device Manager:Backups>`      as well as a :ref:`backup of your chord library<Device Manager:Backups>`. The update might reset those, so it's important that you    keep backup files handy. For instructions on how to restore backed up files, visit the :ref:`Backups<Device Manager:Restoring from a Backup>`    section. The update might also reset some of your :doc:`GTM<GenerativeTextMenu>` settings. Be sure to write    down settings before you update.
 
 #. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://manager.charachorder.com/config/layout/>`__ 
 #. Click “Connect”
@@ -155,7 +155,7 @@ site <https://www.charachorder.com/pages/update-your-firmware>`__.
 At this point, your CharaChorder X will automatically reboot and the
 CharaChorder drive will have disappeared. Congratulations! You have
 successfully updated your device. You can check your device’s firmware
-version by following the steps :ref:`here<Checking your Device’s Firmware>`.
+version by following the steps :ref:`here<CharaChorder X:Checking your Device’s Firmware>`.
 
 Understanding the Settings
 --------------------------
@@ -165,7 +165,7 @@ device is plug-and-play, you don’t need any software to edit the
 device’s settings; all you need is a place to type text. We call these
 settings the Generative Text Menu, or GTM for short.
 
-You can access the :doc:`GTM<Generative Text Menu (GTM)>` by
+You can access the :doc:`GTM<GenerativeTextMenu>` by
 :doc:`chording<Chords>` the `ESC` key and the letter `g` **(G + ESC)** in any space that
 allows text entry such as a notepad app. For an explanation on chords
 and how to perform them, visit the :doc:`Chords<Chords>` section.
@@ -173,7 +173,7 @@ and how to perform them, visit the :doc:`Chords<Chords>` section.
 .. warning::
    **A bug currently exists on Windows 11 default Notepad app where chording doesn't load correctly. We are looking into this, but, for now, we recommend using a different app.** 
 
-Once you perform the chord to call up the :doc:`GTM<Generative Text Menu (GTM)>`, your CharaChorder will type out the menu and its options.
+Once you perform the chord to call up the :doc:`GTM<GenerativeTextMenu>`, your CharaChorder will type out the menu and its options.
 It will look something like this:
 
 
@@ -191,14 +191,14 @@ decrease these, you can use the up and down arrow keys on your keyboard.
 
 ``CharaChorder > Chording > Press Tolerance [ Use up/down arrow keys to adjust: 25ms ]``
 
-You can read an explanation on all of the settings on your CharaChorder device :doc:`here<Generative Text Menu (GTM)>`.
+You can read an explanation on all of the settings on your CharaChorder device :doc:`here<GenerativeTextMenu>`.
 
 The Layout
 -------------
 
 The CharaChorder X uses your keyboard's layout, so you don't have to learn a new one. The CharaChorder X reads the keycodes that your keyboard sends and makes use of them to produce outputs on your computer. The only drawback to this is that the CharaChorder X is unable to read keypresses that do not send a code. One common key that doesn't send a code is the Fn key. This key serves as a layer-access key, locally on your keyboard, that allows you to reach the F-keys. Although the CharaChorder X is unable to read the Fn keypress, the F-keys (F1-F24) will send out a keycode, and, thus, the CharaChorder X will send out that signal to the computer. 
 
-Additionally, the CharaChorder X enables you to make use of two extra layers as well. In order to reach those layers, you will have to :doc:`remap<Remapping>` your keyboard to include the layer access keys. Nonetheless, you can continue reading below to learn how the layers work on the CharaChorder X.
+Additionally, the CharaChorder X enables you to make use of two extra layers as well. In order to reach those layers, you will have to :ref:`remap<Device Manager:Remapping>` your keyboard to include the layer access keys. Nonetheless, you can continue reading below to learn how the layers work on the CharaChorder X.
 
 Layers
 ~~~~~~
@@ -268,7 +268,7 @@ Configurability
 You can change the layout of your keyboard while it's connected to the CharaChorder X, which means that you can
 :doc:`remap<Glossary>` almost all keys. Some users may
 choose to :doc:`remap<Glossary>` their device’s layout to accommodate missing keys, such as the :doc:`DUP key<CharaChorder Keys>`. For a thorough explanation on how remapping
-works and how to remap your device, visit the :doc:`remapping section<Remapping>` 
+works and how to remap your device, visit the :ref:`remapping section<Device Manager:Remapping>` 
 
 Practice
 ~~~~~~~~

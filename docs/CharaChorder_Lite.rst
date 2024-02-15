@@ -86,7 +86,7 @@ When searching for switches that fit the CCL, make sure that the switches are la
     .. _60% Keyboard Diagram:
     .. image:: /assets/images/60%KB.jpg
       :width: 1200
-      :alt: A diagram of a 60% Keyboard
+      :alt: A diagram of a 60% Keyboard 
 
 .. note::
     Despite being a 60% keyboard, the CharaChorder Lite DOES have 4 arrow keys.
@@ -334,7 +334,7 @@ Learning the Layout
   :width: 1200
   :alt: Image showing the CharaChorder Lite default layout
 
-The CharaChorder Lite's layout is mostly traditional QWERTY. All of the letters and numbers are where you would expect them on other keyboards. However, there are some keys that are moved around, and a couple of extra keys as well. We'll describe the Lite's layout below. Remember that you can always :ref:`remap<DeviceManager:Layout>` the keys to your liking on the `CharaChorder Device Manager <https://manager.charachorder.com>`__.
+The CharaChorder Lite's layout is mostly traditional QWERTY. All of the letters and numbers are where you would expect them on other keyboards. However, there are some keys that are moved around, and a couple of extra keys as well. We'll describe the Lite's layout below. Remember that you can always :ref:`remap<Device Manager:Remapping>` the keys to your liking on the `CharaChorder Device Manager <https://manager.charachorder.com>`__.
 
 Earlier, we explained that the CharaChorder Lite is a 60% keyboard. It's been named that because it's missing the navigation keys usually present on 65% keyboards, though it still has four arrow keys. Therefore, it is accurate to refer to the CCL as a 60%+6 keyboard, where the 6 refers to keys that aren't usually on a 60% keyboard. Additionally, the CCL has 67 keys, instead of the 61 keys that 60% keyboards traditionally have.
 
@@ -365,7 +365,7 @@ else. Your device will always be in the A1 layer upon boot.
 
 While the A1 layer is active on the CharaChorder Lite by default, you can
 map the A1 access key, which bears the name “KM_1_R” or “KM_1_L”, on the
-:doc:`layout manager<Device Manager:layout>` site. There is no real need to map the A1 access keys.
+:doc:`layout manager<Device Manager>` site. There is no real need to map the A1 access keys.
 
 .. image:: /assets/images/LiteLayoutAlpha.png
   :width: 1200
@@ -393,7 +393,7 @@ A3 Layer
 ^^^^^^^^
 
 The A3 layer, sometimes referred to as the “function layer”, is
-accessible with the :ref:`A3 access key<CharaChorder Keys>`. This key is not mapped by default on the CharaChorder Lite, but you can add it to your device by :ref:`remapping<Remapping>`. On the :ref:`CharaChorder Device Manager<Device Manager>`, this key is assignable by the names “KM_3_L” and “KM_3_R”.
+accessible with the :ref:`A3 access key<CharaChorder Keys>`. This key is not mapped by default on the CharaChorder Lite, but you can add it to your device by :ref:`remapping<Device Manager:Remapping>`. On the :doc:`CharaChorder Device Manager<Device Manager>`, this key is assignable by the names “KM_3_L” and “KM_3_R”.
 
 Once you've mapped the A3 layer access buttons, the A3 Layer is accessible by pressing and holding either
 one of them. You do not have to hold them both in order to access
@@ -447,7 +447,7 @@ The CharaChorder Lite’s layout is configurable, which means that you can
 :doc:`remap<Glossary>` all keys. Though the QWERTY layout is loved by many, some users may
 choose to :doc:`remap<Glossary>` their device’s layout to better
 suit their personal needs. For an explanation of how remapping
-works and how to remap your device, visit the :ref:`remapping section<DeviceManager:Layout>`.
+works and how to remap your device, visit the :ref:`remapping section<Device Manager:Remapping>`.
 
 Practice
 ~~~~~~~~

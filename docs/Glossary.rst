@@ -54,7 +54,7 @@ community.
 
    GTM (Generative Text Menu)
       A text-based menu accessible anywhere you type. It allows access to 
-      various device settings and features without software. See :doc:`Generative Text Menu (GTM)`.
+      various device settings and features without software. See :doc:`GenerativeTextMenu`.
 
    Impulse Chord
       An 'on-the-fly' custom chord that can be spontaneously created anywhere

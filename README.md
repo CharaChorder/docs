@@ -25,8 +25,10 @@ sphinx-autobuild docs _build
 ## Building
 
 ```sh
-sphinx-build docs _build
+sphinx-build -a docs _build
 ```
+
+Note, the -a flag will rebuild all files, regardless of if they have changed. This is useful so that warnings don't get cached.  All warnings are preferred to be fixed rather than left, although in some cases (docs don't exist yet) the warnings are fine to leave.
 
 ## Adding a new top level page
 
