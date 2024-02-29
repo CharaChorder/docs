@@ -205,7 +205,7 @@ Updating your Device
 .. warning::
    IMPORTANT: If your device shipped from our warehouse before 2023,
    it’s possible that it is running an obsolete firmware. You can read
-   instructions on how to upgrade your device to our new CCOS :doc:`here<Upgrade to CCOS>`. If your device is not running    :doc:`CCOS<CharaChorder Operating System (CCOS)>`, you will be unable to follow the
+   instructions on how to upgrade your device to our new CCOS :ref:`here<CCOS:Upgrade to CCOS>`. If your device is not running    :doc:`CCOS<CCOS>`, you will be unable to follow the
    steps below to update your device.
 
 .. _charachorder-one-checking-your-devices-firmware:

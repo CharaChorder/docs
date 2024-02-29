@@ -27,8 +27,7 @@ Table of Contents
    CharaChorder_Lite.rst
    CharaChorder Engine.rst
    CharaChorder X.rst
-   CharaChorder Operating System (CCOS).rst
-   Upgrade to CCOS.rst
+   CCOS.rst
    Chords.rst
    Device Manager.rst
    Layout.rst

@@ -6,10 +6,10 @@ Generative Text Menu (GTM)
 ``CharaChorder GTM [ >K<eyboard || >M<ouse || >C<hording || >D<isplay || >R<esources ]``
 
 The Generative Text Menu, known by its abbreviation as GTM, is an onboard, text based menu which can be accessed 
-anywhere you type. Through it, we are able to modify :doc:`CCOS<CharaChorder Operating System (CCOS)>` settings including :ref:`chording tolerances<GenerativeTextMenu:Press Tolerance>`, :ref:`mouse speeds<GenerativeTextMenu:Slow Speed>`, and :ref:`realtime feedback<GenerativeTextMenu:Realtime Feedback>`, among other settings and features, without the need to use a software. It's a core feature of :doc:`CCOS<CharaChorder Operating System (CCOS)>` that you will want to 
+anywhere you type. Through it, we are able to modify :doc:`CCOS<CCOS>` settings including :ref:`chording tolerances<GenerativeTextMenu:Press Tolerance>`, :ref:`mouse speeds<GenerativeTextMenu:Slow Speed>`, and :ref:`realtime feedback<GenerativeTextMenu:Realtime Feedback>`, among other settings and features, without the need to use a software. It's a core feature of :doc:`CCOS<CCOS>` that you will want to 
 learn how to use to make the device your own.
 
-You will notice that some settings have different press and release values. This is because the switches are read by the :doc:`CCOS<CharaChorder Operating System (CCOS)>` at two different moments in time: when they are pressed, and when they are released. We have designed :doc:`CCOS<CharaChorder Operating System (CCOS)>` to have configurable settings for each of those "events" separately, for maximum adjustability. Intuitively, each **press** setting, such as :ref:`debounce press<GenerativeTextMenu:Debounce Press>`, will affect the way that the :doc:`CCOS<CharaChorder Operating System (CCOS)>` reads the switch at the time that the switch is pressed into any one direction. Conversely, **release** settings, such as :ref:`release debounce<GenerativeTextMenu:Debounce Release>`, will change the way that the :doc:`CCOS<CharaChorder Operating System (CCOS)>` reads the switch at the exact moment that the switch is released, or un-pressed, from any one direction.
+You will notice that some settings have different press and release values. This is because the switches are read by the :doc:`CCOS<CCOS>` at two different moments in time: when they are pressed, and when they are released. We have designed :doc:`CCOS<CCOS>` to have configurable settings for each of those "events" separately, for maximum adjustability. Intuitively, each **press** setting, such as :ref:`debounce press<GenerativeTextMenu:Debounce Press>`, will affect the way that the :doc:`CCOS<CCOS>` reads the switch at the time that the switch is pressed into any one direction. Conversely, **release** settings, such as :ref:`release debounce<GenerativeTextMenu:Debounce Release>`, will change the way that the :doc:`CCOS<CCOS>` reads the switch at the exact moment that the switch is released, or un-pressed, from any one direction.
 
 .. note::
 	Although you can configure your CCOS settings anywhere that you can type through the GTM, you can also edit them on the :doc:`CharaChorder Device Manager<Device Manager>`.
@@ -40,13 +40,13 @@ How to navigate through the GTM
 
 The GTM has different submenus that we can call "pages". Each "page" of the GTM will have different options which can either adjust a specific setting or take you to another submenu. 
 
-Once you perform the chord to call up the menu, :doc:`CCOS<CharaChorder Operating System (CCOS)>` will type out the menu and its options. It will look something like this:
+Once you perform the chord to call up the menu, :doc:`CCOS<CCOS>` will type out the menu and its options. It will look something like this:
 	
 ``CharaChorder GTM [ >K<eyboard || >M<ouse || >C<hording || >D<isplay || >R<esources ]``
 
-Navigation around this menu is based on letter-presses. In the example above, you can select the desired submenu by pressing the letter that appears between the angle brackets (for example: ``>K<``) in your target submenu on your :doc:`CCOS<CharaChorder Operating System (CCOS)>` device. In the example above, you would press ``K`` for Keyboard, ``M`` for Mouse, ``C`` for Chording, ``D`` for Display, and ``R`` for Resources. In order to go back to a previous menu, press the left arrow. In order to leave the GTM at any point, press ``ESC``. Leaving the GTM by using ``ESC`` will save your changes. You can also confirm your changes by pressing ``ENTER``. 
+Navigation around this menu is based on letter-presses. In the example above, you can select the desired submenu by pressing the letter that appears between the angle brackets (for example: ``>K<``) in your target submenu on your :doc:`CCOS<CCOS>` device. In the example above, you would press ``K`` for Keyboard, ``M`` for Mouse, ``C`` for Chording, ``D`` for Display, and ``R`` for Resources. In order to go back to a previous menu, press the left arrow. In order to leave the GTM at any point, press ``ESC``. Leaving the GTM by using ``ESC`` will save your changes. You can also confirm your changes by pressing ``ENTER``. 
 
-In some submenus, you will see numeric values. In order to increase or decrease these, you can use the up and down arrow keys on your :doc:`CCOS<CharaChorder Operating System (CCOS)>` device.
+In some submenus, you will see numeric values. In order to increase or decrease these, you can use the up and down arrow keys on your :doc:`CCOS<CCOS>` device.
 
 	``CharaChorder > Chording > Press Tolerance [ Use up/down arrow keys to adjust: 25ms ]``
 
@@ -74,7 +74,7 @@ Scan Rate
 ``Path: GTM > Keyboard > Scan Rate``
 
 The scan rate, sometimes known as the "Key scan duration," refers to the frequency at which the device checks the state of the input keys. 
-For reference, 5 ms corresponds to 200 Hz, which means that :doc:`CCOS<CharaChorder Operating System (CCOS)>` checks the position of the keys once every 5 milliseconds, which equals 200 times in a second. Having a lower number is usually better as it makes CCOS more responsive, though the difference at low numbers is usually negligible. In the GTM, this setting is adjustable in millisecond (ms) units.
+For reference, 5 ms corresponds to 200 Hz, which means that :doc:`CCOS<CCOS>` checks the position of the keys once every 5 milliseconds, which equals 200 times in a second. Having a lower number is usually better as it makes CCOS more responsive, though the difference at low numbers is usually negligible. In the GTM, this setting is adjustable in millisecond (ms) units.
 
 You can find the default scan rates of the different CharaChorder devices in the table below.
 
@@ -94,9 +94,9 @@ Debounce Press
 
 ``Path: GTM > Keyboard > Debounce Press``
 
-The debounce press setting refers to the time frame (measured in milliseconds) in which  :doc:`CCOS<CharaChorder Operating System (CCOS)>` will filter out duplicate key activations on a press event. In other words, any duplicate activations within the given time frame will only be counted as one. 
+The debounce press setting refers to the time frame (measured in milliseconds) in which  :doc:`CCOS<CCOS>` will filter out duplicate key activations on a press event. In other words, any duplicate activations within the given time frame will only be counted as one. 
 
-We should adjust this setting if we are having unintentional duplicate characters while typing. Increasing this value will lower the probability that unwanted duplicate characters will appear because it tells :doc:`CCOS<CharaChorder Operating System (CCOS)>` to wait longer before typing an additional character that's assigned to the same switch-direction. However, having this setting set too high might also cause issues with :doc:`CCOS<CharaChorder Operating System (CCOS)>` not reading intentional double-presses, so it's recommended to try different numbers in small increments. This setting should be used in connection with the :ref:`debounce release<GenerativeTextMenu:Debounce Release>` setting.
+We should adjust this setting if we are having unintentional duplicate characters while typing. Increasing this value will lower the probability that unwanted duplicate characters will appear because it tells :doc:`CCOS<CCOS>` to wait longer before typing an additional character that's assigned to the same switch-direction. However, having this setting set too high might also cause issues with :doc:`CCOS<CCOS>` not reading intentional double-presses, so it's recommended to try different numbers in small increments. This setting should be used in connection with the :ref:`debounce release<GenerativeTextMenu:Debounce Release>` setting.
 
 You can find the default debounce press value of the different CharaChorder devices in the table below:
 
@@ -117,9 +117,9 @@ Debounce Release
 
 ``Path: GTM > Keyboard > Debounce Release``
 
-The debounce release setting refers to the time frame (measured in milliseconds) in which :doc:`CCOS<CharaChorder Operating System (CCOS)>` will filter out duplicate key activations on a release event. In other words, any duplicate activations within the given time frame will only be counted as one. 
+The debounce release setting refers to the time frame (measured in milliseconds) in which :doc:`CCOS<CCOS>` will filter out duplicate key activations on a release event. In other words, any duplicate activations within the given time frame will only be counted as one. 
 
-We should adjust this setting if we are having unintentional duplicate characters while typing. Increasing this value will lower the probability that unwanted duplicate characters will appear because it tells :doc:`CCOS<CharaChorder Operating System (CCOS)>` to wait longer before typing an additional character that's assigned to the same switch-direction. However, having this setting set too high might also cause issues with :doc:`CCOS<CharaChorder Operating System (CCOS)>` not reading intentional double-presses, so it's recommended to try different numbers in small increments. This setting should be used in connection with the :ref:`debounce press <GenerativeTextMenu:Debounce Press>` setting.
+We should adjust this setting if we are having unintentional duplicate characters while typing. Increasing this value will lower the probability that unwanted duplicate characters will appear because it tells :doc:`CCOS<CCOS>` to wait longer before typing an additional character that's assigned to the same switch-direction. However, having this setting set too high might also cause issues with :doc:`CCOS<CCOS>` not reading intentional double-presses, so it's recommended to try different numbers in small increments. This setting should be used in connection with the :ref:`debounce press <GenerativeTextMenu:Debounce Press>` setting.
 
 You can find the default debounce release value of the different  CharaChorder devices in the table below:
 
@@ -226,7 +226,7 @@ Poll Rate
 
 The polling rate (poll rate) is the frequency at which data from the CharaChorder's mouse functionality is sent to the device it's connected to. In other words, how often it updates the cursor's position to the computer. This is typically expressed in Hz (Hertz), with the average gaming mouse reporting data at 1000 Hz, which means 1000 times every second.
 
-However, :doc:`CCOS<CharaChorder Operating System (CCOS)>` uses ms (milliseconds) which is directly inverse to Hz. 1 ms is equal to 1000 Hz, 2 ms is equal to 500 Hz, and 1000 ms is equal to 1 Hz.
+However, :doc:`CCOS<CCOS>` uses ms (milliseconds) which is directly inverse to Hz. 1 ms is equal to 1000 Hz, 2 ms is equal to 500 Hz, and 1000 ms is equal to 1 Hz.
 
  .. dropdown:: An Explanation of Hz to ms conversion
 

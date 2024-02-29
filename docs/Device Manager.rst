@@ -275,7 +275,7 @@ Layer Selector
 
 .. dropdown:: Explanation of Layers on CCOS Devices
 
-	As of February of 2024, :doc:`CCOS<CharaChorder Operating System (CCOS)>` devices come with three (3) layers that you can make use of: the base layer, called the A1 (Alpha) layer, the secondary layer, referred to as A2 (Numeric), and the tertiary layer, named A3 (Function).
+	As of February of 2024, :doc:`CCOS<CCOS>` devices come with three (3) layers that you can make use of: the base layer, called the A1 (Alpha) layer, the secondary layer, referred to as A2 (Numeric), and the tertiary layer, named A3 (Function).
 
 	In order to access layers, you need to press and hold a "layer access" button. You MUST hold the button in order to use keys mapped to layers other than the alpha layer. The alpha layer is active by default.
 
@@ -341,7 +341,7 @@ You can use action codes in chord outputs as well as while :ref:`remapping<Devic
 
 What are Action Codes
 ^^^^^^^^^^^^^^^^^^^^^^^
-Action codes are data that :doc:`CCOS<CharaChorder Operating System (CCOS)>` interprets as characters. **Put simply, they are the characters that we see while typing.** These include letters, numbers, special characters, function keys, and others. 
+Action codes are data that :doc:`CCOS<CCOS>` interprets as characters. **Put simply, they are the characters that we see while typing.** These include letters, numbers, special characters, function keys, and others. 
 
 Action Code Menu
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -516,19 +516,19 @@ In this box, you can change a few settings that relate to using your device for 
 
 .. dropdown:: Key Scan Rate
 
-	The scan rate, sometimes known as the “Key scan duration,” refers to the frequency at which the device checks the state of the input keys. For reference, 5 ms corresponds to 200 Hz, which means that :doc:`CCOS<CharaChorder Operating System (CCOS)>` checks the position of the keys once every 5 milliseconds, which equals 200 times in a second. Having a lower number is usually better as it makes CCOS more responsive, though the difference at low numbers is usually negligible. In the GTM, this setting is adjustable in millisecond (ms) units.
+	The scan rate, sometimes known as the “Key scan duration,” refers to the frequency at which the device checks the state of the input keys. For reference, 5 ms corresponds to 200 Hz, which means that :doc:`CCOS<CCOS>` checks the position of the keys once every 5 milliseconds, which equals 200 times in a second. Having a lower number is usually better as it makes CCOS more responsive, though the difference at low numbers is usually negligible. In the GTM, this setting is adjustable in millisecond (ms) units.
 
 .. dropdown:: Key Debounce Press
 
-	The debounce press setting refers to the time frame (measured in milliseconds) in which :doc:`CCOS<CharaChorder Operating System (CCOS)>` will filter out duplicate key activations on a press event. In other words, any duplicate activations within the given time frame will only be counted as one.
+	The debounce press setting refers to the time frame (measured in milliseconds) in which :doc:`CCOS<CCOS>` will filter out duplicate key activations on a press event. In other words, any duplicate activations within the given time frame will only be counted as one.
 
-	We should adjust this setting if we are having unintentional duplicate characters while typing. Increasing this value will lower the probability that unwanted duplicate characters will appear because it tells :doc:`CCOS<CharaChorder Operating System (CCOS)>` to wait longer before typing an additional character that’s assigned to the same switch-direction. However, having this setting set too high might also cause issues with :doc:`CCOS<CharaChorder Operating System (CCOS)>` not reading intentional double-presses, so it’s recommended to try different numbers in small increments. This setting should be used in connection with the debounce release setting.
+	We should adjust this setting if we are having unintentional duplicate characters while typing. Increasing this value will lower the probability that unwanted duplicate characters will appear because it tells :doc:`CCOS<CCOS>` to wait longer before typing an additional character that’s assigned to the same switch-direction. However, having this setting set too high might also cause issues with :doc:`CCOS<CCOS>` not reading intentional double-presses, so it’s recommended to try different numbers in small increments. This setting should be used in connection with the debounce release setting.
 
 .. dropdown:: Key Debounce Release
 
-	The debounce release setting refers to the time frame (measured in milliseconds) in which :doc:`CCOS<CharaChorder Operating System (CCOS)>` will filter out duplicate key activations on a release event. In other words, any duplicate activations within the given time frame will only be counted as one.
+	The debounce release setting refers to the time frame (measured in milliseconds) in which :doc:`CCOS<CCOS>` will filter out duplicate key activations on a release event. In other words, any duplicate activations within the given time frame will only be counted as one.
 
-	We should adjust this setting if we are having unintentional duplicate characters while typing. Increasing this value will lower the probability that unwanted duplicate characters will appear because it tells :doc:`CCOS<CharaChorder Operating System (CCOS)>` to wait longer before typing an additional character that’s assigned to the same switch-direction. However, having this setting set too high might also cause issues with :doc:`CCOS<CharaChorder Operating System (CCOS)>` not reading intentional double-presses, so it’s recommended to try different numbers in small increments. This setting should be used in connection with the debounce press setting.
+	We should adjust this setting if we are having unintentional duplicate characters while typing. Increasing this value will lower the probability that unwanted duplicate characters will appear because it tells :doc:`CCOS<CCOS>` to wait longer before typing an additional character that’s assigned to the same switch-direction. However, having this setting set too high might also cause issues with :doc:`CCOS<CCOS>` not reading intentional double-presses, so it’s recommended to try different numbers in small increments. This setting should be used in connection with the debounce press setting.
 
 .. dropdown:: Output Character Delay
 
@@ -542,23 +542,23 @@ Mouse
 -------
 .. dropdown:: Mouse???
 
-	:doc:`CCOS<CharaChorder Operating System (CCOS)>` has mouse functionality. This means that your CharaChorder, or CCOS-powered keyboard, has the ability to control your computer's mouse. These settings affect the mouse usage on your CharaChorder.
+	:doc:`CCOS<CCOS>` has mouse functionality. This means that your CharaChorder, or CCOS-powered keyboard, has the ability to control your computer's mouse. These settings affect the mouse usage on your CharaChorder.
 
 .. image:: /assets/images/ManagerSettingsMouse.png
   :width: 1200
   :alt: The Mouse settings box
 
-In this box, you can adjust settings relating to :doc:`CCOS'<CharaChorder Operating System (CCOS)>` mouse abilities.
+In this box, you can adjust settings relating to :doc:`CCOS'<CCOS>` mouse abilities.
 
 .. dropdown:: Mouse Speed(s)
 
-	:doc:`CCOS<CharaChorder Operating System (CCOS)>` has two mouse speeds, a fast speed and a slow speed. The slow speed is activated when you use only one of the mouse keys in a single direction (as opposed to using 2 keys in the same direction). The fast speed is activated when you use two mouse keys in a single direction (as opposed to using only one key in the same direction).
+	:doc:`CCOS<CCOS>` has two mouse speeds, a fast speed and a slow speed. The slow speed is activated when you use only one of the mouse keys in a single direction (as opposed to using 2 keys in the same direction). The fast speed is activated when you use two mouse keys in a single direction (as opposed to using only one key in the same direction).
 
 	You can read a more in-depth explanation of mouse speeds in the :ref:`GTM section<GenerativeTextMenu:Slow Speed>`. 
 
 .. dropdown:: Scroll Speed
 
-	Scroll speed refers to the speed at which your :doc:`CCOS<CharaChorder Operating System (CCOS)>` scroll will scroll.
+	Scroll speed refers to the speed at which your :doc:`CCOS<CCOS>` scroll will scroll.
 
 	You can read a more in-depth explanation of the scroll speed in the :ref:`GTM section<GenerativeTextMenu:Scroll Speed>`.
 
@@ -586,7 +586,7 @@ Chording
   :width: 1200
   :alt: The Chording settings box
 
-In this box, you can adjust settings relating to :doc:`CCOS'<CharaChorder Operating System (CCOS)>` :doc:`chording<Chords>` abilities as well as turn off :doc:`chording<Chords>` alltogether, should you choose to.
+In this box, you can adjust settings relating to :doc:`CCOS'<CCOS>` :doc:`chording<Chords>` abilities as well as turn off :doc:`chording<Chords>` alltogether, should you choose to.
 
 .. dropdown:: Auto-delete Timeout
 
@@ -641,7 +641,7 @@ Other Tools
 
 Backups
 --------
-On the Device Manager, you can create backups of your chords, your layout, and even your settings. Follow the steps below to create a backup and to restore saved backups to your :doc:`CCOS<CharaChorder Operating System (CCOS)>` device.
+On the Device Manager, you can create backups of your chords, your layout, and even your settings. Follow the steps below to create a backup and to restore saved backups to your :doc:`CCOS<CCOS>` device.
 
 Creating a Backup
 ~~~~~~~~~~~~~~~~~~
@@ -686,7 +686,7 @@ Bootloader
 -----------
 In the :ref:`device menu<Device Manager:Device Menu>`, you'll find the boot menu button. When you click on that, it'll bring up the option to put your device into bootloader.
 
-In bootloader mode, your :doc:`CCOS<CharaChorder Operating System (CCOS)>` device will disconnect from the Device Manager and a new drive will appear in your File Explorer (Finder, in Mac OS). This drive contains your CharaChorder's CCOS information.
+In bootloader mode, your :doc:`CCOS<CCOS>` device will disconnect from the Device Manager and a new drive will appear in your File Explorer (Finder, in Mac OS). This drive contains your CharaChorder's CCOS information.
 
 Updating Your Device
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -5,7 +5,7 @@ Welcome to the Official CharaChorder Lite Guide. You can select the links
 below to navigate to the topics that you find most relevant.
 
 The CharaChorder Lite is CharaChorder's approach to introducing :doc:`chording<Chords>` 
-to a traditional, QWERTY keyboard. It's small, sleek, and portable, but what truly sets the "CCL" apart from other keyboards is that it's powered by :doc:`CCOS<CharaChorder Operating System (CCOS)>`. This makes the CCL a superpowered, :doc:`chording<Chords>` keyboard that may be easier to learn than the :doc:`CharaChorder One`.
+to a traditional, QWERTY keyboard. It's small, sleek, and portable, but what truly sets the "CCL" apart from other keyboards is that it's powered by :doc:`CCOS<CCOS>`. This makes the CCL a superpowered, :doc:`chording<Chords>` keyboard that may be easier to learn than the :doc:`CharaChorder One`.
 
 It boasts a beautiful set of keycaps, intentionally translucent to be able to appreciate the RGB backlights that breathe a modern look into the beautifully crafted keyboard. 
 
@@ -163,7 +163,7 @@ Updating your Device
 .. warning::
    IMPORTANT: If your device shipped from our warehouse before 2023,
    it’s possible that it is running an obsolete firmware. You can read
-   instructions on how to upgrade your device to our new CCOS :doc:`here<Upgrade to CCOS>`. If your device is not running    :doc:`CCOS<CharaChorder Operating System (CCOS)>`, you will be unable to follow the
+   instructions on how to upgrade your device to our new CCOS :ref:`here<CCOS:Upgrade to CCOS>`. If your device is not running    :doc:`CCOS<CCOS>`, you will be unable to follow the
    steps below to update your device.
 
 .. _charachorder-lite-checking-your-devices-firmware:
