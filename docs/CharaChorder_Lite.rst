@@ -270,7 +270,7 @@ site <https://www.charachorder.com/pages/update-your-firmware>`__.
   :width: 1200
   :alt: Image showing where to find the Bootloader button
 
-Your CharaChorder will now appear as an external storage device on your computer’s file explorer or Finder app. It might be named one of the following: “Arduino”, “Seeduino”, or “CharaChorder Lite”.
+Your CharaChorder will now appear as an external storage device on your computer’s file explorer or Finder app. It might be named one of the following: “Arduino”, “Seeduino”, “CharaChorder Lite”, or "CCBOOT".
 
 7. Download your update file from this site: `<https://www.charachorder.com/pages/update-your-firmware>`__
 
