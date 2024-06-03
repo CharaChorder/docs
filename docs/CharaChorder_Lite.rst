@@ -75,9 +75,10 @@ The CharaChorder Lite has two external components that can be removed and replac
 Switches
 ^^^^^^^^
 
-The CharaChorder Lite comes with a 60% set of Gateron Clear/White switches. These switches are mechanical and linear, and require only 35 grams (g) of force to actuate, making them some of the lightest switches on the market. We, at CharaChorder, find that lighter switches make :doc:`chording<Chords>` quicker and more efficient, but you're welcome to swap the default switches with other, third party options. 
+The CharaChorder Lite comes with a 60% set of Gateron Clear/White switches. These switches are mechanical and linear, and require only 35 grams (g) of force to actuate, making them some of the lightest switches on the market. We, at CharaChorder, find that lighter switches make :doc:`chording<Chords>` quicker and more efficient, but you're welcome to swap the default switches with other, third party options.
 
-When searching for switches that fit the CCL, make sure that the switches are labeled as "mechanical switches". The CharaChorder Lite is a 60% keyboard, but you will only need 67 switches to fill the CharaChorder Lite.
+.. note::
+    When searching for switches that fit the CCL, make sure that the switches are labeled as "mechanical switches" and are three pin (not five pin). The CharaChorder Lite is a 60% keyboard, but you will only need 67 switches to fill the CharaChorder Lite.
 
 .. dropdown:: What is a 60% keyboard?
 
