@@ -334,12 +334,17 @@ English layout, has been designed to favor :doc:`bigrams<Logic behind the Layout
   So, a design goal was to maximize left vs right hand and finger vs thumb alterations as well as 
   to pair the frequent keys with the ease of press-ability. This was a highly iterative process which filled up notebooks and notebooks of design sketches.
 
-  In general the process was:
+  In general the process that Riley used and recommends using if you would like to make your own layout is as follows:
 
-  1. The keys were first rated based on the ease of use. Some finger and direction pairs are easier to press than others.
-  2. The keys were then laid out based on the letter frequency in the English language. The more frequent letters were paired with
-     the keys that were easier to press. 
-  3. At the same time, the layout was also optimized to maximize the amount of left vs right hand as well as finger vs thumb alterations during character entry.
+  1. Make a list of individual inputs for your language weighted by their frequency of use in your favorite corpus
+  2. Make a list of most common bigrams and trigrams (groups of 2 and 3 letters) for your language weighted by their frequency of use in your favorite corpus
+  3. Make a list of most common words for your language weighted by their frequency of use in your favorite corpus
+  4. Create a list prioritizing each switch on your device based on how easy they are to access. This should consider both finger, direction, and handedness
+  5. To create a seed, sync your switch list with the individual input list, placing your most common input on the easiest switch to access, while doing your best to balance the total utilization of all left versus right hand inputs
+  6. Based on your seed, analyze the lists of bigrams and trigrams and note which ones require rolling inputs, antipodal inputs, same finger inputs, same hand non-rolling inputs, as well as same hand/finger trajectory inputs. Assign a scale to tokenize each of these input types and create a cumulative ranking for each bigram and trigram
+  7. Based on your seed, create a chord library. Now give each chord a rating based on how easy it is to physically accomplish, and how easy it is to remember or memorize
+  8. Analyze the weaknesses and strengths of your layout, then create a hypothesis of what could be changed within your seed to improve the total rating of all your bigrams, trigrams, and chords.
+  9. Shuffle your seed based on your hypothesis and repeat steps 5-9 until you are no longer able to improve upon your score
 
 Layers
 ~~~~~~
