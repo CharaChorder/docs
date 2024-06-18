@@ -137,6 +137,10 @@ Impulse Menu and then keep typing without skipping a beat. Read below
 for instructions on how to create an impulse chord on your specific
 device.
 
+**Note:** When creating an impulse chord, all keystrokes are recorded
+as part of the output. If you make a mistake when defining the chord
+output, trigger escape and start over instead of deleting the input.
+
 Creating an Impulse Chord on the CharaChorder One
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
