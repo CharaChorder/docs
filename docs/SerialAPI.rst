@@ -534,4 +534,4 @@ You can see the action codes below, or view them externally `here. <https://docs
 
 .. raw:: html
 
-    <iframe src="https://docs.google.com/spreadsheets/d/1--T9bXshCIC-OVly-CY3rK87fgb7AHgJl3IySh7cmHc/edit#gid=0" width="600" height="600"></iframe>
+    <iframe src="https://docs.google.com/spreadsheets/d/1--T9bXshCIC-OVly-CY3rK87fgb7AHgJl3IySh7cmHc/preview" width="100%" height="600"></iframe>
