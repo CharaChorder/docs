@@ -381,11 +381,11 @@ CMD_VAR_GET_KEYMAP
 
    "INPUT","0","Command","Chars","VAR",""
    "INPUT","1","SubCommand","Hexadecimal VAR Code","B3","Get keymap parameter value"
-   "INPUT","2","Keymap","Hexadecimal Keymap Code","A0",""
+   "INPUT","2","Keymap","Hexadecimal Keymap Code","A1",""
    "INPUT","3","Index","Decimal Number","24","For CC1, 0-89 are valid. For CCL, 0-66 are valid."
    "OUTPUT","0","Command","Chars","VAR",""
    "OUTPUT","1","SubCommand","Hexadecimal VAR Code","B3",""
-   "OUTPUT","2","Keymap","Hexadecimal Keymap Code","A0",""
+   "OUTPUT","2","Keymap","Hexadecimal Keymap Code","A1",""
    "OUTPUT","3","Index","Decimal Number","24",""
    "OUTPUT","4","Action Id","Decimal Number","111","Valid action Ids range from 8 thru 2047."
    "OUTPUT","5","Success","Boolean Number","0","This will be 0 on success, or greater than zero for an error if either the Keymap Code or Index are out of range."
@@ -394,8 +394,8 @@ Example(s):
 
 .. code-block:: none
 
-   > VAR B3 A0 24
-   VAR B3 A0 24 111 0
+   > VAR B3 A1 24
+   VAR B3 A1 24 111 0
 
 CMD_VAR_SET_KEYMAP
 ^^^^^^^^^^^^^^^^^^^^^
@@ -405,12 +405,12 @@ CMD_VAR_SET_KEYMAP
    
    "INPUT","0","Command","Chars","VAR",""
    "INPUT","1","SubCommand","Hexadecimal VAR Code","B4","Set keymap parameter value"
-   "INPUT","2","Keymap","Hexadecimal Keymap Code","A0",""
+   "INPUT","2","Keymap","Hexadecimal Keymap Code","A1",""
    "INPUT","3","Index","Decimal Number","24","For CC1, 0-89 are valid. For CCL, 0-66 are"
    "INPUT","4","Action Id","Decimal Number","112","Valid action Ids range from 8 thru 2047."
    "OUTPUT","0","Command","Chars","VAR",""
    "OUTPUT","1","SubCommand","Hexadecimal VAR Code","B3",""
-   "OUTPUT","2","Keymap","Hexadecimal Keymap Code","A0",""
+   "OUTPUT","2","Keymap","Hexadecimal Keymap Code","A1",""
    "OUTPUT","3","Index","Decimal Number","24",""
    "OUTPUT","4","Action Id","Decimal Number","112","Valid action Ids range from 8 thru 2047. Returns a 00 if either the Keymap Code or Index or Action Id are out of range."
    "OUTPUT","5","Success","Boolean Number","1","This will be 0 on success, or greater than zero for an error if the chordmap did not exist or the deletion was unsuccessful"
@@ -419,8 +419,8 @@ Example(s):
 
 .. code-block:: none
 
-   > VAR B2 A0 24 112
-   VAR B2 A0 24 112 0
+   > VAR B2 A1 24 112
+   VAR B2 A1 24 112 0
 
 RST
 ~~~
