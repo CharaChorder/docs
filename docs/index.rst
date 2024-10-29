@@ -30,7 +30,8 @@ Table of Contents
    CCOS.rst
    Chords.rst
    Device Manager.rst
-   Layout.rst
+   FAQs.rst
    GenerativeTextMenu.rst
    Glossary.rst
+   Layout.rst
    SerialAPI.rst
