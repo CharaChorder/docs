@@ -285,7 +285,6 @@ Parameter codes
    "Spurring Character Counter Timeout Timer","0x43","0-255 seconds; default is 240"
    "Enable Arpeggiates","0x51","boolean 0 or 1; default is 1"
    "Arpeggiate Tolerance","0x54","in milliseconds; default 800ms"
-   "Enable Compound Chording (coming soon)","0x61","boolean 0 or 1; default is 0"
    "Compound Tolerance","0x64","in milliseconds; default 1500ms"
    "LED Brightness","0x81","0-50 (CCL only); default is 5, which draws around 100 mA of current"
    "LED Color Code","0x82","Color Codes to be listed (CCL only)"
