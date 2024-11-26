@@ -158,13 +158,13 @@ OUTPUT 5. CONFIRM INPUT
    (example: “tsubr”) or you will see a chord which is already
    programmed to that input. If you continue, any conflicts will be
    overwritten.
-2. Call the impulse command with either GTM >I<mpulse OR with the hard
+2. Call the impulse command the hard
    coded chord ``i+DUP``.
 3. Follow the prompt and type your output in character entry mode.
    (example: >I<mpulse output: burst ).
 4. Press enter to confirm your output.
 5. Verify that the desired input is correct (you will see a confirmation
-   message similar to this: >I<mpulse input(1): b + r + u + t + s).
+   message similar to this: >I<mpulse input: b + r + u + t + s).
 6. If the input is incorrect, perform your desired input at this step.
    Once the input is the desired input, press enter.
 
@@ -187,13 +187,13 @@ OUTPUT, 5. CONFIRM INPUT
    (example: “tsubr”) or you will see a chord which is already
    programmed to that input. If you continue, any conflicts will be
    overwritten.
-2. Call the impulse command with either GTM >I<mpulse OR with the hard
+2. Call the impulse command with the hard
    coded chord ``i+DUP``.
 3. Follow the prompt and type your output in character entry mode.
    (example: >I<mpulse output: burst ).
 4. Press enter to confirm your output.
 5. Verify that the desired input is correct (you will see a confirmation
-   message similar to this: >I<mpulse input(1): b + r + u + t + s).
+   message similar to this: >I<mpulse input: b + r + u + t + s).
 6. If the input is incorrect, perform your desired input at this step.
    Once the input is the desired input, press enter.
 
@@ -216,13 +216,13 @@ OUTPUT, 5. CONFIRM INPUT
    (example: “tsubr”) or you will see a chord which is already
    programmed to that input. If you continue, any conflicts will be
    overwritten.
-2. Call the impulse command with either GTM >I<mpulse OR with the hard
+2. Call the impulse command with the hard
    coded chord ``i+ESC``.
 3. Follow the prompt and type your output in character entry mode.
    (example: >I<mpulse output: burst ).
 4. Press enter to confirm your output.
 5. Verify that the desired output is correct (you will see a
-   confirmation message similar to this: >I<mpulse input(1): b + u + r +
+   confirmation message similar to this: >I<mpulse input: b + u + r +
    s + t).
 6. If the input is incorrect, perform your desired input at this step.
    Once the input is the desired input, press enter.
