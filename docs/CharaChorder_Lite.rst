@@ -175,7 +175,7 @@ Checking your Device’s Firmware
 You can check your device’s current firmware by following the steps
 below: 
 
-1. On a chromium based browser, such as Chrome or Edge, go to the CharaChorder `CharaChorder Device Manager <https://manager.charachorder.com>`__ 
+1. On a chromium based browser, such as Chrome or Edge, go to the CharaChorder `CharaChorder Device Manager <https://charachorder.io>`__ 
 
 .. image:: /assets/images/ManagerFirstTimeConnect.png
   :width: 1200
@@ -196,7 +196,7 @@ below:
   		:width: 1200
   		:alt: Arrow showing where on the screen to find the red "Device" button
 
-3. When the popup box comes up that reads “manager.charachorder.com wants to connect to a serial port”, choose your CharaChorder device, then click the “connect” button
+3. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your CharaChorder device, then click the “connect” button
 
 .. image:: /assets/images/ManagerSELECTDEVICE.png
   :width: 1200
@@ -224,7 +224,7 @@ site <https://www.charachorder.com/pages/update-your-firmware>`__.
 .. warning::
    IMPORTANT: Before performing the below steps, please make sure that you have a :ref:`backup of your layout<Device Manager:Backups>`      as well as a :ref:`backup of your chord library<Device Manager:Backups>` and a :ref:`backup of your GTM settings<Device Manager:Backups>`. The update might reset those, so it's important that you    keep backup files handy. For instructions on how to restore backed-up files, visit the :ref:`Backups<Device Manager:Backups>` section.
 
-1. On a chromium based browser, such as Chrome or Edge, go to the `CharaChorder Device Manager <https://manager.charachorder.com>`__ 
+1. On a chromium based browser, such as Chrome or Edge, go to the `CharaChorder Device Manager <https://charachorder.io>`__ 
 
 .. image:: /assets/images/ManagerFirstTimeConnect.png
   :width: 1200
@@ -245,7 +245,7 @@ site <https://www.charachorder.com/pages/update-your-firmware>`__.
   		:width: 1200
   		:alt: Arrow showing where on the screen to find the red "Device" button
 
-3. When the popup box comes up that reads “manager.charachorder.com wants to connect to a serial port”, choose your CharaChorder device, then click the “connect” button
+3. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your CharaChorder device, then click the “connect” button
 
 .. image:: /assets/images/ManagerSELECTDEVICE.png
   :width: 1200
@@ -335,7 +335,7 @@ Learning the Layout
   :width: 1200
   :alt: Image showing the CharaChorder Lite default layout
 
-The CharaChorder Lite's layout is mostly traditional QWERTY. All of the letters and numbers are where you would expect them on other keyboards. However, there are some keys that are moved around, and a couple of extra keys as well. We'll describe the Lite's layout below. Remember that you can always :ref:`remap<Device Manager:Remapping>` the keys to your liking on the `CharaChorder Device Manager <https://manager.charachorder.com>`__.
+The CharaChorder Lite's layout is mostly traditional QWERTY. All of the letters and numbers are where you would expect them on other keyboards. However, there are some keys that are moved around, and a couple of extra keys as well. We'll describe the Lite's layout below. Remember that you can always :ref:`remap<Device Manager:Remapping>` the keys to your liking on the `CharaChorder Device Manager <https://charachorder.io>`__.
 
 Earlier, we explained that the CharaChorder Lite is a 60% keyboard. It's been named that because it's missing the navigation keys usually present on 65% keyboards, though it still has four arrow keys. Therefore, it is accurate to refer to the CCL as a 60%+6 keyboard, where the 6 refers to keys that aren't usually on a 60% keyboard. Additionally, the CCL has 67 keys, instead of the 61 keys that 60% keyboards traditionally have.
 
