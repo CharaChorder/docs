@@ -22,7 +22,7 @@ You can follow the steps below to connect to the device manager for the first ti
 .. Tip::
 	If the :ref:`device button<Devicebutton>` at the top right hand corner of the screen is not pink, then the device manager is currently connected to a device. Open the :ref:`device menu<Device Manager:Device Menu>` to make sure that it's the right device.
 
-1. On a chromium based browser, such as Chrome or Edge, go to the `CharaChorder Device Manager <https://manager.charachorder.com>`__ 
+1. On a chromium based browser, such as Chrome or Edge, go to the `CharaChorder Device Manager <https://charachorder.io>`__ 
 
 .. image:: /assets/images/ManagerFirstTimeConnect.png
   :width: 1200
@@ -43,7 +43,7 @@ You can follow the steps below to connect to the device manager for the first ti
   		:width: 1200
   		:alt: Arrow showing where on the screen to find the red "Device" button
 
-3. When the popup box comes up that reads “manager.charachorder.com wants to connect to a serial port”, choose your CharaChorder device, then click the “connect” button
+3. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your CharaChorder device, then click the “connect” button
 
 .. image:: /assets/images/ManagerSELECTDEVICE.png
   :width: 400

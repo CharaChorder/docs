@@ -110,9 +110,9 @@ Checking your Device’s Firmware
 You can check your device’s current firmware by following the steps
 below: 
 
-#. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://manager.charachorder.com/config/layout/>`__ 
+#. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://charachorder.io/config/layout/>`__ 
 #. Click “Connect” 
-#. When the popup box comes up that reads “manager.charachorder.com wants to connect to a serial port”, choose your CharaChorder device, then click the blue “connect” button
+#. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your CharaChorder device, then click the blue “connect” button
 
 After following the above steps, you can find your
 firmware version right above the “Connect” button. It will read
@@ -136,9 +136,9 @@ site <https://www.charachorder.com/pages/update-your-firmware>`__.
 .. warning::
    **IMPORTANT**: Before performing the below steps, please make sure that you have a :ref:`backup of your layout<Device Manager:Backups>`      as well as a :ref:`backup of your chord library<Device Manager:Backups>`. The update might reset those, so it's important that you    keep backup files handy. For instructions on how to restore backed up files, visit the :ref:`Backups<Device Manager:Restoring from a Backup>`    section. The update might also reset some of your :doc:`GTM<GenerativeTextMenu>` settings. Be sure to write    down settings before you update.
 
-#. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://manager.charachorder.com/config/layout/>`__ 
+#. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://charachorder.io/config/layout/>`__ 
 #. Click “Connect”
-#. When the popup box comes up that reads “manager.charachorder.com wants to connect to a serial port”, choose your CharaChorder device, then click the blue “connect” button
+#. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your CharaChorder device, then click the blue “connect” button
 #. _`Click` “Boot Menu” (the power icon) followed by “Bootloader”. Your CharaChorder will now appear as an external storage device on your computer’s file explorer or Finder app. It might be named one of the following: “TinyUSB”, “TinyUSB CDC”, or “CharaChorder X”.
 #. Download your update file from this site: `<https://www.charachorder.com/pages/update-your-firmware>`__
 
@@ -215,13 +215,13 @@ else. This is the main layer. Your CharaChorder-connected keyboard will always b
 
 While the A1 layer is active on the CharaChorder X by default, you can
 map the A1 access key, which bears the name “Primary Keymap (Left)” or “Primary Keymap (Right)”, on the
-`Device Manager <https://manager.charachorder.com/config/layout/>`__.
+`Device Manager <https://charachorder.io/config/layout/>`__.
 
 A2 Layer
 ^^^^^^^^
 
 The A2 layer, sometimes referred to as the “number layer”, is accessible
-with the :doc:`A2 access key<CharaChorder Keys>`. This key is NOT mapped on your CharaChorder X by default, because the CharaChorder X uses your keyboard's layout. In the `Device Manager <https://manager.charachorder.com/config/layout/>`__,
+with the :doc:`A2 access key<CharaChorder Keys>`. This key is NOT mapped on your CharaChorder X by default, because the CharaChorder X uses your keyboard's layout. In the `Device Manager <https://charachorder.io/config/layout/>`__,
 this key has the name “Numeric Layer (Left)” and “Numeric Layer (Right)”.
 
 Any key that is on the A2 Layer can only be accessed by pressing and
@@ -233,7 +233,7 @@ A3 Layer
 ^^^^^^^^
 
 The A3 layer, sometimes referred to as the “function layer”, is
-accessible with the :ref:`A3 access key<CharaChorder Keys>`. This key is NOT mapped on your CharaChorder X by default, because the CharaChorder X uses your keyboard's layout. In the `Device Manager <https://manager.charachorder.com/config/layout/>`__,
+accessible with the :ref:`A3 access key<CharaChorder Keys>`. This key is NOT mapped on your CharaChorder X by default, because the CharaChorder X uses your keyboard's layout. In the `Device Manager <https://charachorder.io/config/layout/>`__,
 this key has the name “Function Layer (Left)” and “Function Layer (Right)”.
 
 Any key that is on the A3 Layer can only be accessed by
@@ -252,7 +252,7 @@ like other modifiers (such as CTRL and ALT). The Shift modifier output
 is currently controlled by the Operating System that your CharaChorder is
 plugged to, and it is not possible to customize their outputs.
 
-In the `Device Manager <https://manager.charachorder.com/config/layout/>`__,
+In the `Device Manager <https://charachorder.io/config/layout/>`__,
 this key has the name “Shift Keyboard Modifier (Left)” and “Shift Keyboard Modifier (Right)”, one for each side
 of the keyboard. 
 
