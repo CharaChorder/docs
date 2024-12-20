@@ -110,7 +110,7 @@ Checking your Device’s Firmware
 You can check your device’s current firmware by following the steps
 below: 
 
-#. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://charachorder.io/config/layout/>`__ 
+#. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://charachorder.io/config/layout/>`__ (Linux users see :ref:`this link<serialportaccess>` for more information about configuring serial port access.)
 #. Click “Connect” 
 #. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your CharaChorder device, then click the blue “connect” button
 

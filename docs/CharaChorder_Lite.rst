@@ -175,7 +175,7 @@ Checking your Device’s Firmware
 You can check your device’s current firmware by following the steps
 below: 
 
-1. On a chromium based browser, such as Chrome or Edge, go to the CharaChorder `CharaChorder Device Manager <https://charachorder.io>`__ 
+1. On a chromium based browser, such as Chrome or Edge, go to the CharaChorder `CharaChorder Device Manager <https://charachorder.io>`__ (Linux users see :ref:`this link<serialportaccess>` for more information about configuring serial port access.)
 
 .. image:: /assets/images/ManagerFirstTimeConnect.png
   :width: 1200
