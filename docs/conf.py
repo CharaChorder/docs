@@ -33,7 +33,7 @@ import sys
 # ones.
 # extensions = ['sphinx.ext.autodoc']
 extensions = ['myst_parser', 'sphinx.ext.autosectionlabel', "sphinx_design",
-'sphinx.ext.autosectionlabel']
+'sphinx.ext.autosectionlabel', 'sphinx_copybutton']
 
 # Automatically prefix labels with the document name
 autosectionlabel_prefix_document = True

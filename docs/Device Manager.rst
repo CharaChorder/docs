@@ -53,36 +53,45 @@ If these steps were performed correctly, the device button will have gone from p
 
 .. _serialportaccess:
 
-.. Note::
+Linux Serial Port Access
+--------------------------
 
-   For **Linux** based users: serial port access is often restricted to specific user groups for security. 
-   To enable serial port access in a browser like Chromium, you'll need to add your user to the appropriate 
-   group based on your Linux distribution. Below is a table summarizing the necessary commands:
+.. warning::
+    For **Linux** based users: serial port access is often restricted to specific user groups for security. 
+    To enable serial port access in a browser like Chromium, you'll need to add your user to the appropriate 
+    group based on your Linux distribution.  Follow the steps below to grant access.
 
-   .. csv-table:: Configuring Serial Port Access by Common Distribution
-      :header: "Distributions", "Command"
 
-      "Ubuntu, Debian, Linux Mint, openSUSE, CentOS, Elementary OS, Zorin OS", "sudo usermod -aG dialout \$USER"
-      "Fedora, Arch Linux, Manjaro", "sudo usermod -aG uucp \$USER"
+For Ubuntu, Debian, Linux Mint, openSUSE, CentOS, Elementary OS, Zorin OS:
+
+.. code-block:: bash
+
+    sudo usermod -aG dialout $USER
+
+For Fedora, Arch Linux, Manjaro:
+
+.. code-block:: bash
+
+	sudo usermod -aG uucp $USER
+
+Replace ``$USER`` with your username or use ``$USER`` to automatically reference the current user.
+Log out and log back in for the changes to take effect.
+
+If the above commands don't work, check the group ownership of the serial device (e.g., ``/dev/ttyUSB0``) using:
    
-   - Replace `\$USER` with your username or use `$USER` to automatically reference the current user.
-   - Log out and log back in for the changes to take effect.
-   - If the above commands don't work, check the group ownership of the serial device (e.g., `/dev/ttyUSB0`) using:
-   
-     ```bash
-     ls -l /dev/ttyUSB0
-     ```
-     
-     This command will display the device's group. Replace `/dev/ttyUSB0` with the appropriate device file for your system.
+.. code-block:: bash
 
-   - After identifying the group (e.g., `dialout`, `uucp`, or another), add your user to that group using:
+    ls -l /dev/ttyUSB0
 
-     ```bash
-     sudo usermod -aG <group_name> $USER
-     ```
+This command will display the device's group. Replace ``/dev/ttyUSB0`` with the appropriate device file for your system.
+After identifying the group (e.g., ``dialout``, ``uucp``, or another), add your user to that group using:
 
-     Replace `<group_name>` with the name of the group displayed in the previous step.
-   - Log out and log back in to apply the changes. Your user will now have the necessary permissions to access the serial port.
+.. code-block:: bash
+
+    sudo usermod -aG <group_name> $USER
+
+Replace ``<group_name>`` with the name of the group displayed in the previous step.
+Log out and log back in to apply the changes. Your user will now have the necessary permissions to access the serial port.
 
 Device Manager Website
 ************************
