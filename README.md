@@ -4,10 +4,10 @@ CharaChorder documentation
 
 ## Dependencies
 
-Install `sphinx`, `sphinx_rtd_theme`, `sphinx-design`, and `myst-parser` using `pip` or your preferred package manager.
+Install `sphinx`, `sphinx_rtd_theme`, `sphinx-design`, `myst-parser`, and `sphinx_copybutton` using `pip` or your preferred package manager.
 
 ```sh
-pip install sphinx sphinx_rtd_theme myst-parser sphinx-design
+pip install sphinx sphinx_rtd_theme myst-parser sphinx-design sphinx_copybutton
 ```
 
 ### Nix/NixOS
