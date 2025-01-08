@@ -24,6 +24,7 @@ Table of Contents
    :maxdepth: 2
    
    CharaChorder One.rst
+   CharaChorder Two.rst
    CharaChorder_Lite.rst
    CharaChorder Engine.rst
    CharaChorder X.rst
