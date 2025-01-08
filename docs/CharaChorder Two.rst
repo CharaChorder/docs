@@ -1,7 +1,7 @@
-CC2
+CharaChorder Two (CC2)
 ===================
 
-Welcome to the Official CharaChorder CC2 guide. You can select the links
+Welcome to the Official CharaChorder Two (CC2) guide. You can select the links
 below to navigate to the topics that you find most relevant.
 
 .. _CC2:
@@ -17,11 +17,6 @@ Out of the Box
 
 Parts
 -----
-
-.. _CC2 Schematic:
-.. image:: /assets/images/CC1Scheme.png
-  :width: 1200
-  :alt: CC2 Scheme
 
 When you first receive your CC2, it will come in a black
 box with the CharaChorder logo on the outside. Once you open the box,
@@ -40,21 +35,20 @@ One. The CC2 consists of two halves, each one having nine 3D switches, held toge
 The Halves
 ~~~~~~~~~~
 
-Your device will come with two “halves” which, together, comprise the complete CC2. Each half corresponds to each hand and is designed ergonomically for the comfort of each hand. The halves are printed by
-injection mold and made of ABS plastic[CHECK]. Each half is actually two pieces which are the dome-shaped “shell” and the flat and circular “baseplate”. They are held together by five M2, Philips screws which are under the “feet” of the device. The feet are round, rubberized and help the device to have a grip on desks and other smooth
+Your device will come with two “halves” which, together, comprise the complete CC2. Each half corresponds to each hand and is designed ergonomically for the comfort of each hand. Each half is actually two pieces which are the dome-shaped “shell” (injection molded ABS plastic) and the flat and circular “baseplate” (3D-printed plastic). They are held together by five M2, Philips screws which are under the “feet” of the device. The feet are round, rubberized and help the device to have a grip on desks and other smooth
 surfaces.
 
 The left half of the CC2 contains the “brain” of the device, where it stores
 chords, layouts, and settings. It also contains a female USB-C port on
 the left side of the half and a 3.5 mm “audio jack” port on the right
-side of the half (See :ref:`Connections<CC2:Connections>`). The right half is nearly a mirror image of the left half. It has a 3.5 mm “audio jack” port on the left side of the half and a no other ports (See :ref `Connections<CC2:Connections>`).
+side of the half (See :ref:`Connections<CharaChorder Two:Connections>`). The right half is nearly a mirror image of the left half. It has a 3.5 mm “audio jack” port on the left side of the half and a no other ports (See :ref:`Connections<CharaChorder Two:Connections>`).
 
 The Center Bar
 ~~~~~~~~~~~~~~
 
 Out of the box, your CC2 will have a machined aluminum
 “bridge” which is often referred to as a metal bar. The metal bar is held in
-place by four M2 x 3 mm screws, with two screws on each end fastening it to each half. The metal bar can be removed by removing these four screws. In doing so, your CC2 halves will now be able to separate as far as you need, provided that you have a long enough :ref:`TRS Cable<CC2:TRS Cable>`.
+place by four M2 x 3 mm screws, with two screws on each end fastening it to each half. The metal bar can be removed by removing these four screws. In doing so, your CC2 halves will now be able to separate as far as you need, provided that you have a long enough :ref:`TRS Cable<CharaChorder Two:TRS Cable>`.
 
 The Switches
 ~~~~~~~~~~~~

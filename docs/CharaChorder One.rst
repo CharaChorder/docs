@@ -43,12 +43,11 @@ The Halves
 
 Your device will come with two “halves” which comprise the full
 CharaChorder One. Each half corresponds to each hand and is designed for
-the ergonomics and comfort of each hand. The halves are printed by
-injection mold and made of ABS plastic. Each half is actually two pieces
-which are the dome-shaped “shell” and the flat and circular “baseplate”.
-They are held together by 5 M2, Philips screws which are
-under the “feet” of the device. The feet are round, rubberized and help the device to have a grip on desks and other smooth
-surfaces.
+the ergonomics and comfort of each hand. The halves are injection molded ABS 
+plastic. Each half is actually two pieces which are the dome-shaped “shell” and 
+the flat and circular “baseplate”. They are held together by 5 M2, Philips screws 
+which are under the “feet” of the device. The feet are round, rubberized and help 
+the device to have a grip on desks and other smooth surfaces.
 
 The left half contains the “brain” of the device, where it stores
 chords, layouts, and settings. It also contains a female USB-C port on
