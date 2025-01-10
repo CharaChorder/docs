@@ -342,7 +342,7 @@ A2 Layer
 
 The A2 layer, sometimes referred to as the “number layer”, is accessible
 with the :doc:`A2 access key<CharaChorder Keys>`. In the above :ref:`graphic<CCEnglish Layout>`, you’ll see this labeled
-as “num-shift.” In the `Device Manager <https://charachorder.io/config/layout/>`__,
+as “②” In the `Device Manager <https://charachorder.io/config/layout/>`__,
 this key has the name “Numeric Layer (Left)” and “Numeric Layer (Right)”, one for each side of the
 CharaChorder. 
 
@@ -363,10 +363,9 @@ A3 Layer
 ^^^^^^^^
 
 The A3 layer, sometimes referred to as the “function layer”, is
-accessible with the :ref:`A3 access key<CharaChorder Keys>`. This key is not
-in the above :ref:`graphic<CCEnglish Layout>`, and instead
-is accessible by pressing and holding either pinky down, into the
-device. In the `Device Manager <https://charachorder.io/config/layout/>`__,
+accessible with the :ref:`A3 access key<CharaChorder Keys>`. This key is shown as ③
+in the above :ref:`graphic<CCEnglish Layout>`. It is accessible by pressing and 
+holding either pinky down, into the device. In the `Device Manager <https://charachorder.io/config/layout/>`__,
 this key has the name “Function Layer (Left)” and “Function Layer (Right)”, one for each side of the
 CharaChorder.
 
@@ -392,8 +391,8 @@ like other modifiers (such as Ctrl and Alt). The Shift modifier output
 is currently controlled by the Operating System that your CharaChorder is
 plugged to, and it is not possible to customize their outputs.
 
-In the above graphic, you’ll see
-the Shift key labeled as “Shift”. In the `Device Manager <https://charachorder.io/config/layout/>`__,
+In the above :ref:`graphic<CCEnglish Layout>`, you’ll see
+the Shift key labeled as “⇧”. In the `Device Manager <https://charachorder.io/config/layout/>`__,
 this key has the name “Shift Keyboard Modifier (Left)” and “Shift Keyboard Modifier (Right)”, one for each half
 of the CharaChorder.
 
