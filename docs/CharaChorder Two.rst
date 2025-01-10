@@ -30,7 +30,7 @@ some functions that the CC2 has.
   :alt: CC2 Travel Case
 
 Once you unzip the travel case, you’ll meet your shiny, new CharaChorder
-One. The CC2 consists of two halves, each one having nine 3D switches, held together by a machined aluminum center bar.
+Two. The CC2 consists of two halves, each one having nine 3D switches, held together by a machined aluminum center bar.
 
 The Halves
 ~~~~~~~~~~
@@ -181,7 +181,7 @@ device.
 Updating your Device
 --------------------
 
-.. _charachorder-one-checking-your-devices-firmware:
+.. _charachorder-two-checking-your-devices-firmware:
 
 Checking your Device’s Firmware
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
