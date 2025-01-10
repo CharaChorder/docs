@@ -147,7 +147,7 @@ the way in, otherwise, the CC2 might not function as intended.
 
 .. warning::
    IMPORTANT: During your first time plugging your CharaChorder in,
-   and every time thereafter when you have :doc:`realtime-feedback<GenerativeTextMenu>` enabled, it’s
+   and every time thereafter when you have :ref:`realtime feedback<GenerativeTextMenu:Realtime feedback>` enabled, it’s
    recommended that you have your cursor in a space where you can type. The 
    CharaChorder has a welcome message that can send instructions to your 
    computer that are not intended by the user. This feature can be disabled in
