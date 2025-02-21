@@ -62,13 +62,13 @@ Linux Serial Port Access
     group based on your Linux distribution.  Follow the steps below to grant access.
 
 
-For Ubuntu, Debian, Linux Mint, openSUSE, CentOS, Elementary OS, Zorin OS:
+For Ubuntu, Debian, Fedora, Linux Mint, openSUSE, CentOS, Elementary OS, Zorin OS:
 
 .. code-block:: bash
 
     sudo usermod -aG dialout $USER
 
-For Fedora, Arch Linux, Manjaro:
+For Arch Linux, Manjaro:
 
 .. code-block:: bash
 
