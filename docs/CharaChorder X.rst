@@ -1,4 +1,4 @@
-CharaChorder X
+CharaChorder X (CCX)
 =======================================
 
 Welcome to the Official CharaChorder X guide.

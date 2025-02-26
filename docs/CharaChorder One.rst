@@ -1,4 +1,4 @@
-CharaChorder One
+CharaChorder One (CC1)
 ===================
 
 Welcome to the Official CharaChorder One guide. You can select the links
