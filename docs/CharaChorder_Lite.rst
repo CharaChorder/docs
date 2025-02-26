@@ -167,51 +167,26 @@ Updating your Device
    instructions on how to upgrade your device to our new CCOS :ref:`here<CCOS:Upgrade to CCOS>`. If your device is not running    :doc:`CCOS<CCOS>`, you will be unable to follow the
    steps below to update your device.
 
-.. _charachorder-lite-checking-your-devices-firmware:
-
 Checking your Device’s Firmware
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You can check your device’s current firmware by following the steps
 below: 
 
-1. On a chromium based browser, such as Chrome or Edge, go to the CharaChorder `CharaChorder Device Manager <https://charachorder.io>`__ (Linux users see :ref:`this link<serialportaccess>` for more information about configuring serial port access.)
-
-.. image:: /assets/images/ManagerFirstTimeConnect.png
-  :width: 1200
-  :alt: Image of the first time connecting to the Device Manager
-
-2. Click “Connect” 
-
-.. image:: /assets/images/ManagerCONNECT.png
-  :width: 1200
-  :alt: Arrow showing where on the screen to find the "connect" button
-
-.. dropdown:: Additional Step if you don't see the "Device" box.
-
-    If you don't see the "Device" box on your screen, find the "Device" button in the top right corner. It should be red in color. Press it in order to see the "Device" box.
-
-	.. _Reference Name: Red Device Button
-	.. image:: /assets/images/ManagerREDCONNECTBUTTON.png
-  		:width: 1200
-  		:alt: Arrow showing where on the screen to find the red "Device" button
-
-3. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your CharaChorder device, then click the “connect” button
-
-.. image:: /assets/images/ManagerSELECTDEVICE.png
-  :width: 1200
-  :alt: Image showing the dialogue box requesting permission to open a serial connection
+#. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://charachorder.io/config/layout/>`__ (Linux users see :ref:`this link<serialportaccess>` for more information about configuring serial port access.)
+#. Click “Connect” at the bottom middle of the page
+#. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your CharaChorder device, then click the blue “connect” button
 
 After following the above steps, you can find your
-CCOS version in the Device box right under the Device name:
+firmware version in the bottom left of your screen. It will read
+something like this:
 
-``CHARACHORDER LITE S2``
+``CCOS 1.1.4``
 
-``CCOS VERSION 1.1.1``
-
-.. image:: /assets/images/ManagerVersion.png
+.. _Firmware Check:
+.. image:: /assets/images/DMFW.png
   :width: 1200
-  :alt: Image of where to find your CCOS version number
+  :alt: Checking the firmware on Device Manager
 
 Updating the Firmware
 ~~~~~~~~~~~~~~~~~~~~~
@@ -219,79 +194,21 @@ Updating the Firmware
 If you find that your device is not running the latest firmware version,
 you can follow the steps below to update your device. You can check
 which is the latest firmware release by visiting `this
-site <https://www.charachorder.com/pages/update-your-firmware>`__. 
+site <https://charachorder.io/ccos/>`__. 
 
 .. warning::
-   IMPORTANT: Before performing the below steps, please make sure that you have a :ref:`backup of your layout<Device Manager:Backups>`      as well as a :ref:`backup of your chord library<Device Manager:Backups>` and a :ref:`backup of your GTM settings<Device Manager:Backups>`. The update might reset those, so it's important that you    keep backup files handy. For instructions on how to restore backed-up files, visit the :ref:`Backups<Device Manager:Backups>` section.
+   IMPORTANT: Before performing the below steps, please make sure that you have a :ref:`backup of your layout<Device Manager:Backups>` as well as a :ref:`backup of your chord library<Device Manager:Backups>` and a :ref:`backup of your GTM settings<Device Manager:Backups>`. The update might reset those, so it's important that you keep backup files handy. For instructions on how to restore backed up files, visit the :ref:`Backups<Device Manager:Restoring from a Backup>` section.
 
-1. On a chromium based browser, such as Chrome or Edge, go to the `CharaChorder Device Manager <https://charachorder.io>`__ 
+#. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://charachorder.io/config/layout/>`__ 
+#. If not auto-connected, click “Connect”
+#. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your CharaChorder device, then click the blue “connect” button
+#. Click on the CCOS version on the bottom left of the page
+#. You will see a list of available versions along with their release date. Click on the one you want.
+#. If you have a Lite S2, you'll be able to just click "Apply Update". If you device does not have that option, you have a M0 device and can follow the steps on screen to update your device.
 
-.. image:: /assets/images/ManagerFirstTimeConnect.png
-  :width: 1200
-  :alt: Image of the first time connecting to the Device Manager
-
-2. Click “Connect”
-
-.. image:: /assets/images/ManagerCONNECT.png
-  :width: 1200
-  :alt: Arrow showing where on the screen to find the "connect" button
-
-.. dropdown:: Additional Step if you don't see the "Device" box.
-
-    If you don't see the "Device" box on your screen, find the "Device" button in the top right corner. It should be red in color. Press it in order to see the "Device" box.
-
-	.. _Reference Name: Red Device Button
-	.. image:: /assets/images/ManagerREDCONNECTBUTTON.png
-  		:width: 1200
-  		:alt: Arrow showing where on the screen to find the red "Device" button
-
-3. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your CharaChorder device, then click the “connect” button
-
-.. image:: /assets/images/ManagerSELECTDEVICE.png
-  :width: 1200
-  :alt: Image showing the dialogue box requesting permission to open a serial connection
-
-4. Find the "Device" button on the top right of your screen and click on it to open the Device box. You can see the name of the button by hovering your cursor over it.
-
-.. image:: /assets/images/ManagerDeviceButton-Lite.png
-  :width: 1200
-  :alt: Image showing where to find the Device Button 
-
-5. In the Device box, select the "Boot Menu" button. You can see the name of the button by hovering your cursor over it.
-
-.. image:: /assets/images/ManagerPowerButton-Lite.png
-  :width: 1200
-  :alt: Image showing where to find the Boot Menu button
-
-.. _step 6:
-
-6. Under the Boot Menu, select the "Bootloader" option.
-
-.. image:: /assets/images/ManagerBootloaderButton-Lite.png
-  :width: 1200
-  :alt: Image showing where to find the Bootloader button
-
-Your CharaChorder will now appear as an external storage device on your computer’s file explorer or Finder app. It might be named one of the following: “Arduino”, “Seeduino”, “CharaChorder Lite”, or "CCBOOT".
-
-7. Download your update file from this site: `<https://www.charachorder.com/pages/update-your-firmware>`__
-
-.. note::
-	You'll notice that there are two different versions of the CharaChorder Lite. Please be sure to download the version that corresponds to your device, whether it's M0 or S2. You can check your device's version by following the steps :ref:`here<CharaChorder_Lite:Checking your Device’s Firmware>`.
-
-.. danger::
-   Make sure that the file you download is named exactly
-   like this: CURRENT.UF2 . If there are any other characters in the
-   file name, the file will not work. “CURRENT(1).UF2” will NOT work.
-   Additionally, the file name is case-sensitive; all letters must be
-   capitalized.
-
-8. Copy the CURRENT.UF2 file that you just downloaded and paste it into the CharaChorder drive that we found in :ref:`step 6<step 6>`
-9. When your computer asks you how you would like to resolve the issue of two files with the same name, select “Replace file”.
-
-At this point, your CharaChorder Lite will automatically reboot, and the
-CharaChorder drive will have disappeared. Congratulations! You have
+At this point, your device will automatically reboot. Congratulations! You have
 successfully updated your device. You can check your device’s firmware
-version by following the steps :ref:`here<charachorder-lite-checking-your-devices-firmware>`.
+version by following the steps :ref:`here<CharaChorder_Lite:Checking your Device’s Firmware>`.
 
 Understanding the Settings
 --------------------------

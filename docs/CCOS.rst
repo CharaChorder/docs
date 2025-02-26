@@ -76,7 +76,7 @@ Part I - Back up chord library and update device
 #. Click ‘Export Library’ to export a .csv file to your machine (The file should be called: “CharaChorder_ChordLibrary.csv”)
 #. Once you are absolutely sure your library is exported properly, and ALL of your chords are present in the file, click the ‘Delete All Chords’’ button.
 #. Refresh the page, reconnect your device via steps 2-3, and click the ‘Bootloader’ button. A file explorer window should open on Windows. On Mac you may need to find your device as an external drive
-#. Download your update file from this site: `<https://www.charachorder.com/pages/update-your-firmware>`__
+#. Proceed with updating your device by visiting this site, choosing which device you are updating, and then proceed with Step 4. It will open a file explorer where you can find the mounted device as an external drive.  `<https://charachorder.io/ccos/>`__
 
     .. warning::
         You'll notice that there are two different versions of the CharaChorder 
@@ -93,8 +93,7 @@ Part I - Back up chord library and update device
         Additionally, the file name is case-sensitive; all letters must be
         capitalized.
 
-#. Drag the UF2 file into the file explorer window and confirm that you would like to replace the existing file.
-#. The file explorer window should automatically close
+#. After saving, your device should successfully reboot and have CCOS.
 
 
 

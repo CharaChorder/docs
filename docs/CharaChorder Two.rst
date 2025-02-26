@@ -210,7 +210,7 @@ Updating the Firmware
 If you find that your device is not running the latest firmware version,
 you can follow the steps below to update your device. You can check
 which is the latest firmware release by visiting `this
-site <https://www.charachorder.com/pages/update-your-firmware>`__. 
+site <https://charachorder.io/ccos/>`__. 
 
 .. warning::
    IMPORTANT: Before performing the below steps, please make sure that you have a :ref:`backup of your layout<Device Manager:Backups>` as well as a :ref:`backup of your chord library<Device Manager:Backups>` and a :ref:`backup of your GTM settings<Device Manager:Backups>`. The update might reset those, so it's important that you keep backup files handy. For instructions on how to restore backed up files, visit the :ref:`Backups<Device Manager:Restoring from a Backup>` section.
@@ -222,7 +222,7 @@ site <https://www.charachorder.com/pages/update-your-firmware>`__.
 #. You will see a list of available versions along with their release date. Click on the one you want.
 #. Click "Apply Update"
 
-At this point, your CC2 will automatically reboot. Congratulations! You have
+At this point, your device will automatically reboot. Congratulations! You have
 successfully updated your device. You can check your device’s firmware
 version by following the steps :ref:`here<charachorder-two-checking-your-devices-firmware>`.
 
