@@ -1,2 +1,0 @@
-CharaChorder Keys - UNDER CONSTRUCTION
-==========================================

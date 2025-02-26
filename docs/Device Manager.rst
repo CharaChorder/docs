@@ -1,9 +1,9 @@
 Device Manager
 ======================================
 
-The CharaChorder Device Manager is the one-stop-shop for users with a CCOS-powered device. It boasts high quality graphics, animations and a simple user interface. On the device manager, you can change your device's :ref:`layout<Device Manager:Layout Editor>`, manage your :ref:`chord library<Device Manager:Chord Manager>`, adjust your :ref:`settings<Device Manager:Settings Menu>`, and even send :doc:`serial commands<SerialAPI>` to your device.
+The CharaChorder Device Manager is the one-stop-shop for users with a CCOS-powered device. It boasts high quality graphics, animations and a simple user interface. On the device manager, you can change your device's :ref:`layout<Device Manager:Layout>`, manage your :ref:`chord library<Device Manager:Library>`, and adjust your :ref:`settings<Device Manager:Device>`.
 
-In this section, we'll talk about the device manager and how you can navigate around it to configure your device to your liking. First, we'll discuss the website and where to find useful buttons on it, then we'll cover the three main pages on the device manager and how to use them, and, lastly, we'll touch upon some other features and useful tools on the manager. 
+In this section, we'll talk about the device manager and how you can navigate around it to configure your device to your liking. First, we'll discuss the website and where to find useful buttons on it, then we'll cover the main pages on the device manager and how to use them, and, lastly, we'll touch upon some other features and useful tools on the manager. 
 
 Feel free to use the links below to skip to whatever section you would like to read or scroll to start with the first section.
 
@@ -17,39 +17,17 @@ Connecting to the Device Manager
 You can follow the steps below to connect to the device manager for the first time. 
 
 .. Note::
-	If you have previously selected :ref:`Auto-reconnect<Autoreconnect>` within that browser for the same device, you may not need to repeat these steps every time that you go to the device manager page.
-
-.. Tip::
-	If the :ref:`device button<Devicebutton>` at the top right hand corner of the screen is not pink, then the device manager is currently connected to a device. Open the :ref:`device menu<Device Manager:Device Menu>` to make sure that it's the right device.
+	If you have previously selected :ref:`Auto-connect<Autoreconnect>` within that browser for the same device, you may not need to repeat these steps every time that you go to the device manager page.
 
 1. On a chromium based browser, such as Chrome or Edge, go to the `CharaChorder Device Manager <https://charachorder.io>`__ 
-
-.. image:: /assets/images/ManagerFirstTimeConnect.png
-  :width: 1200
-  :alt: Image of the first time connecting to the Device Manager
-
-2. Click “Connect” 
-
-.. image:: /assets/images/ManagerCONNECT.png
-  :width: 1200
-  :alt: Arrow showing where on the screen to find the "connect" button
-
-.. dropdown:: Additional Step if you don't see the "Device" box.
-
-    If you don't see the "Device" box on your screen, find the "Device" button in the top right corner. It should be pink in color. Press it in order to see the "Device" box.
-
-	.. _Reference Name: Red Device Button
-	.. image:: /assets/images/ManagerREDCONNECTBUTTON.png
-  		:width: 1200
-  		:alt: Arrow showing where on the screen to find the red "Device" button
-
-3. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your CharaChorder device, then click the “connect” button
+2. Click “Connect” at the bottom center of the screen
+3. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your CharaChorder device, then click the “Connect” button
 
 .. image:: /assets/images/ManagerSELECTDEVICE.png
   :width: 400
   :alt: Image showing the dialogue box requesting permission to open a serial connection
 
-If these steps were performed correctly, the device button will have gone from pink to transparent. You can verify that you're connected to the device manager by clicking the device button and reading your device's name and OS version.
+If these steps were performed correctly, you can see the connected device name in the bottom bar where "Connect" was previously.  
 
 .. _serialportaccess:
 
@@ -96,42 +74,13 @@ Log out and log back in to apply the changes. Your user will now have the necess
 Device Manager Website
 ************************
 
-.. _Devicebutton:
+The device manager comes with a navigation menu on the left hand side of the screen. 
+Otherwise, regardless of what page you are on, there are a few helpful buttons you should know about.
 
-The device manager comes with several useful buttons that "stick" around regardless of what page you go to. The button that really jumped out to you during your first visit was probably the "Device" button. This button is pink at first, before you connect your device, and will turn transparent once you have a device :ref:`connected<Device Manager:Connecting to the Device Manager>`.
+Connect / Device name
+---------------------
 
-.. image:: /assets/images/DMpinkbutton.png
-  :width: 1200
-  :alt: A picture showing the pink, device button
-
-Device Menu
---------------
-
-.. image:: /assets/images/DMFW.png
-  :width: 400
-  :alt: The Device Menu
-
-The Device menu is the place where you can connect your CCOS-powered device to the device manager through a :doc:`serial connection<SerialAPI>`. Here, you can also view your device type and CCOS version, as well as disconnect your device from the website's :doc:`serial connection<SerialAPI>`.
-
-.. _Autoreconnect:
-
-Additionally, you'll find a helpful toggle labeled "Auto-connect". By enabling this, the device manager will automatically connect your paired device through a :doc:`serial connection<SerialAPI>` every time that you open it. In doing so, it will also read your chords to detect changes that you may have made since the last time you connected it. If you have this enabled, you won't have to manually connect your device to the manager ever again!
-
-To the right of the connect/disconnect button, you'll find the "terminal" button. Clicking it will take you to the :ref:`terminal<Device Manager:Terminal>` page where you can send serial commands to your device. Check out the :doc:`Serial API<SerialAPI>` docs for information on what commands you can use.
-
-One more step to the right and you'll land on the boot menu button. Here, you'll be able to reboot your device and put it into :ref:`bootloader<Device Manager:Bootloader>` mode.
-
-History Menu
-----------------
-
-.. image:: /assets/images/ManagerHistoryMenu.png
-  :width: 400
-  :alt: The History Menu
-
-The History Menu is home to your backups as well as the place to go to in order to restore your device by using a backup file. There are different kinds of backups that you can create and we'll cover all of them in the :ref:`backups<Device Manager:Backups>` section.
-
-If you toggle the "Store History" on, then the website will log all of the changes you make to your device so that you may "step back" to a previous state of the device. In other words, if you change your layout, but then decide that you want to revert back to a layout that you tested previously, you'll be able to click into that previous state and undo all of the changes done thereafter. Your history is stored in the browser that you're using at that time and remains on your computer, so only YOU can see the changes you make.
-
+The bottom center of the screen is where you connect to your device and see which you are connected to, as well as other info such as the site version and your device's CCOS version.
 
 Undo and Redo
 ---------------
@@ -141,31 +90,6 @@ Undo and Redo
   :alt: The Undo and Redo arrows
 
 Near the top left corner, the device manager has handy undo and redo buttons which do exactly what their names describe. If you're making changes to your layout, your chords, or your layout, you can step back, one change at a time, all the way back to the very first change that you made during that session. Once you're stepped back, you can step forward to redo the change(s) that was/were undone. 
-
-Pertinent Links
-----------------
-
-.. image:: /assets/images/ManagerLinks.png
-  :width: 400
-  :alt: The Pertinent Links bar
-
-On the bottom left hand of the device manager you can find four buttons that will redirect you to helpful websites related to the manager.
-
-Version
-~~~~~~~~~
-The leftmost button is the version button will always display the version of the device manager that you're currently using. You can click on it to go to the github page where the device manager is hosted from. If you'd like, you can submit "issues" on github for things you would like to see added to the device manager, such as features or bug fixes.
-
-Issues
-~~~~~~~
-This button will redirect you to the "issues" page on the device manager github where you can view issues that have been submitted by other users. You can also submit new issues for things that you would like to see added to the device manager, such as features or bug fixes.
-
-Docs
-~~~~~~
-The Docs button will redirect you to the Official CharaChorder documentation -- this manual that you're reading right now.
-
-Train
-~~~~~~~
-The button labeled "train" will redirect you to CharaChorder's very own Dot IO. This website will help you to learn to use your device as well as take advantage of CCOS's :doc:`chording<Chords>` feature. 
 
 Color Scheme
 --------------
@@ -179,10 +103,6 @@ Light and Dark Mode
 --------------------
 Also in the bottom right-hand corner, you'll find a sun or moon icon where you can toggle between light and dark mode. This toggle can help those who would rather a brighter screen to see better or a darker screen to reduce eye strain.
 
-Language
----------
-Finally, the last icon in the bottom right corner will allow you to change the device manager's language. Currently, the device manager supports English and German.Changing the manager's language will NOT change your device's layout or the chords in your chord library. It will only change the language in which the device manager's text appears in.
-
 Save Button
 -------------
 
@@ -190,264 +110,87 @@ Save Button
   :width: 200
   :alt: The Save Button
 
-If you make changes in the :ref:`chord manager<Device Manager:Chord Manager>`, the :ref:`layout editor<Device Manager:Layout Editor>` or the :ref:`settings menu<Device Manager:Settings Menu>`, a colored "save" button will pop up on your screen, towards the top left corner. 
+If you make changes in the :ref:`library<Device Manager:Library>`, the :ref:`layout editor<Device Manager:Layout>` or the :ref:`device menu<Device Manager:Settings Menu>`, a colored "save" button will pop up on your screen, towards the top left corner. 
 
 .. Note::
 	Your changes will not take effect until you click the save button.
 
 
-
-Chord Manager
+Device
 ***************
-.. image:: /assets/images/ChordManager.png
-  :width: 1200
-  :alt: A picture of the Chord Manager
+The Device Tab is the place where you can configure most settings of your :ref:`connected<Device Manager:Connecting to the Device Manager>` CCOS device and create backups.
+Read on to see the different settings you can change. You can find more detailed explanations in the :doc:`GTM<GenerativeTextMenu>` section.
 
-At the top center of the device manager you'll find a menu with three selections: Chords, Layout, and Settings.
-
-The Chord Manager is a powerful tool that lets you add, delete and edit chords stored in your chord library. It's easy to use and quick to load. We'll go over how to use it below.
-
-When you :ref:`connect<Device Manager:Connecting to the Device Manager>` your device to the device manager, the webpage will start reading the chords on your device. It may take a couple of seconds — or even over a minute for very large libraries — to load the first time. If you have :ref:`auto-reconnect<Autoreconnect>` enabled, the loading times are much shorter.
-
-Chords displayed here are shown in alphabetical order, using the list of :ref:`chord outputs<Chords:Chord Output>`. The number of chords shown on the chord manager depends on your screen size and browser zoom settings. Above the chords list, you'll see the search bar which will display the number of chords on your CCOS device until something is typed there.
-
-.. _search bar:
-
-You can search through your chords by searching :ref:`chord outputs<Chords:Chord Output>` (the word that displays once you've performed a chord). This textbox is not case sensitive, so you can type in capital or lowercase letters regardless of whether or not the chord has a capital letter in it. This search bar is also intuitive enough that you are also able to search partial words/phrases.
-
-To the right of the search bar, you'll find two numbers separated by a forward slash (``/``). These numbers indicate the page number that you're on out of the total number of pages that compose your chord library. Using the angle brackets to the right of those numbers will allow you to flip through the different pages of your chord library which is sorted in alphabetical order.
-
-Under the page-turning brackets, you'll see a tall box with the text "Try typing here". You can use this text box to test your new chords as you edit them in the manager. 
-
-Finally, at the bottom of the chord manager, you'll notice a "Reload" button. You can click on this button to have the device manager read your device's chord library again. This process can take a few seconds.
-
-Creating a Chord
------------------
-You can follow the steps below to create a new chord on the device manager.
-
-.. Note::
-	In order to follow these steps, you must already have your device :ref:`connected<Device Manager:Connecting to the Device Manager>` to the device manager.
-
-1. Find the "New chord" text under the :ref:`search bar<search bar>` and click it.
-
-
-2. When the text displays "Hold chord," press and hold all of the keys that you want to use as your :ref:`chord input<Chords:Chord Input>`. Once you have pressed all of the keys, release the keys.
-
-    You will now see the :ref:`chord input<Chords:Chord Input>` in the left column as letters inside individual boxes. These boxed-letters will be highlighted in a color (as opposed to black or white). The color depends on your selected :ref:`color scheme<Device Manager:Color Scheme>`. You will also notice a single, floating dot highlighted in the same color off to the right of the boxed-letters.
-
-	.. Note::
-		You can add any number of chords at a time without defining the desired :ref:`chord output<Chords:Chord Output>`. 
-
-	.. Warning::
-		If you click :ref:`save<Device Manager:Save Button>`, before defining a :ref:`chord output<Chords:Chord Output>` as described in :ref:`step three<Step 3>`, any chords that you've created will save to your device with a blank output and will lead to strange behavior.
-
-.. _Step 3:
-
-3. Click into the text box to the right of the :ref:`chord input<Chords:Chord Input>` that you created in the previous step and type your desired :ref:`chord output<Chords:Chord Output>`. 
-
-	.. dropdown:: Using Action Codes
-		
-		As you type your :ref:`chord output<Chords:Chord Output>`, you'll notice that your cursor will have a bubble with a ``+`` above it. You can click this to open the :ref:`action codes menu<Device Manager:Using Action Codes>` where you can search for specific action codes or browse through the action codes available to assign into a :ref:`chord output<Chords:Chord Output>`. Read the :ref:`action codes section<Device Manager:Using Action Codes>` for information on the different kinds of action codes.
-
-	As you type, you'll notice that your text has changed color to match your :ref:`color scheme<Device Manager:Color Scheme>` and that the end of your text has a floating dot immediately to the right.
-
-4. Once you are satisfied with your :ref:`output<Chords:Chord Output>`, you can proceed to modify another chord or click :ref:`save<Device Manager:Save Button>`. 
-
-
-Deleting a Chord
------------------
-You can follow the steps below to delete a chord in the device manager.
-
-.. Note::
-	In order to follow these steps, you must already have your device :ref:`connected<Device Manager:Connecting to the Device Manager>` to the device manager.
-
-1. Locate the chord that you would like to delete.
-
-2. When you hover over the chord that you would like to delete, you will notice a small trash icon appear in line with that chord map. Click the trash icon in order to mark it for deletion.
-
-	When you click the trash icon, the boxed-letters in the left column will have a line through them and they will turn red. You can unmark chords for deletion by clicking the "undo" arrow next to the trash icon. The chord will return to its original color and the line will disappear.
-
-	.. Tip::
-		You can mark multiple chords for deletion at a time. Flipping through the pages in your chord library will not unmark the chords that you have marked for deletion.
-
-3. Once you have marked the undesired chords for deletion and are ready to delete them, click the :ref:`save button<Device Manager:Save Button>`. 
-
-	Once you click save, the marked chord maps will disappear from the list.
-
-
-Editing a Chord
------------------
-You can follow the steps below to edit an existing chord in the device manager.
-
-.. Note::
-	In order to follow these steps, you must already have your device :ref:`connected<Device Manager:Connecting to the Device Manager>` to the device manager.
-
-1. Locate the chord that you would like to edit.
-
-2. Click the textbox in the right column where the :ref:`chord output<Chords:Chord Output>` is displayed.
-
-3. Edit the :ref:`chord output<Chords:Chord Output>` to be whatever you would like. As you type, you will notice that the text changes color to match your :ref:`color scheme<Device Manager:Color Scheme>` and that the end of your text has a floating dot immediately to the right.
-	
-	.. dropdown:: Using Action Codes
-		
-		As you type your :ref:`chord output<Chords:Chord Output>`, you'll notice that your cursor will have a bubble with a ``+`` above it. You can click this to open the :ref:`action codes menu<Device Manager:Using Action Codes>` where you can search for specific action codes or browse through the action codes available to assign into a :ref:`chord output<Chords:Chord Output>`. Read the :ref:`action codes section<Device Manager:Using Action Codes>` for information on the different kinds of action codes.
-
-	.. Tip::
-		You can edit multiple chords before :ref:`saving<Device Manager:Save Button>` your changes. Flipping through the pages in your chord library will not undo the changes that you have made to your existing chords.
-
-4. Once you are ready to :ref:`save<Device Manager:Save Button>` your changes, click :ref:`save<Device Manager:Save Button>`.
-
-	Once you click :ref:`save<Device Manager:Save Button>`, the chord(s) that you've modified will change color to match the rest of the list and the floating dot will disappear.
-
-Share button
--------------
-Next to every chord, you will see a share icon. You can share individual chord maps with others by pressing this button. When you do, your computer's clipboard will copy a URL that you can share with anyone who can then add that exact chord map to their own CharaChorder through the Device Manager. 
-
-When you follow a chord map link, you'll be taken to the Chord Manager where you'll see the new chord map ready to be :ref:`saved<Device Manager:Save Button>`.
-
-
-Layout Editor
-**************
-The Device Manager has a very intuitive layer editor. It's the second option in the main navigation bar at the top and center of the page. When you go to this tab, you'll see a diagram of your device, with each key filled in with the corresponding :ref:`action code<Device Manager:Using Action Codes>`.
-
-
-Layer Selector
+Backup Section
 ----------------
 
-.. dropdown:: Explanation of Layers on CCOS Devices
+.. image:: /assets/images/ManagerHistoryMenu.png
+  :width: 400
+  :alt: The Backup Menu
 
-	As of February of 2024, :doc:`CCOS<CCOS>` devices come with three (3) layers that you can make use of: the base layer, called the A1 (Alpha) layer, the secondary layer, referred to as A2 (Numeric), and the tertiary layer, named A3 (Function).
+The Backup Menu is home to your backups as well as the place to go to in order to restore your device by using a backup file. There are different kinds of backups that you can create and we'll cover all of them in the :ref:`backups<Device Manager:Backups>` section.
 
-	In order to access layers, you need to press and hold a "layer access" button. You MUST hold the button in order to use keys mapped to layers other than the alpha layer. The alpha layer is active by default.
+If you toggle the "Auto-backup" on, then the website will store a copy of your backup on your browser.  The backup is stored in the browser that you're using at that time and remains on your computer, so only YOU can access it.
+
+On the Device Manager, you can create backups of your chords, your layout, and even your settings. Follow the steps below to create a backup and to restore saved backups to your :doc:`CCOS<CCOS>` device.
+
+Creating a Backup
+~~~~~~~~~~~~~~~~~~
+.. Note::
+	In order to follow these steps, you must already have your device :ref:`connected<Device Manager:Connecting to the Device Manager>` to the device manager.
+
+1. Open the Device tab and locate the "Backup" menu in the top left.
+
+2. Choose an "individual backup" to download to your computer, or select "download everything" to download a single file with all three parts. The file(s) will be downloaded in .json format.
 
 	.. note::
-		In this section, we’ll refer only to the default layouts on CCOS devices. If you have modified your layout to something different, then the next portion might not be accurate for your device. If you have purchased your device from CharaChorder, then the following is accurate to your device.
+		You can make individual backups of just your chords, just your layout, or just your settings. The "download everything" option will download all three of these in a single file instead of three separate files.
 
-	**A1 Layer**
+3. If prompted, select a location to save to on your computer and rename the file to your liking.
 
-	The A1 layer, also known as the alpha layer, is the main layer that is active by default. Your device will always be in the A1 layer upon boot.
+Congratulations! Now you have created a backup.
 
-	**A2 Layer**
-
-	The A2 layer, sometimes referred to as the numeric layer, is accessible with the :doc:`A2 access key<CharaChorder Keys>`. In the Device Manager, this key has the name “Numeric Layer (Left)” and “Numeric Layer (Right)”, one for each hand.
-
-	The A2 Layer is accessible by pressing and holding one layer access button. Any key that is mapped to the A2 Layer can only be accessed by pressing and holding the A2 Layer access key along with the target key. You do not need to :doc:`chord<Chords>` the keys together; it’s only required that the A2 Layer access key is pressed while the target key is pressed.
-
-	**A3 Layer**
-
-	The A3 layer, sometimes referred to as the “function layer”, is accessible with the :ref:`A3 access key<CharaChorder Keys>`. In the Device Manager, this key is assignable by the names “Function Layer (Left)” and “Function Layer (Right)”.
-
-	Once you've mapped the A3 layer access buttons, the A3 Layer is accessible by pressing and holding either one of them. You do not have to hold them both in order to access the A3 layer. Any key that is on the A3 Layer can only be accessed by pressing and holding the :doc:`A3 access key<CharaChorder Keys>`, along with the target key. You do not need to :doc:`chord<Chords>` the keys together; it’s only required that the A3 layer access key is pressed while the target key is pressed.
-
-.. Note::
-	The following section assumes that you have already :ref:`connected<Device Manager:Connecting to the Device Manager>` your device to the device manager.
-
-.. image:: /assets/images/ManagerLayoutSelector.png
-  :width: 300
-  :alt: Image of the Layer Selector bar
-
-Above the diagram of your device, you'll see a circle with the letters "ABC" in the middle. The circle, together with the "wings" on either side (one on the left with the numbers "123" inscribed and one on the right with "fx" stylized within), make up the layer selector. You can select any one of these to view the keys that are mapped to each location, on each layer.
-
-Remapping
-------------
-On the layer editor, you can remap your layout by using :ref:`action codes<Device Manager:Using Action Codes>`. Follow the instructions below to remap your device one key at a time.
-
-How to Remap Your Keys
-~~~~~~~~~~~~~~~~~~~~~~~
+Restoring from a Backup
+~~~~~~~~~~~~~~~~~~~~~~~~~
+Additionally, you can restore your chords, your layout, and your settings on the Device Manager. Follow the steps below to do so.
 
 .. Note::
 	In order to follow these steps, you must already have your device :ref:`connected<Device Manager:Connecting to the Device Manager>` to the device manager.
 
-1. Choose the :ref:`layer<Device Manager:Layer Selector>` where you want to change the key.
+1. Open the Device tab and locate the "Backup" menu in the top left.
 
-2. Click on the key that you would like to change. This will bring up the :ref:`action codes menu<Device Manager:Using Action Codes>`.
+2. Click on "Restore".
 
-3. Use the search feature in the :ref:`action codes menu<Device Manager:Using Action Codes>` or scroll through available :ref:`action codes<Device Manager:What are Action Codes>`. Once you've found the desired :ref:`action code<Device Manager:Using Action Codes>`, click on it.
-
-	Once you select the :ref:`action code<Device Manager:Using Action Codes>`, you will notice that the layout diagram now reflects the selected :ref:`action code<Device Manager:Using Action Codes>` highlighted according to your :ref:`color scheme<Device Manager:Color Scheme>` and it will be accompanied by a floating dot.
-
-	.. Tip::
-		You can edit multiple keys before :ref:`saving<Device Manager:Save Button>` your changes. Flipping through the :ref:`layers<Device Manager:Layer Selector>` will not undo the changes that you have made to the layout so far.
-
-4. Once you have changed the desired key(s), click the :ref:`save button<Device Manager:Save Button>`.
+3. Select a file to use to restore from. This file should be in .json format.
 
 	.. note::
-		Your changes will not take effect until you click :ref:`save<Device Manager:Save Button>`.
-	
-	Once you click :ref:`save<Device Manager:Save Button>`, the highlighted key(s) will lose their highlight and the floating dot will disappear. Your layout diagram will be black and white.
+		Files that you can restore from will have been created ahead of time by following the :ref:`steps to create a backup<Device Manager:Creating a Backup>`. 
 
-Using Action Codes
-~~~~~~~~~~~~~~~~~~~
-You can use action codes in chord outputs as well as while :ref:`remapping<Device Manager:Remapping>` keys.
+4. If there are changes, the :ref:`save button<Device Manager:Save Button>` will appear on the top left. Note the changes in the appropriate tab. If you restored chords, check the :ref:`chords tab<Device Manager:Chord Manager>`, if you restored a layout, check the :ref:`layout tab<Device Manager:Layout>`, and if you restored settings, check the :ref:`settings tab<Device Manager:Settings Menu>`.
 
-What are Action Codes
-^^^^^^^^^^^^^^^^^^^^^^^
-Action codes are data that :doc:`CCOS<CCOS>` interprets as characters. **Put simply, they are the characters that we see while typing.** These include letters, numbers, special characters, function keys, and others. 
+	.. note::
+		The restore feature does NOT erase data from your device. If there is a conflict (such as a changed setting, a different key in the layout, or a chord that has a different :ref:`output<Chords:Chord Output>`), that will be overwritten by the restore file. Settings and layout backups ALWAYS overwrite everything.
 
-Action Code Menu
-^^^^^^^^^^^^^^^^^^^^^^^
-You can open the action codes menu one of two ways:
+5. Once you see the changes that the restore file made, you can click :ref:`save<Device Manager:Save Button>` to apply the changes.
 
-1. While typing a chord :ref:`chord output<Chords:Chord Output>` in the :ref:`chord manager<Device Manager:Chord Manager>`, you’ll notice that your cursor will have a bubble with a + above it. You can click this to open the action codes menu.
+Device Section
+----------------
 
-2. While editing your layout in the :ref:`layout editor<Device Manager:Layout Editor>`, click on a key to bring up the action codes menu.
+.. _Autoreconnect:
 
-In this menu, you can scroll through :ref:`available action codes<Device Manager:Available Action Codes>` by :ref:`category<Device Manager:Action Code Categories>`, or simply search specific actions. 
-
-If you ever need to leave the action codes menu, simply click the X at the top right of the menu. This will close out the box and not make any changes.
-
-Action Code Categories
-..........................
-There are eight different categories in the action code menu. These are: ASCII Macros, ASCII, CharaChorder One, CharaChorder, CP-1252, Keyboard, Mouse, and Key Codes.
+Here you'll find a helpful toggle labeled "Auto-connect". By enabling this, the device manager 
+will automatically connect your paired device through a :doc:`serial connection<SerialAPI>` 
+every time that you open it. In doing so, it will also read your chords to detect changes 
+that you may have made since the last time you connected it. If you have this enabled, 
+you won't have to manually connect your device to the manager ever again!
 
 
+The :ref:`boot message<GenerativeTextMenu:Startup>` and :ref:`realtime feedback<GenerativeTextMenu:Realtime Feedback>` can be enabled or disabled in this box.
+Additionally, you can reset some parts of your device files such as your chords, your layout, and even return to factory settings.
 
-.. ASCII Macros
-   ,,,,,,,,,,,,,,
-
-   ASCII
-   ,,,,,,,,,,,
-
-   CharaChorder One
-   ,,,,,,,,,,,,,,,,,,,,,,,,,
-
-   CharaChorder
-   ,,,,,,,,,,,,,,,,,,,,,,,,,
-
-   CP-1252
-   ,,,,,,,,,,,,,,,,,,,,,,,,,
-
-   Keyboard
-   ,,,,,,,,,,,,,,,,,,,,,,,,,
-
-   Mouse
-   ,,,,,,,,,,,,,,,,,,,,,,,,,
-
-   Key Codes
-   ,,,,,,,,,,,,,,,,,,,,,,,,,
-
-Remove Button
-................
-You can use the "Remove" button on the top right of the action codes menu to remove the currently assigned action code from the selected key in the :ref:`layout editor<Device Manager:Layout Editor>`. 
-
-If you select the "Remove" button while typing a :ref:`chord output<Chords:Chord Output>` in the :ref:`chord manager<Device Manager:Chord Manager>`, it will NOT remove any action. Instead, it will add a "blank" action that will be labeled ``0x0``. 
-
-
-
-Available Action Codes
-^^^^^^^^^^^^^^^^^^^^^^^
-You can see the action codes below, or view them externally `here. <https://docs.google.com/spreadsheets/d/1--T9bXshCIC-OVly-CY3rK87fgb7AHgJl3IySh7cmHc/edit#gid=0>`__
-
-.. raw:: html
-
-    <iframe src="https://docs.google.com/spreadsheets/d/1--T9bXshCIC-OVly-CY3rK87fgb7AHgJl3IySh7cmHc/edit#gid=0" width="600" height="600"></iframe>
-
-
-
-
-Settings Menu
-***************
-On the Settings tab in the top navigation bar of the Device Manager page, you can adjust the settings of your :ref:`connected<Device Manager:Connecting to the Device Manager>` CCOS device. Read on to see the different settings you can change. You can find more detailed explanations in the :doc:`GTM<GenerativeTextMenu>` section.
+.. image:: /assets/images/ManagerSettingsDevice.png
+  :width: 1200
+  :alt: The Device settings box
 
 Spurring
 ----------
@@ -499,7 +242,7 @@ Capitalization
 ~~~~~~~~~~~~~~~
 The capitalization modifier modifies any chord so that the first letter is capitalized on :ref:`output<Chords:Chord Output>`. This :ref:`modifier<Device Manager:Chord Modifiers>` can be performed together with a :ref:`chord<Chords:What are Chords?>` or :ref:`arpeggiately<GenerativeTextMenu:Arpeggiate>`.
 
-The capitalization modifier is located on the ``SHIFT`` key. In the :ref:`layout editor<Device Manager:Layout Editor>`, this key can be either "Shift Keyboard Modifier (Left)" or "Shift Keyboard Modifier (Right)".
+The capitalization modifier is located on the ``SHIFT`` key. In the :ref:`layout editor<Device Manager:Layout>`, this key can be either "Shift Keyboard Modifier (Left)" or "Shift Keyboard Modifier (Right)".
 
 .. note::
 	If you have ``CAPS LOCK`` active, all letters in a chord will be capitalized except the first one when using this modifier.
@@ -649,20 +392,6 @@ In this box, you can adjust settings relating to :doc:`CCOS'<CCOS>` :doc:`chordi
 
 	This toggle allows you to enable or disable :ref:`compound chords<Chords:Compound Chords>`.
 
-Device
--------
-These settings pertain to your device. The :ref:`boot message<GenerativeTextMenu:Startup>` and :ref:`realtime feedback<GenerativeTextMenu:Realtime Feedback>` can be enabled or disabled in this box.
-
-.. image:: /assets/images/ManagerSettingsDevice.png
-  :width: 1200
-  :alt: The Device settings box
-
-Additionally, you can reset some parts of your device files such as your chords, your layout, and even return to factory settings.
-
-.. image:: /assets/images/ManagerSettingsResets.png
-  :width: 1200
-  :alt: The Reset settings box
-
 RGB
 ------
 The RGB settings ONLY affect the CharaChorder Lite as of February of 2024. 
@@ -674,114 +403,250 @@ These settings adjust the color and brightness of your CharaChorder Lite.
   :width: 1200
   :alt: The RGB settings box
 
+Library
+***************
+.. image:: /assets/images/ChordManager.png
+  :width: 1200
+  :alt: A picture of the Library
 
-Other Tools
-*************
+The Library is a powerful tool that lets you add, delete and edit chords stored in your chord library. It's easy to use and quick to load. We'll go over how to use it below.
 
+When you :ref:`connect<Device Manager:Connecting to the Device Manager>` your device to the device manager, the webpage will start reading the chords on your device. It may take a couple of seconds — or even over a minute for very large libraries — to load the first time. If you have :ref:`auto-reconnect<Autoreconnect>` enabled, the loading times are much shorter.
 
+Chords displayed here are shown in alphabetical order, using the list of :ref:`chord outputs<Chords:Chord Output>`. The number of chords shown on the library depends on your screen size and browser zoom settings. Above the chords list, you'll see the search bar which will display the number of chords on your CCOS device until something is typed there.
 
-Backups
---------
-On the Device Manager, you can create backups of your chords, your layout, and even your settings. Follow the steps below to create a backup and to restore saved backups to your :doc:`CCOS<CCOS>` device.
+.. _search bar:
 
-Creating a Backup
-~~~~~~~~~~~~~~~~~~
+You can search through your chords by searching :ref:`chord outputs<Chords:Chord Output>` (the word that displays once you've performed a chord). This textbox is not case sensitive, so you can type in capital or lowercase letters regardless of whether or not the chord has a capital letter in it. This search bar is also intuitive enough that you are also able to search partial words/phrases.
+
+To the right of the search bar, you'll find two numbers separated by a forward slash (``/``). These numbers indicate the page number that you're on out of the total number of pages that compose your chord library. Using the angle brackets to the right of those numbers will allow you to flip through the different pages of your chord library which is sorted in alphabetical order.
+
+Under the page-turning brackets, you'll see a tall box with the text "Try typing here". You can use this text box to test your new chords as you edit them in the manager. 
+
+Under the text box if your device supports it you can find some shortcuts to help you clear your chord library, add back in the starter chords that came on your device, add functional utility chords, and download a text file with all of your chord outputs separated by a pipe character for importing into practice tools.
+
+Finally, at the bottom of the page, if you hover over the Device name you'll notice that you can hold Shift and click on it to "Sync".  If you do this, it will have the device manager read your device's chord library again. This process can take a few seconds.
+
+Creating a Chord
+-----------------
+You can follow the steps below to create a new chord on the device manager.
+
 .. Note::
 	In order to follow these steps, you must already have your device :ref:`connected<Device Manager:Connecting to the Device Manager>` to the device manager.
 
-1. Open the :ref:`history menu<Device Manager:History Menu>`.
+1. Find the "New chord" text under the :ref:`search bar<search bar>` and click it.
 
-2. Choose an "individual backup" to download to your computer, or select "download everything" to download a single file with all three parts. The file(s) will be downloaded in .json format.
 
-	.. note::
-		You can make individual backups of just your chords, just your layout, or just your settings. The "download everything" option will download all three of these in a single file instead of three separate files.
+2. When the text displays "Hold chord," press and hold all of the keys that you want to use as your :ref:`chord input<Chords:Chord Input>`. Once you have pressed all of the keys, release the keys.
 
-3. If prompted, select a location to save to on your computer and rename the file to your liking.
+    You will now see the :ref:`chord input<Chords:Chord Input>` in the left column as letters inside individual boxes. These boxed-letters will be highlighted in a color (as opposed to black or white). The color depends on your selected :ref:`color scheme<Device Manager:Color Scheme>`. You will also notice a single, floating dot highlighted in the same color off to the right of the boxed-letters.
 
-Congratulations! Now you have created a backup.
+	.. Note::
+		You can add any number of chords at a time without defining the desired :ref:`chord output<Chords:Chord Output>`. 
 
-Restoring from a Backup
-~~~~~~~~~~~~~~~~~~~~~~~~~
-Additionally, you can restore your chords, your layout, and your settings on the Device Manager. Follow the steps below to do so.
+	.. Warning::
+		If you click :ref:`save<Device Manager:Save Button>`, before defining a :ref:`chord output<Chords:Chord Output>` as described in :ref:`step three<Step 3>`, any chords that you've created will save to your device with a blank output and will lead to strange behavior.
+
+.. _Step 3:
+
+3. Click into the text box to the right of the :ref:`chord input<Chords:Chord Input>` that you created in the previous step and type your desired :ref:`chord output<Chords:Chord Output>`. 
+
+	.. dropdown:: Using Action Codes
+		
+		As you type your :ref:`chord output<Chords:Chord Output>`, you'll notice that your cursor will have a bubble with a ``+`` above it. You can click this to open the :ref:`action codes menu<Device Manager:Using Action Codes>` where you can search for specific action codes or browse through the action codes available to assign into a :ref:`chord output<Chords:Chord Output>`. Read the :ref:`action codes section<Device Manager:Using Action Codes>` for information on the different kinds of action codes.
+
+	As you type, you'll notice that your text has changed color to match your :ref:`color scheme<Device Manager:Color Scheme>` and that the end of your text has a floating dot immediately to the right.
+
+4. Once you are satisfied with your :ref:`output<Chords:Chord Output>`, you can proceed to modify another chord or click :ref:`save<Device Manager:Save Button>`. 
+
+
+Deleting a Chord
+-----------------
+You can follow the steps below to delete a chord in the device manager.
 
 .. Note::
 	In order to follow these steps, you must already have your device :ref:`connected<Device Manager:Connecting to the Device Manager>` to the device manager.
 
-1. Open the :ref:`history menu<Device Manager:History Menu>`.
+1. Locate the chord that you would like to delete.
 
-2. Click on "Restore".
+2. When you hover over the chord that you would like to delete, you will notice a small trash icon appear in line with that chord map. Click the trash icon in order to mark it for deletion.
 
-3. Select a file to use to restore from. This file should be in .json format.
+	When you click the trash icon, the boxed-letters in the left column will have a line through them and they will turn red. You can unmark chords for deletion by clicking the "undo" arrow next to the trash icon. The chord will return to its original color and the line will disappear.
 
-	.. note::
-		Files that you can restore from will have been created ahead of time by following the :ref:`steps to create a backup<Device Manager:Creating a Backup>`. 
+	.. Tip::
+		You can mark multiple chords for deletion at a time. Flipping through the pages in your chord library will not unmark the chords that you have marked for deletion.
 
-4. If there are changes, the :ref:`save button<Device Manager:Save Button>` will appear on the top left. Note the changes in the appropriate tab. If you restored chords, check the :ref:`chords tab<Device Manager:Chord Manager>`, if you restored a layout, check the :ref:`layout tab<Device Manager:Layout Editor>`, and if you restored settings, check the :ref:`settings tab<Device Manager:Settings Menu>`.
+3. Once you have marked the undesired chords for deletion and are ready to delete them, click the :ref:`save button<Device Manager:Save Button>`. 
 
-	.. note::
-		The restore feature does NOT erase data from your device. If there is a conflict (such as a changed setting, a different key in the layout, or a chord that has a different :ref:`output<Chords:Chord Output>`), that will be overwritten by the restore file. Settings and layout backups ALWAYS overwrite everything.
+	Once you click save, the marked chord maps will disappear from the list.
 
-5. Once you see the changes that the restore file made, you can click :ref:`save<Device Manager:Save Button>` to apply the changes.
 
-Bootloader
------------
-In the :ref:`device menu<Device Manager:Device Menu>`, you'll find the boot menu button. When you click on that, it'll bring up the option to put your device into bootloader.
+Editing a Chord
+-----------------
+You can follow the steps below to edit an existing chord in the device manager.
 
-In bootloader mode, your :doc:`CCOS<CCOS>` device will disconnect from the Device Manager and a new drive will appear in your File Explorer (Finder, in Mac OS). This drive contains your CharaChorder's CCOS information.
-
-Updating Your Device
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .. Note::
 	In order to follow these steps, you must already have your device :ref:`connected<Device Manager:Connecting to the Device Manager>` to the device manager.
 
-.. warning::
-	Before performing the below steps, please make sure that you have a :ref:`backup of your layout<Device Manager:Backups>` as well as a :ref:`backup of your chord library<Device Manager:Backups>` and a :ref:`backup of your GTM settings<Device Manager:Backups>`. The update might reset those, so it's important that you    keep backup files handy. For instructions on how to restore backed-up files, visit the :ref:`Backups<Device Manager:Backups>` section.
+1. Locate the chord that you would like to edit.
 
-.. _step 1:
+2. Click the textbox in the right column where the :ref:`chord output<Chords:Chord Output>` is displayed.
 
-1. Click “Boot Menu” (the power icon) followed by “Bootloader”. Your CharaChorder will now appear as an external storage device on your computer’s File Explorer or Finder app. It might be named one of the following: “Arduino”, “Seeduino”, or “CharaChorder One”.
+3. Edit the :ref:`chord output<Chords:Chord Output>` to be whatever you would like. As you type, you will notice that the text changes color to match your :ref:`color scheme<Device Manager:Color Scheme>` and that the end of your text has a floating dot immediately to the right.
+	
+	.. dropdown:: Using Action Codes
+		
+		As you type your :ref:`chord output<Chords:Chord Output>`, you'll notice that your cursor will have a bubble with a ``+`` above it. You can click this to open the :ref:`action codes menu<Device Manager:Using Action Codes>` where you can search for specific action codes or browse through the action codes available to assign into a :ref:`chord output<Chords:Chord Output>`. Read the :ref:`action codes section<Device Manager:Using Action Codes>` for information on the different kinds of action codes.
 
+	.. Tip::
+		You can edit multiple chords before :ref:`saving<Device Manager:Save Button>` your changes. Flipping through the pages in your chord library will not undo the changes that you have made to your existing chords.
 
-.. image:: /assets/images/ManagerPowerButton-Lite.png
-  :width: 1200
-  :alt: The Boot button
+4. Once you are ready to :ref:`save<Device Manager:Save Button>` your changes, click :ref:`save<Device Manager:Save Button>`.
 
+	Once you click :ref:`save<Device Manager:Save Button>`, the chord(s) that you've modified will change color to match the rest of the list and the floating dot will disappear.
 
-.. image:: /assets/images/ManagerBootloaderButton-Lite.png
-  :width: 1200
-  :alt: The Bootloader Button
+Share button
+-------------
+Next to every chord, you will see a share icon. You can share individual chord maps with others by pressing this button. When you do, your computer's clipboard will copy a URL that you can share with anyone who can then add that exact chord map to their own CharaChorder through the Device Manager. 
 
-2. Download your update file from this site: `<https://www.charachorder.com/pages/update-your-firmware>`__
-
-.. danger::
-	Make sure that the file you download is named exactly like this: CURRENT.UF2 . If there are any other characters in the file name, the file will not work. “CURRENT(1).UF2” will NOT work. Additionally, the file name is case-sensitive; all letters must be capitalized.
-
-8. Copy the CURRENT.UF2 file that you just downloaded and paste it into the CharaChorder drive that we found in :ref:`step 1<step 1>`.
-
-9. When your computer asks you how you would like to resolve the issue of two files with the same name, select “Replace file”.
-
-At this point, your device will automatically reboot, and the
-CharaChorder drive will have disappeared. Congratulations! You have
-successfully updated your device. You can check your device’s CCOS :ref:`in the device menu<Device Manager:Device Menu>`.
-
-Terminal
-----------
-Also in the :ref:`device menu<Device Manager:Device Menu>`, you'll find the option to go into the terminal. This is a sandbox space where you can feed commands directly to your CCOS device.
-
-You can read about the available commands in the :doc:`serial api section<SerialAPI>`.
+When you follow a chord map link, you'll be taken to the Library where you'll see the new chord map ready to be :ref:`saved<Device Manager:Save Button>`.
 
 
-.. image:: /assets/images/ManagerTerminal.png
-  :width: 1200
-  :alt: The Terminal page on the Device Manager
+Layout
+**************
+The Device Manager has a very intuitive layer editor. It's the third option in the main navigation bar at the left of the page. When you go to this tab, you'll see a diagram of your device, with each key filled in with the corresponding :ref:`action code<Device Manager:Using Action Codes>`.
+
+
+Layer Selector
+----------------
+
+.. dropdown:: Explanation of Layers on CCOS Devices
+
+	As of February of 2024, :doc:`CCOS<CCOS>` devices come with three (3) layers that you can make use of: the base layer, called the A1 (Alpha) layer, the secondary layer, referred to as A2 (Numeric), and the tertiary layer, named A3 (Function).
+
+	In order to access layers, you need to press and hold a "layer access" button. You MUST hold the button in order to use keys mapped to layers other than the alpha layer. The alpha layer is active by default.
+
+	.. note::
+		In this section, we’ll refer only to the default layouts on CCOS devices. If you have modified your layout to something different, then the next portion might not be accurate for your device. If you have purchased your device from CharaChorder, then the following is accurate to your device.
+
+	**A1 Layer**
+
+	The A1 layer, also known as the alpha layer, is the main layer that is active by default. Your device will always be in the A1 layer upon boot.
+
+	**A2 Layer**
+
+	The A2 layer, sometimes referred to as the numeric layer, is accessible with the :doc:`A2 access key<CharaChorder Keys>`. In the Device Manager, this key has the name “Numeric Layer (Left)” and “Numeric Layer (Right)”, one for each hand.
+
+	The A2 Layer is accessible by pressing and holding one layer access button. Any key that is mapped to the A2 Layer can only be accessed by pressing and holding the A2 Layer access key along with the target key. You do not need to :doc:`chord<Chords>` the keys together; it’s only required that the A2 Layer access key is pressed while the target key is pressed.
+
+	**A3 Layer**
+
+	The A3 layer, sometimes referred to as the “function layer”, is accessible with the :ref:`A3 access key<CharaChorder Keys>`. In the Device Manager, this key is assignable by the names “Function Layer (Left)” and “Function Layer (Right)”.
+
+	Once you've mapped the A3 layer access buttons, the A3 Layer is accessible by pressing and holding either one of them. You do not have to hold them both in order to access the A3 layer. Any key that is on the A3 Layer can only be accessed by pressing and holding the :doc:`A3 access key<CharaChorder Keys>`, along with the target key. You do not need to :doc:`chord<Chords>` the keys together; it’s only required that the A3 layer access key is pressed while the target key is pressed.
+
+.. Note::
+	The following section assumes that you have already :ref:`connected<Device Manager:Connecting to the Device Manager>` your device to the device manager.
+
+.. image:: /assets/images/ManagerLayoutSelector.png
+  :width: 300
+  :alt: Image of the Layer Selector bar
+
+Above the diagram of your device, you'll see a circle with the letters "ABC" in the middle. The circle, together with the "wings" on either side (one on the left with the numbers "123" inscribed and one on the right with "fx" stylized within), make up the layer selector. You can select any one of these to view the keys that are mapped to each location, on each layer.
+
+Remapping
+------------
+On the layer editor, you can remap your layout by using :ref:`action codes<Device Manager:Using Action Codes>`. Follow the instructions below to remap your device one key at a time.
+
+How to Remap Your Keys
+~~~~~~~~~~~~~~~~~~~~~~~
+
+.. Note::
+	In order to follow these steps, you must already have your device :ref:`connected<Device Manager:Connecting to the Device Manager>` to the device manager.
+
+1. Choose the :ref:`layer<Device Manager:Layer Selector>` where you want to change the key.
+
+2. Click on the key that you would like to change. This will bring up the :ref:`action codes menu<Device Manager:Using Action Codes>`.
+
+3. Use the search feature in the :ref:`action codes menu<Device Manager:Using Action Codes>` or scroll through available :ref:`action codes<Device Manager:What are Action Codes>`. Once you've found the desired :ref:`action code<Device Manager:Using Action Codes>`, click on it.
+
+	Once you select the :ref:`action code<Device Manager:Using Action Codes>`, you will notice that the layout diagram now reflects the selected :ref:`action code<Device Manager:Using Action Codes>` highlighted according to your :ref:`color scheme<Device Manager:Color Scheme>` and it will be accompanied by a floating dot.
+
+	.. Tip::
+		You can edit multiple keys before :ref:`saving<Device Manager:Save Button>` your changes. Flipping through the :ref:`layers<Device Manager:Layer Selector>` will not undo the changes that you have made to the layout so far.
+
+4. Once you have changed the desired key(s), click the :ref:`save button<Device Manager:Save Button>`.
+
+	.. note::
+		Your changes will not take effect until you click :ref:`save<Device Manager:Save Button>`.
+	
+	Once you click :ref:`save<Device Manager:Save Button>`, the highlighted key(s) will lose their highlight and the floating dot will disappear. Your layout diagram will be black and white.
+
+Using Action Codes
+~~~~~~~~~~~~~~~~~~~
+You can use action codes in chord outputs as well as while :ref:`remapping<Device Manager:Remapping>` keys.
+
+What are Action Codes
+^^^^^^^^^^^^^^^^^^^^^^^
+Action codes are data that :doc:`CCOS<CCOS>` interprets as characters. **Put simply, they are the characters that we see while typing.** These include letters, numbers, special characters, function keys, and others. 
+
+Action Code Menu
+^^^^^^^^^^^^^^^^^^^^^^^
+You can open the action codes menu one of two ways:
+
+1. While typing a chord :ref:`chord output<Chords:Chord Output>` in the :ref:`library<Device Manager:Library>`, you’ll notice that your cursor will have a bubble with a + above it. You can click this to open the action codes menu.
+
+2. While editing your layout in the :ref:`layout editor<Device Manager:Layout>`, click on a key to bring up the action codes menu.
+
+In this menu, you can scroll through :ref:`available action codes<Device Manager:Available Action Codes>` by :ref:`category<Device Manager:Action Code Categories>`, or simply search specific actions. 
+
+If you ever need to leave the action codes menu, simply click the X at the top right of the menu. This will close out the box and not make any changes.
+
+Action Code Categories
+..........................
+There are eight different categories in the action code menu. These are: ASCII Macros, ASCII, CharaChorder One, CharaChorder, CP-1252, Keyboard, Mouse, and Key Codes.
 
 
 
+.. ASCII Macros
+   ,,,,,,,,,,,,,,
+
+   ASCII
+   ,,,,,,,,,,,
+
+   CharaChorder One
+   ,,,,,,,,,,,,,,,,,,,,,,,,,
+
+   CharaChorder
+   ,,,,,,,,,,,,,,,,,,,,,,,,,
+
+   CP-1252
+   ,,,,,,,,,,,,,,,,,,,,,,,,,
+
+   Keyboard
+   ,,,,,,,,,,,,,,,,,,,,,,,,,
+
+   Mouse
+   ,,,,,,,,,,,,,,,,,,,,,,,,,
+
+   Key Codes
+   ,,,,,,,,,,,,,,,,,,,,,,,,,
+
+Remove Button
+................
+You can use the "Remove" button on the top right of the action codes menu to remove the currently assigned action code from the selected key in the :ref:`layout editor<Device Manager:Layout>`. 
+
+If you select the "Remove" button while typing a :ref:`chord output<Chords:Chord Output>` in the :ref:`library<Device Manager:Library>`, it will NOT remove any action. Instead, it will add a "blank" action that will be labeled ``0x0``. 
 
 
 
+Available Action Codes
+^^^^^^^^^^^^^^^^^^^^^^^
+You can see the action codes below, or view them externally `here. <https://docs.google.com/spreadsheets/d/1--T9bXshCIC-OVly-CY3rK87fgb7AHgJl3IySh7cmHc/edit#gid=0>`__
 
+.. raw:: html
 
+    <iframe src="https://docs.google.com/spreadsheets/d/1--T9bXshCIC-OVly-CY3rK87fgb7AHgJl3IySh7cmHc/edit#gid=0" width="600" height="600"></iframe>
 
 
 
