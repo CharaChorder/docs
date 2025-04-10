@@ -23,6 +23,7 @@ Table of Contents
 .. toctree::
    :maxdepth: 2
    
+   Master Forge.rst
    CharaChorder One.rst
    CharaChorder Two.rst
    CharaChorder_Lite.rst
