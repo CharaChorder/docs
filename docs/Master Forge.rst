@@ -5,7 +5,7 @@ Welcome to the Official Master Forge guide. You can select the links
 below to navigate to the topics that you find most relevant.
 
 .. _M4G:
-.. image:: /assets/images/M4G.jpg
+.. image:: /assets/images/M4G.webp
   :width: 1200
   :alt: The Master Forge
 
@@ -25,7 +25,7 @@ Parts
 .. _Case:
 
 .. _M4G Schema:
-.. image:: /assets/images/M4G-Separated.jpg
+.. image:: /assets/images/M4G-Separated.webp
   :width: 1200
   :alt: M4G parts
 
@@ -34,7 +34,7 @@ When you first receive your Master Forge Bundle, it will come in a cardboard
 box. Once you open the box, you’ll find your brand new Master Forge inside its tactical carrying case. You will also find an insert that includes the layout of the device and some functions that the Master Forge has.
 
 .. _M4G Case:
-.. image:: /assets/images/Case.jpg
+.. image:: /assets/images/Case.webp
   :width: 1200
   :alt: Original Backer Case
 
@@ -51,21 +51,21 @@ There are two different kinds of digitizers, each of which can be purchased indi
 The front of each digitizer has a slotted rail which allows :doc:`bolt-ons<Bolt-Ons>` to be "bolted" onto the digitizer. An example of a :doc:`bolt-on<Bolt-Ons>` is the :ref:`bridge connector<The Bridge Connector>`. Along this slotted rail you'll find two USB-C ports on each digitizer, one at the exterior edge of each "shoulder."
 
 .. _M4G Frontside:
-.. image:: /assets/images/M4g-Front.jpg
+.. image:: /assets/images/M4g-Front.webp
   :width: 1200
   :alt: Picture showing the bridge connector and the ports
 
 The underside of the each digitizer is partially hollow to allow for cables and connections to happen in a discreet manner underneath the device. Inside the cavity, we can find two additional USB-C ports and downward facing LED clusters. 
 
 .. _M4G Below:
-.. image:: /assets/images/M4G-Under.jpg
+.. image:: /assets/images/M4G-Under.webp
   :width: 1200
   :alt: Bottom side of the Master Forge
 
 On the sides of each digitizer, you'll notice the :ref:`bookend rails<The Bookend Rails>`. Under each rail, on the body of the digitizer, you'll see holes for the screws that hold the bookend rails in place. 
 
 .. _M4G Side:
-.. image:: /assets/images/M4G-Side.jpg
+.. image:: /assets/images/M4G-Side.webp
   :width: 1200
   :alt: Original Backer Case
 
@@ -75,7 +75,7 @@ The Bridge Connector
 Out of the box, your :ref:`digitizers<The Digitizers>` will be connected by a mechanical bridge :doc:`bolt-on<Bolt-Ons>`. This :doc:`bolt-on<Bolt-Ons>` is also machined-aluminum and made from a slotted rail. It's held in place by two, M3 nylon screws. Nylon screws don't "set" into the aluminum like steel screws, which prevents damage to the slotted rails, since the slotted rails at the front of the device don't have any holes for screws to go into. It's more of a friction hold, which is a key concept of :doc:`bolt-ons<Bolt-Ons>`. 
 
 .. _M4G Bridge Connector:
-.. image:: /assets/images/Bridge.jpg
+.. image:: /assets/images/Bridge.webp
   :width: 1200
   :alt: The Mechanical and Electrical bridges
 
@@ -97,7 +97,7 @@ The Bookend Rails
 Each :ref:`digitizer<The Digitizers>` of the Master Forge comes with three removable bookend rails. These rails are what allow the digitizers to attach to other :doc:`anchor bodies<Anchor Bodies>` and :ref:`bolt-ons<Bolt-Ons>`. 
 
 .. _M4G Rails:
-.. image:: /assets/images/Rails.jpg
+.. image:: /assets/images/Rails.webp
   :width: 1200
   :alt: The three Bookend Rails
 
@@ -109,7 +109,7 @@ The Splitter
 Included with every Master Forge order is a 3D-printed Splitter. This piece serves to prevent anything from falling into the space between the forge :ref:`digitizers<The Digitizers>` whenever these are connected by the :ref:`bridge connector<The Bridge Connector>`.
 
 .. _M4G Splitter:
-.. image:: /assets/images/Splitter.jpg
+.. image:: /assets/images/Splitter.webp
   :width: 1200
   :alt: The Splitter
 
@@ -160,7 +160,7 @@ Every Master Forge order will come with the power
 cable that goes out to the computer inside the box. The power cable included with every Master Forge is a standard, braided USB-A to USB-C cable. Some :ref:`configurations<Master Forge Configurations>` may include an additional cord. To know what's included in your order, read the :ref:`configurations<Master Forge:Master Forge Configurations>` section.
 
 .. _M4G Power Cable:
-.. image:: /assets/images/Power-Cable.jpg
+.. image:: /assets/images/Power-Cable.webp
   :width: 1200
   :alt: The Power cable included with the Master Forge
 
@@ -321,88 +321,88 @@ The Master Forge supports over-the-air (OTA) updates. You can follow the steps b
 
 Your device will reboot on its own and will have the new firmware on it once it starts up again. You can :ref:`check your firmware<M4G-checking-your-devices-firmware>` to make sure that the update has been applied correctly.
 
-If, for some reason, you weren't able to complete an OTA update, you can follow the steps below to update your CCOS manually.
 
-Doing it manually, the Master Forge must be updated one :ref:`digitizer<Master Forge:The Digitizers>` at a time.
- #. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://charachorder.io/ccos/>`__ 
- #. If not auto-connected, click "Connect"
+.. Dropdown: Only use in Emergency
+	
+	If, for some reason, you weren't able to complete an OTA update, you can follow the steps below to update your CCOS manually.
 
-         .. _Connect Button:
-        .. image:: /assets/images/FW-connect-button.jpg
-          :width: 600
-          :alt: Connect Button on Device Manager
- #. When the popup box comes up that reads “manager.charachorder.com wants to connect to a serial port”, choose the CCOS device you wish to update, then click the blue “connect” button
+ 	Doing it manually, the Master Forge must be updated one :ref:`digitizer<Master Forge:The Digitizers>` at a time.
+ 		#. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://charachorder.io/ccos/>`__ 
+ 		#. If not auto-connected, click "Connect"
 
-         .. _Serial Port Popup:
-        .. image:: /assets/images/SerialPort-Message.jpg
-          :width: 600
-          :alt: Popup to select serial device
- #. If not already on the Firmware Updates page, click "CCOS Updates" at the bottom left of the page
+       		  .. _Connect Button:
+     		   .. image:: /assets/images/FW-connect-button.jpg
+    		      :width: 600
+    		      :alt: Connect Button on Device Manager
+ 		#. When the popup box comes up that reads “manager.charachorder.com wants to connect to a serial port”, choose the CCOS device you wish to update, then click the blue “connect” button
 
-         .. _Firmware Updates Page:
-        .. image:: /assets/images/DM-CCOS-button.jpg
-          :width: 600
-          :alt: CCOS button
- #. You can compare the latest release (the version at the top of the list) with your device's version. Select your desired version.
- #. Use the blue "Bootloader" text to reboot your device into bootloader
+        		 .. _Serial Port Popup:
+      		  .. image:: /assets/images/SerialPort-Message.jpg
+       		   :width: 600
+        		  :alt: Popup to select serial device
+ 		#. If not already on the Firmware Updates page, click "CCOS Updates" at the bottom left of the page
 
-         .. _Bootloader button:
-        .. image:: /assets/images/DM-Bootloader-button.jpg
-          :width: 600
-          :alt: Bootloader button
- #. Click the blue "CURRENT.UF2" text to download the firmware file
+        		 .. _Firmware Updates Page:
+     		   .. image:: /assets/images/DM-CCOS-button.jpg
+     		     :width: 600
+      		    :alt: CCOS button
+ 		#. You can compare the latest release (the version at the top of the list) with your device's version. Select your desired version.
+ 		#. Use the blue "Bootloader" text to reboot your device into bootloader
 
-         .. _Current.uf2 button:
-        .. image:: /assets/images/DM-UF2-button.jpg
-          :width: 600
-          :alt: CURRENT.UF2 button
+       		  .. _Bootloader button:
+      		  .. image:: /assets/images/DM-Bootloader-button.jpg
+        		  :width: 600
+        		  :alt: Bootloader button
+ 		#. Click the blue "CURRENT.UF2" text to download the firmware file
 
-	.. warning::
-   		IMPORTANT: Make sure that the file you download is named exactly like this: CURRENT.UF2 . If there are any other characters in the file name, the file will not work. “CURRENT.UF2(1)” will NOT work. Additionally, the file name is case sensitive; all letters must be capitalized.
+      		   .. _Current.uf2 button:
+      		  .. image:: /assets/images/DM-UF2-button.jpg
+       		   :width: 600
+        		  :alt: CURRENT.UF2 button
+
+			.. warning::
+   				IMPORTANT: Make sure that the file you download is named exactly like this: CURRENT.UF2 . If there are any other characters in the file name, the file will not work. “CURRENT.UF2(1)” will NOT work. Additionally, the file name is case sensitive; all letters must be capitalized.
 
 
     
- #. Copy the CURRENT.UF2 file that you just downloaded and paste it into the Forge drive in your file explorer
- #. When your computer asks you how you would like to resolve the issue of two files with the same name, select “Replace file”.
+ 		#. Copy the CURRENT.UF2 file that you just downloaded and paste it into the Forge drive in your file explorer
+ 		#. When your computer asks you how you would like to resolve the issue of two files with the same name, select “Replace file”.
 
-At this point, your Forge will automatically reboot and the
-Forge drive will have disappeared. Congratulations! You have
-successfully updated your device. You can check your device’s firmware
-version by following the steps :ref:`here<m4g-checking-your-devices-firmware>`.
+			At this point, your Forge will automatically reboot and the Forge drive will have disappeared. Congratulations! You have successfully updated your device. You can check your device’s firmware version by following the steps :ref:`here<m4g-checking-your-devices-firmware>`.
 
- 12. Now, back in the `Firmware Updates page <https://charachorder.io/ccos/>`__, select ``m4gr_s3``
- 13. If you haven't done so already, Connect your device to the Manager again by clicking "Connect" at the bottom of the page
+ 		#. Now, back in the `Firmware Updates page <https://charachorder.io/ccos/>`__, select ``m4gr_s3``
+ 		#. If you haven't done so already, Connect your device to the Manager again by clicking "Connect" at the bottom of the page
 
-         .. _Connect Button:
-        .. image:: /assets/images/FW-connect-button.jpg
-          :width: 600
-          :alt: Connect Button on Device Manager
- 14. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your Master Forge, then click the blue “connect” button
+      		   .. _Connect Button:
+     		   .. image:: /assets/images/FW-connect-button.jpg
+     		     :width: 600
+     		     :alt: Connect Button on Device Manager
+ 		#. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your Master Forge, then click the blue “connect” button
 
-         .. _Serial Port Popup:
-        .. image:: /assets/images/SerialPort-Message.jpg
-          :width: 600
-          :alt: Popup to select serial device
- 15. Use the blue "Bootloader" text to reboot the right digitizer into bootloader
+        		 .. _Serial Port Popup:
+       		 .. image:: /assets/images/SerialPort-Message.jpg
+       		   :width: 600
+      		    :alt: Popup to select serial device
+ 		#. Use the blue "Bootloader" text to reboot the right digitizer into bootloader
 
-         .. _Bootloader button:
-        .. image:: /assets/images/DM-Bootloader-button.jpg
-          :width: 600
-          :alt: Bootloader button
- 16. Click the blue "CURRENT.UF2" text to download the firmware file
+     		    .. _Bootloader button:
+    		    .. image:: /assets/images/DM-Bootloader-button.jpg
+     		     :width: 600
+    		      :alt: Bootloader button
+ 		#. Click the blue "CURRENT.UF2" text to download the firmware file
 
-         .. _Current.uf2 button:
-        .. image:: /assets/images/DM-UF2-button.jpg
-          :width: 600
-          :alt: CURRENT.UF2 button
+      		   .. _Current.uf2 button:
+       		 .. image:: /assets/images/DM-UF2-button.jpg
+        		  :width: 600
+        		  :alt: CURRENT.UF2 button
 
-	.. warning::
-   		IMPORTANT: Make sure that the file you download is named exactly like this: CURRENT.UF2 . If there are any other characters in the file name, the file will not work. “CURRENT.UF2(1)” will NOT work. Additionally, the file name is case sensitive; all letters must be capitalized.
+			.. warning::
+   				IMPORTANT: Make sure that the file you download is named exactly like this: CURRENT.UF2 . If there are any other characters in the file name, the file will not work. “CURRENT.UF2(1)” will NOT work. Additionally, the file name is case sensitive; all letters must be capitalized.
 
- 17. Copy the CURRENT.UF2 file that you just downloaded and paste it into the Forge drive in your file explorer
- 18. When your computer asks you how you would like to resolve the issue of two files with the same name, select “Replace file”.
+		 #. Copy the CURRENT.UF2 file that you just downloaded and paste it into the Forge drive in your file explorer
+		 #. When your computer asks you how you would like to resolve the issue of two files with the same name, select “Replace file”.
 
-Once again, your Forge will automatically reboot and the
+		Once again, your Forge will automatically reboot and the
 Forge drive will have disappeared. You can check your device’s firmware
 version by following the steps :ref:`here<m4g-checking-your-devices-firmware>`.
 
