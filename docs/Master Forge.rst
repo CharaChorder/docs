@@ -254,13 +254,13 @@ below:
 #. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://charachorder.io/config/layout/>`__ 
 #. Click “Connect” at the bottom center of the page
    
- .. _Connect Button:
+.. _Connect Button:
 .. image:: /assets/images/FW-connect-button.jpg
   :width: 600
   :alt: Connect Button on Device Manager
 3. When the popup box comes up that reads “charachorder.io wants to connect to a serial port,” choose your Master Forge, then click the blue “connect” button
 
- .. _Serial Port Popup:
+.. _Serial Port Popup:
 .. image:: /assets/images/SerialPort-Message.jpg
   :width: 600
   :alt: Popup to select serial device
@@ -289,32 +289,32 @@ The Master Forge supports over-the-air (OTA) updates. You can follow the steps b
     #. Head to the `CharaChorder Device Manager <https://charachorder.io/ccos/>`__
     #. If you're not on the Firmware Updates page yet, click ``CCOS Updates`` on the bottom left of the page.
 
-         .. _Firmware Updates Page:
+        .. _Firmware Updates Page:
         .. image:: /assets/images/DM-CCOS-button.jpg
           :width: 600
           :alt: CCOS button
     #. Out of the options at the top, select ``m4g_s3``
        
-         .. _Firmware Selection:
+        .. _Firmware Selection:
         .. image:: /assets/images/M4G-Firmware-selection.jpg
           :width: 600
           :alt: The correct firmware to select
     #. You can compare the latest release (the version at the top of the list) with your device's version. Select your desired version.
     #. If you haven't done so already, Connect your device to the Manager by clicking "Connect" at the bottom of the page
         
-         .. _Connect Button:
+        .. _Connect Button:
         .. image:: /assets/images/FW-connect-button.jpg
           :width: 600
           :alt: Connect Button on Device Manager
     #. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your Master Forge, then click the blue “connect” button
      
-         .. _Serial Port Popup:
+        .. _Serial Port Popup:
         .. image:: /assets/images/SerialPort-Message.jpg
           :width: 600
           :alt: Popup to select serial device
     #. Click the blue "Apply Update" button
         
-         .. _Apply Update Button:
+        .. _Apply Update Button:
         .. image:: /assets/images/DM-applyupdate-button.jpg
           :width: 600
           :alt: Apply Update Button
@@ -330,7 +330,7 @@ Your device will reboot on its own and will have the new firmware on it once it 
  		#. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://charachorder.io/ccos/>`__ 
  		#. If not auto-connected, click "Connect"
 
-       		  .. _Connect Button:
+       		   .. _Connect Button:
      		   .. image:: /assets/images/FW-connect-button.jpg
     		      :width: 600
     		      :alt: Connect Button on Device Manager
