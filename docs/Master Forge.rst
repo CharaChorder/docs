@@ -51,7 +51,7 @@ There are two different kinds of digitizers, each of which can be purchased indi
 The front of each digitizer has a slotted rail which allows :doc:`bolt-ons<Bolt-Ons>` to be "bolted" onto the digitizer. An example of a :doc:`bolt-on<Bolt-Ons>` is the :ref:`bridge connector<The Bridge Connector>`. Along this slotted rail you'll find two USB-C ports on each digitizer, one at the exterior edge of each "shoulder."
 
 .. _M4G Frontside:
-.. image:: /assets/images/M4g-Front.webp
+.. image:: /assets/images/M4G-Front.webp
   :width: 1200
   :alt: Picture showing the bridge connector and the ports
 
@@ -255,13 +255,13 @@ below:
 #. Click “Connect” at the bottom center of the page
    
 .. _Connect Button:
-.. image:: /assets/images/FW-connect-button.jpg
+.. image:: /assets/images/FW-connect-button.JPG
   :width: 600
   :alt: Connect Button on Device Manager
 3. When the popup box comes up that reads “charachorder.io wants to connect to a serial port,” choose your Master Forge, then click the blue “connect” button
 
 .. _Serial Port Popup:
-.. image:: /assets/images/SerialPort-Message.jpg
+.. image:: /assets/images/SerialPort-Message.webp
   :width: 600
   :alt: Popup to select serial device
 
@@ -296,20 +296,20 @@ The Master Forge supports over-the-air (OTA) updates. You can follow the steps b
     #. Out of the options at the top, select ``m4g_s3``
        
         .. _Firmware Selection:
-        .. image:: /assets/images/M4G-Firmware-selection.jpg
+        .. image:: /assets/images/m4g-firmware-selection.JPG
           :width: 600
           :alt: The correct firmware to select
     #. You can compare the latest release (the version at the top of the list) with your device's version. Select your desired version.
     #. If you haven't done so already, Connect your device to the Manager by clicking "Connect" at the bottom of the page
         
         .. _Connect Button:
-        .. image:: /assets/images/FW-connect-button.jpg
+        .. image:: /assets/images/FW-connect-button.JPG
           :width: 600
           :alt: Connect Button on Device Manager
     #. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your Master Forge, then click the blue “connect” button
      
         .. _Serial Port Popup:
-        .. image:: /assets/images/SerialPort-Message.jpg
+        .. image:: /assets/images/SerialPort-Message.webp
           :width: 600
           :alt: Popup to select serial device
     #. Click the blue "Apply Update" button
@@ -495,7 +495,7 @@ A1 Layer
 ^^^^^^^^
 
 .. _M4G Alpha Layer:
-.. image:: /assets/images/AlphaL.jpg
+.. image:: /assets/images/AlphaL.JPG
   :width: 1200
   :alt: The Alpha Layer
 
@@ -515,7 +515,7 @@ A2 Layer
 ^^^^^^^^
 
 .. _M4G Num Layer:
-.. image:: /assets/images/NumberL.jpg
+.. image:: /assets/images/NumberL.JPG
   :width: 1200
   :alt: The Numeric Layer
 
@@ -542,7 +542,7 @@ A3 Layer
 ^^^^^^^^
 
 .. _M4G Function Layer:
-.. image:: /assets/images/FunctionL.jpg
+.. image:: /assets/images/FunctionL.JPG
   :width: 1200
   :alt: The Function Layer
 
