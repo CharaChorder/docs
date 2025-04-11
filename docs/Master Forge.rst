@@ -457,7 +457,7 @@ The default on the Master Forge :ref:`digitizers<The Digitizers>`, which we will
 
 
 .. _M4English Layout:
-.. image:: /assets/images/CCEnglish.png
+.. image:: /assets/images/M4-Layout.png
   :width: 1200
   :alt: M4 English Layout
 
