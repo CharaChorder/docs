@@ -55,7 +55,7 @@ The front of each digitizer has a slotted rail which allows :doc:`bolt-ons<Bolt-
   :width: 1200
   :alt: Picture showing the bridge connector and the ports
 
-The underside of the each digitizer is partially hollow to allow for cables and connections to happen in a discreet manner underneath the device. Inside the cavity, we can find two additional USB-C ports and downward facing LED clusters. 
+The underside of each digitizer is partially hollow to allow for cables and connections to happen in a discreet manner underneath the device. Inside the cavity, we can find two additional USB-C ports and downward facing LED clusters. 
 
 .. _M4G Below:
 .. image:: /assets/images/M4G-Under.webp
@@ -477,7 +477,7 @@ portion might not be accurate for your device. If you have purchased
 your device from CharaChorder, then the following is accurate to your
 device.
 
-By default, auxiliary layers are accessible by pressing and holding the "layer access" keys. This creates a "shift" into one of the auxiliary layers, but only momentarily. Currently, there is a "hacky" way to make it so that layers are toggled instead of shifted, but this is not an official feature. Toggleable layers, as they may exist in current CCOS builds, has not been tested extensively and cannot be guaranteed to come issue-free.
+By default, auxiliary layers are accessible by pressing and holding the "layer access" keys. This creates a "shift" into one of the auxiliary layers, but only momentarily. Currently, there is a "hacky" way to make it so that layers are toggled instead of shifted, but this is not an official feature. Toggleable layers, as they may exist in current CCOS builds, have not been tested extensively and cannot be guaranteed to come issue-free.
 
 .. _Toggleable Layers:
 .. dropdown:: Toggleable Layers
@@ -635,7 +635,7 @@ works and how to remap your device, visit the :ref:`remapping section<Device Man
 Master Forge Configurations
 ****************************
 
-When the Master Forge was `unveiled <https://youtu.be/fux9gU3M25E?si=u4KW7OaUUUNINfKD&t=1025>`__ in Novemeber of 2023, CharaChorder began taking pre-orders offering everyone the same bundle. In September of 2024, CharaChorder ran a `Kickstarter <https://www.kickstarter.com/projects/charachorder/the-master-forge-a-keyboard-built-for-you>`__ campaign for the Master Forge for 5 weeks, offering three different tiers, each with a different configuration. After the Kickstarter campaign finished, the Master Forge went on back-order sale on the `Forge website <https://forgekeyboard.com>`__. The following section identifies what each of these 5 bundles included. 
+When the Master Forge was `unveiled <https://youtu.be/fux9gU3M25E?si=u4KW7OaUUUNINfKD&t=1025>`__ in November of 2023, CharaChorder began taking pre-orders offering everyone the same bundle. In September of 2024, CharaChorder ran a `Kickstarter <https://www.kickstarter.com/projects/charachorder/the-master-forge-a-keyboard-built-for-you>`__ campaign for the Master Forge for 5 weeks, offering three different tiers, each with a different configuration. After the Kickstarter campaign finished, the Master Forge went on back-order sale on the `Forge website <https://forgekeyboard.com>`__. The following section identifies what each of these 5 bundles included. 
 
 Forge Website Pre-Orders
 -------------------------
@@ -672,7 +672,7 @@ The Basic backer tier on Kickstarter includes the following:
     - :ref:`One (1) Electrical Bridge Connector<Master Forge:The Bridge Connector>`
     - :ref:`One (1) Mechanical Bridge Bolt-On<Master Forge:The Bridge Connector>`
     - :ref:`One (1) USB-A to USB-C Power Cable<Master Forge:Connections>`
-    - :ref:`One (1) "Originial Backer" Tactical Carrying Case<Case>`
+    - :ref:`One (1) "Original Backer" Tactical Carrying Case<Case>`
     - One (1) M3 Allen Wrench
     - Unlimited Forge CAD Access
 
@@ -687,7 +687,7 @@ The Premium backer tier on Kickstarter includes the following:
     - :ref:`One (1) USB-A to USB-C Power Cable<Master Forge:Connections>`
     - :ref:`One (1) USB-C to USB-C Cable<Master Forge:Connections>`
     - :ref:`One (1) Forge Trackball Bolt-On<Bolt-Ons:Trackball>`
-    - :ref:`One (1) "Originial Backer" Tactical Carrying Case<Case>`
+    - :ref:`One (1) "Original Backer" Tactical Carrying Case<Case>`
     - :ref:`One (1) "Original Backer" Deskmat<Add-Ons:Original Backer Deskmat>`
     - One (1) M3 Allen Wrench
     - :ref:`One (1) Forge Cleat<Add-Ons:Cleat>`
@@ -706,7 +706,7 @@ Super
     - :ref:`One (1) USB-A to USB-C Power Cable<Master Forge:Connections>`
     - :ref:`One (1) USB-C to USB-C Cable<Master Forge:Connections>`
     - :ref:`One (1) Forge Trackball Bolt-On<Bolt-Ons:Trackball>`
-    - :ref:`One (1) "Originial Backer" Tactical Carrying Case<Case>`
+    - :ref:`One (1) "Original Backer" Tactical Carrying Case<Case>`
     - :ref:`One (1) "Original Backer" Deskmat<Add-Ons:Original Backer Deskmat>`
     - One (1) M3 Allen Wrench
     - :ref:`One (1) Forge Cleat<Add-Ons:Cleat>`
