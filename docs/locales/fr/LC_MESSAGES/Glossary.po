@@ -1,0 +1,188 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, CharaChorder
+# This file is distributed under the same license as the CharaChorder Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CharaChorder Docs 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-03 19:27-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../Glossary.rst:2
+msgid "Glossary"
+msgstr ""
+
+#: ../../Glossary.rst:4
+msgid ""
+"Below you will find some common \"uncommon\" words that are used in the "
+"CharaChorder community."
+msgstr ""
+
+#: ../../Glossary.rst:9
+msgid "3D Press"
+msgstr ""
+
+#: ../../Glossary.rst:11
+msgid ""
+"When a switch is activated by pushing it normal to the surface of the "
+"device (same as an ordinary keyboard switch)."
+msgstr ""
+
+#: ../../Glossary.rst:13
+msgid "Active Mode"
+msgstr ""
+
+#: ../../Glossary.rst:15
+msgid ""
+"Nudges your mouse one pixel every minute or so to keep your computer from"
+" sleeping."
+msgstr ""
+
+#: ../../Glossary.rst:17
+msgid "Ambidextrous Throwover (aka Mirror Mode)"
+msgstr ""
+
+#: ../../Glossary.rst:19
+msgid ""
+"Entry mode designed for one-handed typing. Characters from the opposite "
+"hand are mirrored to the hand which activates this feature."
+msgstr ""
+
+#: ../../Glossary.rst:21
+msgid "Arpeggiate"
+msgstr ""
+
+#: ../../Glossary.rst:23
+msgid ""
+"A quick, single key press and release to indicate a suffix, prefix, or "
+"modifier to be associated with a chord."
+msgstr ""
+
+#: ../../Glossary.rst:25
+msgid "Chentry"
+msgstr ""
+
+#: ../../Glossary.rst:27
+msgid ""
+"Shorthand for 'character entry', or typing on a chording-enabled device "
+"letter by letter."
+msgstr ""
+
+#: ../../Glossary.rst:29
+msgid "Chord Modifiers"
+msgstr ""
+
+#: ../../Glossary.rst:31
+msgid ""
+"Inputs which, when included with a chord, change the prefix, suffix, "
+"capitalization, conjugation, part of speech, language, or structure of a "
+"chord.  Note, these can be used arpeggiately."
+msgstr ""
+
+#: ../../Glossary.rst:33
+msgid "Compound Chords"
+msgstr ""
+
+#: ../../Glossary.rst:35
+msgid ""
+"Multiple chords which behave differently when used together in context "
+"(not yet user programmable). Example: know + ledge = knowledge."
+msgstr ""
+
+#: ../../Glossary.rst:37
+msgid "Cursor Warping"
+msgstr ""
+
+#: ../../Glossary.rst:39
+msgid ""
+"When your cursor or mouse position moves (\"warps\") based on a chord. "
+"Example: Chord \" with DUP to create \"\" and warp your cursor inside "
+"\"\"."
+msgstr ""
+
+#: ../../Glossary.rst:41
+msgid "DUP (duplicate) key"
+msgstr ""
+
+#: ../../Glossary.rst:43
+msgid ""
+"In character entry, it repeats your last input. In chorded entry, it is "
+"used for words with repeating letters."
+msgstr ""
+
+#: ../../Glossary.rst:49
+msgid "Fluid Chorded/Character Entry"
+msgstr ""
+
+#: ../../Glossary.rst:51
+msgid ""
+"Default text entry mode for CharaChorder. Output characters individually "
+"(like a keyboard) OR press and release multiple characters of a chord "
+"simultaneously to output a chord."
+msgstr ""
+
+#: ../../Glossary.rst:45
+msgid "Forced Chord Phenomenon"
+msgstr ""
+
+#: ../../Glossary.rst:47
+msgid ""
+"The experience of typing a word in character entry feeling unnatural due "
+"to the development of muscle memory for chording that word."
+msgstr ""
+
+#: ../../Glossary.rst:54
+msgid "GTM (Generative Text Menu)"
+msgstr ""
+
+#: ../../Glossary.rst:56
+msgid ""
+"A text-based menu accessible anywhere you type. It allows access to "
+"various device settings and features without software. See "
+":doc:`GenerativeTextMenu`."
+msgstr ""
+
+#: ../../Glossary.rst:58
+msgid "Impulse Chord"
+msgstr ""
+
+#: ../../Glossary.rst:60
+msgid ""
+"An 'on-the-fly' custom chord that can be spontaneously created anywhere "
+"you can type via the GTM. See :ref:`Chords:Impulse chording`."
+msgstr ""
+
+#: ../../Glossary.rst:62
+msgid "Macro"
+msgstr ""
+
+#: ../../Glossary.rst:64
+msgid "Sequence of mouse and/or keyboard actions assigned to a chord."
+msgstr ""
+
+#: ../../Glossary.rst:65
+msgid "Spurring"
+msgstr ""
+
+#: ../../Glossary.rst:67
+msgid ""
+"A 'chording only' mode which outputs chords on a press rather than a "
+"press & release. Enables jumping from one chord to another without "
+"releasing everything. It can provide significant speed gains with "
+"chording, but also takes away the flexibility of character entry. "
+"Spurring also helps new users learn how to chord by eliminating the need "
+"to focus on timing."
+msgstr ""
+

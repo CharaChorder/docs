@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, CharaChorder
+# This file is distributed under the same license as the CharaChorder Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CharaChorder Docs 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-03 19:27-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: nl\n"
+"Language-Team: nl <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../CharaChorder Engine.rst:2
+msgid "CharaChorder Engine (CCE)"
+msgstr ""
+
+#: ../../CharaChorder Engine.rst:4
+msgid ""
+"Welcome to the Official CharaChorder Engine guide. You can select the "
+"links below to navigate to the topics that you find most relevant."
+msgstr ""
+
+#: ../../CharaChorder Engine.rst:-1
+msgid "CharaChorder Engine"
+msgstr ""
+
+#: ../../CharaChorder Engine.rst:12
+msgid ""
+"CharaChorder Engine is a multichip module that enables you to build your "
+"own CCOS powered text entry device. If you are interested in learning how"
+" to utilize CharaChorder Engine, please visit the `CharaChorder Engine "
+"Discord channel <https://discord.gg/VngNWSyZJb>`_ and ping Riley Keen or "
+"Matt Swarts."
+msgstr ""
+
+#: ../../CharaChorder Engine.rst:18
+msgid "Table of Contents of this Page"
+msgstr ""
+
+#: ../../CharaChorder Engine.rst:21
+msgid "Pinout Diagram"
+msgstr ""
+
+#: ../../CharaChorder Engine.rst:-1
+msgid "CharaChorder Engine pinout table"
+msgstr ""
+
+#: ../../CharaChorder Engine.rst:29
+msgid "Design"
+msgstr ""
+
+#: ../../CharaChorder Engine.rst:31
+msgid ""
+"The Engine is designed primarily to work with a MCU to receive inputs "
+"(through UART and later I2C or SPI), process the chording logic, query "
+"the onboard chordmap library, and output the results back to the MCU "
+"(again over UART and later I2C or SPI). However, the layout of the Engine"
+" exposes USB pins, which could have a future capability for direct USB "
+"HID output. This could be limiting for some developers, as they may want "
+"to control their HID reports themselves through their MCU."
+msgstr ""
+
+#: ../../CharaChorder Engine.rst:39
+msgid "Physical footprint"
+msgstr ""
+
+#: ../../CharaChorder Engine.rst:41
+msgid ""
+"`Here is a zip file <https://drive.google.com/file/d/1B5MwTrgjcbVu-"
+"GyUrb3xXM8vcKKkh0U-/view?usp=drive_link>`__ that contains a step file as "
+"well as KiCad files for the CharaChorder Engine that can be used to aid "
+"you in the design of your CCOS powered keyboard."
+msgstr ""
+
+#: ../../CharaChorder Engine.rst:46
+msgid "Communicating with Engine Devices"
+msgstr ""
+
+#: ../../CharaChorder Engine.rst:48
+msgid ""
+"Like other CCOS powered devices, any device with CharaChorder Engine can "
+"use the full power of the :doc:`Serial API<SerialAPI>`."
+msgstr ""
+

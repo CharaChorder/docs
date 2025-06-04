@@ -1,0 +1,369 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, CharaChorder
+# This file is distributed under the same license as the CharaChorder Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CharaChorder Docs 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-03 19:27-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../FAQs.rst:2
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: ../../FAQs.rst:4
+msgid ""
+"This page houses some Frequently Asked Questions about our technology and"
+" our devices."
+msgstr ""
+
+#: ../../FAQs.rst:7
+msgid "Table of Contents of this Page"
+msgstr ""
+
+#: ../../FAQs.rst:10
+msgid "General FAQs"
+msgstr ""
+
+#: ../../FAQs.rst:12
+msgid "Where can I talk to other CharaChorder users?"
+msgstr ""
+
+#: ../../FAQs.rst:13
+msgid "Our biggest online communities are located on:"
+msgstr ""
+
+#: ../../FAQs.rst:15
+msgid "**Discord**: https://discord.gg/hYu6VW5YkM"
+msgstr ""
+
+#: ../../FAQs.rst:16
+msgid "**YouTube**: https://www.youtube.com/charachorder"
+msgstr ""
+
+#: ../../FAQs.rst:19
+msgid "Is it really faster than QWERTY?"
+msgstr ""
+
+#: ../../FAQs.rst:20
+msgid ""
+"Yes, any chording-enabled device text entry will indeed type much faster "
+"than typing one letter at a time. This is due to the laws of physics "
+"rather than the skill level of any individual user."
+msgstr ""
+
+#: ../../FAQs.rst:23
+msgid "Is it comfortable to use?"
+msgstr ""
+
+#: ../../FAQs.rst:24
+msgid ""
+"Yes, many users utilize CharaChorder Two purely for the ergonomic "
+"benefits. By using a broader range of muscles, repetitive strain is "
+"reduced."
+msgstr ""
+
+#: ../../FAQs.rst:27
+msgid "How does chording work?"
+msgstr ""
+
+#: ../../FAQs.rst:28
+msgid ""
+"To output an entire word or sentence simultaneously, you ‘chord’ by "
+"pressing and releasing multiple inputs at the same time."
+msgstr ""
+
+#: ../../FAQs.rst:31
+msgid "What about words with the same letters as another word?"
+msgstr ""
+
+#: ../../FAQs.rst:32
+msgid ""
+"In the case of an anagramic chord, there are various workarounds, such "
+"as: - Chord modifiers - Compound chords - Briefs"
+msgstr ""
+
+#: ../../FAQs.rst:38
+msgid "Is this stenography?"
+msgstr ""
+
+#: ../../FAQs.rst:39
+msgid ""
+"It’s more like a keyboard/mouse hybrid combined with a steno writer on "
+"steroids. CharaChorder offers both high-speed character entry and ultra-"
+"high-speed chording. Videos comparing CharaChorder and stenography:"
+msgstr ""
+
+#: ../../FAQs.rst:42
+msgid "https://youtu.be/X1cUG8SWNwk?si=JM_jAeAMYqDjVtex"
+msgstr ""
+
+#: ../../FAQs.rst:43
+msgid "https://youtu.be/VsG5fT5LDqU?si=Z3fYQB0MmCCxBELo"
+msgstr ""
+
+#: ../../FAQs.rst:46
+msgid "How do I get started learning CharaChorder?"
+msgstr ""
+
+#: ../../FAQs.rst:47
+msgid "Visit the learning page at: https://www.charachorder.com/pages/learn"
+msgstr ""
+
+#: ../../FAQs.rst:50
+msgid "What is the learning curve like?"
+msgstr ""
+
+#: ../../FAQs.rst:51
+msgid ""
+"Most users surpass the average QWERTY speed (40 WPM) within about a month"
+" of practice."
+msgstr ""
+
+#: ../../FAQs.rst:54
+msgid "Is it compatible with every OS?"
+msgstr ""
+
+#: ../../FAQs.rst:55
+msgid "CharaChorder is compatible with:"
+msgstr ""
+
+#: ../../FAQs.rst:57
+msgid "macOS"
+msgstr ""
+
+#: ../../FAQs.rst:58
+msgid "Windows"
+msgstr ""
+
+#: ../../FAQs.rst:59
+msgid "Linux"
+msgstr ""
+
+#: ../../FAQs.rst:60
+msgid "iOS"
+msgstr ""
+
+#: ../../FAQs.rst:61
+msgid "Android"
+msgstr ""
+
+#: ../../FAQs.rst:63
+msgid ""
+"No special software is required, as the device functions as a standard "
+"keyboard."
+msgstr ""
+
+#: ../../FAQs.rst:66
+msgid "Do you have an affiliate program?"
+msgstr ""
+
+#: ../../FAQs.rst:67
+msgid ""
+"Yes! Check it out here: https://www.charachorder.com/pages/affiliate-"
+"program"
+msgstr ""
+
+#: ../../FAQs.rst:70
+msgid "CharaChorder Two FAQs"
+msgstr ""
+
+#: ../../FAQs.rst:72
+msgid "How do you access a full keyboard with fewer buttons?"
+msgstr ""
+
+#: ../../FAQs.rst:73
+msgid ""
+"The switches on a CharaChorder Two device are 3-dimensional, providing 5 "
+"unique inputs per switch."
+msgstr ""
+
+#: ../../FAQs.rst:76 ../../FAQs.rst:87
+msgid "Dimensions and Weight"
+msgstr ""
+
+#: ../../FAQs.rst:77
+msgid ""
+"**Device**: 11 ⅝\" x 4 ⅜\" x 1 ⅛\", 10.7 oz (without USB-C), 12.1 oz "
+"(with USB-C)"
+msgstr ""
+
+#: ../../FAQs.rst:78
+msgid "**Internal box/case with insert**: 12 3/16\" x 8 1/16\" x 2 ⅜\", 15.8 oz"
+msgstr ""
+
+#: ../../FAQs.rst:79
+msgid "**Final shipping box**: 13\" x 9\" x 2 ¾\", 2.04 lbs"
+msgstr ""
+
+#: ../../FAQs.rst:80
+msgid "**Half device**: 4 5/16\" x 4 5/16\" x 1 ⅜\", 4.6 oz"
+msgstr ""
+
+#: ../../FAQs.rst:81
+msgid "**Half device box only**: 5\" x 5\" x 5\", 0.17 lb"
+msgstr ""
+
+#: ../../FAQs.rst:82
+msgid "**Final half shipping box**: 5\" x 5\" x 5\", 8.2 oz or 0.52 lbs"
+msgstr ""
+
+#: ../../FAQs.rst:85
+msgid "CharaChorder Lite FAQs"
+msgstr ""
+
+#: ../../FAQs.rst:88
+msgid ""
+"**Device**: 11 ⅝\" (length) x 4 ⅛\" (width) x 1 5/16\" (height), 1 lb 0.5"
+" oz"
+msgstr ""
+
+#: ../../FAQs.rst:89
+msgid "**Case**: 14 3/16\" x 6 ⅜\" x 2 ⅛\", 9 oz"
+msgstr ""
+
+#: ../../FAQs.rst:90
+msgid "**Final shipping box**: 14 ¼\" x 6 ½\" x 2 ¾\", 2.05 lbs"
+msgstr ""
+
+#: ../../FAQs.rst:93
+msgid "CharaChorder X FAQs"
+msgstr ""
+
+#: ../../FAQs.rst:95
+msgid "Is there any difference between the Lite and the X?"
+msgstr ""
+
+#: ../../FAQs.rst:96
+msgid "**Lite**: Can handle up to 12-key singular chords."
+msgstr ""
+
+#: ../../FAQs.rst:97
+msgid "**X**: Can handle up to 6-key singular chords initially."
+msgstr ""
+
+#: ../../FAQs.rst:98
+msgid ""
+"The Lite has special keys absent on standard keyboards, which can be "
+"remapped on the X."
+msgstr ""
+
+#: ../../FAQs.rst:101
+msgid "Will CCX work on a laptop?"
+msgstr ""
+
+#: ../../FAQs.rst:102
+msgid ""
+"Yes, it works with an external keyboard connected to a laptop, but not "
+"with the laptop’s built-in keyboard."
+msgstr ""
+
+#: ../../FAQs.rst:105
+msgid "Will CCX work with a wireless dongle?"
+msgstr ""
+
+#: ../../FAQs.rst:106
+msgid ""
+"It may support some keyboards with wireless dongles, but compatibility is"
+" not guaranteed."
+msgstr ""
+
+#: ../../FAQs.rst:109
+msgid "Does my keyboard need NKRO support?"
+msgstr ""
+
+#: ../../FAQs.rst:110
+msgid ""
+"Your keyboard’s hardware affects chord functionality. If it lacks anti-"
+"ghosting or NKRO support, some key combinations may not work."
+msgstr ""
+
+#: ../../FAQs.rst:113
+msgid "What languages are compatible with CCX?"
+msgstr ""
+
+#: ../../FAQs.rst:114
+msgid ""
+"The CCX will be configured for US English. With this layout, around 30 "
+"non-English languages are supported. The community can also develop "
+"mappings for over 5000 different languages."
+msgstr ""
+
+#: ../../FAQs.rst:117
+msgid "How well does CharaChorder X support alternate layouts?"
+msgstr ""
+
+#: ../../FAQs.rst:118
+msgid ""
+"Chords are mapped to letters, so the CCX will work with all layouts, "
+"including custom ones (e.g., Dvorak, Colemak)."
+msgstr ""
+
+#: ../../FAQs.rst:121
+msgid "How many chords come pre-loaded on the CCX?"
+msgstr ""
+
+#: ../../FAQs.rst:122
+msgid "Expect a similar number of starter chords as found in the CC Lite."
+msgstr ""
+
+#: ../../FAQs.rst:124
+msgid ""
+"Chord reference spreadsheet: "
+"https://docs.google.com/spreadsheets/d/1XdbJ8DmiZRKq0oUR3LSMgl9NF8cxccADXlNUnLgxvvo/"
+msgstr ""
+
+#: ../../FAQs.rst:128
+msgid "Does the X have chord modifiers like the Lite?"
+msgstr ""
+
+#: ../../FAQs.rst:129
+msgid ""
+"Yes, the CCX can pluralize and modify conjugation, though some keyboard "
+"keys may need to be reassigned."
+msgstr ""
+
+#: ../../FAQs.rst:132
+msgid "Is CCX the same as CC Engine but with USB support?"
+msgstr ""
+
+#: ../../FAQs.rst:133
+msgid ""
+"Yes, the CCX contains the same hardware as the CC Engine, with an "
+"additional chip for USB input. The CC Engine requires custom circuit "
+"design, while the CCX is a consumer-ready product."
+msgstr ""
+
+#: ../../FAQs.rst:136
+msgid "Can the X connect to an external host or network?"
+msgstr ""
+
+#: ../../FAQs.rst:137
+msgid ""
+"The CCX uses **HID** and **Serial over USB** protocols. It cannot connect"
+" directly to a network without external software to route the traffic. "
+"The Device Manager is one such software tool compatible with some "
+"Chromium based browsers."
+msgstr ""
+
+#: ../../FAQs.rst:140
+msgid "Will CCX work with a USB-A to USB-C adapter?"
+msgstr ""
+
+#: ../../FAQs.rst:141
+msgid "Yes, the CCX is compatible with USB-A-to-C adapters."
+msgstr ""
+

@@ -1,0 +1,1517 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, CharaChorder
+# This file is distributed under the same license as the CharaChorder Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CharaChorder Docs 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-03 19:27-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../GenerativeTextMenu.rst:4
+msgid "Generative Text Menu (GTM)"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:6 ../../GenerativeTextMenu.rst:45
+msgid ""
+"``CharaChorder GTM [ >K<eyboard || >M<ouse || >C<hording || >D<isplay || "
+">R<esources ]``"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:8
+msgid ""
+"The Generative Text Menu, known by its abbreviation as GTM, is an "
+"onboard, text based menu which can be accessed anywhere you type. Through"
+" it, we are able to modify :doc:`CCOS<CCOS>` settings including "
+":ref:`chording tolerances<GenerativeTextMenu:Press Tolerance>`, "
+":ref:`mouse speeds<GenerativeTextMenu:Slow Speed>`, and :ref:`realtime "
+"feedback<GenerativeTextMenu:Realtime Feedback>`, among other settings and"
+" features, without the need to use a software. It's a core feature of "
+":doc:`CCOS<CCOS>` that you will want to learn how to use to make the "
+"device your own."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:12
+msgid ""
+"You will notice that some settings have different press and release "
+"values. This is because the switches are read by the :doc:`CCOS<CCOS>` at"
+" two different moments in time: when they are pressed, and when they are "
+"released. We have designed :doc:`CCOS<CCOS>` to have configurable "
+"settings for each of those \"events\" separately, for maximum "
+"adjustability. Intuitively, each **press** setting, such as "
+":ref:`debounce press<GenerativeTextMenu:Debounce Press>`, will affect the"
+" way that the :doc:`CCOS<CCOS>` reads the switch at the time that the "
+"switch is pressed into any one direction. Conversely, **release** "
+"settings, such as :ref:`release debounce<GenerativeTextMenu:Debounce "
+"Release>`, will change the way that the :doc:`CCOS<CCOS>` reads the "
+"switch at the exact moment that the switch is released, or un-pressed, "
+"from any one direction."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:15
+msgid ""
+"Although you can configure your CCOS settings anywhere that you can type "
+"through the GTM, you can also edit them on the :doc:`CharaChorder Device "
+"Manager<Device Manager>`."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:18
+msgid ""
+"Please note that updating your CCOS device might reset your GTM settings "
+"to default. Please make sure that you have a :ref:`backup of your GTM "
+"settings<Device Manager:Creating a Backup>` before updating your CCOS "
+"device. For instructions on how to restore backed up files, visit the "
+":ref:`Restoring from a Backup<Device Manager:Restoring from a Backup>` "
+"section."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:21
+msgid "Table of Contents of this Page"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:24
+msgid "How to access the GTM"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:26
+msgid ""
+"First, move your cursor into any area where you can type. For best "
+"results, you may want to choose a text area that doesn't automatically "
+"format text since some of the keys that the GTM uses may trigger unwanted"
+" formatting. We recommend using a vanilla (basic) text editor such as "
+"Notepad. Please note, however, that Windows Notepad has been known to "
+"have issues with how the GTM is displayed on Windows 11 PCs."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:28
+msgid ""
+"Use the table below to find out how to trigger the GTM for your CCOS "
+"device. Please note that triggering the GTM will require a "
+"\":doc:`chorded<Chords>`\" action."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1 ../../GenerativeTextMenu.rst:82
+#: ../../GenerativeTextMenu.rst:104 ../../GenerativeTextMenu.rst:127
+#: ../../GenerativeTextMenu.rst:150
+msgid "Device"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "How to access"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1 ../../GenerativeTextMenu.rst:84
+#: ../../GenerativeTextMenu.rst:106 ../../GenerativeTextMenu.rst:129
+#: ../../GenerativeTextMenu.rst:152
+msgid "CharaChorder One"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "Chord both pinky keys north (``Alt`` keys)"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1 ../../GenerativeTextMenu.rst:86
+#: ../../GenerativeTextMenu.rst:108 ../../GenerativeTextMenu.rst:131
+#: ../../GenerativeTextMenu.rst:154
+msgid "CharaChorder Lite"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "Chord ``G`` and Middle ``Alt`` key (``Dup`` key)"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1 ../../GenerativeTextMenu.rst:88
+#: ../../GenerativeTextMenu.rst:110 ../../GenerativeTextMenu.rst:133
+#: ../../GenerativeTextMenu.rst:156
+msgid "CharaChorder X"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "Chord ``G`` and ``Esc`` key"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "CharaChorder Engine"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:39
+msgid "How to navigate through the GTM"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:41
+msgid ""
+"The GTM has different submenus that we can call \"pages\". Each \"page\" "
+"of the GTM will have different options which can either adjust a specific"
+" setting or take you to another submenu."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:43
+msgid ""
+"Once you perform the chord to call up the menu, :doc:`CCOS<CCOS>` will "
+"type out the menu and its options. It will look something like this:"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:47
+msgid ""
+"Navigation around this menu is based on letter-presses. In the example "
+"above, you can select the desired submenu by pressing the letter that "
+"appears between the angle brackets (for example: ``>K<``) in your target "
+"submenu on your :doc:`CCOS<CCOS>` device. In the example above, you would"
+" press ``K`` for Keyboard, ``M`` for Mouse, ``C`` for Chording, ``D`` for"
+" Display, and ``R`` for Resources. In order to go back to a previous "
+"menu, press the left arrow. In order to leave the GTM at any point, press"
+" ``ESC``. Leaving the GTM by using ``ESC`` will save your changes. You "
+"can also confirm your changes by pressing ``ENTER``."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:49
+msgid ""
+"In some submenus, you will see numeric values. In order to increase or "
+"decrease these, you can use the up and down arrow keys on your "
+":doc:`CCOS<CCOS>` device."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:51
+msgid ""
+"``CharaChorder > Chording > Press Tolerance [ Use up/down arrow keys to "
+"adjust: 25ms ]``"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:55
+msgid "Available Menus"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "Menu"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "Description"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid ":ref:`Keyboard<GenerativeTextMenu:Keyboard>`"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "Settings related to using your device in character entry"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid ":ref:`Mouse<GenerativeTextMenu:Mouse>`"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "Settings related to using your device as a mouse"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid ":ref:`Chording<GenerativeTextMenu:Chording>`"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "Settings related to chording on your device"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid ":ref:`Display<GenerativeTextMenu:Display>`"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "Settings related to your device version and other CCOS texts"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid ":ref:`Resources<GenerativeTextMenu:Resources>`"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "A menu of resources, mostly links"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:67
+msgid "Keyboard"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:69
+msgid ""
+"Under this menu, you will be able to modify settings pertaining to how "
+"your CCOS device interacts with your computer."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:72
+msgid "Scan Rate"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:74
+msgid "``Path: GTM > Keyboard > Scan Rate``"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:76
+msgid ""
+"The scan rate, sometimes known as the \"Key scan duration,\" refers to "
+"the frequency at which the device checks the state of the input keys. For"
+" reference, 5 ms corresponds to 200 Hz, which means that "
+":doc:`CCOS<CCOS>` checks the position of the keys once every 5 "
+"milliseconds, which equals 200 times in a second. Having a lower number "
+"is usually better as it makes CCOS more responsive, though the difference"
+" at low numbers is usually negligible. In the GTM, this setting is "
+"adjustable in millisecond (ms) units."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:79
+msgid ""
+"You can find the default scan rates of the different CharaChorder devices"
+" in the table below."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:82 ../../GenerativeTextMenu.rst:104
+#: ../../GenerativeTextMenu.rst:127 ../../GenerativeTextMenu.rst:150
+msgid "Default Value"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1 ../../GenerativeTextMenu.rst:82
+#: ../../GenerativeTextMenu.rst:104 ../../GenerativeTextMenu.rst:127
+#: ../../GenerativeTextMenu.rst:150
+msgid "Min. Value"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1 ../../GenerativeTextMenu.rst:82
+#: ../../GenerativeTextMenu.rst:104 ../../GenerativeTextMenu.rst:127
+#: ../../GenerativeTextMenu.rst:150
+msgid "Max. Value"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1 ../../GenerativeTextMenu.rst:82
+#: ../../GenerativeTextMenu.rst:104 ../../GenerativeTextMenu.rst:127
+#: ../../GenerativeTextMenu.rst:150
+msgid "Increments"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:84 ../../GenerativeTextMenu.rst:86
+#: ../../GenerativeTextMenu.rst:88
+msgid "2 ms"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1 ../../GenerativeTextMenu.rst:84
+#: ../../GenerativeTextMenu.rst:86 ../../GenerativeTextMenu.rst:88
+#: ../../GenerativeTextMenu.rst:106 ../../GenerativeTextMenu.rst:108
+#: ../../GenerativeTextMenu.rst:110 ../../GenerativeTextMenu.rst:129
+#: ../../GenerativeTextMenu.rst:131 ../../GenerativeTextMenu.rst:133
+msgid "0 ms"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1 ../../GenerativeTextMenu.rst:84
+#: ../../GenerativeTextMenu.rst:86 ../../GenerativeTextMenu.rst:88
+msgid "20 ms"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1 ../../GenerativeTextMenu.rst:84
+#: ../../GenerativeTextMenu.rst:86 ../../GenerativeTextMenu.rst:88
+#: ../../GenerativeTextMenu.rst:106 ../../GenerativeTextMenu.rst:108
+#: ../../GenerativeTextMenu.rst:110 ../../GenerativeTextMenu.rst:129
+#: ../../GenerativeTextMenu.rst:131 ../../GenerativeTextMenu.rst:133
+msgid "1 ms"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:93
+msgid "Debounce Press"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:95
+msgid "``Path: GTM > Keyboard > Debounce Press``"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:97
+msgid ""
+"The debounce press setting refers to the time frame (measured in "
+"milliseconds) in which  :doc:`CCOS<CCOS>` will filter out duplicate key "
+"activations on a press event. In other words, any duplicate activations "
+"within the given time frame will only be counted as one."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:99
+msgid ""
+"We should adjust this setting if we are having unintentional duplicate "
+"characters while typing. Increasing this value will lower the probability"
+" that unwanted duplicate characters will appear because it tells "
+":doc:`CCOS<CCOS>` to wait longer before typing an additional character "
+"that's assigned to the same switch-direction. However, having this "
+"setting set too high might also cause issues with :doc:`CCOS<CCOS>` not "
+"reading intentional double-presses, so it's recommended to try different "
+"numbers in small increments. This setting should be used in connection "
+"with the :ref:`debounce release<GenerativeTextMenu:Debounce Release>` "
+"setting."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:101
+msgid ""
+"You can find the default debounce press value of the different "
+"CharaChorder devices in the table below:"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:106 ../../GenerativeTextMenu.rst:129
+msgid "7 ms"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1 ../../GenerativeTextMenu.rst:106
+#: ../../GenerativeTextMenu.rst:108 ../../GenerativeTextMenu.rst:110
+#: ../../GenerativeTextMenu.rst:129 ../../GenerativeTextMenu.rst:131
+#: ../../GenerativeTextMenu.rst:133
+msgid "100 ms"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:108 ../../GenerativeTextMenu.rst:131
+msgid "12 ms"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:116
+msgid "Debounce Release"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:118
+msgid "``Path: GTM > Keyboard > Debounce Release``"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:120
+msgid ""
+"The debounce release setting refers to the time frame (measured in "
+"milliseconds) in which :doc:`CCOS<CCOS>` will filter out duplicate key "
+"activations on a release event. In other words, any duplicate activations"
+" within the given time frame will only be counted as one."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:122
+msgid ""
+"We should adjust this setting if we are having unintentional duplicate "
+"characters while typing. Increasing this value will lower the probability"
+" that unwanted duplicate characters will appear because it tells "
+":doc:`CCOS<CCOS>` to wait longer before typing an additional character "
+"that's assigned to the same switch-direction. However, having this "
+"setting set too high might also cause issues with :doc:`CCOS<CCOS>` not "
+"reading intentional double-presses, so it's recommended to try different "
+"numbers in small increments. This setting should be used in connection "
+"with the :ref:`debounce press <GenerativeTextMenu:Debounce Press>` "
+"setting."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:124
+msgid ""
+"You can find the default debounce release value of the different  "
+"CharaChorder devices in the table below:"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:137
+msgid "Keystroke Delay"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:139
+msgid "``Path: GTM > Keyboard > Keystroke Delay``"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:141
+msgid ""
+"This setting adds a small delay to keystroke inputs. It is measured in "
+"microseconds (μs) and is very small by default."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:143
+msgid ""
+"You should increase this value if your computer is not accepting all of "
+"the characters output by your device, such as when using the GTM. If you "
+"are having this issue, your GTM would look weird, with missing chunks or "
+"characters."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:145
+msgid ""
+"If you have a faster computer, then you can lower this setting to make "
+"chording and the GTM feel snappier and more responsive."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:147
+msgid ""
+"This value is adjusted in 40us increments. You can find the default "
+"debounce press of the different  CharaChorder devices in the table below:"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:152 ../../GenerativeTextMenu.rst:154
+#: ../../GenerativeTextMenu.rst:156
+msgid "480 μs"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:152 ../../GenerativeTextMenu.rst:154
+#: ../../GenerativeTextMenu.rst:156
+msgid "0 μs"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:152 ../../GenerativeTextMenu.rst:154
+#: ../../GenerativeTextMenu.rst:156
+msgid "10200 μs"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:152 ../../GenerativeTextMenu.rst:154
+#: ../../GenerativeTextMenu.rst:156
+msgid "40 μs"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:160
+msgid "Capslock"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:162
+msgid "``Path: GTM > Keyboard > Capslock``"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:164
+msgid ""
+"This setting is similar to a computer's Capslock: it toggles the state of"
+" the capslock. When on, all letters output by the CCOS device will be "
+"capitalized. When off, all letters output by the CCOS device will be "
+"lowercase."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:168
+msgid "Operating System"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:170
+msgid "``Path: GTM > Keyboard > Operating System``"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:172
+msgid ""
+"This setting refers to your host computer's operating system. Because the"
+" keys on the different computer operating systems may vary, you can set "
+"your CCOS device up so that it matches your computer."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:174
+msgid ""
+"Currently, on CCOS, you can select between Windows, Mac, Linux, iOS, or "
+"Android."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:176
+msgid ""
+"The intent of this setting is to provide more accurate key mapping. As "
+"such, it is recommendable to set this setting to match whatever computer "
+"operating system you're using your CCOS device on."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "Default"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "Windows"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:186
+msgid "As of December of 2023, this setting doesn't do anything on CCOS devices."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:189
+msgid "GUI-CTRL Soft Swap (CharaChorder Lite only)"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:191
+msgid "``Path: GTM > Keyboard > GUI-CTRL Soft Swap``"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:193
+msgid ""
+"This setting will swap the behavior of the two keys on the bottom-left of"
+" the CharaChorder Lite."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:195
+msgid ""
+"Traditional QWERTY keyboards keep the ``CTRL`` key at the bottom left "
+"corner of the keyboard with the ``GUI`` key (Command key on Mac, Windows "
+"key on Windows, Super key on Linux, etc.) to the right of the ``CTRL`` "
+"key. The CharaChorder Lite has these two keys swapped by default, which "
+"some users find odd and difficult to adjust to. A brand new CharaChorder "
+"Lite will have the ``GUI`` key at the bottom-left corner with the "
+"``CTRL`` key to the right of the ``GUI`` key."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:197
+msgid ""
+"With this setting, you can effectively swap the two keys' location at the"
+" level of the CCOS so that ``CTRL`` is at the bottom-left corner."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:199
+msgid ""
+"This setting has two options: GUI-CTRL and CTRL-GUI. This setting is set "
+"to GUI-CTRL by default."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:201
+msgid "**Default Key Mapping:**"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:-1
+msgid "Default CharaChorder Lite CTRL mapping"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:208
+msgid "**Key Mapping after swapping:**"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:-1
+msgid "Alternative CharaChorder Lite CTRL mapping"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:215
+msgid ""
+"Users who are used to traditional keyboard layouts will want to take "
+"advantage of this setting so they don't have to relearn the new position "
+"of the keys."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:218
+msgid "Mouse"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:220
+msgid ""
+"CCOS allows you to use your device as a mouse including functions like "
+"scrolling and cursor movement. This section will cover settings that "
+"relate to the mouse function on CCOS devices."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:223
+msgid "Poll Rate"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:225
+msgid "``Path: GTM > Mouse > Poll Rate``"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:227
+msgid ""
+"The polling rate (poll rate) is the frequency at which data from the "
+"CharaChorder's mouse functionality is sent to the device it's connected "
+"to. In other words, how often it updates the cursor's position to the "
+"computer. This is typically expressed in Hz (Hertz), with the average "
+"gaming mouse reporting data at 1000 Hz, which means 1000 times every "
+"second."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:229
+msgid ""
+"However, :doc:`CCOS<CCOS>` uses ms (milliseconds) which is directly "
+"inverse to Hz. 1 ms is equal to 1000 Hz, 2 ms is equal to 500 Hz, and "
+"1000 ms is equal to 1 Hz."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst
+msgid "An Explanation of Hz to ms conversion"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:233
+msgid ""
+"In the context of frequency and period (time duration), the relationship "
+"is inverse. Frequency is the number of cycles per second, measured in Hz."
+" The period is the time it takes for one cycle to complete, measured in "
+"seconds (s). The formula is:"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:235
+msgid "``Frequency (Hz) = 1/Period (s), where s = 1000 ms``"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:237
+msgid ""
+"If you convert the period to milliseconds (ms), the relationship remains "
+"inverse. For instance, if you have a frequency of 1000 Hz, the period is "
+"1 ms (because 1 second = 1000 milliseconds). As the frequency increases, "
+"the period (measured in ms) decreases."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:241 ../../GenerativeTextMenu.rst:269
+#: ../../GenerativeTextMenu.rst:295 ../../GenerativeTextMenu.rst:321
+#: ../../GenerativeTextMenu.rst:375 ../../GenerativeTextMenu.rst:404
+#: ../../GenerativeTextMenu.rst:430 ../../GenerativeTextMenu.rst:462
+msgid "You can find the default settings for each device in the table below:"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "1 ms (Hz)"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:250
+msgid ""
+"This setting is used in conjunction with the :ref:`slow speed "
+"<GenerativeTextMenu:Slow Speed>` and :ref:`fast speed "
+"<GenerativeTextMenu:Fast Speed>` settings. Both, the :ref:`slow speed "
+"<GenerativeTextMenu:Slow Speed>` and the :ref:`fast speed "
+"<GenerativeTextMenu:Fast Speed>` rely on the poll rate."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:253
+msgid "Slow Speed"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:255
+msgid "``Path: GTM > Mouse > Slow Speed``"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:257
+msgid ""
+"Slow speed is activated when you use only one of the mouse keys in a "
+"single direction (as opposed to using 2 keys in the same direction). "
+"Increasing this setting will make your CCOS pointer move faster."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:259 ../../GenerativeTextMenu.rst:285
+msgid ""
+"This setting is used in conjunction with :ref:`poll rate "
+"<GenerativeTextMenu:Poll Rate>`. See the explanation below."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst
+msgid "Explanation of CCOS mouse speeds"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:263 ../../GenerativeTextMenu.rst:289
+msgid ""
+"The mouse speed refers to the speed of the cursor on the CharaChorder's "
+"mouse functionality. The cursor will move at the number of pixels (px) "
+"indicated by this setting multiplied by the number of Hz indicated by the"
+" :ref:`polling rate<GenerativeTextMenu:Poll Rate>`."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:265 ../../GenerativeTextMenu.rst:291
+msgid ""
+"In other words, if your speed is set to 2 px, and your :ref:`poll "
+"rate<GenerativeTextMenu:Poll Rate>` is set to 20 ms (~50 Hz), your "
+"CharaChorder's cursor will move at 100 pixels per second (px/s). The "
+"equation comes out to: ``Speed (px) x poll rate (Hz) = Number of pixels "
+"that the cursor will move per second``"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "5 px"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "0 px"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "250 px"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "1 px"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "16 px"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:279
+msgid "Fast Speed"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:281
+msgid "``Path: GTM > Mouse > Fast Speed``"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:283
+msgid ""
+"Fast speed is activated when you use two mouse keys in a single direction"
+" (as opposed to using only one key in the same direction). Increasing "
+"this setting will make your CCOS pointer move faster."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "25 px"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "32 px"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:305
+msgid "Scroll Speed"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:307
+msgid "``Path: GTM > Mouse > Scroll Speed``"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:309
+msgid "Scroll speed refers to the speed at which your CCOS scroll will scroll."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:311
+msgid ""
+"Increasing this setting will make your CCOS scrolling scroll faster. This"
+" setting is used in conjunction with :ref:`poll rate "
+"<GenerativeTextMenu:Poll Rate>`. See the explanation below."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:315
+msgid ""
+"The scroll speed refers to the speed at which the CharaChorder scrolls "
+"at. The CCOS will scroll at the number of pixels (px) indicated by this "
+"setting multiplied by the number of Hz indicated by the :ref:`polling "
+"rate<GenerativeTextMenu:Poll Rate>`."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:317
+msgid ""
+"In other words, if your speed is set to 2 px, and your :ref:`poll "
+"rate<GenerativeTextMenu:Poll Rate>` is set to 20 ms (~50 Hz), your "
+"CharaChorder's scroll will move at 100 pixels per second (px/s). The "
+"equation comes out to: ``Speed (px) x poll rate (Hz) = Number of pixels "
+"that the cursor will move per second``"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "2 px"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:332
+msgid "Active Mode"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:334
+msgid "``Path: GTM > Mouse > Active Mode``"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:336
+msgid ""
+"Active mode nudges your mouse cursor one pixel every minute or so (not a "
+"specific timing). This setting can be used to keep your computer from "
+"going to sleep. You might turn this setting off if you notice desktop "
+"apps are preventing you from getting mobile notifications (for example on"
+" Discord or Microsoft Teams)."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:340
+msgid "Chording"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:342
+msgid ""
+"CCOS devices feature the ability to :doc:`chord<Chords>`. The following "
+"settings affect the device's chording abilities."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:345
+msgid "Character Only Mode"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:347
+msgid "``Path: GTM > Chording > Character Only Mode``"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:349
+msgid ""
+"This setting is a toggle that disables chording capabilities on CCOS "
+"devices. It is off by default and can be enabled in case we don't want "
+"any chording at all. This setting can be useful in cases where we don't "
+"want to accidentally trigger chords unintentionally, such as when gaming."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:351
+msgid ""
+"If your CCOS device suddenly loses its chording ability, it's a good idea"
+" to check if this setting is toggled off."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:354
+msgid "Press Tolerance"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:356
+msgid "``Path: GTM > Chording > Press Tolerance``"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:358
+msgid ""
+"The press tolerance refers to a window of time in which a chord can be "
+"performed, measured in milliseconds (ms). This timer is initiated upon "
+"the first \"press\" action of the first key in a chord and ends once the "
+"last key of the chord is pressed, or until the press tolerance runs out, "
+"whichever comes first."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:-1
+msgid "Diagram Explaining Tolerances"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:366
+msgid ""
+"Put simply, increasing the press tolerance (usually, done in conjunction "
+"with increasing the :ref:`release tolerance <GenerativeTextMenu:Release "
+"Tolerance>`) makes it easier to perform chords."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:369 ../../GenerativeTextMenu.rst:398
+msgid ""
+"The press tolerance scales (increases) according to the number of keys in"
+" a chord. The window of time will be bigger with a 6-key chord than with "
+"a 3-key chord. This means that, though you might set the tolerance to a "
+"specific timing, it will actually be longer than that depending on how "
+"many keys are in your chord."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:371 ../../GenerativeTextMenu.rst:400
+msgid ""
+"You can increase this setting in order to make that window of time longer"
+" and make chording easier."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:373
+msgid ""
+"The downside to having higher values is that you may accidentally trigger"
+" chords during normal character entry. Therefore, if you are noticing "
+"chords fire unintentionally, it is a good idea to lower this setting "
+"along with the :ref:`release tolerance <GenerativeTextMenu:Release "
+"Tolerance>`."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "25 ms"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "150 ms"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:385
+msgid "Release Tolerance"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:387
+msgid "``Path: GTM > Chording > Release Tolerance``"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:389
+msgid ""
+"The release tolerance refers to a window of time in which a chord can be "
+"performed, measured in milliseconds (ms). This timer is initiated upon "
+"the first \"release\" action of any key in a chord and ends once the "
+"chord is fully performed, or until the release tolerance runs out, "
+"whichever comes first."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:395
+msgid ""
+"Put simply, increasing the release tolerance (usually, done in "
+"conjunction with increasing the :ref:`press tolerance "
+"<GenerativeTextMenu:Press Tolerance>`) makes it easier to perform chords."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:402
+msgid ""
+"The downside to having higher values is that you may accidentally trigger"
+" chords during normal character entry. Therefore, if you are noticing "
+"chords fire unintentionally, it is a good idea to lower this setting "
+"along with the :ref:`press tolerance <GenerativeTextMenu:Press "
+"Tolerance>`."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "18 ms"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:415
+msgid "Timeout"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:417
+msgid "``Path: GTM > Chording > Timeout``"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:419
+msgid ""
+"This setting will change how long CCOS counts time in order to replace "
+"characters that precede a chord."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:421
+msgid ""
+"CCOS devices have a running timer that starts after every single "
+"character that is entered in traditional chentry (character entry, i.e. "
+"one letter at a time). This timer controls whether or not the next chord "
+"that you perform deletes the preceding characters."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:423
+msgid ""
+"This feature allows users to misfire chords, yet be able to correct them "
+"by quickly performing the chord correctly, without having to backspace "
+"manually to erase the misfired chord. The result is that the timeout will"
+" automatically backspace all of the preceding characters (up to the last "
+":doc:`breaking character </Breaking Character>`) and replace them with "
+"the intended chord."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:425
+msgid ""
+"You can set this setting to be as low as 0.0 seconds (s) or as high as "
+"25.0 seconds (s), being able to adapt it to your individual "
+":doc:`chording<Chords>` style."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:428
+msgid ""
+"Setting this setting to 0.0 s will result in :doc:`chords<Chords>` not "
+"working at all. They will fire, but they will not automatically erase the"
+" :ref:`chord inputs<Chord Input>`."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "4 s"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "0 s"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "25 s"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "0.1 s"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:440
+msgid "Spurring"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:442
+msgid "``Path: GTM > Chording > Spurring``"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:444
+msgid ""
+"A 'chording only' mode which tells your device to output chords on a "
+"press event rather than a press & release and release event. When in "
+"spurring mode, you can press the keys of a chord one at a time with a "
+"much longer waiting period, which makes it a useful mode for those who "
+"want to practice chording without worrying about proper "
+":ref:`timing<GenerativeTextMenu:Press Tolerance>`."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:446
+msgid ""
+"Spurring mode also enables you to jump from one chord to another without "
+"releasing everything. It can provide significant speed gains when "
+"chording, but also takes away the flexibility of character entry. "
+"Spurring mode can truly maximize speed when chording if a user has chords"
+" for all of the words they want to use."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:449
+msgid "Spurring On/Off"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:451
+msgid "``Path: GTM > Chording > Character Only Mode > Spurring Timeout``"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:453
+msgid "This setting will toggle spurring mode ON or OFF."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:456
+msgid "Spurring Timeout"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:458
+msgid "``Path: GTM > Chording > Spurring > Spurring Timeout``"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:460
+msgid ""
+"The time of inactivity to default back to fluid chorded/character entry "
+"mode (aka spurring off)."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "240 s"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "250 s"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "1 s"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:472
+msgid "Arpeggiate"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:474
+msgid "``Path: GTM > Chording > Arpeggiate``"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:476
+msgid ""
+"Arpeggiate actions are timed actions that can modify a chord after the "
+"chord is performed. A quick example of this is the use of chord modifiers"
+" after you perform the chord. You can read that section for information "
+"on how the :doc:`chord modifiers<Chord Modifiers>` work."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:478
+msgid ""
+"With arpeggiates enabled, you can chord the word ``run`` and then, within"
+" the :ref:`arpeggiate timeout window<GenerativeTextMenu:Arpeggiate "
+"Timeout>`, press the past tense modifier for the word to be \"modified\" "
+"into its past tense variant; in english, ``ran``."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:482
+msgid "Arpeggiate On/Off"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:484
+msgid "``Path: GTM > Chording > Arpeggiate > Arpeggiate On/Off``"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:486
+msgid "This setting will let you toggle the arpeggiate capability ON or OFF."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:488
+msgid ""
+"Some users dislike arpeggiates as, in really fast typing, it may cause "
+"unwanted modifications."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:491
+msgid "Arpeggiate Timeout"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:493
+msgid "``Path: GTM > Chording > Arpeggiate > Arpeggiate Timeout``"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:495
+msgid ""
+"The arpeggiate timeout is a window of time after a chord is performed "
+"during which CCOS will expect arpeggiates to be performed. After this "
+"timer runs out, CCOS will NO LONGER modify the preceding chord."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:497
+msgid ""
+"A common issue that users may run into while having arpeggiates enabled "
+"is the shift key modifying the preceding chord instead of the next key. "
+"For this reason, some users lower the arpeggiate timeout to a really low "
+"amount of time in order to reduce the possibility of this happening "
+"unintentionally."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:500
+msgid "Display"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:502
+msgid ""
+"Under this section, you'll find settings that deal with how your "
+"CharaChorder displays certain things."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:505
+msgid "Version"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:507
+msgid "``Path: GTM > Display > Version``"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:509
+msgid ""
+"Though this is not a setting that can be modified, it's a useful piece of"
+" text that will show you the CCOS version that your CharaChorder is "
+"currently on. You can use this to quickly check what version you are "
+"running on the fly, anywhere that you can read GTM"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:512
+msgid "Realtime Feedback"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:514
+msgid "``Path: GTM > Display > Realtime Feedback``"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:516
+msgid "This setting toggles realtime feedback ON or OFF."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:518
+msgid ""
+"Realtime feedback refers to the helpful text like ``SPURRING_ON``, "
+"``SPURRING_OFF`` etc, that lets the user know if a certain mode has been "
+"activated or deactivated on the CharaChorder device. Since there is no "
+"other visual way to know if the chord used to enable or disable certain "
+"settings, it is helpful to have these texts pop up as confirmation."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:521
+msgid ""
+"The realtime feedback setting controls the "
+":ref:`startup<GenerativeTextMenu:Startup>` setting. If realtime feedback "
+"is OFF, then startup will be OFF, regardless of that setting's individual"
+" toggle."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:524
+msgid "Startup"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:526
+msgid "``Path: GTM > Display > Startup``"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:528
+msgid ""
+"Having this setting set to \"ON\" will result in your device displaying "
+"the text \"CCOS is ready.\" after you have plugged your device into a "
+"computer. The startup text will be displayed wherever your cursor was "
+"last typing, if that window is active. This setting is useful so that you"
+" know when your CharaChorder device is ready to be used, since startup "
+"may take a couple of seconds."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:530
+msgid ""
+"However, if you have editable text highlighted when you connect your "
+"CharaChorder, this setting will replace that highlighted text with the "
+"startup message. Additionally, if there is not a selected window where "
+"text may be typed, the key codes that the CharaChorder sends to your "
+"computer in order to display the startup message may be interpreted by "
+"your computer as actions and may result in unwanted behavior."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:532
+msgid ""
+"If you would rather not have this message display every time that you "
+"connect your device, then you can toggle this setting OFF."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:535
+msgid ""
+"The Startup setting is dependent on the :ref:`realtime feedback "
+"setting<GenerativeTextMenu:Realtime Feedback>`. If that setting is set to"
+" OFF, then Startup won't display, even if Startup is set to ON."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:538
+msgid "LEDs (CharaChorder Lite only)"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:540
+msgid "``Path: GTM > Display > LEDs``"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:542
+msgid ""
+"The :doc:`CharaChorder Lite<CharaChorder_Lite>` comes with RGB LEDs that "
+"light up the keys of the keyboard from below with a static light. This "
+"section contains settings pertaining to those LED lights."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:545
+msgid ""
+"LED settings only exist in the GTM for :doc:`CharaChorder "
+"Lite<CharaChorder_Lite>` devices, not on any other CharaChorder devices."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:548
+msgid "On/Off"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:550
+msgid "``Path: GTM > Display > LEDs > On/Off``"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:552
+msgid "Quickly toggle the LEDs on or off with this setting."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1 ../../GenerativeTextMenu.rst:555
+msgid "Color"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:557
+msgid "``Path: GTM > Display > LEDs > Color``"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:559
+msgid ""
+"Use this setting to change the color of the LED backlights on your "
+"CharaChorder Lite. In the GTM, there are 11 colors to choose from which "
+"you can see in the table below:"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "Letter"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "W"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "White"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "R"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "Red"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "O"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "Orange"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "Y"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "Yellow"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "L"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "Lime"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "G"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "Green"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "C"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "Cyan"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "B"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "Blue"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "V"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "Violet"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "P"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "Pink"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "M"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "Multicolor"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:576
+msgid ""
+"Please note that, as of December of 2023, the LEDs are NOT individually "
+"addressable. The color setting changes the color of ALL LEDs at the same "
+"time."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:579
+msgid "Brightness"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:581
+msgid "``Path: GTM > Display > LEDs > Brightness``"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:583
+msgid ""
+"This setting lets you adjust the brightness of the LED backlights on your"
+" CharaChorder Lite. You can choose any number between 0 and 50, where 0 "
+"means that your LEDs are completely off and 50 means that your LEDs are "
+"at max brightness."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:585
+msgid ""
+"Please note that LEDs are NOT individually addressable as of December of "
+"2023. The brightness setting adjusts the brightness for ALL LEDs equally."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:588
+msgid ""
+"If you are using a low power usb bank or port, having a high LED "
+"brightness may lead to issues with your CharaChorder Lite's power. If you"
+" have issues on your device that seem to keep your CharaChorder Lite from"
+" properly powering on or staying on, it may be a good idea to lower this "
+"setting."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:590
+msgid ""
+"You can find the default settings for the CharaChorder Lite in the table "
+"below:"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "5"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "0"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "50"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "1"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:599
+msgid "Resources"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:601
+msgid "``Path: GTM > Resources``"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:603
+msgid ""
+"This section contains links which may be helpful to you. These links "
+"include:"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "Item"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "A"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "About"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "Opens https://www.charachorder.com/pages/about."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "Get started"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "Opens https://www.charachorder.com/pages/get-started."
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "D"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "Discord"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "Invites you to the CharaChorder Discord"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "T"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "Training"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid ""
+"Opens https://iq-eq.io, our free tool to help people learn to type at the"
+" speed of thought"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "Message Riley"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "Copies Riley Keen (CharaChorder CEO)'s email address to your clipboard"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "Learn chords"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "Opens The Starter Chord List"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "S"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "Check system updates"
+msgstr ""
+
+#: ../../GenerativeTextMenu.rst:1
+msgid "Opens the CCOS version updates page"
+msgstr ""
+

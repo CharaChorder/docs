@@ -1,0 +1,377 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, CharaChorder
+# This file is distributed under the same license as the CharaChorder Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CharaChorder Docs 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-03 19:27-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: nl\n"
+"Language-Team: nl <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../Chords.rst:2
+msgid "Chords"
+msgstr ""
+
+#: ../../Chords.rst:3
+msgid ""
+"One of CharaChorder devices’ greatest features is their "
+":doc:`chording<Chords>` ability. Read this section to learn what chording"
+" is and how you can benefit from it on your own CharaChorder."
+msgstr ""
+
+#: ../../Chords.rst:8
+msgid "Table of Contents of this Page"
+msgstr ""
+
+#: ../../Chords.rst:11
+msgid "What are Chords?"
+msgstr ""
+
+#: ../../Chords.rst:13
+msgid ""
+"A chord is a type of input/output action on a keyboard: you press two or "
+"more keys at the same time and release them at the same time, after which"
+" a predefined output will replace the originally pressed keys."
+msgstr ""
+
+#: ../../Chords.rst:17
+msgid ""
+"By chording, we are able to type one word at a time instead of one letter"
+" at a time. It’s even possible to have chords for phrases and entire "
+"sentences."
+msgstr ""
+
+#: ../../Chords.rst:22
+msgid "How do I use Chords?"
+msgstr ""
+
+#: ../../Chords.rst:24
+msgid ""
+"A chord has an **input** and an **output**. We will describe what each of"
+" those is and how they affect chords on your CharaChorder device below. "
+"Throughout this guide, we might use the term “perform” when talking about"
+" carrying out a chord."
+msgstr ""
+
+#: ../../Chords.rst:32
+msgid "Chord Input"
+msgstr ""
+
+#: ../../Chords.rst:34
+msgid ""
+"A chord input is the combination of keys used in order to get a desired, "
+"predetermined :ref:`output<Chords:Chord Output>`. For example, we can "
+"have a chord that requires the simultaneous press and release of the keys"
+" ``b`` and ``c`` to get the output “because”. In :ref:`chord "
+"notation<Chords:Chord Notation>`, we would write that chord input as "
+"``b+c``. Since chord inputs are performed simultaneously, meaning that "
+"all of the keys needed for an input are pressed and released at the same "
+"time, chord inputs are not order-specific. ``b+c`` is the same as "
+"``c+b``."
+msgstr ""
+
+#: ../../Chords.rst:45
+msgid "Chord Output"
+msgstr ""
+
+#: ../../Chords.rst:47
+msgid ""
+"A chord output is the predetermined letters, words, phrases and/or "
+"actions that result after performing a chord. If we use the :ref:`chord "
+"input<Chords:Chord Input>` of ``b`` and ``c`` and the result is the word "
+"“because”, then the word “because” would be the output. In :ref:`chord "
+"notation<Chords:Chord Notation>`, we would write that chord (the input "
+"and the output) as ``b+c = because``."
+msgstr ""
+
+#: ../../Chords.rst:56
+msgid "Chord Notation"
+msgstr ""
+
+#: ../../Chords.rst:58
+msgid ""
+"Chord notation is the way that we write chords for CharaChorder devices. "
+"It is a writing format that allows us to communicate chords to other "
+"users, and to the CharaChorder, without using any descriptions. You can "
+"find the different symbols used in chord notation in the table below."
+msgstr ""
+
+#: ../../Chords.rst:65
+msgid "Character Name"
+msgstr ""
+
+#: ../../Chords.rst:65
+msgid "Symbol"
+msgstr ""
+
+#: ../../Chords.rst:65
+msgid "Usage"
+msgstr ""
+
+#: ../../Chords.rst:67
+msgid "Plus Operator"
+msgstr ""
+
+#: ../../Chords.rst:67
+msgid "\\+"
+msgstr ""
+
+#: ../../Chords.rst:67
+msgid "Used for separating inputs for chorded operations"
+msgstr ""
+
+#: ../../Chords.rst:70
+msgid "Vertical Bar Operator"
+msgstr ""
+
+#: ../../Chords.rst:70
+msgid "\\|"
+msgstr ""
+
+#: ../../Chords.rst:70
+msgid "Used for separating all sequential operations"
+msgstr ""
+
+#: ../../Chords.rst:73
+msgid "Equal Sign"
+msgstr ""
+
+#: ../../Chords.rst:73
+msgid "="
+msgstr ""
+
+#: ../../Chords.rst:73
+msgid "Used for separating a chord input from a chord output"
+msgstr ""
+
+#: ../../Chords.rst:78
+msgid ""
+"You can read some examples of chords written in chord notation below. You"
+" can try these chords on your CharaChorder device!"
+msgstr ""
+
+#: ../../Chords.rst:81
+msgid "``y+u+o = you``"
+msgstr ""
+
+#: ../../Chords.rst:82
+msgid "``k+b+a = back``"
+msgstr ""
+
+#: ../../Chords.rst:83
+msgid "``t+o+n+d = don’t``"
+msgstr ""
+
+#: ../../Chords.rst:84
+msgid "``w+o+n+d = down``"
+msgstr ""
+
+#: ../../Chords.rst:85
+msgid "``c+b = because``"
+msgstr ""
+
+#: ../../Chords.rst:86
+msgid "``p+m+i = important``"
+msgstr ""
+
+#: ../../Chords.rst:89
+msgid "How do I make Chords?"
+msgstr ""
+
+#: ../../Chords.rst:91
+msgid ""
+"You can make chords for your CharaChorder using a few different methods "
+"which we will discuss below. In order to make a chord, you will have to "
+"indicate your desired :ref:`chord input<Chords:Chord Input>` as well as "
+"your desired :ref:`chord output<Chords:Chord Output>`."
+msgstr ""
+
+#: ../../Chords.rst:97
+msgid ""
+"Your CharaChorder device already comes with some chords loaded onto it. "
+"These cover some of the most common words in the English language. You "
+"can click on the link to see that list in an external tab: `Starter "
+"Chords "
+"<https://docs.google.com/spreadsheets/d/1G_A77DsyoM2hod3by2BzM7Wcj3JGJsmNw7dAz98wS3U/edit?usp=sharing>`_."
+msgstr ""
+
+#: ../../Chords.rst:102
+msgid ""
+"You can create custom chords on the :doc:`Device Manager<Device "
+"Manager>`. Additionally, you, can create chords on the go by using "
+":ref:`impulse chording<Chords:Impulse Chording>`. Read on for specific "
+"instructions on how to do that."
+msgstr ""
+
+#: ../../Chords.rst:107
+msgid "On Device Manager"
+msgstr ""
+
+#: ../../Chords.rst:109
+msgid ""
+"The CharaChorder Device Manager is our official web based configuration "
+"tool designed for CharaChorder devices. On there, you can do a variety of"
+" things. You can read all about Device Manager in this "
+":doc:`section<Device Manager>`."
+msgstr ""
+
+#: ../../Chords.rst:113
+msgid ""
+"The process for adding chords to your CharaChorder is the same on all of "
+"our CharaChorder devices. You can :ref:`add new chords<Chords:Adding New "
+"Chords on Device Manager>`, or :ref:`import an existing chord "
+"library<Device Manager:Restoring from a Backup>`. Read how below."
+msgstr ""
+
+#: ../../Chords.rst:120
+msgid "Adding New Chords on Device Manager"
+msgstr ""
+
+#: ../../Chords.rst:122
+msgid ""
+"The steps to do this are :ref:`in the Device Manager documentation<Device"
+" Manager:Creating a Chord>`."
+msgstr ""
+
+#: ../../Chords.rst:125
+msgid "Impulse chording"
+msgstr ""
+
+#: ../../Chords.rst:127
+msgid ""
+"Impulse chording is a method of adding chords that doesn’t require "
+"anything except your CharaChorder after a space to type in. It allows you"
+" to create ‘on the fly’, custom chords which can be spontaneously created"
+" anywhere that you can type via the Impulse menu."
+msgstr ""
+
+#: ../../Chords.rst:132
+msgid ""
+"The idea of impulse chords is that whenever you come across a word that "
+"you don’t have a chord for, you can instantly create one mid-email, mid-"
+"discord chat, mid-whatever, without the need to switch windows, import, "
+"connect, etc. Just punch in your input and output via the Impulse Menu "
+"and then keep typing without skipping a beat. Read below for instructions"
+" on how to create an impulse chord on your specific device."
+msgstr ""
+
+#: ../../Chords.rst:140
+msgid ""
+"**Note:** When creating an impulse chord, all keystrokes are recorded as "
+"part of the output. If you make a mistake when defining the chord output,"
+" trigger escape and start over instead of deleting the input."
+msgstr ""
+
+#: ../../Chords.rst:145
+msgid "Creating an Impulse Chord on the CharaChorder One"
+msgstr ""
+
+#: ../../Chords.rst:147
+msgid ""
+"Standard process for creating an impulse chord on a CharaChorder One: In "
+"short: 1. CHORD INPUT, 2. CALL IMPULSE, 3. TYPE OUTPUT, 4. CONFIRM OUTPUT"
+" 5. CONFIRM INPUT"
+msgstr ""
+
+#: ../../Chords.rst:-1
+msgid "Impulse chording on the CharaChorder One"
+msgstr ""
+
+#: ../../Chords.rst:156 ../../Chords.rst:185 ../../Chords.rst:214
+msgid ""
+"Anywhere that you can see a cursor, chord the input you want (example: "
+"``b+u+r+s+t``). You will either see a jumble of letters (example: "
+"“tsubr”) or you will see a chord which is already programmed to that "
+"input. If you continue, any conflicts will be overwritten."
+msgstr ""
+
+#: ../../Chords.rst:161
+msgid "Call the impulse command the hard coded chord ``i+DUP``."
+msgstr ""
+
+#: ../../Chords.rst:163 ../../Chords.rst:192 ../../Chords.rst:221
+msgid ""
+"Follow the prompt and type your output in character entry mode. (example:"
+" >I<mpulse output: burst )."
+msgstr ""
+
+#: ../../Chords.rst:165 ../../Chords.rst:194 ../../Chords.rst:223
+msgid "Press enter to confirm your output."
+msgstr ""
+
+#: ../../Chords.rst:166 ../../Chords.rst:195
+msgid ""
+"Verify that the desired input is correct (you will see a confirmation "
+"message similar to this: >I<mpulse input: b + r + u + t + s)."
+msgstr ""
+
+#: ../../Chords.rst:168 ../../Chords.rst:197 ../../Chords.rst:227
+msgid ""
+"If the input is incorrect, perform your desired input at this step. Once "
+"the input is the desired input, press enter."
+msgstr ""
+
+#: ../../Chords.rst:171 ../../Chords.rst:200
+msgid "These steps should take 1-3 seconds."
+msgstr ""
+
+#: ../../Chords.rst:174
+msgid "Creating an Impulse Chord on the CharaChorder Lite"
+msgstr ""
+
+#: ../../Chords.rst:176
+msgid ""
+"Standard process for creating an impulse chord on a CharaChorder Lite: In"
+" short: 1. CHORD INPUT, 2. CALL IMPULSE, 3. TYPE OUTPUT, 4. CONFIRM "
+"OUTPUT, 5. CONFIRM INPUT"
+msgstr ""
+
+#: ../../Chords.rst:-1
+msgid "Impulse chording on the CharaChorder Lite"
+msgstr ""
+
+#: ../../Chords.rst:190
+msgid "Call the impulse command with the hard coded chord ``i+DUP``."
+msgstr ""
+
+#: ../../Chords.rst:203
+msgid "Creating an Impulse Chord on the CharaChorder X"
+msgstr ""
+
+#: ../../Chords.rst:205
+msgid ""
+"Standard process for creating an impulse chord on a CharaChorder X: In "
+"short: 1. CHORD INPUT, 2. CALL IMPULSE, 3. TYPE OUTPUT, 4. CONFIRM "
+"OUTPUT, 5. CONFIRM INPUT"
+msgstr ""
+
+#: ../../Chords.rst:-1
+msgid "Impulse chording on the CharaChorder X"
+msgstr ""
+
+#: ../../Chords.rst:219
+msgid "Call the impulse command with the hard coded chord ``i+ESC``."
+msgstr ""
+
+#: ../../Chords.rst:224
+msgid ""
+"Verify that the desired output is correct (you will see a confirmation "
+"message similar to this: >I<mpulse input: b + u + r + s + t)."
+msgstr ""
+
+#: ../../Chords.rst:230
+msgid "These steps should take 1-3 seconds"
+msgstr ""
+

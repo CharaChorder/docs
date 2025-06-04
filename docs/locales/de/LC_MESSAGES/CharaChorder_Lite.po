@@ -1,0 +1,762 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, CharaChorder
+# This file is distributed under the same license as the CharaChorder Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CharaChorder Docs 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-03 19:27-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../CharaChorder_Lite.rst:2
+msgid "CharaChorder Lite (CCL)"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:4
+msgid ""
+"Welcome to the Official CharaChorder Lite Guide. You can select the links"
+" below to navigate to the topics that you find most relevant."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:7
+msgid ""
+"The CharaChorder Lite is CharaChorder's approach to introducing "
+":doc:`chording<Chords>` to a traditional, QWERTY keyboard. It's small, "
+"sleek, and portable, but what truly sets the \"CCL\" apart from other "
+"keyboards is that it's powered by :doc:`CCOS<CCOS>`. This makes the CCL a"
+" superpowered, :doc:`chording<Chords>` keyboard that may be easier to "
+"learn than the :doc:`CharaChorder One`."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:10
+msgid ""
+"It boasts a beautiful set of keycaps, intentionally translucent to be "
+"able to appreciate the RGB backlights that breathe a modern look into the"
+" beautifully crafted keyboard."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:12
+msgid ""
+"Those who would rather build onto their muscle memory on a traditional, "
+"QWERTY keyboard can now take advantage of the CharaChorder Lite's "
+"revolutionary technology and increase their speed and efficiency."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:-1
+msgid "CharaChorder Lite"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:20
+msgid "Table of Contents of this Page"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:23
+msgid "Out of the Box"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:26
+msgid "Parts"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:28
+msgid ""
+"When you first receive your CharaChorder Lite, it will come in a black "
+"box with the CharaChorder logo on the outside. Once you open the box, "
+"you’ll find your brand new CharaChorder Lite fully assembled. You will "
+"also find an insert that includes the layout of the device and some "
+"functions that the CharaChorder Lite has."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:34
+msgid ""
+"The CharaChorder Lite parts can be separated into two groups: internal "
+"and external. Internal parts are meant to remain inside the CharaChorder "
+"Lite, and users shouldn't to remove them or change them. External parts "
+"are meant to be replaced, should the user choose to."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:37
+msgid "Internal Parts"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:40
+msgid "Base"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:42
+msgid ""
+"The CharaChorder Lite's base is made of ABS plastic, which is designed "
+"and assembled in America."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:45
+msgid "PCB"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:47
+msgid ""
+"The CCL comes with a PCB \"motherboard\" that holds your CharaChorder's "
+":doc:`chords<Chords>`, :doc:`layout<Layout>`, "
+":doc:`settings<GenerativeTextMenu>`, and the CCOS that powers the entire "
+"keyboard. It's held securely in place between the "
+":ref:`base<CharaChorder_Lite:Base>` and the :ref:`key "
+"plate<CharaChorder_Lite:Key Plate>`."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:49
+msgid "Front:"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:-1
+msgid "CharaChorder Lite PCB Front Side"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:56
+msgid "Back:"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:-1
+msgid "CharaChorder Lite PCB Back Side"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:65
+msgid "Key Plate"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:67
+msgid ""
+"The Lite's Key Plate is also made of ABS plastic, designed and assembed "
+"in America."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:71
+msgid "External Parts"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:73
+msgid ""
+"The CharaChorder Lite has two external components that can be removed and"
+" replaced by the user if they wanted to. These are the :ref:`switches "
+"<CharaChorder_Lite:Switches>` and the :ref:`key "
+"caps<CharaChorder_Lite:Key Caps>`. We call these items \"hot-swappable\" "
+"since they can be swapped for other versions that are purchased from a "
+"third-party."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:76
+msgid "Switches"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:78
+#, python-format
+msgid ""
+"The CharaChorder Lite comes with a 60% set of Gateron Clear/White "
+"switches. These switches are mechanical and linear, and require only 35 "
+"grams (g) of force to actuate, making them some of the lightest switches "
+"on the market. We, at CharaChorder, find that lighter switches make "
+":doc:`chording<Chords>` quicker and more efficient, but you're welcome to"
+" swap the default switches with other, third party options."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:81
+msgid ""
+"When searching for switches that fit the CCL, make sure that the switches"
+" are labeled as \"mechanical switches\" and are three pin (not five pin)."
+" The CharaChorder Lite is a 60% keyboard, but you will only need 67 "
+"switches to fill the CharaChorder Lite."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst
+msgid "What is a 60% keyboard?"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:85
+msgid ""
+"A 60% keyboard, also known as a \"compact keyboard\", is a computer "
+"keyboard that lacks a Numpad, a function row (F-Keys), and navigation "
+"keys (Home, Page Up, Page Down, etc.)."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:83
+msgid "A diagram of a 60% Keyboard"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:93
+msgid ""
+"Despite being a 60% keyboard, the CharaChorder Lite DOES have 4 arrow "
+"keys."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:-1
+msgid "A table comparing the different Gateron Switches"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:101
+msgid "Key Caps"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:103
+msgid ""
+"The CharaChorder Lite's key caps are made specifically for the CCL, "
+"intentionally concave towards the center so as to help with finger "
+"placement. The only exceptions are the two space keys at the bottom, "
+"which are convex for prominence on the keyboard. These key caps are hot-"
+"swappable, so you're welcome to personalize with third-party key caps to "
+"your taste."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:105
+msgid ""
+"When searching for key caps that fit the CCL, you'll want to order some "
+"that are for a 65% keyboard, totaling at least 67 individual keys. Most "
+"of the CharaChorder Lite's keys are traditional-sized, except a few "
+"exceptions that you can find in the "
+":ref:`layout<CharaChorder_Lite:Learning the Layout>` section."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:108
+msgid "Connections"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:110
+msgid ""
+"Your new CharaChorder Lite comes with one cable in the box; the power "
+"cable that goes out to the computer and also permits communication "
+"between your Lite and your computer."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:114
+msgid "Power and Communication"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:116
+msgid ""
+"The CharaChorder Lite is powered by a single, braided USB-C to USB-A "
+"cable, with both ends being male ends. The USB-C side of the cable fits "
+"into the USB-C port on the back right of the CharaChorder Lite. The USB-A"
+" end of the cable is then plugged into your computer, or into a mobile "
+"device, usually with the help of an adapter."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:123
+msgid "Plugging In"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:125
+msgid ""
+"The CharaChorder Lite is plug-and-play, so it doesn’t require any "
+"additional software to work."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:128
+msgid ""
+"If not done already, make sure that the USB-C side of the :ref:`power "
+"cable<CharaChorder_Lite:Power and Communication>` is plugged into the "
+"back right of the CharaChorder Lite. It’s important to be certain that "
+"the cable is plugged all the way in; otherwise, the CharaChorder might "
+"not function as intended."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:131
+msgid ""
+"By default, the device sends a :ref:`startup<GenerativeTextMenu:Startup>`"
+" message, on every boot or re-plug. In some cases, this can interfere "
+"with functions on your computer or cause unwanted behavior. This feature "
+"can be disabled in the :doc:`GTM<GenerativeTextMenu>`."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:134
+msgid ""
+"After making sure that the cable on the CharaChorder is properly plugged "
+"in, connect the USB-A side of the :ref:`power "
+"cable<CharaChorder_Lite:Power and Communication>` into a USB-A port on "
+"your computer. Upon connecting, you may notice the following things:"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:139
+msgid "If your cursor is somewhere where text can be entered…"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:141
+msgid ""
+"You will first see the text “Loading ### Chordmaps” highlighted, and a "
+"few moments later, “CCOS is ready.”"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:143
+msgid ""
+"Regardless of whether or not your cursor is somewhere where text can be "
+"entered…"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:145
+msgid ""
+"You will be able to see your keyboard's lights flash from left to right, "
+"then go completely dark. After a few moments, the entire keyboard will be"
+" lit up with the LED backlighting."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:147
+msgid ""
+"If you have :ref:`startup<GenerativeTextMenu:Startup>` enabled, once you "
+"can see the highlighted text that reads “CCOS is ready.”, your device is "
+"ready to be used. If you have :ref:`LEDs<GenerativeTextMenu:LEDs "
+"(CharaChorder Lite only)>` turned on, once you see all of the lights "
+"turned on and static, your device is ready to be used."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:151
+msgid ""
+"The :ref:`Startup message<GenerativeTextMenu:Startup>` is enabled by "
+"default on new CharaChorder devices."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:154
+msgid "Getting Started"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:156
+msgid ""
+"There are a few steps that you’ll likely want to take if this is your "
+"first time using your CharaChorder device. In the following section, we "
+"will update your device, briefly explain navigation in the "
+":doc:`GTM<GenerativeTextMenu>`, and demonstrate the default layout on "
+"your new device."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:162
+msgid "Updating your Device"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:165
+msgid ""
+"IMPORTANT: If your device shipped from our warehouse before 2023, it’s "
+"possible that it is running an obsolete firmware. You can read "
+"instructions on how to upgrade your device to our new CCOS "
+":ref:`here<CCOS:Upgrade to CCOS>`. If your device is not running    "
+":doc:`CCOS<CCOS>`, you will be unable to follow the steps below to update"
+" your device."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:171
+msgid "Checking your Device’s Firmware"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:173
+msgid "You can check your device’s current firmware by following the steps below:"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:176
+msgid ""
+"On a chromium based browser, such as Chrome, go to the CharaChorder "
+"`Device Manager <https://charachorder.io/config/layout/>`__ (Linux users "
+"see :ref:`this link<serialportaccess>` for more information about "
+"configuring serial port access.)"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:177
+msgid "Click “Connect” at the bottom middle of the page"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:178 ../../CharaChorder_Lite.rst:204
+msgid ""
+"When the popup box comes up that reads “charachorder.io wants to connect "
+"to a serial port”, choose your CharaChorder device, then click the blue "
+"“connect” button"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:180
+msgid ""
+"After following the above steps, you can find your firmware version in "
+"the bottom left of your screen. It will read something like this:"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:184
+msgid "``CCOS 1.1.4``"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:-1
+msgid "Checking the firmware on Device Manager"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:192
+msgid "Updating the Firmware"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:194
+msgid ""
+"If you find that your device is not running the latest firmware version, "
+"you can follow the steps below to update your device. You can check which"
+" is the latest firmware release by visiting `this site "
+"<https://charachorder.io/ccos/>`__."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:200
+msgid ""
+"IMPORTANT: Before performing the below steps, please make sure that you "
+"have a :ref:`backup of your layout<Device Manager:Backups>` as well as a "
+":ref:`backup of your chord library<Device Manager:Backups>` and a "
+":ref:`backup of your GTM settings<Device Manager:Backups>`. The update "
+"might reset those, so it's important that you keep backup files handy. "
+"For instructions on how to restore backed up files, visit the "
+":ref:`Backups<Device Manager:Restoring from a Backup>` section."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:202
+msgid ""
+"On a chromium based browser, such as Chrome, go to the CharaChorder "
+"`Device Manager <https://charachorder.io/config/layout/>`__"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:203
+msgid "If not auto-connected, click “Connect”"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:205
+msgid "Click on the CCOS version on the bottom left of the page"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:206
+msgid ""
+"You will see a list of available versions along with their release date. "
+"Click on the one you want."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:207
+msgid ""
+"If you have a Lite S2, you'll be able to just click \"Apply Update\". If "
+"you device does not have that option, you have a M0 device and can follow"
+" the steps on screen to update your device."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:209
+msgid ""
+"At this point, your device will automatically reboot. Congratulations! "
+"You have successfully updated your device. You can check your device’s "
+"firmware version by following the steps "
+":ref:`here<CharaChorder_Lite:Checking your Device’s Firmware>`."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:214
+msgid "Understanding the Settings"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:216
+msgid ""
+"The CharaChorder Lite has settings that are user-configurable. Since the "
+"device is plug-and-play, you don’t need any software to edit the device’s"
+" settings; all you need is a place to type text. We call these settings "
+"the Generative Text Menu, or :doc:`GTM<GenerativeTextMenu>` for short."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:221
+msgid ""
+"On the CharaChorder Lite, you can access the "
+":doc:`GTM<GenerativeTextMenu>` by :doc:`chording<Chords>` the right "
+"``ALT`` key and the letter ``G``."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:224
+msgid ""
+"Once you perform the chord to call up the :doc:`GTM<GenerativeTextMenu>`,"
+" your CharaChorder will type out the menu and its options. It will look "
+"something like this:"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:228
+msgid ""
+"``CharaChorder GTM [ >K<eyboard || >M<ouse || >C<hording || >D<isplay || "
+">R<esources ]``"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:230
+msgid ""
+"Navigation around this menu is based on letter presses. In the example "
+"above, you can select the desired submenu by pressing the letter between "
+"the angle brackets (for example: ``>K<``) in your target submenu on your "
+"CharaChorder One. In the example above, you would press ``K`` for "
+"Keyboard, ``M`` for Mouse, ``C`` for Chording, ``D`` for Display, and "
+"``R`` for Resources."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:237
+msgid ""
+"In some submenus, you will see numeric values. In order to increase or "
+"decrease these, you can use the arrow keys on your CharaChorder Lite."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:240
+msgid ""
+"``CharaChorder > Chording > Press Tolerance [ Use up/down arrow keys to "
+"adjust: 25ms ]``"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:242
+msgid ""
+"You can read an explanation of all of the settings on your CharaChorder "
+"device :doc:`here<GenerativeTextMenu>`."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:245
+msgid "Learning the Layout"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:248
+msgid ""
+"This section assumes that you are using your CharaChorder device with a "
+"US International OS layout selected on your computer. For instructions on"
+" how to change your OS layout, visit this :ref:`page<ChangingLanguage>`."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:-1
+msgid "Image showing the CharaChorder Lite default layout"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:255
+msgid ""
+"The CharaChorder Lite's layout is mostly traditional QWERTY. All of the "
+"letters and numbers are where you would expect them on other keyboards. "
+"However, there are some keys that are moved around, and a couple of extra"
+" keys as well. We'll describe the Lite's layout below. Remember that you "
+"can always :ref:`remap<Device Manager:Remapping>` the keys to your liking"
+" on the `CharaChorder Device Manager <https://charachorder.io>`__."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:257
+msgid ""
+"Earlier, we explained that the CharaChorder Lite is a 60% keyboard. It's "
+"been named that because it's missing the navigation keys usually present "
+"on 65% keyboards, though it still has four arrow keys. Therefore, it is "
+"accurate to refer to the CCL as a 60%+6 keyboard, where the 6 refers to "
+"keys that aren't usually on a 60% keyboard. Additionally, the CCL has 67 "
+"keys, instead of the 61 keys that 60% keyboards traditionally have."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:259
+msgid ""
+"Keys that are included are on the CharaChorder Lite are the 26 letters of"
+" the English alphabet, the 10 number keys (along with their SHIFT "
+"variants), a single backspace, one ``TAB`` key, opening (``[``) and "
+"closing (``]``) bracket keys as well as their SHIFT variants, a backslash"
+" (``\\``) and its SHIFT variant, a CAPSLOCK key, a colon (``:``) key and "
+"its SHIFT variant, an apostrophe (``'``) and its SHIFT variant, an "
+"``ENTER`` key, a full-size ``SHIFT`` key on the left as well as a smaller"
+" ``SHIFT`` key on the right side, comma (``,``), period (``.``),  and "
+"forward slash (``/``) keys and their SHIFT variants, a small ``DELETE`` "
+"key, a ``GUI`` key on the left and one on the right (Windows key, Command"
+" key, Super key, etc), a single ``CONTROL`` key, ``LEFT ALT`` and ``RIGHT"
+" ALT`` keys, two space keys, two :ref:`A2 layer access "
+"keys<CharaChorder_Lite:A2 Layer>` labeled ``Fn``, and four arrow keys."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:262
+msgid "Layers"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:264
+msgid ""
+"The CharaChorder Lite has 3 layers: the base layer, called the A1 (Alpha)"
+" layer, the secondary layer, referred to as A2 (Numeric), and the "
+"tertiary layer, named A3 (Function). Being as the CharaChorder Lite has "
+"67 individual keys and considering that each layer has access to all of "
+"those 67 keys, we have over 180 assignable slots on the entire device."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:270
+msgid ""
+"In this section, we’ll refer only to the default CharaChorder Lite "
+"layout. If you have modified your layout to something different, then the"
+" next portion might not be accurate for your device. If you have "
+"purchased your device from CharaChorder, then the following is accurate "
+"to your device."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:277
+msgid "A1 Layer"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:279
+msgid ""
+"The A1 layer is the main layer that is active by default. The default "
+"CharaChorder Lite layout has all 26 letters of the English alphabet on "
+"the A1 layer so that you can access all of them without having to hold or"
+" press anything else. Your device will always be in the A1 layer upon "
+"boot."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:284
+msgid ""
+"While the A1 layer is active on the CharaChorder Lite by default, you can"
+" map the A1 access key, which bears the name “KM_1_R” or “KM_1_L”, on the"
+" :doc:`layout manager<Device Manager>` site. There is no real need to map"
+" the A1 access keys."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:-1
+msgid "The default A1 layer on the CharaChorder Lite"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:293
+msgid "A2 Layer"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:295
+msgid ""
+"The A2 layer, sometimes referred to as the “numeric layer”, is accessible"
+" with the :doc:`A2 access key<CharaChorder Keys>`. This key is mapped by "
+"default on the CharaChorder Lite to the keys labeled ``Fn``. In the "
+":doc:`device manager<Device Manager>` this key has the name “KM_2_L” and "
+"“KM_2_R”, one for each side of the CharaChorder."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:299
+msgid ""
+"The A2 Layer is accessible by pressing and holding either one of the "
+"layer access buttons. You do not have to hold them both, only one is "
+"required. Any key that is on the A2 Layer can only be accessed by "
+"pressing and holding the A2 Layer access key along with the target key. "
+"You do not need to :doc:`chord<Chords>` the keys together; it’s only "
+"required that the A2 Layer access key is pressed while the target key is "
+"pressed."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:-1
+msgid "The default A2 layer on the CharaChorder Lite"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:311
+msgid "A3 Layer"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:313
+msgid ""
+"The A3 layer, sometimes referred to as the “function layer”, is "
+"accessible with the :ref:`A3 access key<CharaChorder Keys>`. This key is "
+"not mapped by default on the CharaChorder Lite, but you can add it to "
+"your device by :ref:`remapping<Device Manager:Remapping>`. On the "
+":doc:`CharaChorder Device Manager<Device Manager>`, this key is "
+"assignable by the names “KM_3_L” and “KM_3_R”."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:316
+msgid ""
+"Once you've mapped the A3 layer access buttons, the A3 Layer is "
+"accessible by pressing and holding either one of them. You do not have to"
+" hold them both in order to access the A3 layer. Any key that is on the "
+"A3 Layer can only be accessed by pressing and holding the :doc:`A3 access"
+" key<CharaChorder Keys>`, along with the target key. You do not need to "
+":doc:`chord<Chords>` the keys together; it’s only required that the A3 "
+"layer access key is pressed while the target key is pressed."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:-1
+msgid "The default A3 layer on the CharaChorder Lite"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:330
+msgid "Shift Modifier"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:332
+msgid ""
+"On top of the three aforementioned layers, the :doc:`Shift "
+"key<CharaChorder Keys>`, which is a :doc:`keyboard modifier<Glossary>`, "
+"can be used to access some extra keys. The Shift key press works just "
+"like it would on a traditional keyboard. You can capitalize letters and "
+"access symbols attached to numbers. This works with any key on any layer,"
+" just like other keyboard modifiers (such as Ctrl and Alt). The Shift "
+"modifier output is currently controlled by the Operating System that your"
+" CharaChorder is plugged to, and it is not possible to customize their "
+"outputs."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:339
+msgid ""
+"On the :doc:`CharaChorder Device Manager<Device Manager>`, this key has "
+"the name “Left_Shift” and “Right_Shift”, one for each side of the "
+"CharaChorder."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:343
+msgid ""
+"By default, the Shift is accessible by pressing and holding either Shift "
+"Key. You do not have to hold them both, only one is required. Any key "
+"that requires the Shift Modifier can only be accessed by pressing and "
+"holding the Shift key along with the target key. You do not need to "
+":doc:`chord<Chords>` the keys together; it’s only required that the Shift"
+" key is pressed while the target key is pressed."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:350
+msgid "AltGraph Modifier"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:352
+msgid ""
+"While using the US INTL OS layout on your computer, you can take "
+"advantage of a modifier known as AltGraph, AltGr, or right alt. This "
+"keyboard modifier is used to provide additional graphemes for most keys. "
+"You can use the AltGraph modifier to create accented characters such as "
+"á, é, í, ó, ú, among others."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:354
+msgid ""
+"The AltGraph modifier output is currently controlled by the Operating "
+"System that your CharaChorder is plugged into, and it is not possible to "
+"customize their outputs. Those outputs are determined by the computer's "
+"OS."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:356
+msgid ""
+"By default, the right alt is accessible by pressing and holding the right"
+" alt. You do not need to :doc:`chord<Chords>` the keys together; it’s "
+"only required that the AltGraph key is pressed while the target key is "
+"pressed. On the :doc:`CharaChorder Device Manager<Device Manager>`, this "
+"key has the name “AltGraph”."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:362
+msgid "Configurability"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:364
+msgid ""
+"The CharaChorder Lite’s layout is configurable, which means that you can "
+":doc:`remap<Glossary>` all keys. Though the QWERTY layout is loved by "
+"many, some users may choose to :doc:`remap<Glossary>` their device’s "
+"layout to better suit their personal needs. For an explanation of how "
+"remapping works and how to remap your device, visit the :ref:`remapping "
+"section<Device Manager:Remapping>`."
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:371
+msgid "Practice"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:373
+msgid ""
+"Now that you’re familiar with your new CharaChorder device, it’s time to "
+"use it! Head over to the :doc:`training section<DotIO>` for instructions "
+"on how to get started with learning to :doc:`chord<Chords>`. If you want "
+"to just jump in without having to read a minute longer, head on over to "
+"our training website; https://www.iq-eq.io/#/"
+msgstr ""
+
+#: ../../CharaChorder_Lite.rst:-1
+msgid "Practicing on DOT I/O"
+msgstr ""
+
