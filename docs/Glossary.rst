@@ -43,6 +43,14 @@ community.
       In character entry, it repeats your last input. In chorded entry, it is
       used for words with repeating letters.
 
+   Dynamic Chord Library
+      Advanced system feature enabling activation of multiple named chord
+      libraries through action codes embedded in chord outputs. When an action
+      code activates a specific library, subsequent chord creation automatically
+      groups new chords within that library's structure, allowing for context-
+      specific chord sets (e.g., multiligual, coding, email) that can be 
+      programmatically switched during use.
+
    Forced Chord Phenomenon
       The experience of typing a word in character entry feeling unnatural due
       to the development of muscle memory for chording that word.
