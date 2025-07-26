@@ -1,5 +1,5 @@
 CharaChorder X (CCX)
-=======================================
+====================
 
 Welcome to the Official CharaChorder X guide.
 
@@ -58,7 +58,7 @@ The CharaChorder X is a single piece comprised of a circuit board which is enclo
 
 
 Connections
-------------
+-----------
 
 Your new CharaChorder X comes with two connections: a female USB-A port, and a male USB-A connector. The CharaChorder X draws power from your computer via the USB-A male connector and passes on power as well as communicates with your keyboard through the female USB-A port.
 
@@ -184,7 +184,7 @@ decrease these, you can use the up and down arrow keys on your keyboard.
 You can read an explanation on all of the settings on your CharaChorder device :doc:`here<GenerativeTextMenu>`.
 
 The Layout
--------------
+----------
 
 The CharaChorder X uses your keyboard's layout, so you don't have to learn a new one. The CharaChorder X reads the keycodes that your keyboard sends and makes use of them to produce outputs on your computer. The only drawback to this is that the CharaChorder X is unable to read keypresses that do not send a code. One common key that doesn't send a code is the Fn key. This key serves as a layer-access key, locally on your keyboard, that allows you to reach the F-keys. Although the CharaChorder X is unable to read the Fn keypress, the F-keys (F1-F24) will send out a keycode, and, thus, the CharaChorder X will send out that signal to the computer. 
 

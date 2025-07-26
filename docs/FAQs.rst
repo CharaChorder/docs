@@ -72,8 +72,8 @@ How do you access a full keyboard with fewer buttons?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The switches on a CharaChorder Two device are 3-dimensional, providing 5 unique inputs per switch.
 
-Dimensions and Weight
-~~~~~~~~~~~~~~~~~~~~~
+Dimensions and Weight CC Two
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - **Device**: 11 ⅝" x 4 ⅜" x 1 ⅛", 10.7 oz (without USB-C), 12.1 oz (with USB-C)  
 - **Internal box/case with insert**: 12 3/16" x 8 1/16" x 2 ⅜", 15.8 oz  
 - **Final shipping box**: 13" x 9" x 2 ¾", 2.04 lbs  
@@ -83,8 +83,8 @@ Dimensions and Weight
 
 CharaChorder Lite FAQs
 ----------------------
-Dimensions and Weight
-~~~~~~~~~~~~~~~~~~~~~
+Dimensions and Weight CC Lite
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - **Device**: 11 ⅝" (length) x 4 ⅛" (width) x 1 5/16" (height), 1 lb 0.5 oz  
 - **Case**: 14 3/16" x 6 ⅜" x 2 ⅛", 9 oz  
 - **Final shipping box**: 14 ¼" x 6 ½" x 2 ¾", 2.05 lbs  
@@ -95,6 +95,7 @@ Is there any difference between the Lite and the X?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - **Lite**: Can handle up to 12-key singular chords.  
 - **X**: Can handle up to 6-key singular chords initially.  
+
 The Lite has special keys absent on standard keyboards, which can be remapped on the X.
 
 Will CCX work on a laptop?
@@ -133,7 +134,7 @@ Is CCX the same as CC Engine but with USB support?
 Yes, the CCX contains the same hardware as the CC Engine, with an additional chip for USB input. The CC Engine requires custom circuit design, while the CCX is a consumer-ready product.
 
 Can the X connect to an external host or network?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The CCX uses **HID** and **Serial over USB** protocols. It cannot connect directly to a network without external software to route the traffic. The Device Manager is one such software tool compatible with some Chromium based browsers.
 
 Will CCX work with a USB-A to USB-C adapter?

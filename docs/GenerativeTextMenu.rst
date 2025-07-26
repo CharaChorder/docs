@@ -1,7 +1,7 @@
 .. _Generative Text Menu (GTM):
 
 Generative Text Menu (GTM)
-=============================
+==========================
 
 ``CharaChorder GTM [ >K<eyboard || >M<ouse || >C<hording || >D<isplay || >R<esources ]``
 

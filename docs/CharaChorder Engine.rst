@@ -1,5 +1,5 @@
 CharaChorder Engine (CCE)
-===================
+=========================
 
 Welcome to the Official CharaChorder Engine guide. You can select the links
 below to navigate to the topics that you find most relevant.
