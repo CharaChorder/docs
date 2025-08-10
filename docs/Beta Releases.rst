@@ -19,25 +19,22 @@ Three profiles can now be defined, each with three layers:
 * Profile B, layout layer B1, B2, or B3
 * Profile C, layout layer C1, C2, or C3
 
-Profiles share the same chord library. Because we already have chord profiles in the form of dynamic libraries. If you want to activate a dynamic library for your profile you can use a chord to both activate the profile and the dynamic library.
+Profiles share the same chord library because we already have chord profiles in the form of dynamic libraries. If you want to activate a dynamic library for your profile you can use a chord to both activate the profile and the dynamic library.
 
-Each profile has its own settings. For example, each profile can have it's own LED colors (currently only on the left half).
+Each profile has its own settings. For example on the Master Forge, each profile can have it's own LED colors (currently only on the left half).
 
-Profiles are backed up individually, by switching to profile A, B, or C at the top of the Managers Device page before backing up.
+Profiles are backed up individually, by switching to profile A, B, or C at the top of the Device Manager's Device/Settings page before backing up.
+
+During the beta period, the profiles can be configured on: https://master.dev.charachorder.io/
 
 Layer warp
 ~~~~~~~~~~
 
-For gaming profiles we added a "layer warp" setting which re-presses held keys when you switch layers.
+For gaming profiles, we added a "layer warp" setting which re-presses held keys when you switch layers.
 
-With layer warp, you can holding a key (ex: walk forward) and temporarily hold a second key to either:
+With layer warp, you can reverse direction or stop, without releasing the walk forward key, by temporarily holding down another key.
 
-* reverse direction
-* stop
-
-Then continue walking forward by releasing the reverse or stop key.
-
-This can be done on for example, profile B with the following key bindings: 
+With Profile B setup for gaming, the key bindings could look like this:
 
 Layer B1::
 
@@ -98,9 +95,9 @@ Hyperspace
 
 Control what the concatenator between chords is using with the new HYPERSPACE and CAPTURE actions.
 
-The CAPTURE action makes it possible to replace the space after a chord with for example, a dash (-) or an underscore (_).
+The CAPTURE action makes it possible to replace the space after a chord with another character such as a dash (-) or an underscore (_).
 
-At least two chords need to be created:
+For this to work, we need to create at least two chords:
 
 1. One chord that has a space between two CAPTURE actions:
 
@@ -141,10 +138,10 @@ At least two chords need to be created:
 Prepend concatenation style
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can now select "prepended" as a concatenation style. This mode is part of the Hyperspace feature, and recommended for text editing (like coding). Instead of placing the space after chords (default), it is prepended to the subsequent chord. This means you don't have to erase extra spaces while editing.
+You can now select "prepended" as a concatenation style. This mode is part of the Hyperspace feature and recommended for text editing (like coding). Instead of placing the space after chords (default), it is prepended to the subsequent chord. This means you don't have to erase extra spaces while editing.
 
-Vim mode (beta)
-~~~~~~~~~~~~~~~
+Vim mode
+~~~~~~~~
 
 Adds universal VIM motion emulation through the VIM action. This mode makes use of standard shortcuts like CTRL (or ⌘ on Mac) + RIGHT ARROW to emulate VIM motions in a best-effort way in any textbox. While not as powerful as native VIM or even just a VIM plugin, you don't always have the option to use either of them, so this is a way to carry around your VIM muscle memory to nearly every textbox you encounter.
 
@@ -161,8 +158,12 @@ Grammar rules have been updated with community contributions. You can submit you
 Grammar rules are now case insensitive
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Chord modifiers now also work on capitalized words.
+
 Capitalize now toggles case
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+You can now use an arpeggiated capitalize modifier to toggle capitalization (i.e. undo the auto-capitalize after an arpeggiated period)
 
 USB Aggressive Reporting
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -173,6 +174,12 @@ Keyboard Rollover Settings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Reducing this to 6-key might improve compatibility with older hardware.
+
+The choices are:
+
+* 6-key
+* 12-key (default)
+* 18-key
 
 CC One Features
 ~~~~~~~~~~~~~~~
@@ -185,11 +192,16 @@ Settings/layout storage have been moved from onboard flash to the external flash
 Fixes
 -----
 
-Potential improved USB Hub compatibility
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Potentially improved USB Hub compatibility
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Potentially improved USB Hub compatibility
 
 Fixed device names in the manager popup
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+In the device manager's serial port dialog, the Master Forge appeared as: TinyUSB
+Now it has the device name: Master Forge Anchor
 
 Poll rate setting
 ~~~~~~~~~~~~~~~~~
@@ -199,8 +211,26 @@ Replaced the mouse/keyboard poll rate settings (which didn't actually change the
 Improved flash performance
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Capitalize action is not interrupted by chentry
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Primarily noticeable with chord importing.
+
+Capitalize action was not interrupted by chentry
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The following examples result from pressing:
+
+chord, period, character, space, chord
+
+Before::
+
+	the. t The
+
+The last chord became capitalized even though it wasn't the first character or chord after the period.
+
+After::
+
+	the. t the
+
+The last chord's capitalization was interrupted by the chentry.
 
 NULL is now ignored as an action
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -212,10 +242,10 @@ Stuck key mitigation
 
 As a general fallback measure against (software-)stuck keys, we added a measure that releases all keys when you either physically release all switches or at the end of a chord.
 
-Specific compounds caused library corruption
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Specific compounds that caused library corruption
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-There was a bug that could cause library corruption, if you got unlucky. That has now been fixed. This only happened when adding compound chords with a specific base. You can check if your library contained any of these here: https://master.dev.charachorder.io/config/chords/will-my-compound-break/
+There was a bug that could cause library corruption which has now been fixed. This only happened when adding compound chords with a specific base. You can check if your library contained any of these here: https://master.dev.charachorder.io/config/chords/will-my-compound-break/
 
 CC Lite S2 Fixes
 ~~~~~~~~~~~~~~~~
@@ -223,13 +253,15 @@ CC Lite S2 Fixes
 Fixed swapped Right Shift and Quote keys
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Right Shift typed a single quote, and the single quote key behaved as Right Shift.
+
 CC One Fixes
 ~~~~~~~~~~~~
 
 Incorrect max chord count
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-In a past update it was incorrectly stated that the maximum chord count was increased to 16k. The actual increase was to 10,240. With additional optimization the maximum chord count was now lifted to 11,720.
+In a past update, we incorrectly stated that the maximum chord count was increased to 16.000 (sixteen thousand). However, the actual increase was to 10.240 (ten thousand, two hundred forty), but with additional optimization, the maximum chord count has now been raised to 11.720 (eleven thousand, seven hundred twenty).
 
 Memory corruption when approaching chord limit
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -240,10 +272,11 @@ M4G Fixes
 ~~~~~~~~~
 
 Disconnect issues
-^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^
 
-We've identified a potential workaround for intermittent disconnects on primarily MacOS and Windows. It's available as the "aggressive reporting" setting. We're still continuing to investigate as we gather feedback from this change.
+We've identified a potential workaround for intermittent disconnects primarily on MacOS and Windows. It's available as the "aggressive reporting" setting. We're still continuing to investigate as we gather feedback from this change.
 
 LEDs can now be fully turned off
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+The M4G's LEDs couldn't dim below their minimum brightness.
