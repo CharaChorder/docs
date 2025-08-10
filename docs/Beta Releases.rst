@@ -21,7 +21,7 @@ Three profiles can now be defined, each with three layers:
 
 Profiles share the same chord library because we already have chord profiles in the form of dynamic libraries. If you want to activate a dynamic library for your profile you can use a chord to both activate the profile and the dynamic library.
 
-Each profile has its own settings. For example on the Master Forge, each profile can have it's own LED colors (currently only on the left half).
+Each profile has its own settings. For example, on the Master Forge, each profile can have its own LED colors (currently only on the left half).
 
 Profiles are backed up individually, by switching to profile A, B, or C at the top of the Device Manager's Device/Settings page before backing up.
 
@@ -32,9 +32,9 @@ Layer warp
 
 For gaming profiles, we added a "layer warp" setting which re-presses held keys when you switch layers.
 
-With layer warp, you can reverse direction or stop, without releasing the walk forward key, by temporarily holding down another key.
+With layer warp, by temporarily holding down another key, you can reverse direction of movement or stop all together without ever releasing the walk forward key.
 
-With Profile B setup for gaming, the key bindings could look like this:
+With Profile B set up for gaming, the key bindings could look like this:
 
 Layer B1::
 
@@ -138,7 +138,7 @@ For this to work, we need to create at least two chords:
 Prepend concatenation style
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can now select "prepended" as a concatenation style. This mode is part of the Hyperspace feature and recommended for text editing (like coding). Instead of placing the space after chords (default), it is prepended to the subsequent chord. This means you don't have to erase extra spaces while editing.
+You can now select "prepended" as a concatenation style. This mode is part of the Hyperspace feature and recommended for text editing (like coding). Instead of placing a space after a chord (default), the chord is prepended to the subsequent chord. This means that you don't have to erase extra spaces while editing.
 
 Vim mode
 ~~~~~~~~
@@ -200,7 +200,7 @@ Potentially improved USB Hub compatibility
 Fixed device names in the manager popup
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-In the device manager's serial port dialog, the Master Forge appeared as: TinyUSB
+In the Device Manager's serial port dialog, the Master Forge used to appear as: TinyUSB
 Now it has the device name: Master Forge Anchor
 
 Poll rate setting
@@ -226,7 +226,7 @@ Before::
 
 The last chord became capitalized even though it wasn't the first character or chord after the period.
 
-After::
+Now::
 
 	the. t the
 
