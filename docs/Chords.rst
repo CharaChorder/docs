@@ -1,5 +1,5 @@
 Chords
-=============================
+======
 One of CharaChorder devices’ greatest features is their
 :doc:`chording<Chords>` ability. Read this section to learn what
 chording is and how you can benefit from it on your own CharaChorder. 
@@ -8,7 +8,7 @@ chording is and how you can benefit from it on your own CharaChorder.
    :local:
 
 What are Chords?
------------------
+----------------
 
 A chord is a type of input/output action on a keyboard: you press two or
 more keys at the same time and release them at the same time, after
@@ -19,7 +19,7 @@ letter at a time. It’s even possible to have chords for phrases and
 entire sentences. 
 
 How do I use Chords?
-----------------------
+--------------------
 
 A chord has an **input** and an **output**. We will describe what each
 of those is and how they affect chords on your CharaChorder device
@@ -29,7 +29,7 @@ talking about carrying out a chord.
 .. _Chord Input:
 
 Chord Input
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
 
 A chord input is the
 combination of keys used in order to get a desired, predetermined
@@ -42,7 +42,7 @@ input are pressed and released at the same time, chord inputs are not
 order-specific. ``b+c`` is the same as ``c+b``. 
 
 Chord Output 
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~
 
 A chord
 output is the predetermined letters, words, phrases and/or actions that
@@ -53,7 +53,7 @@ the word “because”, then the word “because” would be the output. In
 input and the output) as ``b+c = because``. 
 
 Chord Notation 
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~
 
 Chord
 notation is the way that we write chords for CharaChorder devices. It is
@@ -86,7 +86,7 @@ You can try these chords on your CharaChorder device!
 * ``p+m+i = important``
 
 How do I make Chords? 
-------------------------
+---------------------
 
 You can make chords for your
 CharaChorder using a few different methods which we will discuss below.
@@ -117,12 +117,12 @@ our CharaChorder devices. You can
 Read how below. 
 
 Adding New Chords on Device Manager
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The steps to do this are :ref:`in the Device Manager documentation<Device Manager:Creating a Chord>`.
 
 Impulse chording
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~
 
 Impulse chording is a method of adding chords that doesn’t require
 anything except your CharaChorder after a space to type in. It allows
@@ -142,7 +142,7 @@ as part of the output. If you make a mistake when defining the chord
 output, trigger escape and start over instead of deleting the input.
 
 Creating an Impulse Chord on the CharaChorder One
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Standard process for creating an impulse chord on a CharaChorder One: In
 short: 1. CHORD INPUT, 2. CALL IMPULSE, 3. TYPE OUTPUT, 4. CONFIRM
@@ -171,7 +171,7 @@ OUTPUT 5. CONFIRM INPUT
 These steps should take 1-3 seconds. 
 
 Creating an Impulse Chord on the CharaChorder Lite
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Standard process for creating an impulse chord on a CharaChorder Lite:
 In short: 1. CHORD INPUT, 2. CALL IMPULSE, 3. TYPE OUTPUT, 4. CONFIRM
@@ -200,7 +200,7 @@ OUTPUT, 5. CONFIRM INPUT
 These steps should take 1-3 seconds. 
 
 Creating an Impulse Chord on the CharaChorder X
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Standard process for creating an impulse chord on a CharaChorder X: In
 short: 1. CHORD INPUT, 2. CALL IMPULSE, 3. TYPE OUTPUT, 4. CONFIRM

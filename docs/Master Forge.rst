@@ -1,5 +1,5 @@
 Master Forge
-===================
+============
 
 Welcome to the Official Master Forge guide. You can select the links
 below to navigate to the topics that you find most relevant.
@@ -41,7 +41,7 @@ box. Once you open the box, you’ll find your brand new Master Forge inside its
 Once you open the tactical case, you’ll meet your shiny, new Master Forge. The Master Forge consists of two digitizers with 8, 5-way switches, joined together by a :ref:`mechanical bridge connector<Master Forge:Mechanical Bridge Connector>`.
 
 The Digitizers
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~
 
 Your device will come with two Digitizers which, together, comprise the Master Forge. Each digitizer typically corresponds to each hand and is designed for the ergonomics and comfort of each hand. The digitizers are composed of a 3D printed endoskeleton and a machined-aluminum exoskeleton. The exoskeleton of the digitizer is actually two pieces which are the trapezoidal-shaped “shell,” and the flat and partially hollowed out “baseplate”. They are held together by five M2, Philips screws which are
 under the “feet” pads of the device. The feet are round, rubberized and help the device to have a grip on desks and other smooth surfaces.
@@ -70,7 +70,7 @@ On the sides of each digitizer, you'll notice the :ref:`bookend rails<The Booken
   :alt: Original Backer Case
 
 The Bridge Connector
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 
 Out of the box, your :ref:`digitizers<The Digitizers>` will be connected by a mechanical bridge :doc:`bolt-on<Bolt-Ons>`. This :doc:`bolt-on<Bolt-Ons>` is also machined-aluminum and made from a slotted rail. It's held in place by two, M3 nylon screws. Nylon screws don't "set" into the aluminum like steel screws, which prevents damage to the slotted rails, since the slotted rails at the front of the device don't have any holes for screws to go into. It's more of a friction hold, which is a key concept of :doc:`bolt-ons<Bolt-Ons>`. 
 
@@ -92,7 +92,7 @@ The electrical bridge connector is a thin printed circuit board that ends in a U
 When connected by the official Forge bridge connector, the left digitizer should be the one connected directly to your computer. See :ref:`Getting Started<tag?>` for more information about this.
 
 The Bookend Rails
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~
 
 Each :ref:`digitizer<The Digitizers>` of the Master Forge comes with three removable bookend rails. These rails are what allow the digitizers to attach to other :doc:`anchor bodies<Anchor Bodies>` and :ref:`bolt-ons<Bolt-Ons>`. 
 
@@ -104,7 +104,7 @@ Each :ref:`digitizer<The Digitizers>` of the Master Forge comes with three remov
 The bookend rails are made of machined aluminum and are held in place on the body of the :ref:`digitizers<The Digitizers>` by two (size), steel screws. 
 
 The Splitter
-~~~~~~~~~~~~~~
+~~~~~~~~~~~~
 
 Included with every Master Forge order is a 3D-printed Splitter. This piece serves to prevent anything from falling into the space between the forge :ref:`digitizers<The Digitizers>` whenever these are connected by the :ref:`bridge connector<The Bridge Connector>`.
 
@@ -173,13 +173,14 @@ Another cable that may be included with your order is a 3.2 gen 2, braided USB-C
         2. As pointed out in the :ref:`getting started section<Port Requirement>` of this page, power to an :doc:`anchor body<Anchor Bodies>` or :ref:`bolt-on<Bolt-Ons>` must be received through the front left USB-C port. This means that every anchor body or bolt-on that you add to your system has to be linked to the Master through the port on the front left.   
 
 Getting Started
-*******************
+***************
 
 The Master Forge is plug-and-play, so it doesn’t require any
 additional software to work. Before plugging your Forge in for
 the first time, it’s important to make sure that either the :ref:`electrical bridge connector<Master Forge:The Bridge Connector>` or a USB-C cable is correctly plugged into both :ref:`digitizers<Master Forge:The Digitizers>`. 
 
 .. _Port Requirement:
+
 All Forge :doc:`anchor bodies<Anchor Bodies>`, including the Master Forge Digitizers, should be connected to a power source through their front, left USB-C port. It's important to use that specific port to connect your device to your computer because no other port will permit your Forge to function correctly. As a rule of thumb, all Forge :doc:`anchor bodies<Anchor Bodies>` must receive power through their front, left port. The other three ports are outgoing ports in order to connect other :doc:`anchor bodies<Anchor Bodies>` and :doc:`bolt-ons<Bolt-Ons>`. Each additional :doc:`anchor body<Anchor Bodies>` or :doc:`bolt-on<Bolt-Ons>` will need to "receive" power from the "Master" :doc:`anchor body<Anchor Bodies>`, or from an :doc:`anchor body<Anchor Bodies>` or :doc:`bolt-on<Bolt-Ons>` connected to the Master. A "Master" :doc:`anchor body<Anchor Bodies>` is the one connected directly to your computer. Please note that some :doc:`bolt-ons<Bolt-Ons>` may function as a Master.
 
 If you haven't done so, now would be the time to plug the included USB-C to USB-A cable included with your order into the LEFT :doc:`digitizer<Master Forge:The Digitizers>`. If you would rather use an after-market USB-C to USB-C cable instead, due to a personal preference or computer requirement, that is also okay. Regardless of your selection, we'll refer to the cable that connects directly to the computer as the sole Power Cable. If you have any additional :doc:`bolt-ons<Bolt-Ons>`, now would be a good time to plug them into your Master. 
@@ -234,19 +235,19 @@ training website; https://www.iq-eq.io/#/
   :alt: Practicing on DOT I/O
 
 Setting Up
------------
+----------
 
 There are a few steps that you’ll likely want to take if this is your
 first time using your Master Forge. In the following section, we
 will update your device, explain navigation in the :doc:`GTM<GenerativeTextMenu>`, and demonstrate the default layout on your new device.
 
 Updating your Device
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 
 .. _M4G-checking-your-devices-firmware:
 
 Checking your Device’s Firmware
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You can check your device’s current firmware by following the steps
 below: 
@@ -254,13 +255,14 @@ below:
 #. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://charachorder.io/config/layout/>`__ 
 #. Click “Connect” at the bottom center of the page
    
-.. _Connect Button:
+.. _Connect Button Check Firmware:
 .. image:: /assets/images/FW-connect-button.JPG
   :width: 600
   :alt: Connect Button on Device Manager
+
 3. When the popup box comes up that reads “charachorder.io wants to connect to a serial port,” choose your Master Forge, then click the blue “connect” button
 
-.. _Serial Port Popup:
+.. _Serial Port Popup Check Firmware:
 .. image:: /assets/images/SerialPort-Message.webp
   :width: 600
   :alt: Popup to select serial device
@@ -275,7 +277,7 @@ firmware version in the bottom left of your screen. It will read something like 
   :alt: Checking the firmware on Device Manager
 
 Updating the Firmware
-^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
 
 If you find that your device is not running the latest firmware version,
 you can follow the steps below to update your device. You can check
@@ -302,13 +304,13 @@ The Master Forge supports over-the-air (OTA) updates. You can follow the steps b
     #. You can compare the latest release (the version at the top of the list) with your device's version. Select your desired version.
     #. If you haven't done so already, Connect your device to the Manager by clicking "Connect" at the bottom of the page
         
-        .. _Connect Button:
+        .. _Connect Button Update Firmware:
         .. image:: /assets/images/FW-connect-button.JPG
           :width: 600
           :alt: Connect Button on Device Manager
     #. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your Master Forge, then click the blue “connect” button
      
-        .. _Serial Port Popup:
+        .. _Serial Port Popup Update Firmware:
         .. image:: /assets/images/SerialPort-Message.webp
           :width: 600
           :alt: Popup to select serial device
@@ -330,13 +332,13 @@ Your device will reboot on its own and will have the new firmware on it once it 
  		#. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://charachorder.io/ccos/>`__ 
  		#. If not auto-connected, click "Connect"
 
-       		   .. _Connect Button:
+       		   .. _Connect Button Emergency:
      		   .. image:: /assets/images/FW-connect-button.jpg
     		      :width: 600
     		      :alt: Connect Button on Device Manager
  		#. When the popup box comes up that reads “manager.charachorder.com wants to connect to a serial port”, choose the CCOS device you wish to update, then click the blue “connect” button
 
-        		 .. _Serial Port Popup:
+        		 .. _Serial Port Popup Emergency:
       		  .. image:: /assets/images/SerialPort-Message.jpg
        		   :width: 600
         		  :alt: Popup to select serial device
@@ -403,12 +405,13 @@ Your device will reboot on its own and will have the new firmware on it once it 
 		 #. When your computer asks you how you would like to resolve the issue of two files with the same name, select “Replace file”.
 
 		Once again, your Forge will automatically reboot and the
+
 Forge drive will have disappeared. You can check your device’s firmware
 version by following the steps :ref:`here<m4g-checking-your-devices-firmware>`.
 
 
 Understanding the Settings
-----------------------------
+--------------------------
 
 The Forge has operational settings that are user-configurable. Since the
 device is plug-and-play, you don’t need any software to edit the
@@ -441,7 +444,7 @@ decrease these, you can use the arrow keys on your :ref:`digitizers<The Digitize
 You can read an explanation on all of the settings on your CharaChorder device :doc:`here<GenerativeTextMenu>`.
 
 Learning the Layout
----------------------
+-------------------
 
 The default on the Master Forge :ref:`digitizers<The Digitizers>`, which we will refer to as the M4 English layout, has been designed to favor :doc:`bigrams<Logic behind the Layout>` and :doc:`trigrams<Logic behind the Layout>` commonly used in the English language while making the letters accessible for a logical choice of :doc:`lexical<Chords>`. You can find the map below.
 
@@ -570,7 +573,7 @@ Shift Modifier
            :widths: auto
 
            "Alpha key", "Shifted key"
-           "`", "~" 
+           "\`", "~" 
            "1", "\!"
            "2", "\@"
            "3", "\#"
@@ -633,12 +636,12 @@ suit their personal needs. For a thorough explanation on how remapping
 works and how to remap your device, visit the :ref:`remapping section<Device Manager:Remapping>`
 
 Master Forge Configurations
-****************************
+***************************
 
 When the Master Forge was `unveiled <https://youtu.be/fux9gU3M25E?si=u4KW7OaUUUNINfKD&t=1025>`__ in Novemeber of 2023, CharaChorder began taking pre-orders offering everyone the same bundle. In September of 2024, CharaChorder ran a `Kickstarter <https://www.kickstarter.com/projects/charachorder/the-master-forge-a-keyboard-built-for-you>`__ campaign for the Master Forge for 5 weeks, offering three different tiers, each with a different configuration. After the Kickstarter campaign finished, the Master Forge went on back-order sale on the `Forge website <https://forgekeyboard.com>`__. The following section identifies what each of these 5 bundles included. 
 
 Forge Website Pre-Orders
--------------------------
+------------------------
 The Master Forge was announced at CharaChorder's annual `ChorderCon in 2023 <https://youtu.be/fux9gU3M25E?si=WmNs4bxXJcg0JbKM>`__. It was announced alongside the Forge brand and other Forge products such as the Coder's Forge and the Gamer's Forge. After a surge in Master Forge orders, the Master Forge was given development priority. Every Master Forge order placed between November 2023 and early August 2024 includes:
 
     - :ref:`One (1) Left Digitizer<Master Forge:The Digitizers>`
@@ -659,12 +662,12 @@ The Master Forge was announced at CharaChorder's annual `ChorderCon in 2023 <htt
 
 
 Kickstarter Orders
-----------------------
+------------------
 
 The Master Forge Kickstarter campaign launched on August 27 of 2024 and closed on October 7 of 2024. The bundles offered on Kickstarter can be separated into three: Basic, Premium, and Super.  
 
 Basic
-~~~~~~
+~~~~~
 The Basic backer tier on Kickstarter includes the following:
 
     - :ref:`One (1) Left Digitizer<Master Forge:The Digitizers>`
@@ -677,7 +680,7 @@ The Basic backer tier on Kickstarter includes the following:
     - Unlimited Forge CAD Access
 
 Premium
-~~~~~~~~
+~~~~~~~
 The Premium backer tier on Kickstarter includes the following:
 
     - :ref:`One (1) Left Digitizer<Master Forge:The Digitizers>`
@@ -697,7 +700,7 @@ The Premium backer tier on Kickstarter includes the following:
 
 
 Super
-~~~~~~~
+~~~~~
 
     - :ref:`One (1) Left Digitizer<Master Forge:The Digitizers>`
     - :ref:`One (1) Right Digitizer<Master Forge:The Digitizers>`
@@ -718,7 +721,7 @@ Super
 
 
 Post-Kickstarter
------------------
+----------------
 
 Once the Kickstarter campaign ended, the Master Forge was put on sale for pre-orders on the `Forge Website <https://forgekeyboard.com>`__. Orders placed on the Forge website starting October of 2024 include:
 

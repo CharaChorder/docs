@@ -1,5 +1,5 @@
 CharaChorder Lite (CCL)
-=================
+=======================
 
 Welcome to the Official CharaChorder Lite Guide. You can select the links
 below to navigate to the topics that you find most relevant.

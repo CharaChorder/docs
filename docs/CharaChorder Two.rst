@@ -1,5 +1,5 @@
 CharaChorder Two (CC2)
-===================
+======================
 
 Welcome to the Official CharaChorder Two (CC2) guide. You can select the links
 below to navigate to the topics that you find most relevant.
@@ -171,7 +171,7 @@ If you have :ref:`realtime feedback<GenerativeTextMenu:Realtime feedback>` enabl
    IMPORTANT: :ref:`Realtime feedback<GenerativeTextMenu:Realtime feedback>` is enabled by default on new CharaChorder devices.
 
 Getting Started
-*******************
+***************
 
 There are a few steps that you’ll likely want to take if this is your
 first time using your CharaChorder device. In the following section, we

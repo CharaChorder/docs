@@ -4,7 +4,7 @@
    table of contents
 
 Welcome to the Official CharaChorder Guide!
-============================================
+===========================================
 
 Welcome to the wonderful world of CharaChorder! If you're here, you are likely seeking guidance for your CharaChorder device or you're simply interested in CharaChorder and came here to read a little about what CharaChorder devices are capable of. Either way, we welcome you and hope that you enjoy reading this guide. If you are setting your CharaChorder device up for the first time, please continue reading below.
 

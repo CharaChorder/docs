@@ -37,7 +37,7 @@ Commands are all caps ASCII characters. The return is always one line and includ
    ":ref:`SIM<SerialAPI:SIM>`", "Simulates/injects a chord and outputs the chord output if the chord exists in the chord library; this is primarily used for debugging."
 
 Commands
------------------
+--------
 This section covers the various commands, what they expect, what they return, and has examples of how to use them. 
 
 CMD
@@ -60,7 +60,7 @@ Example(s):
    CMD CMD,ID,VERSION,CML,VAR,RST,RAM,SIM
 
 ID
-~~~
+~~
 
 The `ID` command returns the ASCII name of the device, including the chipset code. This can be used to identify the correct serial device
 attached to the computer.
@@ -373,7 +373,7 @@ Example(s):
    VAR B2 0x15 17 0
 
 CMD_VAR_GET_KEYMAP
-^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^
 
 .. csv-table::
    :header: "I/O","Index","Name","Type","Example","Notes"
@@ -397,7 +397,7 @@ Example(s):
    VAR B3 A1 24 111 0
 
 CMD_VAR_SET_KEYMAP
-^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^
 
 .. csv-table::
    :header: "I/O","Index","Name","Type","Example","Notes"
