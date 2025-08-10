@@ -37,3 +37,4 @@ Table of Contents
    Glossary.rst
    Layout.rst
    SerialAPI.rst
+   Beta Releases.rst
