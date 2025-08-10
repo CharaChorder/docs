@@ -4,16 +4,16 @@ Beta Releases
 .. contents::
 	:local:
 
-2.2.0-beta
-**********
+.. dropdown:: 2.2.0-beta
+*************************
+    
+    Features
+    ------------
 
-Features
---------
+    Profiles
+    ~~~~~~~~~~~~
 
-Profiles
-~~~~~~~~
-
-Three profiles can now be defined, with three layout layers each:
+Three profiles can now be defined, each with three layers:
 
 * Profile A, layout layer A1, A2, or A3
 * Profile B, layout layer B1, B2, or B3
