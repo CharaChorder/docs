@@ -4,14 +4,14 @@ Beta Releases
 .. contents::
 	:local:
 
-.. dropdown:: 2.2.0-beta
-*************************
-    
-    Features
-    ------------
+2.2.0-beta
+**********
+ 
+Features
+--------
 
-    Profiles
-    ~~~~~~~~~~~~
+Profiles
+~~~~~~~~
 
 Three profiles can now be defined, each with three layers:
 
