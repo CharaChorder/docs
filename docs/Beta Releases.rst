@@ -274,7 +274,7 @@ M4G Fixes
 Disconnect issues
 ^^^^^^^^^^^^^^^^^
 
-We've identified a potential workaround for intermittent disconnects primarily on MacOS and Windows. It's available as the "aggressive reporting" setting. We're still continuing to investigate as we gather feedback from this change.
+We added a new "aggressive reporting" setting in the hope that it would help improve intermittent disconnects, particularly on MacOS and Windows. However, user feedback indicates that this change has had no effect on the issue. Our team is continuing to investigate and work on solutions.
 
 LEDs can now be fully turned off
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
