@@ -127,7 +127,18 @@ additional software to work.
 
 If not done already, make sure that the USB-C side of the :ref:`power cable<CharaChorder_Lite:Power and Communication>` is plugged into the back right of the CharaChorder Lite. It’s important to be certain that the cable is plugged all the way in; otherwise, the CharaChorder might not function as intended.
 
-.. danger::
+.. note::
+  The CharaChorder Lite has been sold with two different chips: M0 and S2
+
+  You can see which chip you have, by connecting to the `Device Manager <https://charachorder.io/>`__, then look at the bottom middle of the page, after the device name:
+
+    * CharaChorder Lite M0 (bought before oct 1st, 2022)
+        If you have the M0 chip, continue reading the warning and instructions about the startup message below.
+
+    * CharaChorder Lite S2 (bought after oct 1st, 2022)
+        If you have the S2 chip, then you can skip to the :ref:`Getting Started section<CharaChorder_Lite:Getting Started>`, because the startup message has been removed on instant boot devices (CCOS 2.1.0).
+
+.. warning::
    By default, the device sends a :ref:`startup<GenerativeTextMenu:Startup>` message, on every boot or re-plug. In some cases, this can interfere with functions on your computer or cause unwanted behavior. This feature can be disabled in
    the :doc:`GTM<GenerativeTextMenu>`.
 
