@@ -8,7 +8,7 @@ Welcome to the Official CharaChorder X guide.
   :width: 1200
   :alt: CharaChorder X
 
-The CharaChorder X is a plug-and-play device that serves as a middle-man between your keyboard and your computer. It allows any keyboard to have :doc:`chording<Chords>` capabilities. Essentially, the CharaChorder X is a supersuit for your keyboard that will give it the power of :doc:`chording<Chords>`. 
+The CharaChorder X is a plug-and-play device that serves as a middle-man between your keyboard and your computer. It allows any keyboard to have :doc:`chording<Chords>` capabilities. Essentially, the CharaChorder X is a supersuit for your keyboard that will give it the power of :doc:`chording<Chords>`.
 
 What is :doc:`chording<Chords>`? Put simply, :doc:`chording<Chords>` is the action of pressing and releasing multiple keys at once to get a predetermined output. For example, we can press `b` and `c` simultaneously, and quickly release them, also simultaneously, to get the word "because". This enables you to type one word at a time, instead of one letter at a time.
 
@@ -43,7 +43,7 @@ The CharaChorder X is a single piece comprised of a circuit board which is enclo
    :widths: 25 25 25 25
    :header-rows: 1
 
-   * - 
+   * -
      - Length
      - Width
      - Height
@@ -67,7 +67,7 @@ Plugging In
 -----------
 
 The CharaChorder X is plug-and-play, so it doesn’t require any
-additional software to work. 
+additional software to work.
 
 .. warning::
    IMPORTANT: During your first time plugging your CharaChorder in,
@@ -76,15 +76,15 @@ additional software to work.
    that you have your cursor in a blank typing space. The CharaChorder
    has a welcome message that can send instructions to your computer
    that are not intended by the user. This feature can be disabled in
-   the :doc:`GTM<GenerativeTextMenu>`. 
+   the :doc:`GTM<GenerativeTextMenu>`.
 
-Take the male USB-A connector from your keyboard and plug it into the CharaChorder X's female USB-A port. After that, take the male USB'A connector on the CharaChorder X and plug it into a female USB-A port on your computer. 
+Take the male USB-A connector from your keyboard and plug it into the CharaChorder X's female USB-A port. After that, take the male USB'A connector on the CharaChorder X and plug it into a female USB-A port on your computer.
 
 Upon connecting, you may notice the
 following things:
 
 - If your cursor is somewhere where text can be entered: You will first see the text “Loading ### Chordmaps” highlighted, and a few moments later, “CCOS is ready.”
- 
+
 - Regardless of whether or not your cursor is somewhere where text can be entered: You will be able to see a small, red colored light inside the shell of the CharaChorder X.
 
 If you have :ref:`realtime feedback<GenerativeTextMenu:Realtime Feedback>` enabled, once you can see the highlighted text that reads
@@ -99,7 +99,7 @@ Getting Started
 There are a few steps that you’ll likely want to take if this is your
 first time using your CharaChorder device. In the following section, we
 will update your device, explain navigation in the :doc:`GTM<GenerativeTextMenu>`, and demonstrate the default layout on your new
-device. 
+device.
 
 Updating your Device
 --------------------
@@ -108,7 +108,7 @@ Checking your Device’s Firmware
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You can check your device’s current firmware by following the steps
-below: 
+below:
 
 #. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://charachorder.io/config/layout/>`__ (Linux users see :ref:`this link<serialportaccess>` for more information about configuring serial port access.)
 #. Click “Connect” at the bottom middle of the page
@@ -131,12 +131,12 @@ Updating the Firmware
 If you find that your device is not running the latest firmware version,
 you can follow the steps below to update your device. You can check
 which is the latest firmware release by visiting `this
-site <https://charachorder.io/ccos/>`__. 
+site <https://charachorder.io/ccos/>`__.
 
 .. warning::
    IMPORTANT: Before performing the below steps, please make sure that you have a :ref:`backup of your layout<Device Manager:Backups>` as well as a :ref:`backup of your chord library<Device Manager:Backups>` and a :ref:`backup of your GTM settings<Device Manager:Backups>`. The update might reset those, so it's important that you keep backup files handy. For instructions on how to restore backed up files, visit the :ref:`Backups<Device Manager:Restoring from a Backup>` section.
 
-#. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://charachorder.io/config/layout/>`__ 
+#. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://charachorder.io/config/layout/>`__
 #. If not auto-connected, click “Connect”
 #. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your CharaChorder device, then click the blue “connect” button
 #. Click on the CCOS version on the bottom left of the page
@@ -161,7 +161,7 @@ allows text entry such as a notepad app. For an explanation on chords
 and how to perform them, visit the :doc:`Chords<Chords>` section.
 
 .. warning::
-   **A bug currently exists on Windows 11 default Notepad app where chording doesn't load correctly. We are looking into this, but, for now, we recommend using a different app.** 
+   **A bug currently exists on Windows 11 default Notepad app where chording doesn't load correctly. We are looking into this, but, for now, we recommend using a different app.**
 
 Once you perform the chord to call up the :doc:`GTM<GenerativeTextMenu>`, your CharaChorder will type out the menu and its options.
 It will look something like this:
@@ -186,7 +186,7 @@ You can read an explanation on all of the settings on your CharaChorder device :
 The Layout
 ----------
 
-The CharaChorder X uses your keyboard's layout, so you don't have to learn a new one. The CharaChorder X reads the keycodes that your keyboard sends and makes use of them to produce outputs on your computer. The only drawback to this is that the CharaChorder X is unable to read keypresses that do not send a code. One common key that doesn't send a code is the Fn key. This key serves as a layer-access key, locally on your keyboard, that allows you to reach the F-keys. Although the CharaChorder X is unable to read the Fn keypress, the F-keys (F1-F24) will send out a keycode, and, thus, the CharaChorder X will send out that signal to the computer. 
+The CharaChorder X uses your keyboard's layout, so you don't have to learn a new one. The CharaChorder X reads the keycodes that your keyboard sends and makes use of them to produce outputs on your computer. The only drawback to this is that the CharaChorder X is unable to read keypresses that do not send a code. One common key that doesn't send a code is the Fn key. This key serves as a layer-access key, locally on your keyboard, that allows you to reach the F-keys. Although the CharaChorder X is unable to read the Fn keypress, the F-keys (F1-F24) will send out a keycode, and, thus, the CharaChorder X will send out that signal to the computer.
 
 Additionally, the CharaChorder X enables you to make use of two extra layers as well. In order to reach those layers, you will have to :ref:`remap<Device Manager:Remapping>` your keyboard to include the layer access keys. Nonetheless, you can continue reading below to learn how the layers work on the CharaChorder X.
 
@@ -244,7 +244,7 @@ plugged to, and it is not possible to customize their outputs.
 
 In the `Device Manager <https://charachorder.io/config/layout/>`__,
 this key has the name “Shift Keyboard Modifier (Left)” and “Shift Keyboard Modifier (Right)”, one for each side
-of the keyboard. 
+of the keyboard.
 
 The Shift is accessible by pressing the key labeled "Shift" on your keyboard. Any key
 that requires the Shift Modifier can only be accessed by pressing and
@@ -258,7 +258,7 @@ Configurability
 You can change the layout of your keyboard while it's connected to the CharaChorder X, which means that you can
 :doc:`remap<Glossary>` almost all keys. Some users may
 choose to :doc:`remap<Glossary>` their device’s layout to accommodate missing keys, such as the :doc:`DUP key<CharaChorder Keys>`. For a thorough explanation on how remapping
-works and how to remap your device, visit the :ref:`remapping section<Device Manager:Remapping>` 
+works and how to remap your device, visit the :ref:`remapping section<Device Manager:Remapping>`
 
 Practice
 ~~~~~~~~

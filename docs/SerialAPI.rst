@@ -9,7 +9,7 @@ The Serial API allows users and developers to interact with their CCOS powered d
   Running some simple commands on serialterminal.com
 
 .. warning::
-   Parameter and keymaps changes, when **committed**, will degrade the flash chip over time (generally a minimum of 10,000 to 25,000 commits are expected to be stable). If you use the commands below, keep in mind that if you accidentally write a program that unnecessarily commits parameters to your device you can wear it out prematurely.  If you plan to programmatically change layouts, for example, you shouldn’t commit the changes unless you need them to persist after power loss. 
+   Parameter and keymaps changes, when **committed**, will degrade the flash chip over time (generally a minimum of 10,000 to 25,000 commits are expected to be stable). If you use the commands below, keep in mind that if you accidentally write a program that unnecessarily commits parameters to your device you can wear it out prematurely.  If you plan to programmatically change layouts, for example, you shouldn’t commit the changes unless you need them to persist after power loss.
 
    Chords are stored on external flash and have a minimum of 100,000 commits before any degradation could be expected; however, we have a custom wear leveling algorithm that targets specific sectors so this should extend much farther and is less of a concern.
 
@@ -22,7 +22,7 @@ The Serial API allows users and developers to interact with their CCOS powered d
 Commands Overview
 -----------------
 
-Commands are all caps ASCII characters. The return is always one line and includes the command in the return line along with some of the relevant input arguments as well. This makes it more restful and stateless as compared to previous versions of the Serial API. 
+Commands are all caps ASCII characters. The return is always one line and includes the command in the return line along with some of the relevant input arguments as well. This makes it more restful and stateless as compared to previous versions of the Serial API.
 
 .. csv-table::
    :header: "Command", "Description"
@@ -38,7 +38,7 @@ Commands are all caps ASCII characters. The return is always one line and includ
 
 Commands
 --------
-This section covers the various commands, what they expect, what they return, and has examples of how to use them. 
+This section covers the various commands, what they expect, what they return, and has examples of how to use them.
 
 CMD
 ~~~
@@ -52,7 +52,7 @@ The `CMD` command lists out all of the commands in the Serial API. All of the co
    "OUTPUT", "0", "Command", "Chars", "CMD"
    "OUTPUT", "1", "Command List", "Chars", "CMD,ID,VERSION,CML,VAR,RST,RAM,SIM","Comma delimited"
 
-Example(s): 
+Example(s):
 
 .. code-block:: none
 
@@ -72,7 +72,7 @@ attached to the computer.
    "OUTPUT","0","Command","Chars","ID",""
    "OUTPUT","1","Company","Chars","CHARACHORDER",""
    "OUTPUT","2","Device","Chars","ONE","ONE, LITE, ENGINE, or X"
-   "OUTPUT","3","Chipset","Chars","M0","M0 or S2" 
+   "OUTPUT","3","Chipset","Chars","M0","M0 or S2"
 
 Example(s):
 
@@ -94,7 +94,7 @@ The `VERSION` command returns the current version of the CCOS firmware.
    "OUTPUT","0","Command","Chars","VERSION",""
    "OUTPUT","1","Command List","Chars","1.1.1","Period delimited of MAJOR.MINOR.BUILD"
 
-Example(s): 
+Example(s):
 
 .. code-block:: none
 
@@ -401,7 +401,7 @@ CMD_VAR_SET_KEYMAP
 
 .. csv-table::
    :header: "I/O","Index","Name","Type","Example","Notes"
-   
+
    "INPUT","0","Command","Chars","VAR",""
    "INPUT","1","SubCommand","Hexadecimal VAR Code","B4","Set keymap parameter value"
    "INPUT","2","Keymap","Hexadecimal Keymap Code","A1",""
@@ -488,7 +488,7 @@ The `SIM` command provides a way to inject a chord or key states to be processed
    "OUTPUT","3","Data Out","Hexadecimal CCActionCodes List","6361727065206469656D","`carpe diem`"
 
 
-Example(s): 
+Example(s):
 
 .. code-block:: none
 
