@@ -112,18 +112,21 @@ below:
 
 #. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://charachorder.io/config/layout/>`__ (Linux users see :ref:`this link<serialportaccess>` for more information about configuring serial port access.)
 #. Click “Connect” at the bottom middle of the page
-#. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your CharaChorder device, then click the blue “connect” button
+#. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your CharaChorder device, then click the “connect” button
+
+   .. _Serial Port Popup Check Firmware:
+   .. image:: /assets/images/SerialPort-Message-CCX.webp
+      :width: 435
+      :alt: Popup to select serial device
 
 After following the above steps, you can find your
 firmware version in the bottom left of your screen. It will read
-something like this:
+something like this: ``CCOS 2.0.2``
 
-``CCOS 1.1.4``
-
-.. _Firmware Check:
-.. image:: /assets/images/DMFW.png
-  :width: 1200
-  :alt: Checking the firmware on Device Manager
+   .. _Bottom Bar Check Firmware:
+   .. image:: /assets/images/DM-Bottom-Bar-CCX-S2.webp
+      :width: 1200
+      :alt: Checking the firmware on Device Manager
 
 Updating the Firmware
 ~~~~~~~~~~~~~~~~~~~~~
@@ -138,8 +141,20 @@ site <https://charachorder.io/ccos/>`__.
 
 #. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://charachorder.io/config/layout/>`__ 
 #. If not auto-connected, click “Connect”
-#. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your CharaChorder device, then click the blue “connect” button
+#. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your CharaChorder device, then click the “connect” button
+
+   .. _Serial Port Popup Update Firmware:
+   .. image:: /assets/images/SerialPort-Message-CCX.webp
+      :width: 435
+      :alt: Popup to select serial device
+
 #. Click on the CCOS version on the bottom left of the page
+
+   .. _Bottom Bar Update Firmware:
+   .. image:: /assets/images/DM-Bottom-Bar-CCX-S2.webp
+      :width: 1200
+      :alt: Checking the firmware on Device Manager
+
 #. You will see a list of available versions along with their release date. Click on the one you want.
 #. Click "Apply Update"
 
