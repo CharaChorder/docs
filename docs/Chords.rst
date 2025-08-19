@@ -228,3 +228,8 @@ OUTPUT, 5. CONFIRM INPUT
    Once the input is the desired input, press enter.
 
 These steps should take 1-3 seconds
+
+Compound Chords
+---------------
+
+WIP
