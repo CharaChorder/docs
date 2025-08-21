@@ -289,3 +289,122 @@ We have added a compound chord:
 .. note::
 
    Compound chords aren't limited to just two in a row.
+
+Dynamic Libraries
+~~~~~~~~~~~~~~~~~
+
+The same chord input can have a unique output in each dynamic library.
+
+For example, the chord: ``ar`` can output:
+
+* ``are`` in the base library.
+* ``arm`` in a dynamic library.
+* ``art`` or ``area`` in other dynamic libraries.
+
+Add dynamic library switching chords
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+To switch between dynamic libraries, we add library chords in the device
+manager's library editor: https://charachorder.io/config/chords/
+
+First we add a base library chord. This exits any dynamic library.
+
+* chord: ``lib``
+* output: ``{action: base library}base``
+
+Then, we add a dynamic library chord.
+
+* chord: ``libr``
+* output: ``{action: dynamic library}lib1``
+
+.. note::
+
+   The dynamic library names ``base`` and ``lib1`` (in the chord output)
+   are just examples. Feel free to use your own names when you know how
+   this works.
+
+Add a chord in a dynamic library
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+#. Switch to the dynamic library, by chording: ``libr``
+#. It switches to the dynamic library and outputs its name: ``lib1``
+#. You can ignore the name, erase it or just press ``enter`` to continue
+   on a new line. We'll make it easier to erase the library name in the
+   next section.
+
+#. Add an impulse chord: ``i + DUP``
+#. At the impulse output prompt, type: ``arm``
+#. Press: ``enter``
+#. At the impulse input prompt, chord: ``ar``
+#. Press: ``enter``
+
+   .. note::
+
+      It doesn't overwrite an existing chord on the base library.
+      Because it adds the dynamic library chord as a prefix.
+
+      .. _Dynamic Library Chord:
+      .. image:: /assets/images/Dynamic-Library-Chord.webp
+         :width: 294
+         :alt: Dynamic Library Chord
+
+   Now, while we're in the dynamic library: ``lib1``
+
+   * when we chord: ``ar``
+   * it outputs: ``arm``
+
+#. Switch to the base library, with the chord: ``lib``
+#. It switches to the base library and outputs its name: ``base``
+
+   Now, while we're on the base library: ``base``
+
+   * when we chord: ``ar``
+   * it outputs: ``are``
+
+Select the dynamic library name automatically
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+This isn't required, but it's a convenience.
+
+When we switch between dynamic libraries, the library chord outputs the
+library name. It's an extra step to erase the library name manually.
+
+Instead, let's select the dynamic library name automatically, by adding
+these actions to the end of the library chord output.
+
+.. note::
+
+   The actions below are on the same line in the manager, they are only
+   on separate lines here to make them easier to read.
+
+.. code-block::
+
+   {press_next}{left_shift}
+   {arrow left}{arrow left}{arrow left}{arrow left}
+   {release_next}{left_shift}
+
+The number of ``{arrow left}`` actions should match the number of
+characters in the base and dynamic library names, in this case we used
+four characters for both: ``base`` and ``lib1``
+
+The ``base`` and ``lib1`` dynamic library chords look like this:
+
+.. _Dynamic Library Switching Chords:
+.. image:: /assets/images/Dynamic-Library-Switching-Chords.webp
+  :width: 460
+  :alt: Dynamic Library Switching Chords
+
+Now the library name will be selected automatically.
+
+Pressing the chord: ``libr``
+
+* Switches to the dynamic library
+* outputs the library name: ``lib1``
+* and selects it
+
+It's easy to erase the name by:
+
+* Pressing: ``backspace``
+* or typing a character
+* or pressing a chord
+
