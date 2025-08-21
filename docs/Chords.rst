@@ -228,3 +228,60 @@ OUTPUT, 5. CONFIRM INPUT
    Once the input is the desired input, press enter.
 
 These steps should take 1-3 seconds
+
+Compound Chords
+~~~~~~~~~~~~~~~
+
+Multiple chords in a row can have a unique output.
+
+We can create compound chords like these:
+
+   * ``website`` and ``charachorder`` can output the url: ``www.charachorder.com``
+   * ``boat`` and ``big`` can output: ``ship``
+   * ``car`` and ``car`` can output: ``traffic``
+
+.. note::
+
+   The second or additional chords have to be pressed within the Compound timeout, by default it's one second (1000 ms).
+
+Add a compound chord
+^^^^^^^^^^^^^^^^^^^^
+
+Currently compound chords can only be created from the impulse prompt (``i + DUP``). 
+
+First we decide what the compound chord should output. Then we choose one or more existing chords, or add new chords to be used as the compound chord's inputs.
+
+If we want the compound chord output: ``www.charachorder.com``
+
+   * With chord input 1: ``wbst``
+   * Output: ``website``
+   * And chord input 2: ``char``
+   * Output: ``charachorder``
+
+#. Open the impulse prompt by chording: ``i + DUP``
+#. At the impulse output prompt, type the compound chord output, one character at a time:
+#. ``www.charachorder.com``
+#. Press: ``enter``
+#. At the impulse input prompt, press the first chord: ``wbst``
+#. ``impulse input: w + b + s + t``
+
+   .. note::
+      
+      The order of the chord input characters doesn't matter, they appear in the impulse input prompt in the order they were pressed.
+
+#. Press: ``shift + enter``
+#. ``impulse input: w + b + s + t |``
+   
+   .. Note::
+      
+      The ``|`` (pipe symbol) after the chord input, indicates that it's waiting for a second chord.
+
+#. Press the second chord: ``char``
+#. ``impulse input: w + b + s + t | c + h + a + r``
+#. Press: ``enter``
+
+We have added a compound chord:
+
+   * Now when we chord: ``wbst``
+   * followed (within a second) by the chord: ``char``
+   * it outputs: ``www.charachorder.com``
