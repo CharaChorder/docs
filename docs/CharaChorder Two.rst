@@ -148,20 +148,20 @@ the way in, otherwise, the CC2 might not function as intended.
 .. warning::
    IMPORTANT: During your first time plugging your CharaChorder in,
    and every time thereafter when you have :ref:`realtime feedback<GenerativeTextMenu:Realtime feedback>` enabled, it’s
-   recommended that you have your cursor in a space where you can type. The 
-   CharaChorder has a welcome message that can send instructions to your 
+   recommended that you have your cursor in a space where you can type. The
+   CharaChorder has a welcome message that can send instructions to your
    computer that are not intended by the user. This feature can be disabled in
-   the :doc:`GTM<GenerativeTextMenu>`. 
+   the :doc:`GTM<GenerativeTextMenu>`.
 
 After making sure that all the cables on the CharaChorder are properly
 plugged in, connect the USB-A side of the :ref:`power cable<power cable>` into
 a USB-A port on your computer. Upon connecting, you may notice the
-following things: 
+following things:
 
-If your cursor is somewhere where text can be entered… 
-	- You will first see the text “Loading ### Chordmaps” highlighted, and a few moments later, “CCOS is ready.” 
+If your cursor is somewhere where text can be entered…
+	- You will first see the text “Loading ### Chordmaps” highlighted, and a few moments later, “CCOS is ready.”
 
-Regardless of whether or not your cursor is somewhere where text can be entered… 
+Regardless of whether or not your cursor is somewhere where text can be entered…
 	- You will be able to see a small, lime colored light inside the space that holds the USB-C port on the left half of the CC2.
 
 If you have :ref:`realtime feedback<GenerativeTextMenu:Realtime feedback>` enabled, once you can see the highlighted text that reads
@@ -187,7 +187,7 @@ Checking your Device’s Firmware
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You can check your device’s current firmware by following the steps
-below: 
+below:
 
 #. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://charachorder.io/config/layout/>`__ (Linux users see :ref:`this link<serialportaccess>` for more information about configuring serial port access.)
 #. Click “Connect” at the bottom middle of the page
@@ -210,12 +210,12 @@ Updating the Firmware
 If you find that your device is not running the latest firmware version,
 you can follow the steps below to update your device. You can check
 which is the latest firmware release by visiting `this
-site <https://charachorder.io/ccos/>`__. 
+site <https://charachorder.io/ccos/>`__.
 
 .. warning::
    IMPORTANT: Before performing the below steps, please make sure that you have a :ref:`backup of your layout<Device Manager:Backups>` as well as a :ref:`backup of your chord library<Device Manager:Backups>` and a :ref:`backup of your GTM settings<Device Manager:Backups>`. The update might reset those, so it's important that you keep backup files handy. For instructions on how to restore backed up files, visit the :ref:`Backups<Device Manager:Restoring from a Backup>` section.
 
-#. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://charachorder.io/config/layout/>`__ 
+#. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://charachorder.io/config/layout/>`__
 #. If not auto-connected, click “Connect”
 #. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your CharaChorder device, then click the blue “connect” button
 #. Click on the CCOS version on the bottom left of the page
@@ -269,7 +269,7 @@ English layout, has been designed to favor :doc:`bigrams<Logic behind the Layout
    General consensus amongst the community is that, while not perfect,
    the letter arrangement of the default layout is good enough that further modifications would provide very little benefit
    considering 500+ WPM have been reached in peak conditions.
-   
+
    **Most commonly only special character and number placement is changed**, for example to benefit coding.
 
    Some exceptions include optimizing for VIM bindings, though people have successfully used the default layout for VIM as well
@@ -294,7 +294,7 @@ English layout, has been designed to favor :doc:`bigrams<Logic behind the Layout
   On the smartphone, your thumbs can type almost as fast as all of your other fingers together combined,
   and yet on a normal keyboard layout they are both tethered to a single button.
 
-  So, a design goal was to maximize left vs right hand and finger vs thumb alterations as well as 
+  So, a design goal was to maximize left vs right hand and finger vs thumb alterations as well as
   to pair the frequent keys with the ease of press-ability. This was a highly iterative process which filled up notebooks and notebooks of design sketches.
 
   In general the process that Riley used and recommends using if you would like to make your own layout is as follows:
@@ -344,7 +344,7 @@ The A2 layer, sometimes referred to as the “number layer”, is accessible
 with the :doc:`A2 access key<CharaChorder Keys>`. In the above :ref:`graphic<CCEnglish Layout>`, you’ll see this labeled
 as “②” In the `Device Manager <https://charachorder.io/config/layout/>`__,
 this key has the name “Numeric Layer (Left)” and “Numeric Layer (Right)”, one for each side of the
-CharaChorder. 
+CharaChorder.
 
 By default, the A2 Layer is accessible by pressing and holding either
 pinky finger outwards, that is, west on the left pinky or east on the
@@ -364,7 +364,7 @@ A3 Layer
 
 The A3 layer, sometimes referred to as the “function layer”, is
 accessible with the :ref:`A3 access key<CharaChorder Keys>`. This key is shown as ③
-in the above :ref:`graphic<CCEnglish Layout>`. It is accessible by pressing and 
+in the above :ref:`graphic<CCEnglish Layout>`. It is accessible by pressing and
 holding either pinky down, into the device. In the `Device Manager <https://charachorder.io/config/layout/>`__,
 this key has the name “Function Layer (Left)” and “Function Layer (Right)”, one for each side of the
 CharaChorder.
