@@ -6,7 +6,7 @@ Beta Releases
 
 2.2.0-beta
 **********
- 
+
 Features
 --------
 
@@ -42,7 +42,7 @@ Layer B1::
 	   any
 	any   any
 	   B3
-	
+
 	Left Middle
 	   any
 	any   any
@@ -72,14 +72,14 @@ Layer B3::
 	     any
 	any       any
 	     B3
-	
+
 	Left Thumb 1
 	     BLANK
 	BLANK     BLANK
 	     BLANK
 
 We walk forward by holding Left Thumb 1 North (``w``).
-	
+
 Reverse direction:
 
 	* We reverse direction temporarily by also holding Left Middle South (Layer B2), because it causes a repress of Left Thumb 1 North, which is now bound to ``s``.
@@ -102,37 +102,37 @@ For this to work, we need to create at least two chords:
 1. One chord that has a space between two CAPTURE actions:
 
 	.. code-block::
-	
+
 		CAPTURE CAPTURE
 
 	It restores the default behavior of adding a space after each chord:
-	
+
 	.. code-block::
-	
-		the on us 
+
+		the on us
 
 2. Another chord that has a character between the CAPTURE actions, to replace the space:
 
 	.. code-block::
-	
+
 		CAPTURE-CAPTURE
 
 	This results in:
 
 	.. code-block::
-	
+
 		the-on-us-
 
 3. Or:
 
 	.. code-block::
-	
+
 		CAPTURE_CAPTURE
 
 	Which results in:
 
 	.. code-block::
-	
+
 		the_on_us_
 
 Prepend concatenation style
@@ -142,6 +142,11 @@ You can now select "prepended" as a concatenation style. This mode is part of th
 
 Vim mode
 ~~~~~~~~
+
+.. note::
+
+	Mac users. Set the Operating System setting to: Mac
+	https://charachorder.io/config/settings/#misc
 
 Adds universal VIM motion emulation through the VIM action. This mode makes use of standard shortcuts like CTRL (or ⌘ on Mac) + RIGHT ARROW to emulate VIM motions in a best-effort way in any textbox. While not as powerful as native VIM or even just a VIM plugin, you don't always have the option to use either of them, so this is a way to carry around your VIM muscle memory to nearly every textbox you encounter.
 
@@ -180,6 +185,7 @@ The choices are:
 * 6-key
 * 12-key (default)
 * 18-key
+
 
 CC One Features
 ~~~~~~~~~~~~~~~

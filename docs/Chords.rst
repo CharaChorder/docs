@@ -2,7 +2,7 @@ Chords
 ======
 One of CharaChorder devices’ greatest features is their
 :doc:`chording<Chords>` ability. Read this section to learn what
-chording is and how you can benefit from it on your own CharaChorder. 
+chording is and how you can benefit from it on your own CharaChorder.
 
 .. contents::  Table of Contents of this Page
    :local:
@@ -16,7 +16,7 @@ which a predefined output will replace the originally pressed keys.
 
 By chording, we are able to type one word at a time instead of one
 letter at a time. It’s even possible to have chords for phrases and
-entire sentences. 
+entire sentences.
 
 How do I use Chords?
 --------------------
@@ -24,7 +24,7 @@ How do I use Chords?
 A chord has an **input** and an **output**. We will describe what each
 of those is and how they affect chords on your CharaChorder device
 below. Throughout this guide, we might use the term “perform” when
-talking about carrying out a chord. 
+talking about carrying out a chord.
 
 .. _Chord Input:
 
@@ -39,9 +39,9 @@ to get the output “because”. In :ref:`chord notation<Chords:Chord Notation>`
 we would write that chord input as ``b+c``. Since chord inputs are
 performed simultaneously, meaning that all of the keys needed for an
 input are pressed and released at the same time, chord inputs are not
-order-specific. ``b+c`` is the same as ``c+b``. 
+order-specific. ``b+c`` is the same as ``c+b``.
 
-Chord Output 
+Chord Output
 ~~~~~~~~~~~~
 
 A chord
@@ -50,9 +50,9 @@ result after performing a chord. If we use the
 :ref:`chord input<Chords:Chord Input>` of ``b`` and ``c`` and the result is
 the word “because”, then the word “because” would be the output. In
 :ref:`chord notation<Chords:Chord Notation>`, we would write that chord (the
-input and the output) as ``b+c = because``. 
+input and the output) as ``b+c = because``.
 
-Chord Notation 
+Chord Notation
 ~~~~~~~~~~~~~~
 
 Chord
@@ -76,16 +76,16 @@ the different symbols used in chord notation in the table below.
 
 
 You can read some examples of chords written in chord notation below.
-You can try these chords on your CharaChorder device! 
+You can try these chords on your CharaChorder device!
 
 * ``y+u+o = you``
 * ``k+b+a = back``
 * ``t+o+n+d = don’t``
 * ``w+o+n+d = down``
-* ``c+b = because`` 
+* ``c+b = because``
 * ``p+m+i = important``
 
-How do I make Chords? 
+How do I make Chords?
 ---------------------
 
 You can make chords for your
@@ -101,7 +101,7 @@ can click on the link to see that list in an external tab: `Starter Chords <http
 
 You can create custom chords on the :doc:`Device Manager<Device Manager>`. Additionally, you, can create chords on the go by using
 :ref:`impulse chording<Chords:Impulse Chording>`. Read on for specific
-instructions on how to do that. 
+instructions on how to do that.
 
 On Device Manager
 ~~~~~~~~~~~~~~~~~
@@ -114,7 +114,7 @@ The process for adding chords to your CharaChorder is the same on all of
 our CharaChorder devices. You can
 :ref:`add new chords<Chords:Adding New Chords on Device Manager>`, or
 :ref:`import an existing chord library<Device Manager:Restoring from a Backup>`.
-Read how below. 
+Read how below.
 
 Adding New Chords on Device Manager
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -168,7 +168,7 @@ OUTPUT 5. CONFIRM INPUT
 6. If the input is incorrect, perform your desired input at this step.
    Once the input is the desired input, press enter.
 
-These steps should take 1-3 seconds. 
+These steps should take 1-3 seconds.
 
 Creating an Impulse Chord on the CharaChorder Lite
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -197,7 +197,7 @@ OUTPUT, 5. CONFIRM INPUT
 6. If the input is incorrect, perform your desired input at this step.
    Once the input is the desired input, press enter.
 
-These steps should take 1-3 seconds. 
+These steps should take 1-3 seconds.
 
 Creating an Impulse Chord on the CharaChorder X
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -210,7 +210,7 @@ OUTPUT, 5. CONFIRM INPUT
 .. image:: /assets/images/Impulsexgif.gif
   :width: 1200
   :alt: Impulse chording on the CharaChorder X
-  
+
 1. Anywhere that you can see a cursor, chord the input you want
    (example: ``b+u+r+s+t``). You will either see a jumble of letters
    (example: “tsubr”) or you will see a chord which is already

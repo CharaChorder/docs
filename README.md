@@ -39,7 +39,7 @@ add it to index.rst if you'd like to have it shown on the left side bar.
 
 If you'd like to link to another page (just the page) use something like this:
 ```
-:doc:`chording<Chords>` 
+:doc:`chording<Chords>`
 ```
 
 If you want to link to a specific header in another page or on the same page:

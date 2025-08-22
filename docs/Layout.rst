@@ -11,7 +11,7 @@ TL;DR, so what does this mean for me?
 
 First of all, here are some pitfalls
 
-* If you set for example `$`, the CCOS types this as "hold shift press 4 release shift". 
+* If you set for example `$`, the CCOS types this as "hold shift press 4 release shift".
   Meaning if you press `$` and `3` together, **you'll actually type "$#" instead of "$3"**
   because the CCOS needs to hold shift for typing the `$` sign
   - *Avoid putting characters that need shift and normal characters on the same layer*
@@ -41,9 +41,9 @@ There is no standard for other typing input devices,  nor is there a way for the
 How does CharaChorder deal with this?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you set a layout on the CCOS, it moves the key-code locations around. 
+If you set a layout on the CCOS, it moves the key-code locations around.
 
-.. warning:: 
+.. warning::
   Setting the letter `a` on a switch doesn't actually send "print a" to the computer - it sends a "key where the a would be on the us layout pressed" to the OS**.
 
 So how can I add äöüß etc when it's not on the US layout?
