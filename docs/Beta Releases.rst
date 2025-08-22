@@ -143,6 +143,11 @@ You can now select "prepended" as a concatenation style. This mode is part of th
 Vim mode
 ~~~~~~~~
 
+.. note::
+
+	Mac users. Set the Operating System setting to: Mac
+	https://charachorder.io/config/settings/#misc
+
 Adds universal VIM motion emulation through the VIM action. This mode makes use of standard shortcuts like CTRL (or ⌘ on Mac) + RIGHT ARROW to emulate VIM motions in a best-effort way in any textbox. While not as powerful as native VIM or even just a VIM plugin, you don't always have the option to use either of them, so this is a way to carry around your VIM muscle memory to nearly every textbox you encounter.
 
 Quick flick
