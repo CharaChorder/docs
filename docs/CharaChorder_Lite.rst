@@ -130,7 +130,7 @@ If not done already, make sure that the USB-C side of the :ref:`power cable<Char
 .. note::
   The CharaChorder Lite has been sold with two different chips: M0 and S2
 
-  You can see which chip you have, by connecting to the `Device Manager <https://charachorder.io/>`__, then look at the bottom middle of the page, after the device name:
+  You can see which chip you have, by connecting to the `Device Manager <https://charachorder.io/>`__, then looking at the bottom middle of the page, after the device name:
 
     * CharaChorder Lite M0 (bought before oct 1st, 2022)
         If you have the M0 chip, continue reading the warning and instructions about the startup message below.
