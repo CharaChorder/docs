@@ -249,80 +249,103 @@ Updating your Device
 Checking your Device’s Firmware
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can check your device’s current firmware by following the steps
-below:
+You can check your device’s current firmware by following the steps below:
 
-#. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://charachorder.io/config/layout/>`__
-#. Click “Connect” at the bottom center of the page
+#. On a chromium based browser, such as Chrome, go to the `Device Manager <https://charachorder.io/>`__ (Linux users see :ref:`this link<serialportaccess>` for more information about configuring serial port access).
+#. Click “Connect” at the bottom center of the page.
 
-.. _Connect Button Check Firmware:
-.. image:: /assets/images/FW-connect-button.JPG
-  :width: 600
-  :alt: Connect Button on Device Manager
+   .. _Connect Button Check Firmware:
+   .. image:: /assets/images/FW-connect-button.JPG
+      :width: 600
+      :alt: Connect Button on Device Manager
 
-3. When the popup box comes up that reads “charachorder.io wants to connect to a serial port,” choose your Master Forge, then click the blue “connect” button
+#. When the popup box comes up that reads “charachorder.io wants to connect to a serial port,” choose one of the two listed devices with the same name: Master Forge USB Serial (currently each Master Forge half is detected separately), then click the “connect” button.
 
-.. _Serial Port Popup Check Firmware:
-.. image:: /assets/images/SerialPort-Message.webp
-  :width: 600
-  :alt: Popup to select serial device
+   .. _Serial Port Popup Check Firmware:
+   .. image:: /assets/images/SerialPort-Message-M4G.webp
+      :width: 435
+      :alt: Popup to select serial device
 
-After following the above steps, you can find your
-firmware version in the bottom left of your screen. It will read something like this:
-``CCOS 2.0.2``
+Now you can find your firmware version for the connected Master Forge half, at the bottom left of the page. It will read something like this: ``CCOS 2.1.0``
 
-.. _Firmware Check:
-.. image:: /assets/images/DMFW.png
-  :width: 600
-  :alt: Checking the firmware on Device Manager
+The device name is also shown at the bottom center.
+
+The left half is called: Forge M4G
+
+   .. _Bottom Bar Check Firmware M4G Left Half:
+   .. image:: /assets/images/DM-Bottom-Bar-M4G-S3.webp
+      :width: 724
+      :alt: Device Manager bottom bar, CCOS version and device name M4G (Master Forge's left half).
+
+The right half is called: Forge M4GR
+
+   .. _Bottom Bar Check Firmware M4G Right Half:
+   .. image:: /assets/images/DM-Bottom-Bar-M4GR-S3.webp
+      :width: 724
+      :alt: Device Manager bottom bar, CCOS version and device name M4GR (Master Forge's right half).
+
+To check the other half's firmware version, disconnect by clicking on the device name at the bottom center of the page. Then reconnect by clicking on the bottom center connect button and choose the other Master Forge USB Serial device.
 
 Updating the Firmware
 ^^^^^^^^^^^^^^^^^^^^^
 
-If you find that your device is not running the latest firmware version,
-you can follow the steps below to update your device. You can check
-which is the latest firmware release by visiting `this
-site <https://charachorder.io/ccos/m4g_s3/>`__.
+Currently each half of the Master Forge has to be updated separately.
 
 .. warning::
-   IMPORTANT: Before performing the below steps, please make sure that you have a :ref:`backup of your layout<Device Manager:Creating a Backup>` as well as a :ref:`backup of your chord library<Device Manager:Creating a Backup>` and a :ref:`backup of your GTM settings<Device Manager:Creating a Backup>`. The update might reset those, so it's important that you keep backup files handy. For instructions on how to restore backed up files, visit the :ref:`Backups<Device Manager:Restoring from a Backup>`    section.
+   IMPORTANT: Before updating the firmware, please make sure that you have a :ref:`backup of the Master Forge's left half (it's called Forge M4G), it has your layout, chord library, and settings<Device Manager:Creating a Backup>`. The update might reset those, so it's important that you keep backup files handy. Currently the Master Forge's right half (called Forge M4GR) only controls it's own LED settings. For instructions on how to restore backed up files, visit the :ref:`Restoring from a Backups<Device Manager:Restoring from a Backup>` section.
 
-The Master Forge supports over-the-air (OTA) updates. You can follow the steps below to update your Forge:
-    #. Head to the `CharaChorder Device Manager <https://charachorder.io/ccos/>`__
-    #. If you're not on the Firmware Updates page yet, click ``CCOS Updates`` on the bottom left of the page.
+To check which is the latest firmware release for the Master Forge, here are the firmware pages for each half:
 
-        .. _Firmware Updates Page:
-        .. image:: /assets/images/DM-CCOS-button.jpg
-          :width: 600
-          :alt: CCOS button
-    #. Out of the options at the top, select ``m4g_s3``
+* Left half (M4G) `<https://charachorder.io/ccos/m4g_s3/>`__
+* Right half (M4GR) `<https://charachorder.io/ccos/m4gr_s3/>`__
 
-        .. _Firmware Selection:
-        .. image:: /assets/images/m4g-firmware-selection.JPG
-          :width: 600
-          :alt: The correct firmware to select
-    #. You can compare the latest release (the version at the top of the list) with your device's version. Select your desired version.
-    #. If you haven't done so already, Connect your device to the Manager by clicking "Connect" at the bottom of the page
+You can follow the steps below to update each Master Forge half:
 
-        .. _Connect Button Update Firmware:
-        .. image:: /assets/images/FW-connect-button.JPG
-          :width: 600
-          :alt: Connect Button on Device Manager
-    #. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your Master Forge, then click the blue “connect” button
+#. Head to the Device Manager `<https://charachorder.io/>`__
+#. Connect to the device manager by clicking the bottom middle ``Connect`` button.
 
-        .. _Serial Port Popup Update Firmware:
-        .. image:: /assets/images/SerialPort-Message.webp
-          :width: 600
-          :alt: Popup to select serial device
-    #. Click the blue "Apply Update" button
+   .. _Connect Button Update Firmware:
+   .. image:: /assets/images/FW-connect-button.JPG
+      :width: 600
+      :alt: Connect Button on Device Manager
 
-        .. _Apply Update Button:
-        .. image:: /assets/images/DM-applyupdate-button.jpg
-          :width: 600
-          :alt: Apply Update Button
+#. When the popup box comes up that reads “charachorder.io wants to connect to a serial port,” choose one of the two listed devices with the same name: Master Forge USB Serial (currently each Master Forge half is detected separately), then click the “connect” button.
 
-Your device will reboot on its own and will have the new firmware on it once it starts up again. You can :ref:`check your firmware<M4G-checking-your-devices-firmware>` to make sure that the update has been applied correctly.
+   .. _Serial Port Popup Update Firmware:
+   .. image:: /assets/images/SerialPort-Message-M4G.webp
+      :width: 435
+      :alt: Popup to select serial device
 
+   Note, which Master Forge half we are updating first. The device name is shown at the bottom center:
+
+   The left half is called: Forge M4G
+
+   .. _Bottom Bar Update Firmware M4G Left Half:
+   .. image:: /assets/images/DM-Bottom-Bar-M4G-S3.webp
+      :width: 724
+      :alt: Device Manager bottom bar, CCOS version and device name M4G (Master Forge's left half).
+
+   The right half is called: Forge M4GR
+
+   .. _Bottom Bar Update Firmware M4G Right Half:
+   .. image:: /assets/images/DM-Bottom-Bar-M4GR-S3.webp
+      :width: 724
+      :alt: Device Manager bottom bar, CCOS version and device name M4GR (Master Forge's right half).
+
+#. Click on the bottom left button: CCOS (your firmware version is listed here, for example: ``CCOS 2.1.0``).
+#. Click on the firmware version you want to install.
+#. Before you start the update, make sure that you don't type on the Master Forge while it's updating. It shouldn't take more than 30-60 seconds. The Master Forge supports over-the-air (OTA) updates, therefore it's enough to just click on the ``Apply Update`` button.
+
+   While it's updating, the device manager disconnects, and the Master Forge disconnects from the OS. In Windows, it plays a device disconnected sound. When it's done, Windows plays a device connected sound.
+
+   .. _Apply Update Button:
+   .. image:: /assets/images/DM-apply-update-button-M4G.png
+      :width: 600
+      :alt: Apply Update Button
+
+#. Connect to the device manager and look at the CCOS x.x.x version, at the bottom left on the page, to see that the updated was successful.
+
+Now repeat the steps, but pick the other Master Forge USB Serial device from the connect device popup box to update the other half.
 
 .. Dropdown: Only use in Emergency
 
@@ -339,8 +362,8 @@ Your device will reboot on its own and will have the new firmware on it once it 
  		#. When the popup box comes up that reads “manager.charachorder.com wants to connect to a serial port”, choose the CCOS device you wish to update, then click the blue “connect” button
 
         		 .. _Serial Port Popup Emergency:
-      		  .. image:: /assets/images/SerialPort-Message.jpg
-       		   :width: 600
+      		  .. image:: /assets/images/SerialPort-Message-M4G.webp
+       		   :width: 435
         		  :alt: Popup to select serial device
  		#. If not already on the Firmware Updates page, click "CCOS Updates" at the bottom left of the page
 
@@ -382,8 +405,8 @@ Your device will reboot on its own and will have the new firmware on it once it 
  		#. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your Master Forge, then click the blue “connect” button
 
         		 .. _Serial Port Popup:
-       		 .. image:: /assets/images/SerialPort-Message.jpg
-       		   :width: 600
+       		 .. image:: /assets/images/SerialPort-Message-M4G.webp
+       		   :width: 435
       		    :alt: Popup to select serial device
  		#. Use the blue "Bootloader" text to reboot the right digitizer into bootloader
 
@@ -406,8 +429,8 @@ Your device will reboot on its own and will have the new firmware on it once it 
 
 		Once again, your Forge will automatically reboot and the
 
-Forge drive will have disappeared. You can check your device’s firmware
-version by following the steps :ref:`here<m4g-checking-your-devices-firmware>`.
+  Forge drive will have disappeared. You can check your device’s firmware
+  version by following the steps :ref:`here<m4g-checking-your-devices-firmware>`.
 
 
 Understanding the Settings
