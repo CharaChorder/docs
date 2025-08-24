@@ -307,7 +307,7 @@ Add dynamic library switching chords
 To switch between dynamic libraries, we add library chords in the device
 manager's library editor: https://charachorder.io/config/chords/
 
-First we add a base library chord. This exits any dynamic library.
+First, we add a base library chord. This exits any dynamic library.
 
 * chord: ``lib``
 * output: ``{action: base library}base``
@@ -332,16 +332,17 @@ Add a chord in a dynamic library
    on a new line. We'll make it easier to erase the library name in the
    next section.
 
-#. Add an impulse chord: ``i + DUP``
-#. At the impulse output prompt, type: ``arm``
+#. Open the impulse chord menu: ``i+DUP``
+#. At the impulse output prompt, type your desired output: ``arm``
 #. Press: ``enter``
-#. At the impulse input prompt, chord: ``ar``
+#. At the impulse input prompt, chord: ``a+r``
 #. Press: ``enter``
 
    .. note::
 
-      It doesn't overwrite an existing chord on the base library.
-      Because it adds the dynamic library chord as a prefix.
+      Adding a chord in a dynamic library doesn't overwrite an existing
+      chord on the base library because it adds the dynamic library
+      chord as a prefix.
 
       .. _Dynamic Library Chord:
       .. image:: /assets/images/Dynamic-Library-Chord.webp
@@ -350,26 +351,27 @@ Add a chord in a dynamic library
 
    Now, while we're in the dynamic library: ``lib1``
 
-   * when we chord: ``ar``
+   * when we chord: ``a+r``
    * it outputs: ``arm``
 
-#. Switch to the base library, with the chord: ``lib``
+#. Switch to the base library by using the base library chord we
+   created earlier: ``lib``
 #. It switches to the base library and outputs its name: ``base``
 
    Now, while we're on the base library: ``base``
 
-   * when we chord: ``ar``
+   * when we chord: ``a+r``
    * it outputs: ``are``
 
 Select the dynamic library name automatically
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This isn't required, but it's a convenience.
+This step isn't required, but it's a convenience.
 
 When we switch between dynamic libraries, the library chord outputs the
 library name. It's an extra step to erase the library name manually.
 
-Instead, let's select the dynamic library name automatically, by adding
+Instead, let's select the dynamic library name automatically by adding
 these actions to the end of the library chord output.
 
 .. note::
