@@ -5,8 +5,8 @@ Generative Text Menu (GTM)
 
 ``CharaChorder GTM [ >K<eyboard || >M<ouse || >C<hording || >D<isplay || >R<esources ]``
 
-The Generative Text Menu, known by its abbreviation as GTM, is an onboard, text based menu which can be accessed 
-anywhere you type. Through it, we are able to modify :doc:`CCOS<CCOS>` settings including :ref:`chording tolerances<GenerativeTextMenu:Press Tolerance>`, :ref:`mouse speeds<GenerativeTextMenu:Slow Speed>`, and :ref:`realtime feedback<GenerativeTextMenu:Realtime Feedback>`, among other settings and features, without the need to use a software. It's a core feature of :doc:`CCOS<CCOS>` that you will want to 
+The Generative Text Menu, known by its abbreviation as GTM, is an onboard, text based menu which can be accessed
+anywhere you type. Through it, we are able to modify :doc:`CCOS<CCOS>` settings including :ref:`chording tolerances<GenerativeTextMenu:Press Tolerance>`, :ref:`mouse speeds<GenerativeTextMenu:Slow Speed>`, and :ref:`realtime feedback<GenerativeTextMenu:Realtime Feedback>`, among other settings and features, without the need to use a software. It's a core feature of :doc:`CCOS<CCOS>` that you will want to
 learn how to use to make the device your own.
 
 You will notice that some settings have different press and release values. This is because the switches are read by the :doc:`CCOS<CCOS>` at two different moments in time: when they are pressed, and when they are released. We have designed :doc:`CCOS<CCOS>` to have configurable settings for each of those "events" separately, for maximum adjustability. Intuitively, each **press** setting, such as :ref:`debounce press<GenerativeTextMenu:Debounce Press>`, will affect the way that the :doc:`CCOS<CCOS>` reads the switch at the time that the switch is pressed into any one direction. Conversely, **release** settings, such as :ref:`release debounce<GenerativeTextMenu:Debounce Release>`, will change the way that the :doc:`CCOS<CCOS>` reads the switch at the exact moment that the switch is released, or un-pressed, from any one direction.
@@ -38,13 +38,13 @@ Use the table below to find out how to trigger the GTM for your CCOS device. Ple
 How to navigate through the GTM
 *******************************
 
-The GTM has different submenus that we can call "pages". Each "page" of the GTM will have different options which can either adjust a specific setting or take you to another submenu. 
+The GTM has different submenus that we can call "pages". Each "page" of the GTM will have different options which can either adjust a specific setting or take you to another submenu.
 
 Once you perform the chord to call up the menu, :doc:`CCOS<CCOS>` will type out the menu and its options. It will look something like this:
-	
+
 ``CharaChorder GTM [ >K<eyboard || >M<ouse || >C<hording || >D<isplay || >R<esources ]``
 
-Navigation around this menu is based on letter-presses. In the example above, you can select the desired submenu by pressing the letter that appears between the angle brackets (for example: ``>K<``) in your target submenu on your :doc:`CCOS<CCOS>` device. In the example above, you would press ``K`` for Keyboard, ``M`` for Mouse, ``C`` for Chording, ``D`` for Display, and ``R`` for Resources. In order to go back to a previous menu, press the left arrow. In order to leave the GTM at any point, press ``ESC``. Leaving the GTM by using ``ESC`` will save your changes. You can also confirm your changes by pressing ``ENTER``. 
+Navigation around this menu is based on letter-presses. In the example above, you can select the desired submenu by pressing the letter that appears between the angle brackets (for example: ``>K<``) in your target submenu on your :doc:`CCOS<CCOS>` device. In the example above, you would press ``K`` for Keyboard, ``M`` for Mouse, ``C`` for Chording, ``D`` for Display, and ``R`` for Resources. In order to go back to a previous menu, press the left arrow. In order to leave the GTM at any point, press ``ESC``. Leaving the GTM by using ``ESC`` will save your changes. You can also confirm your changes by pressing ``ENTER``.
 
 In some submenus, you will see numeric values. In order to increase or decrease these, you can use the up and down arrow keys on your :doc:`CCOS<CCOS>` device.
 
@@ -73,7 +73,7 @@ Scan Rate
 
 ``Path: GTM > Keyboard > Scan Rate``
 
-The scan rate, sometimes known as the "Key scan duration," refers to the frequency at which the device checks the state of the input keys. 
+The scan rate, sometimes known as the "Key scan duration," refers to the frequency at which the device checks the state of the input keys.
 For reference, 5 ms corresponds to 200 Hz, which means that :doc:`CCOS<CCOS>` checks the position of the keys once every 5 milliseconds, which equals 200 times in a second. Having a lower number is usually better as it makes CCOS more responsive, though the difference at low numbers is usually negligible. In the GTM, this setting is adjustable in millisecond (ms) units.
 
 You can find the default scan rates of the different CharaChorder devices in the table below.
@@ -94,7 +94,7 @@ Debounce Press
 
 ``Path: GTM > Keyboard > Debounce Press``
 
-The debounce press setting refers to the time frame (measured in milliseconds) in which  :doc:`CCOS<CCOS>` will filter out duplicate key activations on a press event. In other words, any duplicate activations within the given time frame will only be counted as one. 
+The debounce press setting refers to the time frame (measured in milliseconds) in which  :doc:`CCOS<CCOS>` will filter out duplicate key activations on a press event. In other words, any duplicate activations within the given time frame will only be counted as one.
 
 We should adjust this setting if we are having unintentional duplicate characters while typing. Increasing this value will lower the probability that unwanted duplicate characters will appear because it tells :doc:`CCOS<CCOS>` to wait longer before typing an additional character that's assigned to the same switch-direction. However, having this setting set too high might also cause issues with :doc:`CCOS<CCOS>` not reading intentional double-presses, so it's recommended to try different numbers in small increments. This setting should be used in connection with the :ref:`debounce release<GenerativeTextMenu:Debounce Release>` setting.
 
@@ -117,7 +117,7 @@ Debounce Release
 
 ``Path: GTM > Keyboard > Debounce Release``
 
-The debounce release setting refers to the time frame (measured in milliseconds) in which :doc:`CCOS<CCOS>` will filter out duplicate key activations on a release event. In other words, any duplicate activations within the given time frame will only be counted as one. 
+The debounce release setting refers to the time frame (measured in milliseconds) in which :doc:`CCOS<CCOS>` will filter out duplicate key activations on a release event. In other words, any duplicate activations within the given time frame will only be counted as one.
 
 We should adjust this setting if we are having unintentional duplicate characters while typing. Increasing this value will lower the probability that unwanted duplicate characters will appear because it tells :doc:`CCOS<CCOS>` to wait longer before typing an additional character that's assigned to the same switch-direction. However, having this setting set too high might also cause issues with :doc:`CCOS<CCOS>` not reading intentional double-presses, so it's recommended to try different numbers in small increments. This setting should be used in connection with the :ref:`debounce press <GenerativeTextMenu:Debounce Press>` setting.
 
@@ -138,11 +138,11 @@ Keystroke Delay
 
 ``Path: GTM > Keyboard > Keystroke Delay``
 
-This setting adds a small delay to keystroke inputs. It is measured in microseconds (μs) and is very small by default. 
+This setting adds a small delay to keystroke inputs. It is measured in microseconds (μs) and is very small by default.
 
-You should increase this value if your computer is not accepting all of the characters output by your device, such as when using the GTM. If you are having this issue, your GTM would look weird, with missing chunks or characters. 
+You should increase this value if your computer is not accepting all of the characters output by your device, such as when using the GTM. If you are having this issue, your GTM would look weird, with missing chunks or characters.
 
-If you have a faster computer, then you can lower this setting to make chording and the GTM feel snappier and more responsive. 
+If you have a faster computer, then you can lower this setting to make chording and the GTM feel snappier and more responsive.
 
 This value is adjusted in 40us increments. You can find the default debounce press of the different  CharaChorder devices in the table below:
 
@@ -155,13 +155,13 @@ This value is adjusted in 40us increments. You can find the default debounce pre
 +------------------+----------------+------------+-------------+--------------+
 | CharaChorder X   | 480 μs         | 0 μs       | 10200 μs    | 40 μs        |
 +------------------+----------------+------------+-------------+--------------+
- 
+
 Capslock
 ~~~~~~~~
 
 ``Path: GTM > Keyboard > Capslock``
 
-This setting is similar to a computer's Capslock: it toggles the state of the capslock. When on, all 
+This setting is similar to a computer's Capslock: it toggles the state of the capslock. When on, all
 letters output by the CCOS device will be capitalized. When off, all letters output by the CCOS device will be lowercase.
 
 Operating System
@@ -169,7 +169,7 @@ Operating System
 
 ``Path: GTM > Keyboard > Operating System``
 
-This setting refers to your host computer's operating system. Because the keys on the different computer operating systems may vary, you can set your CCOS device up so that it matches your computer. 
+This setting refers to your host computer's operating system. Because the keys on the different computer operating systems may vary, you can set your CCOS device up so that it matches your computer.
 
 Currently, on CCOS, you can select between Windows, Mac, Linux, iOS, or Android.
 
@@ -190,7 +190,7 @@ GUI-CTRL Soft Swap (CharaChorder Lite only)
 
 ``Path: GTM > Keyboard > GUI-CTRL Soft Swap``
 
-This setting will swap the behavior of the two keys on the bottom-left of the CharaChorder Lite. 
+This setting will swap the behavior of the two keys on the bottom-left of the CharaChorder Lite.
 
 Traditional QWERTY keyboards keep the ``CTRL`` key at the bottom left corner of the keyboard with the ``GUI`` key (Command key on Mac, Windows key on Windows, Super key on Linux, etc.) to the right of the ``CTRL`` key. The CharaChorder Lite has these two keys swapped by default, which some users find odd and difficult to adjust to. A brand new CharaChorder Lite will have the ``GUI`` key at the bottom-left corner with the ``CTRL`` key to the right of the ``GUI`` key.
 
@@ -233,7 +233,7 @@ However, :doc:`CCOS<CCOS>` uses ms (milliseconds) which is directly inverse to H
     In the context of frequency and period (time duration), the relationship is inverse. Frequency is the number of cycles per second, measured in Hz. The period is the time it takes for one cycle to complete, measured in seconds (s). The formula is:
 
 	``Frequency (Hz) = 1/Period (s), where s = 1000 ms``
- 
+
     If you convert the period to milliseconds (ms), the relationship remains inverse. For instance, if you have a frequency of 1000 Hz, the period is 1 ms (because 1 second = 1000 milliseconds). As the frequency increases, the period (measured in ms) decreases.
 
 
@@ -254,13 +254,13 @@ Slow Speed
 
 ``Path: GTM > Mouse > Slow Speed``
 
-Slow speed is activated when you use only one of the mouse keys in a single direction (as opposed to using 2 keys in the same direction). Increasing this setting will make your CCOS pointer move faster. 
+Slow speed is activated when you use only one of the mouse keys in a single direction (as opposed to using 2 keys in the same direction). Increasing this setting will make your CCOS pointer move faster.
 
 This setting is used in conjunction with :ref:`poll rate <GenerativeTextMenu:Poll Rate>`. See the explanation below.
 
 .. dropdown:: Explanation of CCOS mouse speeds
 
-    The mouse speed refers to the speed of the cursor on the CharaChorder's mouse functionality. The cursor will move at the number of pixels (px) indicated by this setting multiplied by the number of Hz indicated by the :ref:`polling rate<GenerativeTextMenu:Poll Rate>`. 
+    The mouse speed refers to the speed of the cursor on the CharaChorder's mouse functionality. The cursor will move at the number of pixels (px) indicated by this setting multiplied by the number of Hz indicated by the :ref:`polling rate<GenerativeTextMenu:Poll Rate>`.
 
     In other words, if your speed is set to 2 px, and your :ref:`poll rate<GenerativeTextMenu:Poll Rate>` is set to 20 ms (~50 Hz), your CharaChorder's cursor will move at 100 pixels per second (px/s). The equation comes out to:
     ``Speed (px) x poll rate (Hz) = Number of pixels that the cursor will move per second``
@@ -280,13 +280,13 @@ Fast Speed
 
 ``Path: GTM > Mouse > Fast Speed``
 
-Fast speed is activated when you use two mouse keys in a single direction (as opposed to using only one key in the same direction). Increasing this setting will make your CCOS pointer move faster. 
+Fast speed is activated when you use two mouse keys in a single direction (as opposed to using only one key in the same direction). Increasing this setting will make your CCOS pointer move faster.
 
 This setting is used in conjunction with :ref:`poll rate <GenerativeTextMenu:Poll Rate>`. See the explanation below.
 
 .. dropdown:: Explanation of CCOS mouse speeds
 
-    The mouse speed refers to the speed of the cursor on the CharaChorder's mouse functionality. The cursor will move at the number of pixels (px) indicated by this setting multiplied by the number of Hz indicated by the :ref:`polling rate<GenerativeTextMenu:Poll Rate>`. 
+    The mouse speed refers to the speed of the cursor on the CharaChorder's mouse functionality. The cursor will move at the number of pixels (px) indicated by this setting multiplied by the number of Hz indicated by the :ref:`polling rate<GenerativeTextMenu:Poll Rate>`.
 
     In other words, if your speed is set to 2 px, and your :ref:`poll rate<GenerativeTextMenu:Poll Rate>` is set to 20 ms (~50 Hz), your CharaChorder's cursor will move at 100 pixels per second (px/s). The equation comes out to:
     ``Speed (px) x poll rate (Hz) = Number of pixels that the cursor will move per second``
@@ -306,13 +306,13 @@ Scroll Speed
 
 ``Path: GTM > Mouse > Scroll Speed``
 
-Scroll speed refers to the speed at which your CCOS scroll will scroll. 
+Scroll speed refers to the speed at which your CCOS scroll will scroll.
 
 Increasing this setting will make your CCOS scrolling scroll faster. This setting is used in conjunction with :ref:`poll rate <GenerativeTextMenu:Poll Rate>`. See the explanation below.
 
 .. dropdown:: Explanation of CCOS mouse speeds
 
-    The scroll speed refers to the speed at which the CharaChorder scrolls at. The CCOS will scroll at the number of pixels (px) indicated by this setting multiplied by the number of Hz indicated by the :ref:`polling rate<GenerativeTextMenu:Poll Rate>`. 
+    The scroll speed refers to the speed at which the CharaChorder scrolls at. The CCOS will scroll at the number of pixels (px) indicated by this setting multiplied by the number of Hz indicated by the :ref:`polling rate<GenerativeTextMenu:Poll Rate>`.
 
     In other words, if your speed is set to 2 px, and your :ref:`poll rate<GenerativeTextMenu:Poll Rate>` is set to 20 ms (~50 Hz), your CharaChorder's scroll will move at 100 pixels per second (px/s). The equation comes out to:
     ``Speed (px) x poll rate (Hz) = Number of pixels that the cursor will move per second``
@@ -348,9 +348,9 @@ Character Only Mode
 
 This setting is a toggle that disables chording capabilities on CCOS devices. It is off by default and can be enabled in case we don't want any chording at all. This setting can be useful in cases where we don't want to accidentally trigger chords unintentionally, such as when gaming.
 
-If your CCOS device suddenly loses its chording ability, it's a good idea to check if this setting is toggled off. 
+If your CCOS device suddenly loses its chording ability, it's a good idea to check if this setting is toggled off.
 
-Press Tolerance 
+Press Tolerance
 ~~~~~~~~~~~~~~~
 
 ``Path: GTM > Chording > Press Tolerance``
@@ -441,9 +441,9 @@ Spurring
 
 ``Path: GTM > Chording > Spurring``
 
-A 'chording only' mode which tells your device to output chords on a press event rather than a press & release and release event. When in spurring mode, you can press the keys of a chord one at a time with a much longer waiting period, which makes it a useful mode for those who want to practice chording without worrying about proper :ref:`timing<GenerativeTextMenu:Press Tolerance>`. 
+A 'chording only' mode which tells your device to output chords on a press event rather than a press & release and release event. When in spurring mode, you can press the keys of a chord one at a time with a much longer waiting period, which makes it a useful mode for those who want to practice chording without worrying about proper :ref:`timing<GenerativeTextMenu:Press Tolerance>`.
 
-Spurring mode also enables you to jump from one chord to another without releasing everything. It can provide significant speed gains when chording, but also takes away the flexibility of character entry. Spurring mode can truly maximize speed when chording if a user has chords for all of the words they want to use. 
+Spurring mode also enables you to jump from one chord to another without releasing everything. It can provide significant speed gains when chording, but also takes away the flexibility of character entry. Spurring mode can truly maximize speed when chording if a user has chords for all of the words they want to use.
 
 Spurring On/Off
 ^^^^^^^^^^^^^^^
@@ -476,14 +476,14 @@ Arpeggiate
 Arpeggiate actions are timed actions that can modify a chord after the chord is performed. A quick example of this is the use of chord modifiers after you perform the chord. You can read that section for information on how the :doc:`chord modifiers<Chord Modifiers>` work.
 
 With arpeggiates enabled, you can chord the word ``run`` and then, within the :ref:`arpeggiate timeout window<GenerativeTextMenu:Arpeggiate Timeout>`, press the past tense modifier for the word to be "modified" into its past tense variant; in english, ``ran``.
- 
+
 
 Arpeggiate On/Off
 ^^^^^^^^^^^^^^^^^
 
 ``Path: GTM > Chording > Arpeggiate > Arpeggiate On/Off``
 
-This setting will let you toggle the arpeggiate capability ON or OFF. 
+This setting will let you toggle the arpeggiate capability ON or OFF.
 
 Some users dislike arpeggiates as, in really fast typing, it may cause unwanted modifications.
 
@@ -492,7 +492,7 @@ Arpeggiate Timeout
 
 ``Path: GTM > Chording > Arpeggiate > Arpeggiate Timeout``
 
-The arpeggiate timeout is a window of time after a chord is performed during which CCOS will expect arpeggiates to be performed. After this timer runs out, CCOS will NO LONGER modify the preceding chord. 
+The arpeggiate timeout is a window of time after a chord is performed during which CCOS will expect arpeggiates to be performed. After this timer runs out, CCOS will NO LONGER modify the preceding chord.
 
 A common issue that users may run into while having arpeggiates enabled is the shift key modifying the preceding chord instead of the next key. For this reason, some users lower the arpeggiate timeout to a really low amount of time in order to reduce the possibility of this happening unintentionally.
 
@@ -513,7 +513,7 @@ Realtime Feedback
 
 ``Path: GTM > Display > Realtime Feedback``
 
-This setting toggles realtime feedback ON or OFF. 
+This setting toggles realtime feedback ON or OFF.
 
 Realtime feedback refers to the helpful text like ``SPURRING_ON``, ``SPURRING_OFF`` etc, that lets the user know if a certain mode has been activated or deactivated on the CharaChorder device. Since there is no other visual way to know if the chord used to enable or disable certain settings, it is helpful to have these texts pop up as confirmation.
 
@@ -551,7 +551,7 @@ On/Off
 
 Quickly toggle the LEDs on or off with this setting.
 
-Color 
+Color
 ^^^^^
 
 ``Path: GTM > Display > LEDs > Color``
@@ -600,7 +600,7 @@ Resources
 
 ``Path: GTM > Resources``
 
-This section contains links which may be helpful to you. These links include: 
+This section contains links which may be helpful to you. These links include:
 
 .. csv-table::
     :header: "Letter", "Item", "Description"
