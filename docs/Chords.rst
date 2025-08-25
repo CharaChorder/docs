@@ -295,11 +295,17 @@ Dynamic Libraries
 
 The same chord input can have a unique output in each dynamic library.
 
-For example, the chord: ``ar`` can output:
+For example, the chord: ``r+a+l`` can output:
 
-* ``are`` in the base library.
-* ``arm`` in a dynamic library.
-* ``art`` or ``area`` in other dynamic libraries.
+* ``really`` in the base library
+* ``algorithm`` in a school library
+* ``realtor@email.com`` in a work library
+
+``t+n+o+e`` can output:
+
+* ``note`` in the base library
+* ``Eneot of Draconia`` in a library for Novel writing
+* ``OnePlus`` in a library for Cell Phone blogging
 
 Add dynamic library switching chords
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -309,33 +315,34 @@ manager's library editor: https://charachorder.io/config/chords/
 
 First, we add a base library chord. This exits any dynamic library.
 
-* chord: ``lib``
+* chord: ``b+a+l+i``
 * output: ``{action: base library}base``
 
-Then, we add a dynamic library chord.
+Then, we add a work dynamic library chord.
 
-* chord: ``libr``
-* output: ``{action: dynamic library}lib1``
+* chord: ``w+l+i+b``
+* output: ``{action: dynamic library}wlib``
 
 .. note::
 
-   The dynamic library names ``base`` and ``lib1`` (in the chord output)
-   are just examples. Feel free to use your own names when you know how
+   Both the chords ``b+a+l+i`` and ``w+l+i+b``, and the dynamic library
+   names ``base`` and ``wlib`` (in the chord output) are just examples.
+   Feel free to use your own chords and library names when you know how
    this works.
 
 Add a chord in a dynamic library
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. Switch to the dynamic library, by chording: ``libr``
-#. It switches to the dynamic library and outputs its name: ``lib1``
+#. Switch to the work library, by chording: ``w+l+i+b``
+#. It switches to the work library and outputs its name: ``wlib``
 #. You can ignore the name, erase it or just press ``enter`` to continue
    on a new line. We'll make it easier to erase the library name in the
    next section.
-
 #. Open the impulse chord menu: ``i+DUP``
-#. At the impulse output prompt, type your desired output: ``arm``
+#. At the impulse output prompt, type your desired output:
+   ``realtor@email.com``
 #. Press: ``enter``
-#. At the impulse input prompt, chord: ``a+r``
+#. At the impulse input prompt, chord: ``r+a+l``
 #. Press: ``enter``
 
    .. note::
@@ -344,24 +351,42 @@ Add a chord in a dynamic library
       chord on the base library because it adds the dynamic library
       chord as a prefix.
 
+      The screenshot below shows that the impulse prompt includes
+      the keys that were held:
+
+         * Num (left pinky west), the symbol: (2)
+         * Arrow down with a bottom line means: press and do not release the next key
+         * Shift (right pinky west)
+         * 2 (right index south, the ``t`` key is 2 on the number layer)
+         * Arrow up with a bottom line means: release the next key
+         * Shift
+
+      .. _Dynamic Library Chord With Pressed Keys Num and Shift:
+      .. image:: /assets/images/Dynamic-Library-Chord-With-Pressed-Keys-Num-And-Shift.png
+         :alt: Dynamic Library Chord With Pressed Keys Num and Shift
+
+      The chord works fine: ``realtor@email.com``
+
+      It can be edited in the device manager to look like its output:
+      https://charachorder.io
+
       .. _Dynamic Library Chord:
-      .. image:: /assets/images/Dynamic-Library-Chord.webp
-         :width: 294
+      .. image:: /assets/images/Dynamic-Library-Chord.png
          :alt: Dynamic Library Chord
 
-   Now, while we're in the dynamic library: ``lib1``
+   Now, while we're in the dynamic library: ``wlib``
 
-   * when we chord: ``a+r``
-   * it outputs: ``arm``
+   * when we chord: ``r+a+l``
+   * it outputs: ``realtor@email.com``
 
 #. Switch to the base library by using the base library chord we
-   created earlier: ``lib``
+   created earlier: ``b+a+l+i``
 #. It switches to the base library and outputs its name: ``base``
 
    Now, while we're on the base library: ``base``
 
-   * when we chord: ``a+r``
-   * it outputs: ``are``
+   * when we chord: ``r+a+l``
+   * it outputs: ``really``
 
 Select the dynamic library name automatically
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -387,24 +412,24 @@ these actions to the end of the library chord output.
 
 The number of ``{arrow left}`` actions should match the number of
 characters in the base and dynamic library names, in this case we used
-four characters for both: ``base`` and ``lib1``
+four characters for both: ``base`` and ``wlib``
 
-The ``base`` and ``lib1`` dynamic library chords look like this:
+The ``base`` and ``wlib`` dynamic library chords look like this:
 
 .. _Dynamic Library Switching Chords:
-.. image:: /assets/images/Dynamic-Library-Switching-Chords.webp
-  :width: 460
+.. image:: /assets/images/Dynamic-Library-Switching-Chords.png
+  :width: 437
   :alt: Dynamic Library Switching Chords
 
 Now the library name will be selected automatically.
 
-Pressing the chord: ``libr``
+Pressing the chord: ``w+l+i+b``
 
 * Switches to the dynamic library
-* outputs the library name: ``lib1``
+* outputs the library name: ``wlib``
 * and selects it
 
-It's easy to erase the name by:
+Now, it's easy to erase the name by:
 
 * Pressing: ``backspace``
 * or typing a character
