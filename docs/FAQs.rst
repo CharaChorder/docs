@@ -30,9 +30,10 @@ To output an entire word or sentence simultaneously, you ‘chord’ by pressing
 What about words with the same letters as another word?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 In the case of an anagramic chord, there are various workarounds, such as:
-- Chord modifiers
-- Compound chords
-- Briefs
+
+* Chord modifiers
+* :ref:`Compound chords<Chords:Compound Chords>`
+* Briefs
 
 Is this stenography?
 ~~~~~~~~~~~~~~~~~~~~
