@@ -372,14 +372,6 @@ Chording
 
 In this box, you can adjust settings relating to :doc:`CCOS'<CCOS>` :doc:`chording<Chords>` abilities as well as turn off :doc:`chording<Chords>` alltogether, should you choose to.
 
-.. dropdown:: Auto-delete Timeout
-
-	This setting will change how long CCOS counts time in order to replace characters that precede a chord.
-
-	CCOS devices have a running timer that starts after every single character that is entered in traditional chentry (character entry, i.e. one letter at a time). This timer controls whether or not the next chord that you perform deletes the preceding characters.
-
-	This feature allows users to misfire chords, yet be able to correct them by quickly performing the chord correctly, without having to backspace manually to erase the misfired chord. The result is that the timeout will automatically backspace all of the preceding characters (up to the last breaking character) and replace them with the intended chord.
-
 .. dropdown:: Press Tolerance
 
 	The press tolerance refers to a window of time in which a chord can be performed, measured in milliseconds (ms). This timer is initiated upon the first “press” action of the first key in a chord and ends once the last key of the chord is pressed, or until the press tolerance runs out, whichever comes first. Read the :ref:`GTM section<GenerativeTextMenu:Press Tolerance>` for a more in-depth explanation.
@@ -391,6 +383,24 @@ In this box, you can adjust settings relating to :doc:`CCOS'<CCOS>` :doc:`chordi
 .. dropdown:: Compound Chording
 
 	This toggle allows you to enable or disable :ref:`compound chords<Chords:Compound Chords>`.
+
+Autocorrect
+-----------
+
+.. image:: /assets/images/ManagerSettingsAutocorrect.png
+  :alt: The Autocorrect settings
+
+.. dropdown:: Maximum attempts
+
+	Set to 0 to turn off autocorrect. An attempt is every stroke from the first keypress to the next full release. Recommended to turn off when you are comfortable using Quickfix.
+
+.. dropdown:: Timeout
+
+	This setting will change how long CCOS counts time in order to replace characters that precede a chord.
+
+	CCOS devices have a running timer that starts after every single character that is entered in traditional chentry (character entry, i.e. one letter at a time). This timer controls whether or not the next chord that you perform deletes the preceding characters.
+
+	This feature allows users to misfire chords, yet be able to correct them by quickly performing the chord correctly, without having to backspace manually to erase the misfired chord. The result is that the timeout will automatically backspace all of the preceding characters (up to the last breaking character) and replace them with the intended chord.
 
 RGB
 ---
