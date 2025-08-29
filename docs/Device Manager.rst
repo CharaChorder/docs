@@ -107,7 +107,6 @@ Save Button
 -----------
 
 .. image:: /assets/images/ManagerSaveButton.png
-  :width: 200
   :alt: The Save Button
 
 If you make changes in the :ref:`library<Device Manager:Library>`, the :ref:`layout editor<Device Manager:Layout>` or the :ref:`device menu<Device Manager:Device>`, a colored "save" button will pop up on your screen, towards the top left corner.
