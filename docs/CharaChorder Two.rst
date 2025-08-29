@@ -145,30 +145,9 @@ If not done already, make sure that the USB-C side of the
 CharaChorder. It’s important to be certain that the cable is plugged all
 the way in, otherwise, the CC2 might not function as intended.
 
-.. warning::
-   IMPORTANT: During your first time plugging your CharaChorder in,
-   and every time thereafter when you have :ref:`realtime feedback<GenerativeTextMenu:Realtime feedback>` enabled, it’s
-   recommended that you have your cursor in a space where you can type. The
-   CharaChorder has a welcome message that can send instructions to your
-   computer that are not intended by the user. This feature can be disabled in
-   the :doc:`GTM<GenerativeTextMenu>`.
-
 After making sure that all the cables on the CharaChorder are properly
 plugged in, connect the USB-A side of the :ref:`power cable<power cable>` into
-a USB-A port on your computer. Upon connecting, you may notice the
-following things:
-
-If your cursor is somewhere where text can be entered…
-	- You will first see the text “Loading ### Chordmaps” highlighted, and a few moments later, “CCOS is ready.”
-
-Regardless of whether or not your cursor is somewhere where text can be entered…
-	- You will be able to see a small, lime colored light inside the space that holds the USB-C port on the left half of the CC2.
-
-If you have :ref:`realtime feedback<GenerativeTextMenu:Realtime feedback>` enabled, once you can see the highlighted text that reads
-“CCOS is ready”, your device is ready to be used.
-
-.. note::
-   IMPORTANT: :ref:`Realtime feedback<GenerativeTextMenu:Realtime feedback>` is enabled by default on new CharaChorder devices.
+a USB-A port on your computer. Upon connecting, you will be able to see a small, lime colored light inside the space that holds the USB-C port on the left half of the CC2.
 
 Getting Started
 ***************
