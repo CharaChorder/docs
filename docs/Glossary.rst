@@ -32,7 +32,7 @@ community.
       capitalization, conjugation, part of speech, language, or structure of a chord.  Note, these can be used arpeggiately.
 
    :ref:`Compound Chords<Chords:Compound Chords>`
-      Multiple chords which behave differently when used together consecutively wihthin the :ref:`Compound timeout<GenerativeTextMenu:Compound timeout>`.
+      Multiple chords which behave differently when used together consecutively wihthin the :ref:`Compound timeout<Device Manager:Compound Timeout Setting>`.
       Example: know + ledge = knowledge.
 
    Cursor Warping
