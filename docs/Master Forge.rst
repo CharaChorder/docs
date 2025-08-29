@@ -452,7 +452,7 @@ You can read an explanation on all of the settings on your CharaChorder device :
 Learning the Layout
 -------------------
 
-The default on the Master Forge :ref:`digitizers<Master Forge:The Digitizers>`, which we will refer to as the M4 English layout, has been designed to favor :doc:`bigrams<Logic behind the Layout>` and :doc:`trigrams<Logic behind the Layout>` commonly used in the English language while making the letters accessible for a logical choice of :doc:`lexical<Chords>`. You can find the map below.
+The default Master Forge layout, which we will refer to as the M4 English layout, has been designed to favor bigrams and trigrams commonly used in the English language while making the letters accessible for a logical choice of :doc:`lexical chords<Chords>`. You can find the quick reference guide for the layout below, and :ref:`read about how the layout was designed, here <Layout:Design of the layout>`.
 
 .. note::
    General consensus amongst the community is that, while not perfect,
