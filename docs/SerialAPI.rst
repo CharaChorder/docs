@@ -529,8 +529,4 @@ To use these chords with the Serial API, they should be converted to a 16-charac
 Action codes
 ------------
 
-You can see the action codes below, or view them externally `here. <https://docs.google.com/spreadsheets/d/1--T9bXshCIC-OVly-CY3rK87fgb7AHgJl3IySh7cmHc/edit#gid=0>`__
-
-.. raw:: html
-
-    <iframe src="https://docs.google.com/spreadsheets/d/1--T9bXshCIC-OVly-CY3rK87fgb7AHgJl3IySh7cmHc/preview" width="100%" height="600"></iframe>
+You can view the `action codes here. <https://docs.google.com/spreadsheets/d/1--T9bXshCIC-OVly-CY3rK87fgb7AHgJl3IySh7cmHc/edit#gid=0>`__
