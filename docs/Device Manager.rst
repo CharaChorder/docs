@@ -386,7 +386,7 @@ In this box, you can adjust settings relating to :doc:`CCOS'<CCOS>` :doc:`chordi
 
 	If the time between the individual chords in a compound chord is:
 
-	* less than the Compound timeout, then it succeeds and the individual chords are replaced with the compound chords output
+	* less than the Compound timeout, then it succeeds and the individual chords are replaced with the compound chord's output
 	* greater than the Compound timeout, then it fails and the individual chords remain
 
 .. dropdown:: Detection method
