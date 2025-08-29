@@ -27,7 +27,7 @@ If that's not exciting enough... this is only the tip of the iceberg. Here are
 some things you can expect to experience moving forward as we peel back the
 layers and start to unlock the full potential of CCOS with future updates:
 
-- Compound Chording, the ability for any chord combination in any
+- :ref:`Compound Chording<Chords:Compound Chords>`, the ability for any chord combination in any
   layout to be compounded with up to twelve other chords, with each compounding
   layer being tied to its own unique output.
 - An interface for programming advanced keyboard/mouse macros which can be

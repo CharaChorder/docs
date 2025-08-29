@@ -251,7 +251,7 @@ As a general fallback measure against (software-)stuck keys, we added a measure 
 Specific compounds that caused library corruption
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-There was a bug that could cause library corruption which has now been fixed. This only happened when adding compound chords with a specific base. You can check if your library contained any of these here: https://master.dev.charachorder.io/config/chords/will-my-compound-break/
+There was a bug that could cause library corruption which has now been fixed. This only happened when adding :ref:`compound chords<Chords:Compound Chords>` with a specific base. You can check if your library contained any of these here: https://master.dev.charachorder.io/config/chords/will-my-compound-break/
 
 CC Lite S2 Fixes
 ~~~~~~~~~~~~~~~~

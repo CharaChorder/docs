@@ -31,9 +31,9 @@ community.
       Inputs which, when included with a chord, change the prefix, suffix,
       capitalization, conjugation, part of speech, language, or structure of a chord.  Note, these can be used arpeggiately.
 
-   Compound Chords
-      Multiple chords which behave differently when used together in context
-      (not yet user programmable). Example: know + ledge = knowledge.
+   :ref:`Compound Chords<Chords:Compound Chords>`
+      Multiple chords which behave differently when used together consecutively wihthin the :ref:`Compound timeout<GenerativeTextMenu:Compound timeout>`.
+      Example: know + ledge = knowledge.
 
    Cursor Warping
       When your cursor or mouse position moves ("warps") based on a chord.
