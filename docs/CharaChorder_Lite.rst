@@ -127,7 +127,18 @@ additional software to work.
 
 If not done already, make sure that the USB-C side of the :ref:`power cable<CharaChorder_Lite:Power and Communication>` is plugged into the back right of the CharaChorder Lite. It’s important to be certain that the cable is plugged all the way in; otherwise, the CharaChorder might not function as intended.
 
-.. danger::
+.. note::
+  The CharaChorder Lite has been sold with two different chips: M0 and S2
+
+  You can see which chip you have, by connecting to the `Device Manager <https://charachorder.io/>`__, then looking at the bottom middle of the page, after the device name:
+
+    * CharaChorder Lite M0 (bought before oct 1st, 2022)
+        If you have the M0 chip, continue reading the warning and instructions about the startup message below.
+
+    * CharaChorder Lite S2 (bought after oct 1st, 2022)
+        If you have the S2 chip, then you can skip to the :ref:`Getting Started section<CharaChorder_Lite:Getting Started>`, because the startup message has been removed on instant boot devices (CCOS 2.1.0).
+
+.. warning::
    By default, the device sends a :ref:`startup<GenerativeTextMenu:Startup>` message, on every boot or re-plug. In some cases, this can interfere with functions on your computer or cause unwanted behavior. This feature can be disabled in
    the :doc:`GTM<GenerativeTextMenu>`.
 
@@ -200,7 +211,7 @@ which is the latest firmware release by visiting `this
 site <https://charachorder.io/ccos/>`__.
 
 .. warning::
-   IMPORTANT: Before performing the below steps, please make sure that you have a :ref:`backup of your layout<Device Manager:Backups>` as well as a :ref:`backup of your chord library<Device Manager:Backups>` and a :ref:`backup of your GTM settings<Device Manager:Backups>`. The update might reset those, so it's important that you keep backup files handy. For instructions on how to restore backed up files, visit the :ref:`Backups<Device Manager:Restoring from a Backup>` section.
+   IMPORTANT: Before performing the below steps, please make sure that you have a :ref:`backup of your layout, chord library, and settings<Device Manager:Creating a Backup>`. The update might reset those, so it's important that you keep backup files handy. For instructions on how to restore backed up files, visit the :ref:`Backups<Device Manager:Restoring from a Backup>` section.
 
 #. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://charachorder.io/config/layout/>`__
 #. If not auto-connected, click “Connect”
@@ -326,7 +337,7 @@ A3 Layer
 ^^^^^^^^
 
 The A3 layer, sometimes referred to as the “function layer”, is
-accessible with the :ref:`A3 access key<CharaChorder Keys>`. This key is not mapped by default on the CharaChorder Lite, but you can add it to your device by :ref:`remapping<Device Manager:Remapping>`. On the :doc:`CharaChorder Device Manager<Device Manager>`, this key is assignable by the names “KM_3_L” and “KM_3_R”.
+accessible with the :doc:`A3 access key<CharaChorder Keys>`. This key is not mapped by default on the CharaChorder Lite, but you can add it to your device by :ref:`remapping<Device Manager:Remapping>`. On the :doc:`CharaChorder Device Manager<Device Manager>`, this key is assignable by the names “KM_3_L” and “KM_3_R”.
 
 Once you've mapped the A3 layer access buttons, the A3 Layer is accessible by pressing and holding either
 one of them. You do not have to hold them both in order to access
@@ -386,7 +397,7 @@ Practice
 ~~~~~~~~
 
 Now that you’re familiar with your new CharaChorder device, it’s time to
-use it! Head over to the :doc:`training section<DotIO>` for instructions
+use it! Head over to the :doc:`training section<Tools>` for instructions
 on how to get started with learning to :doc:`chord<Chords>`. If you want to just
 jump in without having to read a minute longer, head on over to our
 training website; https://www.iq-eq.io/#/

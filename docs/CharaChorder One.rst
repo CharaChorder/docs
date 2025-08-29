@@ -166,29 +166,11 @@ If not done already, make sure that the USB-C side of the
 CharaChorder. It’s important to be certain that the cable is plugged all
 the way in, otherwise, the CharaChorder might not function as intended.
 
-.. warning::
-   IMPORTANT: During your first time plugging your CharaChorder in,
-   and every time thereafter when you have :ref:`realtime feedback<GenerativeTextMenu:Realtime feedback>` enabled, it’s
-   recommended that you have your cursor in a blank typing space. The
-   CharaChorder has a welcome message that can send instructions to your
-   computer that are not intended by the user. This feature can be disabled in
-   the :doc:`GTM<GenerativeTextMenu>`.
-
 After making sure that all the cables on the CharaChorder are properly
 plugged in, connect the USB-A side of the :ref:`power cable<power cable>` into
-a USB-A port on your computer. Upon connecting, you may notice the
-following things: - If your cursor is somewhere where text can be
-entered… - You will first see the text “Loading ### Chordmaps”
-highlighted, and a few moments later, “CCOS is ready.” - Regardless of
-whether or not your cursor is somewhere where text can be entered… - You
+a USB-A port on your computer. Upon connecting, you
 will be able to see a small, lime colored light inside the space that
 holds the USB-C port on the left half of the CharaChorder One.
-
-If you have :ref:`realtime feedback<GenerativeTextMenu:Realtime feedback>` enabled, once you can see the highlighted text that reads
-“CCOS is ready”, your device is ready to be used.
-
-.. note::
-   IMPORTANT: :ref:`Realtime feedback<GenerativeTextMenu:Realtime feedback>` is enabled by default on new CharaChorder devices.
 
 Getting Started
 ***************
@@ -240,7 +222,7 @@ which is the latest firmware release by visiting `this
 site <https://charachorder.io/ccos/>`__.
 
 .. warning::
-   IMPORTANT: Before performing the below steps, please make sure that you have a :ref:`backup of your layout<Device Manager:Backups>` as well as a :ref:`backup of your chord library<Device Manager:Backups>` and a :ref:`backup of your GTM settings<Device Manager:Backups>`. The update might reset those, so it's important that you keep backup files handy. For instructions on how to restore backed up files, visit the :ref:`Backups<Device Manager:Restoring from a Backup>` section.
+   IMPORTANT: Before performing the below steps, please make sure that you have a :ref:`backup of your layout, chord library, and settings<Device Manager:Creating a Backup>`. The update might reset those, so it's important that you keep backup files handy. For instructions on how to restore backed up files, visit the :ref:`Backups<Device Manager:Restoring from a Backup>` section.
 
 #. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://charachorder.io/config/layout/>`__
 #. If not auto-connected, click “Connect”
@@ -373,7 +355,7 @@ A3 Layer
 ^^^^^^^^
 
 The A3 layer, sometimes referred to as the “function layer”, is
-accessible with the :ref:`A3 access key<CharaChorder Keys>`. This key is not
+accessible with the :doc:`A3 access key<CharaChorder Keys>`. This key is not
 in the above :ref:`graphic<CCEnglish Layout>`, and instead
 is accessible by pressing and holding either pinky down, into the
 device. In the `Device Manager <https://charachorder.io/config/layout/>`__,

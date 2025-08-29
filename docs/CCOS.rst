@@ -63,8 +63,9 @@ Upgrade to CCOS
 
 .. danger::
     These instructions are only for those that had a device shipped before 2023
-    and that wish to update to CCOS. For all other CCOS updates, see
-    :ref:`the device manager page<Device Manager:Updating Your Device>`.
+    and that wish to update to CCOS. For all other CCOS updates, see the
+    documentation page for your device.
+
 
 Part I - Back up chord library and update device
 ------------------------------------------------
