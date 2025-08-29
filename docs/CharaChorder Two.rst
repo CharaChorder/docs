@@ -48,7 +48,7 @@ The Center Bar
 
 Out of the box, your CC2 will have a machined aluminum
 “bridge” which is often referred to as a metal bar. The metal bar is held in
-place by four M2 x 3 mm screws, with two screws on each end fastening it to each half. The metal bar can be removed by removing these four screws. In doing so, your CC2 halves will now be able to separate as far as you need, provided that you have a long enough :ref:`TRS Cable<CharaChorder Two:TRS Cable>`.
+place by four M2 x 3 mm screws, with two screws on each end fastening it to each half. The metal bar can be removed by removing these four screws. In doing so, your CC2 halves will now be able to separate as far as you need, provided that you have a long enough :ref:`TRS Cable<TRS Cable>`.
 
 The Switches
 ~~~~~~~~~~~~
@@ -195,7 +195,7 @@ which is the latest firmware release by visiting `this
 site <https://charachorder.io/ccos/>`__.
 
 .. warning::
-   IMPORTANT: Before performing the below steps, please make sure that you have a :ref:`backup of your layout<Device Manager:Backups>` as well as a :ref:`backup of your chord library<Device Manager:Backups>` and a :ref:`backup of your GTM settings<Device Manager:Backups>`. The update might reset those, so it's important that you keep backup files handy. For instructions on how to restore backed up files, visit the :ref:`Backups<Device Manager:Restoring from a Backup>` section.
+   IMPORTANT: Before performing the below steps, please make sure that you have a :ref:`backup of your layout, chord library, and settings<Device Manager:Creating a Backup>`. The update might reset those, so it's important that you keep backup files handy. For instructions on how to restore backed up files, visit the :ref:`Backups<Device Manager:Restoring from a Backup>` section.
 
 #. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://charachorder.io/config/layout/>`__
 #. If not auto-connected, click “Connect”
@@ -357,7 +357,8 @@ A3 Layer
 ^^^^^^^^
 
 The A3 layer, sometimes referred to as the “function layer”, is
-accessible with the :ref:`A3 access key<CharaChorder Keys>`. This key is shown as ③
+accessible with the :doc:`A3 access key<CharaChorder Keys>`. This key is shown as ③
+
 in the above :ref:`graphic<CCEnglish Layout>`. It is accessible by pressing and
 holding either pinky down, into the device. In the `Device Manager <https://charachorder.io/config/layout/>`__,
 this key has the name “Function Layer (Left)” and “Function Layer (Right)”, one for each side of the

@@ -1,7 +1,7 @@
 Chords
 ======
 One of CharaChorder devices’ greatest features is their
-:doc:`chording<Chords>` ability. Read this section to learn what
+chording ability. Read this section to learn what
 chording is and how you can benefit from it on your own CharaChorder.
 
 .. contents::  Table of Contents of this Page
@@ -228,3 +228,65 @@ OUTPUT, 5. CONFIRM INPUT
    Once the input is the desired input, press enter.
 
 These steps should take 1-3 seconds
+
+Compound Chords
+~~~~~~~~~~~~~~~
+
+Multiple chords in a row can have a unique output.
+
+We can create compound chords like these:
+
+   * ``website`` and ``charachorder`` can output the url: ``www.charachorder.com``
+   * ``boat`` and ``big`` can output: ``ship``
+   * ``car`` and ``car`` can output: ``traffic``
+
+.. _Compound Timeout Note:
+.. note::
+
+   The second or additional chords have to be pressed within the Compound timeout, by default it's one second (1000 ms).
+
+Add a compound chord
+^^^^^^^^^^^^^^^^^^^^
+
+Currently, compound chords can only be created from the impulse prompt (``i+DUP``).
+
+First, we decide what the compound chord should output. Then, we choose one or more existing chords, or add new chords to be used as the compound chord's inputs.
+
+If we want the compound chord output: ``www.charachorder.com``
+
+   * With chord input 1: ``w+b+s+t``
+   * Output: ``website``
+   * And chord input 2: ``c+h+a+r``
+   * Output: ``charachorder``
+
+#. Open the impulse prompt by chording: ``i+DUP``
+#. At the impulse output prompt, type the compound chord output, one character at a time:
+#. ``www.charachorder.com``
+#. Press: ``enter``
+#. At the impulse input prompt, press the first chord: ``w+b+s+t``
+#. ``impulse input: w + b + s + t``
+
+   .. note::
+
+      The order of the chord input characters doesn't matter, they appear in the impulse input prompt in the order they were pressed.
+
+#. Hold ``shift`` and press ``enter``
+#. ``impulse input: w + b + s + t |``
+
+   .. Note::
+
+      The ``|`` (pipe symbol) after the chord input, indicates that it's waiting for a second chord.
+
+#. Press the second chord: ``c+h+a+r``
+#. ``impulse input: w + b + s + t | c + h + a + r``
+#. Press: ``enter``
+
+We have added a compound chord:
+
+   * Now when we chord: ``w+b+s+t``
+   * followed (:ref:`within the Compound Timeout<Compound Timeout Note>`) by the chord: ``char``
+   * it outputs: ``www.charachorder.com``
+
+.. note::
+
+   Compound chords aren't limited to just two in a row.
