@@ -367,18 +367,9 @@ Chording
 	By chording, we are able to type one word at a time instead of one letter at a time. It’s even possible to have chords for phrases and entire sentences.
 
 .. image:: /assets/images/ManagerSettingsChording.png
-  :width: 1200
-  :alt: The Chording settings box
+  :alt: The Chording settings
 
-In this box, you can adjust settings relating to :doc:`CCOS'<CCOS>` :doc:`chording<Chords>` abilities as well as turn off :doc:`chording<Chords>` alltogether, should you choose to.
-
-.. dropdown:: Auto-delete Timeout
-
-	This setting will change how long CCOS counts time in order to replace characters that precede a chord.
-
-	CCOS devices have a running timer that starts after every single character that is entered in traditional chentry (character entry, i.e. one letter at a time). This timer controls whether or not the next chord that you perform deletes the preceding characters.
-
-	This feature allows users to misfire chords, yet be able to correct them by quickly performing the chord correctly, without having to backspace manually to erase the misfired chord. The result is that the timeout will automatically backspace all of the preceding characters (up to the last breaking character) and replace them with the intended chord.
+In this box, you can adjust settings relating to :doc:`CCOS'<CCOS>` :doc:`chording<Chords>` abilities as well as turn off :doc:`chording<Chords>` altogether, should you choose to.
 
 .. dropdown:: Press Tolerance
 
@@ -386,11 +377,25 @@ In this box, you can adjust settings relating to :doc:`CCOS'<CCOS>` :doc:`chordi
 
 .. dropdown:: Release Tolerance
 
-	he release tolerance refers to a window of time in which a chord can be performed, measured in milliseconds (ms). This timer is initiated upon the first “release” action of any key in a chord and ends once the chord is fully performed, or until the release tolerance runs out, whichever comes first. Read the :ref:`GTM section<GenerativeTextMenu:Release Tolerance>` for a more in-depth explanation.
+	The release tolerance refers to a window of time in which a chord can be performed, measured in milliseconds (ms). This timer is initiated upon the first “release” action of any key in a chord and ends once the chord is fully performed, or until the release tolerance runs out, whichever comes first. Read the :ref:`GTM section<GenerativeTextMenu:Release Tolerance>` for a more in-depth explanation.
 
-.. dropdown:: Compound Chording
+.. _Compound Timeout Setting:
+.. dropdown:: Compound timeout
 
-	This toggle allows you to enable or disable :ref:`compound chords<Chords:Compound Chords>`.
+	The Compound timeout determines if a :ref:`compound chord<Chords:Compound Chords>` succeeds or fails.
+
+	If the time between the individual chords in a compound chord is:
+
+	* less than the Compound timeout, then it succeeds and the individual chords are replaced with the compound chord's output
+	* greater than the Compound timeout, then it fails and the individual chords remain
+
+.. dropdown:: Detection method
+
+	There are three detection methods:
+
+	* Latency (classic) mode. Each key is printed instantly and backspaced after a successful chord.
+	* Smart adds a small amount of latency depending on your tolerances, and only prints characters when it is no longer plausible for the inputs to be a chord input.
+	* Continuous (spurring) allows you to jump from one chord to the next without releasing all keys, with more potential speed traded against the flexibility of character entry.
 
 RGB
 ---
