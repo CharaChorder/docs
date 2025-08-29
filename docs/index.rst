@@ -38,14 +38,3 @@ Table of Contents
    Layout.rst
    SerialAPI.rst
    Beta Releases.rst
-
-   Add-Ons.rst
-   Anchor Bodies.rst
-   Bolt-Ons.rst
-   Breaking Character.rst
-   CharaChorder Keys.rst
-   CharaChorder Core.rst
-   CharaChorder's Mission.rst
-   Chord Modifiers.rst
-   Logic behind the Layout.rst
-   Tools.rst
