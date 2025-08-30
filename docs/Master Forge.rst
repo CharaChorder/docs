@@ -1,5 +1,5 @@
 Master Forge
-===================
+============
 
 Welcome to the Official Master Forge guide. You can select the links
 below to navigate to the topics that you find most relevant.
@@ -9,7 +9,7 @@ below to navigate to the topics that you find most relevant.
   :width: 1200
   :alt: The Master Forge
 
-The Master Forge bundle consists of two :ref:`Forge Digitizers<Digitizers>`, a :ref:`mechanical bridge connector<Master Forge:Mechanical Bridge Connector>` to join the two, and, possibly, depending on which variation you purchased, some additional :doc:`bolt-ons<Bolt-Ons>` and :doc:`add-ons<Add-Ons>`. This section will discuss each of the items included in any of the Master Forge bundles, regardless of the specific configuration.
+The Master Forge bundle consists of two :ref:`Forge Digitizers<Master Forge:The Digitizers>`, a :ref:`mechanical bridge connector<Master Forge:The Bridge Connector>` to join the two, and, possibly, depending on which variation you purchased, some additional :doc:`bolt-ons<Bolt-Ons>` and :doc:`add-ons<Add-Ons>`. This section will discuss each of the items included in any of the Master Forge bundles, regardless of the specific configuration.
 
 :ref:`Click here to skip to the Getting Started Guide.<Master Forge:Getting Started>`
 
@@ -38,17 +38,17 @@ box. Once you open the box, you’ll find your brand new Master Forge inside its
   :width: 1200
   :alt: Original Backer Case
 
-Once you open the tactical case, you’ll meet your shiny, new Master Forge. The Master Forge consists of two digitizers with 8, 5-way switches, joined together by a :ref:`mechanical bridge connector<Master Forge:Mechanical Bridge Connector>`.
+Once you open the tactical case, you’ll meet your shiny, new Master Forge. The Master Forge consists of two digitizers with 8, 5-way switches, joined together by a :ref:`mechanical bridge connector<Master Forge:The Bridge Connector>`.
 
 The Digitizers
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~
 
 Your device will come with two Digitizers which, together, comprise the Master Forge. Each digitizer typically corresponds to each hand and is designed for the ergonomics and comfort of each hand. The digitizers are composed of a 3D printed endoskeleton and a machined-aluminum exoskeleton. The exoskeleton of the digitizer is actually two pieces which are the trapezoidal-shaped “shell,” and the flat and partially hollowed out “baseplate”. They are held together by five M2, Philips screws which are
 under the “feet” pads of the device. The feet are round, rubberized and help the device to have a grip on desks and other smooth surfaces.
 
-There are two different kinds of digitizers, each of which can be purchased individually; the left digitizer and the right digitizer. Each one contains a :doc:`Platinum CharaChorder Core<CharaChorder Core>` where they store chords, layouts, and settings. 
+There are two different kinds of digitizers, each of which can be purchased individually; the left digitizer and the right digitizer. Each one contains a :doc:`Platinum CharaChorder Core<CharaChorder Core>` where they store chords, layouts, and settings.
 
-The front of each digitizer has a slotted rail which allows :doc:`bolt-ons<Bolt-Ons>` to be "bolted" onto the digitizer. An example of a :doc:`bolt-on<Bolt-Ons>` is the :ref:`bridge connector<The Bridge Connector>`. Along this slotted rail you'll find two USB-C ports on each digitizer, one at the exterior edge of each "shoulder."
+The front of each digitizer has a slotted rail which allows :doc:`bolt-ons<Bolt-Ons>` to be "bolted" onto the digitizer. An example of a :doc:`bolt-on<Bolt-Ons>` is the :ref:`bridge connector<Master Forge:The Bridge Connector>`. Along this slotted rail you'll find two USB-C ports on each digitizer, one at the exterior edge of each "shoulder."
 
 .. _M4G Frontside:
 .. image:: /assets/images/M4G-Front.webp
@@ -62,7 +62,8 @@ The underside of each digitizer is partially hollow to allow for cables and conn
   :width: 1200
   :alt: Bottom side of the Master Forge
 
-On the sides of each digitizer, you'll notice the :ref:`bookend rails<The Bookend Rails>`. Under each rail, on the body of the digitizer, you'll see holes for the screws that hold the bookend rails in place. 
+On the sides of each digitizer, you'll notice the :ref:`bookend rails<Master Forge:The Bookend Rails>`. Under each rail, on the body of the digitizer, you'll see holes for the screws that hold the bookend rails in place.
+
 
 .. _M4G Side:
 .. image:: /assets/images/M4G-Side.webp
@@ -70,43 +71,43 @@ On the sides of each digitizer, you'll notice the :ref:`bookend rails<The Booken
   :alt: Original Backer Case
 
 The Bridge Connector
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 
-Out of the box, your :ref:`digitizers<The Digitizers>` will be connected by a mechanical bridge :doc:`bolt-on<Bolt-Ons>`. This :doc:`bolt-on<Bolt-Ons>` is also machined-aluminum and made from a slotted rail. It's held in place by two, M3 nylon screws. Nylon screws don't "set" into the aluminum like steel screws, which prevents damage to the slotted rails, since the slotted rails at the front of the device don't have any holes for screws to go into. It's more of a friction hold, which is a key concept of :doc:`bolt-ons<Bolt-Ons>`. 
+Out of the box, your :ref:`digitizers<Master Forge:The Digitizers>` will be connected by a mechanical bridge :doc:`bolt-on<Bolt-Ons>`. This :doc:`bolt-on<Bolt-Ons>` is also machined-aluminum and made from a slotted rail. It's held in place by two, M3 nylon screws. Nylon screws don't "set" into the aluminum like steel screws, which prevents damage to the slotted rails, since the slotted rails at the front of the device don't have any holes for screws to go into. It's more of a friction hold, which is a key concept of :doc:`bolt-ons<Bolt-Ons>`.
 
 .. _M4G Bridge Connector:
 .. image:: /assets/images/Bridge.webp
   :width: 1200
   :alt: The Mechanical and Electrical bridges
 
-Additionally, the two :ref:`digitizers<The Digitizers>` are connected by the electrical bridge connector, also known as the mini-connector. This piece fits inside the cavity of the :ref:`mechanical bridge connector<Mechanical Bridge Connector>` and should be removed BEFORE removing the mechanical bridge connector.
+Additionally, the two :ref:`digitizers<Master Forge:The Digitizers>` are connected by the electrical bridge connector, also known as the mini-connector. This piece fits inside the cavity of the :ref:`mechanical bridge connector<Master Forge:The Bridge Connector>` and should be removed BEFORE removing the mechanical bridge connector.
 
 .. note::
-    When separating the digitizers, the :ref:`electrical bridge connector<Electrical Bridge Connector>` should be removed before the :ref:`mechanical bridge connector<Mechanical Bridge Connector>`. 
+    When separating the digitizers, the :ref:`electrical bridge connector<Master Forge:The Bridge Connector>` should be removed before the :ref:`mechanical bridge connector<Master Forge:The Bridge Connector>`.
 
-    Similarly, when putting the digitizers together again, they should be assembled in reverse order of how they were disassembled; that is, the :ref:`mechanical bridge connector<Mechanical Bridge Connector>` should be secured into place before pressing the :ref:`electrical bridge connector<Electrical Bridge Connector>` into place.
+    Similarly, when putting the digitizers together again, they should be assembled in reverse order of how they were disassembled; that is, the :ref:`mechanical bridge connector<Master Forge:The Bridge Connector>` should be secured into place before pressing the :ref:`electrical bridge connector<Master Forge:The Bridge Connector>` into place.
 
 
-The electrical bridge connector is a thin printed circuit board that ends in a USB-C plug on either side. This makes it so that the front right port of the left digitizer feeds into the front left port of the right digitizer. 
+The electrical bridge connector is a thin printed circuit board that ends in a USB-C plug on either side. This makes it so that the front right port of the left digitizer feeds into the front left port of the right digitizer.
 
-When connected by the official Forge bridge connector, the left digitizer should be the one connected directly to your computer. See :ref:`Getting Started<tag?>` for more information about this.
+When connected by the official Forge bridge connector, the left digitizer should be the one connected directly to your computer. See :ref:`Getting Started<Master Forge:Getting Started>` for more information about this.
 
 The Bookend Rails
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~
 
-Each :ref:`digitizer<The Digitizers>` of the Master Forge comes with three removable bookend rails. These rails are what allow the digitizers to attach to other :doc:`anchor bodies<Anchor Bodies>` and :ref:`bolt-ons<Bolt-Ons>`. 
+Each :ref:`digitizer<Master Forge:The Digitizers>` of the Master Forge comes with three removable bookend rails. These rails are what allow the digitizers to attach to other :doc:`anchor bodies<Anchor Bodies>` and :doc:`bolt-ons<Bolt-Ons>`.
 
 .. _M4G Rails:
 .. image:: /assets/images/Rails.webp
   :width: 1200
   :alt: The three Bookend Rails
 
-The bookend rails are made of machined aluminum and are held in place on the body of the :ref:`digitizers<The Digitizers>` by two (size), steel screws. 
+The bookend rails are made of machined aluminum and are held in place on the body of the :ref:`digitizers<Master Forge:The Digitizers>` by two (size), steel screws.
 
 The Splitter
-~~~~~~~~~~~~~~
+~~~~~~~~~~~~
 
-Included with every Master Forge order is a 3D-printed Splitter. This piece serves to prevent anything from falling into the space between the forge :ref:`digitizers<The Digitizers>` whenever these are connected by the :ref:`bridge connector<The Bridge Connector>`.
+Included with every Master Forge order is a 3D-printed Splitter. This piece serves to prevent anything from falling into the space between the forge :ref:`digitizers<Master Forge:The Digitizers>` whenever these are connected by the :ref:`bridge connector<Master Forge:The Bridge Connector>`.
 
 .. _M4G Splitter:
 .. image:: /assets/images/Splitter.webp
@@ -117,17 +118,17 @@ The Switches
 ~~~~~~~~~~~~
 
 Instead of the one-dimensional buttons that traditional keyboards use,
-Forge :ref:`digitizer<The Digitizers>` levers, which we will call switches, detect motion in three-dimensions so users have access to 64 unique inputs without their fingers breaking contact with the device. The :ref:`digitizer<The Digitizers>` switches produce a digital input, as opposed to analog. All of the switch caps are 3D-printed and measure [measurements]. Under the switch cap, there's a stem that's [measurements] thick and square in shape. The stem is not removable without disassembling the device whereas the caps are hot-swappable.
+Forge :ref:`digitizer<Master Forge:The Digitizers>` levers, which we will call switches, detect motion in three-dimensions so users have access to 64 unique inputs without their fingers breaking contact with the device. The :ref:`digitizer<Master Forge:The Digitizers>` switches produce a digital input, as opposed to analog. All of the switch caps are 3D-printed and measure [measurements]. Under the switch cap, there's a stem that's [measurements] thick and square in shape. The stem is not removable without disassembling the device whereas the caps are hot-swappable.
 
-Each :ref:`digitizer<The Digitizers>` has eight 5-way switches. Starting from the outside on each :ref:`digitizer<The Digitizers>` and working inwards, the switches correspond to the following fingers; pinky, ring, middle, and index. The two switches along the "torso," that is, the inner-most side of each :ref:`digitizer<The Digitizers>`, correspond to the thumb. You can see what characters are on each switch by default in :doc:`Layout<Layout>`. Additionally, there are two more switches not on the “home-row” which can be accessed by the ring and middle fingers. The correct positioning of your fingers is for them to follow the arc in which the switches are laid out.
+Each :ref:`digitizer<Master Forge:The Digitizers>` has eight 5-way switches. Starting from the outside on each :ref:`digitizer<Master Forge:The Digitizers>` and working inwards, the switches correspond to the following fingers; pinky, ring, middle, and index. The two switches along the "torso," that is, the inner-most side of each :ref:`digitizer<Master Forge:The Digitizers>`, correspond to the thumb. You can see what characters are on each switch by default in :doc:`Layout<Layout>`. Additionally, there are two more switches not on the “home-row” which can be accessed by the ring and middle fingers. The correct positioning of your fingers is for them to follow the arc in which the switches are laid out.
 
 .. note::
    **IMPORTANT**: In this manual, we will refer to switches in the
    following way, starting from the pinky finger and working inwards:
    pinky, ring, middle, index, thumb 1, and thumb 2. The
-   switches below the “home-row” will be referred to as the aux 1 and aux 2    
+   switches below the “home-row” will be referred to as the aux 1 and aux 2
    switches, where the switch further to the left on the left digitizer
-   is aux 1. Symmetrically, aux 1 is the switch furthest to the right on the 
+   is aux 1. Symmetrically, aux 1 is the switch furthest to the right on the
    right half.
 
 Each switch has five press-able directions. Throughout this guide, we
@@ -146,78 +147,61 @@ switch can be pressed down, into the device. We often refer to this
 press as a 3D press, since it’s not a lateral movement, but rather a
 movement along the Z axis of the switch. This special press requires no
 lateral movement in order to work, just apply force onto the switch
-“into” the device. 
+“into” the device.
 
 The four cardinal directions on a switch can be mapped
 to a configurable key, which can include letters, numbers, symbols,
-control keys and even function keys. You can see the most current list
-of configurable action codes in the `Device Manager <https://manager.charachorder.com/config/layout/>`__. The 3D press cannot be assigned to an individual character, but, instead, allows you to press all four cardinal directions on a switch simultaneously, as a :doc:`chord<Chording>`. 
+control keys and even function keys. You can see the most current list of configurable action codes in the `Device Manager <https://manager.charachorder.com/config/layout/>`__. The 3D press cannot be assigned to an individual character, but, instead, allows you to press all four cardinal directions on a switch simultaneously, as a :doc:`chord<Chords>`.
 
 Connections
 -----------
 
 Every Master Forge order will come with the power
-cable that goes out to the computer inside the box. The power cable included with every Master Forge is a standard, braided USB-A to USB-C cable. Some :ref:`configurations<Master Forge Configurations>` may include an additional cord. To know what's included in your order, read the :ref:`configurations<Master Forge:Master Forge Configurations>` section.
+cable that goes out to the computer inside the box. The power cable included with every Master Forge is a standard, braided USB-A to USB-C cable. Some :ref:`configurations<Master Forge:Master Forge Configurations>` may include an additional cord. To know what's included in your order, read the :ref:`configurations<Master Forge:Master Forge Configurations>` section.
 
 .. _M4G Power Cable:
 .. image:: /assets/images/Power-Cable.webp
   :width: 1200
   :alt: The Power cable included with the Master Forge
 
-Another cable that may be included with your order is a 3.2 gen 2, braided USB-C to USB-C cable. This cord is meant to be used if you choose to separate your :ref:`digitizers<The Digitizers>`.
+Another cable that may be included with your order is a 3.2 gen 2, braided USB-C to USB-C cable. This cord is meant to be used if you choose to separate your :ref:`digitizers<Master Forge:The Digitizers>`.
 
 .. dropdown:: Things to remember if you separate your digitizers
-    
-    There are two main things to remember if you choose to use your Master Forge separated: 
+
+    There are two main things to remember if you choose to use your Master Forge separated:
         1. The cable that you use to connect the digitizers must be a 3.2 gen 2, C to C cable.
-        2. As pointed out in the :ref:`getting started section<Port Requirement>` of this page, power to an :doc:`anchor body<Anchor Bodies>` or :ref:`bolt-on<Bolt-Ons>` must be received through the front left USB-C port. This means that every anchor body or bolt-on that you add to your system has to be linked to the Master through the port on the front left.   
+        2. As pointed out in the :ref:`getting started section<Port Requirement>` of this page, power to an :doc:`anchor body<Anchor Bodies>` or :doc:`bolt-on<Bolt-Ons>` must be received through the front left USB-C port. This means that every anchor body or bolt-on that you add to your system has to be linked to the Master through the port on the front left.
 
 Getting Started
-*******************
+***************
 
 The Master Forge is plug-and-play, so it doesn’t require any
 additional software to work. Before plugging your Forge in for
-the first time, it’s important to make sure that either the :ref:`electrical bridge connector<Master Forge:The Bridge Connector>` or a USB-C cable is correctly plugged into both :ref:`digitizers<Master Forge:The Digitizers>`. 
+the first time, it’s important to make sure that either the :ref:`electrical bridge connector<Master Forge:The Bridge Connector>` or a USB-C cable is correctly plugged into both :ref:`digitizers<Master Forge:The Digitizers>`.
 
 .. _Port Requirement:
+
 All Forge :doc:`anchor bodies<Anchor Bodies>`, including the Master Forge Digitizers, should be connected to a power source through their front, left USB-C port. It's important to use that specific port to connect your device to your computer because no other port will permit your Forge to function correctly. As a rule of thumb, all Forge :doc:`anchor bodies<Anchor Bodies>` must receive power through their front, left port. The other three ports are outgoing ports in order to connect other :doc:`anchor bodies<Anchor Bodies>` and :doc:`bolt-ons<Bolt-Ons>`. Each additional :doc:`anchor body<Anchor Bodies>` or :doc:`bolt-on<Bolt-Ons>` will need to "receive" power from the "Master" :doc:`anchor body<Anchor Bodies>`, or from an :doc:`anchor body<Anchor Bodies>` or :doc:`bolt-on<Bolt-Ons>` connected to the Master. A "Master" :doc:`anchor body<Anchor Bodies>` is the one connected directly to your computer. Please note that some :doc:`bolt-ons<Bolt-Ons>` may function as a Master.
 
-If you haven't done so, now would be the time to plug the included USB-C to USB-A cable included with your order into the LEFT :doc:`digitizer<Master Forge:The Digitizers>`. If you would rather use an after-market USB-C to USB-C cable instead, due to a personal preference or computer requirement, that is also okay. Regardless of your selection, we'll refer to the cable that connects directly to the computer as the sole Power Cable. If you have any additional :doc:`bolt-ons<Bolt-Ons>`, now would be a good time to plug them into your Master. 
+If you haven't done so, now would be the time to plug the included USB-C to USB-A cable included with your order into the LEFT :ref:`digitizer<Master Forge:The Digitizers>`. If you would rather use an after-market USB-C to USB-C cable instead, due to a personal preference or computer requirement, that is also okay. Regardless of your selection, we'll refer to the cable that connects directly to the computer as the sole Power Cable. If you have any additional :doc:`bolt-ons<Bolt-Ons>`, now would be a good time to plug them into your Master.
 
-.. warning::
-   IMPORTANT: During your first time plugging your Forge in,
-   and every time thereafter when you have :doc:`realtime-feedback<GenerativeTextMenu>` enabled, it’s
-   recommended that you have your cursor in a blank typing space. :doc:`CCOS<CharaChorder Operating System (CCOS)>` devices, of which the Master Forge is one, have a welcome message that can send instructions to your 
-   computer that are not intended by the user. This feature can be disabled in
-   the :doc:`GTM<GenerativeTextMenu>`. 
+Once you have your setup connected, you can plug the Master Power Cable into your computer. Upon connecting, the LED lights under your :doc:`digitizers<Digitizers>` will start their rainbow cycle.
 
-Once you have your setup connected, you can plug the Master Cable into your computer. Upon connecting, you may notice the following things: 
-    If your cursor is somewhere where text can be entered… 
-        - You will first see the text “Loading ### Chordmaps” highlighted, and a few moments later, “CCOS is ready.” 
-    Regardless of whether or not your cursor is somewhere where text can be entered… 
-        - The LED lights under your :doc:`digitizers<Digitizers>` will start their rainbow cycle.
-
-If you have :ref:`realtime feedback<GenerativeTextMenu:Realtime feedback>` enabled, once you can see the highlighted text that reads
-“CCOS is ready”, your device is ready to be used.
-
-.. note::
-   IMPORTANT: :ref:`Realtime feedback<GenerativeTextMenu:Realtime feedback>` is enabled by default on new CharaChorder devices.
-
-If this is your very first time using a :doc:`CCOS<CharaChorder Operating System (CCOS)>` device, we recommend the following:
+If this is your very first time using a :doc:`CCOS<CCOS>` device, we recommend the following:
     #. Place your cursor into a place where it's safe to type
-    #. Place your hands on the :doc:`digitizers<Master Forge:The Digitizers>` and nestle your fingers on the switches
-    #. Move your index, middle, and ring fingers southwards, towards your body, one at a time. 
+    #. Place your hands on the :ref:`digitizers<Master Forge:The Digitizers>` and nestle your fingers on the switches
+    #. Move your index, middle, and ring fingers southwards, towards your body, one at a time.
 
-These directions correspond to the letters U, O, E, T, N, and S. Now, let's try a :doc:`chord<Chording>`. 
+These directions correspond to the letters U, O, E, T, N, and S. Now, let's try a :doc:`chord<Chords>`.
 
-.. dropdown:: How to perform a Chord? 
+.. dropdown:: How to perform a Chord?
 
-    A chord is a type of input that allows you to press multiple keys at a time in order to achieve a predetermined :ref:`output<Chords:Chord Output>`. In order to perform a chord, you must press all of the :ref:`input keys<Chords:Chord Input>` at the same time, within the :ref:`press time limit<GenerativeTextMenu:Press Tolerance>`. Additionally, you must release all of the keys at the same time, that is, within the :ref:`release time limit<GenerativeTextMenu:Release Tolerance>`. Once these steps are performed accurately, your CCOS device will, very quickly, type the keys pressed, backspace them, and then output the predetermined chord. 
+    A chord is a type of input that allows you to press multiple keys at a time in order to achieve a predetermined :ref:`output<Chords:Chord Output>`. In order to perform a chord, you must press all of the :ref:`input keys<Chords:Chord Input>` at the same time, within the :ref:`press time limit<GenerativeTextMenu:Press Tolerance>`. Additionally, you must release all of the keys at the same time, that is, within the :ref:`release time limit<GenerativeTextMenu:Release Tolerance>`. Once these steps are performed accurately, your CCOS device will, very quickly, type the keys pressed, backspace them, and then output the predetermined chord.
 
 We can test out your preloaded chords, of which there are 500, by :doc:`chording<Chords>` both index fingers South, towards your body. You might need to play around with the timing a bit. Just remember that you have to press both switches together, at the same time, and then release them at the same time. As mentioned before, it might take a bit of playing around with the timing, but, eventually, you should see the word "the" output onto your typing space. Congratulations! You just performed a chord!
 
 .. dropdown:: Some other chords you can try
-    
+
     Here are some other preloaded chords that you can try. You can read the section on :ref:`chord notation<Chords:Chord Notation>` for instructions on how to interpret the following chords.
         - c+b = because
         - m+b = maybe
@@ -234,111 +218,135 @@ training website; https://www.iq-eq.io/#/
   :alt: Practicing on DOT I/O
 
 Setting Up
------------
+----------
 
 There are a few steps that you’ll likely want to take if this is your
 first time using your Master Forge. In the following section, we
 will update your device, explain navigation in the :doc:`GTM<GenerativeTextMenu>`, and demonstrate the default layout on your new device.
 
 Updating your Device
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 
 .. _M4G-checking-your-devices-firmware:
 
 Checking your Device’s Firmware
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can check your device’s current firmware by following the steps
-below: 
+You can check your device’s current firmware by following the steps below:
 
-#. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://charachorder.io/config/layout/>`__ 
-#. Click “Connect” at the bottom center of the page
-   
-.. _Connect Button:
-.. image:: /assets/images/FW-connect-button.JPG
-  :width: 600
-  :alt: Connect Button on Device Manager
-3. When the popup box comes up that reads “charachorder.io wants to connect to a serial port,” choose your Master Forge, then click the blue “connect” button
+#. On a chromium based browser, such as Chrome, go to the `Device Manager <https://charachorder.io/>`__ (Linux users see :ref:`this link<serialportaccess>` for more information about configuring serial port access).
+#. Click “Connect” at the bottom center of the page.
 
-.. _Serial Port Popup:
-.. image:: /assets/images/SerialPort-Message.webp
-  :width: 600
-  :alt: Popup to select serial device
+   .. _Connect Button Check Firmware:
+   .. image:: /assets/images/FW-connect-button.JPG
+      :width: 600
+      :alt: Connect Button on Device Manager
 
-After following the above steps, you can find your
-firmware version in the bottom left of your screen. It will read something like this:
-``CCOS 2.0.2``
+#. When the popup box comes up that reads “charachorder.io wants to connect to a serial port,” choose one of the two listed devices with the same name: Master Forge USB Serial (currently each Master Forge half is detected separately), then click the “connect” button.
 
-.. _Firmware Check:
-.. image:: /assets/images/DMFW.png
-  :width: 600
-  :alt: Checking the firmware on Device Manager
+   .. _Serial Port Popup Check Firmware:
+   .. image:: /assets/images/SerialPort-Message-M4G.webp
+      :width: 435
+      :alt: Popup to select serial device
+
+Now you can find your firmware version for the connected Master Forge half, at the bottom left of the page. It will read something like this: ``CCOS 2.1.0``
+
+The device name is also shown at the bottom center.
+
+The left half is called: Forge M4G
+
+   .. _Bottom Bar Check Firmware M4G Left Half:
+   .. image:: /assets/images/DM-Bottom-Bar-M4G-S3.webp
+      :width: 724
+      :alt: Device Manager bottom bar, CCOS version and device name M4G (Master Forge's left half).
+
+The right half is called: Forge M4GR
+
+   .. _Bottom Bar Check Firmware M4G Right Half:
+   .. image:: /assets/images/DM-Bottom-Bar-M4GR-S3.webp
+      :width: 724
+      :alt: Device Manager bottom bar, CCOS version and device name M4GR (Master Forge's right half).
+
+To check the other half's firmware version, disconnect by clicking on the device name at the bottom center of the page. Then reconnect by clicking on the bottom center connect button and choose the other Master Forge USB Serial device.
 
 Updating the Firmware
-^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
 
-If you find that your device is not running the latest firmware version,
-you can follow the steps below to update your device. You can check
-which is the latest firmware release by visiting `this
-site <https://charachorder.io/ccos/m4g_s3/>`__. 
+Currently each half of the Master Forge has to be updated separately.
 
 .. warning::
-   IMPORTANT: Before performing the below steps, please make sure that you have a :ref:`backup of your layout<Device Manager:Creating a Backup>` as well as a :ref:`backup of your chord library<Device Manager:Creating a Backup>` and a :ref:`backup of your GTM settings<Device Manager:Creating a Backup>`. The update might reset those, so it's important that you keep backup files handy. For instructions on how to restore backed up files, visit the :ref:`Backups<Device Manager:Restoring from a Backup>`    section.
+   IMPORTANT: Before updating the firmware, please make sure that you have a :ref:`backup of the Master Forge's left half (it's called Forge M4G), it has your layout, chord library, and settings<Device Manager:Creating a Backup>`. The update might reset those, so it's important that you keep backup files handy. Currently the Master Forge's right half (called Forge M4GR) only controls it's own LED settings. For instructions on how to restore backed up files, visit the :ref:`Restoring from a Backups<Device Manager:Restoring from a Backup>` section.
 
-The Master Forge supports over-the-air (OTA) updates. You can follow the steps below to update your Forge:
-    #. Head to the `CharaChorder Device Manager <https://charachorder.io/ccos/>`__
-    #. If you're not on the Firmware Updates page yet, click ``CCOS Updates`` on the bottom left of the page.
+To check which is the latest firmware release for the Master Forge, here are the firmware pages for each half:
 
-        .. _Firmware Updates Page:
-        .. image:: /assets/images/DM-CCOS-button.jpg
-          :width: 600
-          :alt: CCOS button
-    #. Out of the options at the top, select ``m4g_s3``
-       
-        .. _Firmware Selection:
-        .. image:: /assets/images/m4g-firmware-selection.JPG
-          :width: 600
-          :alt: The correct firmware to select
-    #. You can compare the latest release (the version at the top of the list) with your device's version. Select your desired version.
-    #. If you haven't done so already, Connect your device to the Manager by clicking "Connect" at the bottom of the page
-        
-        .. _Connect Button:
-        .. image:: /assets/images/FW-connect-button.JPG
-          :width: 600
-          :alt: Connect Button on Device Manager
-    #. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your Master Forge, then click the blue “connect” button
-     
-        .. _Serial Port Popup:
-        .. image:: /assets/images/SerialPort-Message.webp
-          :width: 600
-          :alt: Popup to select serial device
-    #. Click the blue "Apply Update" button
-        
-        .. _Apply Update Button:
-        .. image:: /assets/images/DM-applyupdate-button.jpg
-          :width: 600
-          :alt: Apply Update Button
+* Left half (M4G) `<https://charachorder.io/ccos/m4g_s3/>`__
+* Right half (M4GR) `<https://charachorder.io/ccos/m4gr_s3/>`__
 
-Your device will reboot on its own and will have the new firmware on it once it starts up again. You can :ref:`check your firmware<M4G-checking-your-devices-firmware>` to make sure that the update has been applied correctly.
+You can follow the steps below to update each Master Forge half:
 
+#. Head to the Device Manager `<https://charachorder.io/>`__
+#. Connect to the device manager by clicking the bottom middle ``Connect`` button.
+
+   .. _Connect Button Update Firmware:
+   .. image:: /assets/images/FW-connect-button.JPG
+      :width: 600
+      :alt: Connect Button on Device Manager
+
+#. When the popup box comes up that reads “charachorder.io wants to connect to a serial port,” choose one of the two listed devices with the same name: Master Forge USB Serial (currently each Master Forge half is detected separately), then click the “connect” button.
+
+   .. _Serial Port Popup Update Firmware:
+   .. image:: /assets/images/SerialPort-Message-M4G.webp
+      :width: 435
+      :alt: Popup to select serial device
+
+   Note, which Master Forge half we are updating first. The device name is shown at the bottom center:
+
+   The left half is called: Forge M4G
+
+   .. _Bottom Bar Update Firmware M4G Left Half:
+   .. image:: /assets/images/DM-Bottom-Bar-M4G-S3.webp
+      :width: 724
+      :alt: Device Manager bottom bar, CCOS version and device name M4G (Master Forge's left half).
+
+   The right half is called: Forge M4GR
+
+   .. _Bottom Bar Update Firmware M4G Right Half:
+   .. image:: /assets/images/DM-Bottom-Bar-M4GR-S3.webp
+      :width: 724
+      :alt: Device Manager bottom bar, CCOS version and device name M4GR (Master Forge's right half).
+
+#. Click on the bottom left button: CCOS (your firmware version is listed here, for example: ``CCOS 2.1.0``).
+#. Click on the firmware version you want to install.
+#. Before you start the update, make sure that you don't type on the Master Forge while it's updating. It shouldn't take more than 30-60 seconds. The Master Forge supports over-the-air (OTA) updates, therefore it's enough to just click on the ``Apply Update`` button.
+
+   While it's updating, the device manager disconnects, and the Master Forge disconnects from the OS. In Windows, it plays a device disconnected sound. When it's done, Windows plays a device connected sound.
+
+   .. _Apply Update Button:
+   .. image:: /assets/images/DM-apply-update-button-M4G.png
+      :width: 600
+      :alt: Apply Update Button
+
+#. Connect to the device manager and look at the CCOS x.x.x version, at the bottom left on the page, to see that the updated was successful.
+
+Now repeat the steps, but pick the other Master Forge USB Serial device from the connect device popup box to update the other half.
 
 .. Dropdown: Only use in Emergency
-	
+
 	If, for some reason, you weren't able to complete an OTA update, you can follow the steps below to update your CCOS manually.
 
  	Doing it manually, the Master Forge must be updated one :ref:`digitizer<Master Forge:The Digitizers>` at a time.
- 		#. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://charachorder.io/ccos/>`__ 
+ 		#. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://charachorder.io/ccos/>`__
  		#. If not auto-connected, click "Connect"
 
-       		   .. _Connect Button:
+       		   .. _Connect Button Emergency:
      		   .. image:: /assets/images/FW-connect-button.jpg
     		      :width: 600
     		      :alt: Connect Button on Device Manager
  		#. When the popup box comes up that reads “manager.charachorder.com wants to connect to a serial port”, choose the CCOS device you wish to update, then click the blue “connect” button
 
-        		 .. _Serial Port Popup:
-      		  .. image:: /assets/images/SerialPort-Message.jpg
-       		   :width: 600
+        		 .. _Serial Port Popup Emergency:
+      		  .. image:: /assets/images/SerialPort-Message-M4G.webp
+       		   :width: 435
         		  :alt: Popup to select serial device
  		#. If not already on the Firmware Updates page, click "CCOS Updates" at the bottom left of the page
 
@@ -364,7 +372,7 @@ Your device will reboot on its own and will have the new firmware on it once it 
    				IMPORTANT: Make sure that the file you download is named exactly like this: CURRENT.UF2 . If there are any other characters in the file name, the file will not work. “CURRENT.UF2(1)” will NOT work. Additionally, the file name is case sensitive; all letters must be capitalized.
 
 
-    
+
  		#. Copy the CURRENT.UF2 file that you just downloaded and paste it into the Forge drive in your file explorer
  		#. When your computer asks you how you would like to resolve the issue of two files with the same name, select “Replace file”.
 
@@ -380,8 +388,8 @@ Your device will reboot on its own and will have the new firmware on it once it 
  		#. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your Master Forge, then click the blue “connect” button
 
         		 .. _Serial Port Popup:
-       		 .. image:: /assets/images/SerialPort-Message.jpg
-       		   :width: 600
+       		 .. image:: /assets/images/SerialPort-Message-M4G.webp
+       		   :width: 435
       		    :alt: Popup to select serial device
  		#. Use the blue "Bootloader" text to reboot the right digitizer into bootloader
 
@@ -403,12 +411,13 @@ Your device will reboot on its own and will have the new firmware on it once it 
 		 #. When your computer asks you how you would like to resolve the issue of two files with the same name, select “Replace file”.
 
 		Once again, your Forge will automatically reboot and the
-Forge drive will have disappeared. You can check your device’s firmware
-version by following the steps :ref:`here<m4g-checking-your-devices-firmware>`.
+
+  Forge drive will have disappeared. You can check your device’s firmware
+  version by following the steps :ref:`here<m4g-checking-your-devices-firmware>`.
 
 
 Understanding the Settings
-----------------------------
+--------------------------
 
 The Forge has operational settings that are user-configurable. Since the
 device is plug-and-play, you don’t need any software to edit the
@@ -434,22 +443,22 @@ Keyboard, ``M`` for Mouse, ``C`` for Chording, ``D`` for Display, and
 ``R`` for Resources.
 
 In some submenus, you will see numeric values. In order to increase or
-decrease these, you can use the arrow keys on your :ref:`digitizers<The Digitizers>`.
+decrease these, you can use the arrow keys on your :ref:`digitizers<Master Forge:The Digitizers>`.
 
 ``CharaChorder > Chording > Press Tolerance [ Use up/down arrow keys to adjust: 25ms ]``
 
 You can read an explanation on all of the settings on your CharaChorder device :doc:`here<GenerativeTextMenu>`.
 
 Learning the Layout
----------------------
+-------------------
 
-The default on the Master Forge :ref:`digitizers<The Digitizers>`, which we will refer to as the M4 English layout, has been designed to favor :doc:`bigrams<Logic behind the Layout>` and :doc:`trigrams<Logic behind the Layout>` commonly used in the English language while making the letters accessible for a logical choice of :doc:`lexical<Chords>`. You can find the map below.
+The default Master Forge layout, which we will refer to as the M4 English layout, has been designed to favor bigrams and trigrams commonly used in the English language while making the letters accessible for a logical choice of :doc:`lexical chords<Chords>`. You can find the quick reference guide for the layout below, and :ref:`read about how the layout was designed, here <Layout:Design of the layout>`.
 
 .. note::
    General consensus amongst the community is that, while not perfect,
    the letter arrangement of the default layout is good enough that further modifications would provide very little benefit
    considering 500+ WPM have been reached in peak conditions.
-   
+
    **Most commonly only special character and number placement are changed**, for example to benefit coding.
 
    Some exceptions include optimizing for VIM bindings, though people have successfully used the default layout for VIM as well
@@ -481,12 +490,12 @@ By default, auxiliary layers are accessible by pressing and holding the "layer a
 
 .. _Toggleable Layers:
 .. dropdown:: Toggleable Layers
-   
-    If you have no interest in knowing why this works, you may skip down to the steps described below in order to enable toggleable layers.
-    CCOS devices use a "shifted' layer method that requires a press and hold of a key in order to access keys on auxiliary layers. By default, the layer access keys tell the device to go into that layer. Releasing the switch tells the device to return to the base layer, since the same "location" is mapped to the layer access button on the target layer as well. We can exploit this functionality and force the CCOS device to stay in a certain layer by simply removing the layer access key from the target layer. That way, the device doesn't know that it should return to the base layer when you release the switch. 
 
-    In order to set your device up to have toggleable layers instead of shifted layers, you'll need to head to the `Device Manager <https://charachorder.io/config/layout/>`__ and remap some keys. We'll describe here how to remap the A2 layer access key, but the same steps apply to the A3 layer. These instructions assume that you have already connected your device to the `Device Manager <https://charachorder.io/config/layout/>`__. 
-    
+    If you have no interest in knowing why this works, you may skip down to the steps described below in order to enable toggleable layers.
+    CCOS devices use a "shifted' layer method that requires a press and hold of a key in order to access keys on auxiliary layers. By default, the layer access keys tell the device to go into that layer. Releasing the switch tells the device to return to the base layer, since the same "location" is mapped to the layer access button on the target layer as well. We can exploit this functionality and force the CCOS device to stay in a certain layer by simply removing the layer access key from the target layer. That way, the device doesn't know that it should return to the base layer when you release the switch.
+
+    In order to set your device up to have toggleable layers instead of shifted layers, you'll need to head to the `Device Manager <https://charachorder.io/config/layout/>`__ and remap some keys. We'll describe here how to remap the A2 layer access key, but the same steps apply to the A3 layer. These instructions assume that you have already connected your device to the `Device Manager <https://charachorder.io/config/layout/>`__.
+
     #. Make sure that the A2 layer access key is mapped to the key of your choice on the Alpha layer (A1 layer). This is the key you will use to toggle into the A2 layer
     #. On the A2 layer, find the same location that you mapped the A2 layer access key and change that key (on the A2 layer) to ``No Key Pressed``. This change is what prevents your device from shifting back into the A1 layer
     #. On the A2 layer, choose another location and map the A2 layer access key there. This is the key that you will use to return to the Alpha layer.
@@ -522,7 +531,7 @@ A2 Layer
 The A2 layer, sometimes referred to as the “number layer”, is accessible
 with the :doc:`A2 access key<CharaChorder Keys>`. In the above :ref:`graphic<CCEnglish Layout>`, you’ll see this labeled
 as “num-shift.” In the `Device Manager <https://charachorder.io/config/layout/>`__,
-this key has the name “Numeric Layer (Left)” and “Numeric Layer (Right)”, one for each :ref:`digitizer<Master Forge:The Digitizers>`. 
+this key has the name “Numeric Layer (Left)” and “Numeric Layer (Right)”, one for each :ref:`digitizer<Master Forge:The Digitizers>`.
 
 By default, the A2 Layer is accessible by pressing and holding either
 pinky finger outwards, that is, west on the left pinky or east on the
@@ -547,7 +556,7 @@ A3 Layer
   :alt: The Function Layer
 
 The A3 layer, sometimes referred to as the “function layer”, is
-accessible with the :ref:`A3 access key<CharaChorder Keys>`. This key is not
+accessible with the :doc:`A3 access key<CharaChorder Keys>`. This key is not
 in the above :ref:`graphic<CCEnglish Layout>`, and instead
 is accessible by [INFO]. In the `Device Manager <https://charachorder.io/config/layout/>`__,
 this key has the name “Function Layer (Left)” and “Function Layer (Right)”, one for each :ref:`digitizer<Master Forge:The Digitizers>`.
@@ -563,36 +572,36 @@ Shift Modifier
 ^^^^^^^^^^^^^^
 
 .. dropdown:: List of shifted key actions
-        
+
         .. csv-table:: Shifted Key Actions
            :header-rows: 1
            :stub-columns: 0
            :widths: auto
 
            "Alpha key", "Shifted key"
-           "`", "~" 
+           "\`", "~"
            "1", "\!"
            "2", "\@"
            "3", "\#"
-           "4", "\$" 
+           "4", "\$"
            "5", "\%"
            "6", "\^"
            "7", "\&"
-           "8", "\*" 
+           "8", "\*"
            "9", "\("
            "0", "\)"
            "\-", "\_"
-           "=", "\+" 
+           "=", "\+"
            "[", "\{"
            "]", "\}"
            "\\", "\|"
-           ";", ":" 
+           ";", ":"
            "\'", """"
            "\,", "\<"
            ".", ">"
            "/", "?"
-   
- 
+
+
 
 On top of the three aforementioned layers, the :doc:`Shift key<CharaChorder Keys>`, which is a :doc:`modifier<Glossary>`, can be used to access some extra keys. The Shift keypress works just like it
 would on a traditional keyboard. You can capitalize letters and access
@@ -603,7 +612,7 @@ plugged into, and it is not possible to customize their outputs.
 
 In the above graphic, you’ll see
 the Shift key labeled as “Shift”. In the `Device Manager <https://charachorder.io/config/layout/>`__,
-this key has the name “Shift Keyboard Modifier (Left)” and “Shift Keyboard Modifier (Right)”, one for each :ref:`digitizer<The Digitizers>`.
+this key has the name “Shift Keyboard Modifier (Left)” and “Shift Keyboard Modifier (Right)”, one for each :ref:`digitizer<Master Forge:The Digitizers>`.
 
 By default, the Shift is accessible by pressing and holding either pinky
 finger inwards, that is, east on the left pinky or west on the right
@@ -633,12 +642,12 @@ suit their personal needs. For a thorough explanation on how remapping
 works and how to remap your device, visit the :ref:`remapping section<Device Manager:Remapping>`
 
 Master Forge Configurations
-****************************
+***************************
 
 When the Master Forge was `unveiled <https://youtu.be/fux9gU3M25E?si=u4KW7OaUUUNINfKD&t=1025>`__ in November of 2023, CharaChorder began taking pre-orders offering everyone the same bundle. In September of 2024, CharaChorder ran a `Kickstarter <https://www.kickstarter.com/projects/charachorder/the-master-forge-a-keyboard-built-for-you>`__ campaign for the Master Forge for 5 weeks, offering three different tiers, each with a different configuration. After the Kickstarter campaign finished, the Master Forge went on back-order sale on the `Forge website <https://forgekeyboard.com>`__. The following section identifies what each of these 5 bundles included. 
 
 Forge Website Pre-Orders
--------------------------
+------------------------
 The Master Forge was announced at CharaChorder's annual `ChorderCon in 2023 <https://youtu.be/fux9gU3M25E?si=WmNs4bxXJcg0JbKM>`__. It was announced alongside the Forge brand and other Forge products such as the Coder's Forge and the Gamer's Forge. After a surge in Master Forge orders, the Master Forge was given development priority. Every Master Forge order placed between November 2023 and early August 2024 includes:
 
     - :ref:`One (1) Left Digitizer<Master Forge:The Digitizers>`
@@ -659,12 +668,12 @@ The Master Forge was announced at CharaChorder's annual `ChorderCon in 2023 <htt
 
 
 Kickstarter Orders
-----------------------
+------------------
 
-The Master Forge Kickstarter campaign launched on August 27 of 2024 and closed on October 7 of 2024. The bundles offered on Kickstarter can be separated into three: Basic, Premium, and Super.  
+The Master Forge Kickstarter campaign launched on August 27 of 2024 and closed on October 7 of 2024. The bundles offered on Kickstarter can be separated into three: Basic, Premium, and Super.
 
 Basic
-~~~~~~
+~~~~~
 The Basic backer tier on Kickstarter includes the following:
 
     - :ref:`One (1) Left Digitizer<Master Forge:The Digitizers>`
@@ -677,7 +686,7 @@ The Basic backer tier on Kickstarter includes the following:
     - Unlimited Forge CAD Access
 
 Premium
-~~~~~~~~
+~~~~~~~
 The Premium backer tier on Kickstarter includes the following:
 
     - :ref:`One (1) Left Digitizer<Master Forge:The Digitizers>`
@@ -697,7 +706,7 @@ The Premium backer tier on Kickstarter includes the following:
 
 
 Super
-~~~~~~~
+~~~~~
 
     - :ref:`One (1) Left Digitizer<Master Forge:The Digitizers>`
     - :ref:`One (1) Right Digitizer<Master Forge:The Digitizers>`
@@ -718,7 +727,7 @@ Super
 
 
 Post-Kickstarter
------------------
+----------------
 
 Once the Kickstarter campaign ended, the Master Forge was put on sale for pre-orders on the `Forge Website <https://forgekeyboard.com>`__. Orders placed on the Forge website starting October of 2024 include:
 

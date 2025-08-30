@@ -1,39 +1,39 @@
 Glossary
 ========
 
-Below you will find some common "uncommon" words that are used in the CharaChorder 
-community. 
+Below you will find some common "uncommon" words that are used in the CharaChorder
+community.
 
 .. glossary::
    :sorted:
 
    3D Press
-      When a switch is activated by pushing it normal to the surface of the 
+      When a switch is activated by pushing it normal to the surface of the
       device (same as an ordinary keyboard switch).
 
    Active Mode
-      Nudges your mouse one pixel every minute or so to keep your computer 
+      Nudges your mouse one pixel every minute or so to keep your computer
       from sleeping.
-    
+
    Ambidextrous Throwover (aka Mirror Mode)
-      Entry mode designed for one-handed typing. Characters from the opposite 
+      Entry mode designed for one-handed typing. Characters from the opposite
       hand are mirrored to the hand which activates this feature.
 
    Arpeggiate
       A quick, single key press and release to indicate a suffix, prefix, or
       modifier to be associated with a chord.
-   
+
    Chentry
       Shorthand for 'character entry', or typing on a chording-enabled device
       letter by letter.
-      
+
    Chord Modifiers
       Inputs which, when included with a chord, change the prefix, suffix,
-      capitalization, conjugation, part of speech, language, or structure of a chord.  Note, these can be used arpeggiately. 
-      
-   Compound Chords
-      Multiple chords which behave differently when used together in context
-      (not yet user programmable). Example: know + ledge = knowledge.
+      capitalization, conjugation, part of speech, language, or structure of a chord.  Note, these can be used arpeggiately.
+
+   :ref:`Compound Chords<Chords:Compound Chords>`
+      Multiple chords which behave differently when used together consecutively wihthin the :ref:`Compound timeout<Device Manager:Compound Timeout Setting>`.
+      Example: know + ledge = knowledge.
 
    Cursor Warping
       When your cursor or mouse position moves ("warps") based on a chord.
@@ -43,17 +43,27 @@ community.
       In character entry, it repeats your last input. In chorded entry, it is
       used for words with repeating letters.
 
+   Dynamic Chord Library
+      Advanced system feature enabling activation of multiple named chord
+      libraries through action codes embedded in chord outputs. You can have multiple chord libraries on your device, even if the chord inputs might otherwise conflict. This features allows you to have separate libraries for different settings, further allowing you to have the same input produce a different output on each different library. 
+
+      When an action
+      code activates a specific library, subsequent chord creation automatically
+      groups new chords within that library's structure, allowing for context-
+      specific chord sets (e.g., multiligual, coding, email) that can be 
+      programmatically switched during use.
+
    Forced Chord Phenomenon
       The experience of typing a word in character entry feeling unnatural due
       to the development of muscle memory for chording that word.
 
    Fluid Chorded/Character Entry
       Default text entry mode for CharaChorder. Output characters individually
-      (like a keyboard) OR press and release multiple characters of a chord 
+      (like a keyboard) OR press and release multiple characters of a chord
       simultaneously to output a chord.
 
    GTM (Generative Text Menu)
-      A text-based menu accessible anywhere you type. It allows access to 
+      A text-based menu accessible anywhere you type. It allows access to
       various device settings and features without software. See :doc:`GenerativeTextMenu`.
 
    Impulse Chord
