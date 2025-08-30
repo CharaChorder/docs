@@ -1,14 +1,14 @@
 Chords
-=============================
+======
 One of CharaChorder devices’ greatest features is their
-:doc:`chording<Chords>` ability. Read this section to learn what
-chording is and how you can benefit from it on your own CharaChorder. 
+chording ability. Read this section to learn what
+chording is and how you can benefit from it on your own CharaChorder.
 
 .. contents::  Table of Contents of this Page
    :local:
 
 What are Chords?
------------------
+----------------
 
 A chord is a type of input/output action on a keyboard: you press two or
 more keys at the same time and release them at the same time, after
@@ -16,20 +16,20 @@ which a predefined output will replace the originally pressed keys.
 
 By chording, we are able to type one word at a time instead of one
 letter at a time. It’s even possible to have chords for phrases and
-entire sentences. 
+entire sentences.
 
 How do I use Chords?
-----------------------
+--------------------
 
 A chord has an **input** and an **output**. We will describe what each
 of those is and how they affect chords on your CharaChorder device
 below. Throughout this guide, we might use the term “perform” when
-talking about carrying out a chord. 
+talking about carrying out a chord.
 
 .. _Chord Input:
 
 Chord Input
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
 
 A chord input is the
 combination of keys used in order to get a desired, predetermined
@@ -39,10 +39,10 @@ to get the output “because”. In :ref:`chord notation<Chords:Chord Notation>`
 we would write that chord input as ``b+c``. Since chord inputs are
 performed simultaneously, meaning that all of the keys needed for an
 input are pressed and released at the same time, chord inputs are not
-order-specific. ``b+c`` is the same as ``c+b``. 
+order-specific. ``b+c`` is the same as ``c+b``.
 
-Chord Output 
-~~~~~~~~~~~~~~~~~~
+Chord Output
+~~~~~~~~~~~~
 
 A chord
 output is the predetermined letters, words, phrases and/or actions that
@@ -50,10 +50,10 @@ result after performing a chord. If we use the
 :ref:`chord input<Chords:Chord Input>` of ``b`` and ``c`` and the result is
 the word “because”, then the word “because” would be the output. In
 :ref:`chord notation<Chords:Chord Notation>`, we would write that chord (the
-input and the output) as ``b+c = because``. 
+input and the output) as ``b+c = because``.
 
-Chord Notation 
-~~~~~~~~~~~~~~~~~~
+Chord Notation
+~~~~~~~~~~~~~~
 
 Chord
 notation is the way that we write chords for CharaChorder devices. It is
@@ -76,17 +76,17 @@ the different symbols used in chord notation in the table below.
 
 
 You can read some examples of chords written in chord notation below.
-You can try these chords on your CharaChorder device! 
+You can try these chords on your CharaChorder device!
 
 * ``y+u+o = you``
 * ``k+b+a = back``
 * ``t+o+n+d = don’t``
 * ``w+o+n+d = down``
-* ``c+b = because`` 
+* ``c+b = because``
 * ``p+m+i = important``
 
-How do I make Chords? 
-------------------------
+How do I make Chords?
+---------------------
 
 You can make chords for your
 CharaChorder using a few different methods which we will discuss below.
@@ -101,7 +101,7 @@ can click on the link to see that list in an external tab: `Starter Chords <http
 
 You can create custom chords on the :doc:`Device Manager<Device Manager>`. Additionally, you, can create chords on the go by using
 :ref:`impulse chording<Chords:Impulse Chording>`. Read on for specific
-instructions on how to do that. 
+instructions on how to do that.
 
 On Device Manager
 ~~~~~~~~~~~~~~~~~
@@ -114,15 +114,15 @@ The process for adding chords to your CharaChorder is the same on all of
 our CharaChorder devices. You can
 :ref:`add new chords<Chords:Adding New Chords on Device Manager>`, or
 :ref:`import an existing chord library<Device Manager:Restoring from a Backup>`.
-Read how below. 
+Read how below.
 
 Adding New Chords on Device Manager
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The steps to do this are :ref:`in the Device Manager documentation<Device Manager:Creating a Chord>`.
 
 Impulse chording
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~
 
 Impulse chording is a method of adding chords that doesn’t require
 anything except your CharaChorder after a space to type in. It allows
@@ -142,7 +142,7 @@ as part of the output. If you make a mistake when defining the chord
 output, trigger escape and start over instead of deleting the input.
 
 Creating an Impulse Chord on the CharaChorder One
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Standard process for creating an impulse chord on a CharaChorder One: In
 short: 1. CHORD INPUT, 2. CALL IMPULSE, 3. TYPE OUTPUT, 4. CONFIRM
@@ -168,10 +168,10 @@ OUTPUT 5. CONFIRM INPUT
 6. If the input is incorrect, perform your desired input at this step.
    Once the input is the desired input, press enter.
 
-These steps should take 1-3 seconds. 
+These steps should take 1-3 seconds.
 
 Creating an Impulse Chord on the CharaChorder Lite
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Standard process for creating an impulse chord on a CharaChorder Lite:
 In short: 1. CHORD INPUT, 2. CALL IMPULSE, 3. TYPE OUTPUT, 4. CONFIRM
@@ -197,10 +197,10 @@ OUTPUT, 5. CONFIRM INPUT
 6. If the input is incorrect, perform your desired input at this step.
    Once the input is the desired input, press enter.
 
-These steps should take 1-3 seconds. 
+These steps should take 1-3 seconds.
 
 Creating an Impulse Chord on the CharaChorder X
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Standard process for creating an impulse chord on a CharaChorder X: In
 short: 1. CHORD INPUT, 2. CALL IMPULSE, 3. TYPE OUTPUT, 4. CONFIRM
@@ -210,7 +210,7 @@ OUTPUT, 5. CONFIRM INPUT
 .. image:: /assets/images/Impulsexgif.gif
   :width: 1200
   :alt: Impulse chording on the CharaChorder X
-  
+
 1. Anywhere that you can see a cursor, chord the input you want
    (example: ``b+u+r+s+t``). You will either see a jumble of letters
    (example: “tsubr”) or you will see a chord which is already
@@ -228,3 +228,64 @@ OUTPUT, 5. CONFIRM INPUT
    Once the input is the desired input, press enter.
 
 These steps should take 1-3 seconds
+
+Compound Chords
+~~~~~~~~~~~~~~~
+
+Multiple chords in a row can have a unique output.
+
+We can create compound chords like these:
+
+   * ``website`` and ``charachorder`` can output the url: ``www.charachorder.com``
+   * ``boat`` and ``big`` can output: ``ship``
+   * ``car`` and ``car`` can output: ``traffic``
+
+.. note::
+
+   The second or additional chords have to be pressed within the :ref:`Compound timeout<Compound Timeout Setting>`, by default it's one second (1000 ms).
+
+Add a compound chord
+^^^^^^^^^^^^^^^^^^^^
+
+Currently, compound chords can only be created from the impulse prompt (``i+DUP``).
+
+First, we decide what the compound chord should output. Then, we choose one or more existing chords, or add new chords to be used as the compound chord's inputs.
+
+If we want the compound chord output: ``www.charachorder.com``
+
+   * With chord input 1: ``w+b+s+t``
+   * Output: ``website``
+   * And chord input 2: ``c+h+a+r``
+   * Output: ``charachorder``
+
+#. Open the impulse prompt by chording: ``i+DUP``
+#. At the impulse output prompt, type the compound chord output, one character at a time:
+#. ``www.charachorder.com``
+#. Press: ``enter``
+#. At the impulse input prompt, press the first chord: ``w+b+s+t``
+#. ``impulse input: w + b + s + t``
+
+   .. note::
+
+      The order of the chord input characters doesn't matter, they appear in the impulse input prompt in the order they were pressed.
+
+#. Hold ``shift`` and press ``enter``
+#. ``impulse input: w + b + s + t |``
+
+   .. Note::
+
+      The ``|`` (pipe symbol) after the chord input, indicates that it's waiting for a second chord.
+
+#. Press the second chord: ``c+h+a+r``
+#. ``impulse input: w + b + s + t | c + h + a + r``
+#. Press: ``enter``
+
+We have added a compound chord:
+
+   * Now when we chord: ``w+b+s+t``
+   * followed (:ref:`within the Compound timeout<Compound Timeout Setting>`) by the chord: ``c+h+a+r``
+   * it outputs: ``www.charachorder.com``
+
+.. note::
+
+   Compound chords aren't limited to just two in a row.

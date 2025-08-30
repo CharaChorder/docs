@@ -1,13 +1,13 @@
 CharaChorder Lite (CCL)
-=================
+=======================
 
 Welcome to the Official CharaChorder Lite Guide. You can select the links
 below to navigate to the topics that you find most relevant.
 
-The CharaChorder Lite is CharaChorder's approach to introducing :doc:`chording<Chords>` 
+The CharaChorder Lite is CharaChorder's approach to introducing :doc:`chording<Chords>`
 to a traditional, QWERTY keyboard. It's small, sleek, and portable, but what truly sets the "CCL" apart from other keyboards is that it's powered by :doc:`CCOS<CCOS>`. This makes the CCL a superpowered, :doc:`chording<Chords>` keyboard that may be easier to learn than the :doc:`CharaChorder One`.
 
-It boasts a beautiful set of keycaps, intentionally translucent to be able to appreciate the RGB backlights that breathe a modern look into the beautifully crafted keyboard. 
+It boasts a beautiful set of keycaps, intentionally translucent to be able to appreciate the RGB backlights that breathe a modern look into the beautifully crafted keyboard.
 
 Those who would rather build onto their muscle memory on a traditional, QWERTY keyboard can now take advantage of the CharaChorder Lite's revolutionary technology and increase their speed and efficiency.
 
@@ -83,11 +83,11 @@ The CharaChorder Lite comes with a 60% set of Gateron Clear/White switches. Thes
 .. dropdown:: What is a 60% keyboard?
 
     A 60% keyboard, also known as a "compact keyboard", is a computer keyboard that lacks a Numpad, a function row (F-Keys), and navigation keys (Home, Page Up, Page Down, etc.).
-    
+
     .. _60% Keyboard Diagram:
     .. image:: /assets/images/60%KB.jpg
       :width: 1200
-      :alt: A diagram of a 60% Keyboard 
+      :alt: A diagram of a 60% Keyboard
 
 .. note::
     Despite being a 60% keyboard, the CharaChorder Lite DOES have 4 arrow keys.
@@ -127,20 +127,31 @@ additional software to work.
 
 If not done already, make sure that the USB-C side of the :ref:`power cable<CharaChorder_Lite:Power and Communication>` is plugged into the back right of the CharaChorder Lite. It’s important to be certain that the cable is plugged all the way in; otherwise, the CharaChorder might not function as intended.
 
-.. danger::
+.. note::
+  The CharaChorder Lite has been sold with two different chips: M0 and S2
+
+  You can see which chip you have, by connecting to the `Device Manager <https://charachorder.io/>`__, then looking at the bottom middle of the page, after the device name:
+
+    * CharaChorder Lite M0 (bought before oct 1st, 2022)
+        If you have the M0 chip, continue reading the warning and instructions about the startup message below.
+
+    * CharaChorder Lite S2 (bought after oct 1st, 2022)
+        If you have the S2 chip, then you can skip to the :ref:`Getting Started section<CharaChorder_Lite:Getting Started>`, because the startup message has been removed on instant boot devices (CCOS 2.1.0).
+
+.. warning::
    By default, the device sends a :ref:`startup<GenerativeTextMenu:Startup>` message, on every boot or re-plug. In some cases, this can interfere with functions on your computer or cause unwanted behavior. This feature can be disabled in
-   the :doc:`GTM<GenerativeTextMenu>`. 
+   the :doc:`GTM<GenerativeTextMenu>`.
 
 After making sure that the cable on the CharaChorder is properly
 plugged in, connect the USB-A side of the :ref:`power cable<CharaChorder_Lite:Power and Communication>` into
 a USB-A port on your computer. Upon connecting, you may notice the
-following things: 
+following things:
 
-- If your cursor is somewhere where text can be entered… 
+- If your cursor is somewhere where text can be entered…
 
-	- You will first see the text “Loading ### Chordmaps” highlighted, and a few moments later, “CCOS is ready.” 
+	- You will first see the text “Loading ### Chordmaps” highlighted, and a few moments later, “CCOS is ready.”
 
-- Regardless of whether or not your cursor is somewhere where text can be entered… 
+- Regardless of whether or not your cursor is somewhere where text can be entered…
 
 	- You will be able to see your keyboard's lights flash from left to right, then go completely dark. After a few moments, the entire keyboard will be lit up with the LED backlighting.
 
@@ -171,22 +182,25 @@ Checking your Device’s Firmware
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You can check your device’s current firmware by following the steps
-below: 
+below:
 
 #. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://charachorder.io/config/layout/>`__ (Linux users see :ref:`this link<serialportaccess>` for more information about configuring serial port access.)
 #. Click “Connect” at the bottom middle of the page
-#. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your CharaChorder device, then click the blue “connect” button
+#. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your CharaChorder device, then click the “connect” button
+
+   .. _Serial Port Popup Check Firmware:
+   .. image:: /assets/images/SerialPort-Message-CCL.webp
+      :width: 435
+      :alt: Popup to select serial device
 
 After following the above steps, you can find your
 firmware version in the bottom left of your screen. It will read
-something like this:
+something like this: ``CCOS 2.1.0``
 
-``CCOS 1.1.4``
-
-.. _Firmware Check:
-.. image:: /assets/images/DMFW.png
-  :width: 1200
-  :alt: Checking the firmware on Device Manager
+   .. _Bottom Bar Check Firmware:
+   .. image:: /assets/images/DM-Bottom-Bar-CCL-S2.webp
+      :width: 1200
+      :alt: Checking the firmware on Device Manager
 
 Updating the Firmware
 ~~~~~~~~~~~~~~~~~~~~~
@@ -194,15 +208,27 @@ Updating the Firmware
 If you find that your device is not running the latest firmware version,
 you can follow the steps below to update your device. You can check
 which is the latest firmware release by visiting `this
-site <https://charachorder.io/ccos/>`__. 
+site <https://charachorder.io/ccos/>`__.
 
 .. warning::
-   IMPORTANT: Before performing the below steps, please make sure that you have a :ref:`backup of your layout<Device Manager:Backups>` as well as a :ref:`backup of your chord library<Device Manager:Backups>` and a :ref:`backup of your GTM settings<Device Manager:Backups>`. The update might reset those, so it's important that you keep backup files handy. For instructions on how to restore backed up files, visit the :ref:`Backups<Device Manager:Restoring from a Backup>` section.
+   IMPORTANT: Before performing the below steps, please make sure that you have a :ref:`backup of your layout, chord library, and settings<Device Manager:Creating a Backup>`. The update might reset those, so it's important that you keep backup files handy. For instructions on how to restore backed up files, visit the :ref:`Backups<Device Manager:Restoring from a Backup>` section.
 
-#. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://charachorder.io/config/layout/>`__ 
+#. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://charachorder.io/config/layout/>`__
 #. If not auto-connected, click “Connect”
-#. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your CharaChorder device, then click the blue “connect” button
+#. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your CharaChorder device, then click the “connect” button
+
+   .. _Serial Port Popup Update Firmware:
+   .. image:: /assets/images/SerialPort-Message-CCL.webp
+      :width: 435
+      :alt: Popup to select serial device
+
 #. Click on the CCOS version on the bottom left of the page
+
+   .. _Bottom Bar Update Firmware:
+   .. image:: /assets/images/DM-Bottom-Bar-CCL-S2.webp
+      :width: 1200
+      :alt: Checking the firmware on Device Manager
+
 #. You will see a list of available versions along with their release date. Click on the one you want.
 #. If you have a Lite S2, you'll be able to just click "Apply Update". If you device does not have that option, you have a M0 device and can follow the steps on screen to update your device.
 
@@ -294,7 +320,7 @@ A2 Layer
 
 The A2 layer, sometimes referred to as the “numeric layer”, is accessible
 with the :doc:`A2 access key<CharaChorder Keys>`. This key is mapped by default on the CharaChorder Lite to the keys labeled ``Fn``. In the :doc:`device manager<Device Manager>` this key has the name “KM_2_L” and “KM_2_R”, one for each side of the
-CharaChorder. 
+CharaChorder.
 
 The A2 Layer is accessible by pressing and holding either
 one of the layer access buttons. You do not have to hold them both, only one is required.
@@ -311,7 +337,7 @@ A3 Layer
 ^^^^^^^^
 
 The A3 layer, sometimes referred to as the “function layer”, is
-accessible with the :ref:`A3 access key<CharaChorder Keys>`. This key is not mapped by default on the CharaChorder Lite, but you can add it to your device by :ref:`remapping<Device Manager:Remapping>`. On the :doc:`CharaChorder Device Manager<Device Manager>`, this key is assignable by the names “KM_3_L” and “KM_3_R”.
+accessible with the :doc:`A3 access key<CharaChorder Keys>`. This key is not mapped by default on the CharaChorder Lite, but you can add it to your device by :ref:`remapping<Device Manager:Remapping>`. On the :doc:`CharaChorder Device Manager<Device Manager>`, this key is assignable by the names “KM_3_L” and “KM_3_R”.
 
 Once you've mapped the A3 layer access buttons, the A3 Layer is accessible by pressing and holding either
 one of them. You do not have to hold them both in order to access
@@ -338,7 +364,7 @@ plugged to, and it is not possible to customize their outputs.
 
 On the :doc:`CharaChorder Device Manager<Device Manager>`,
 this key has the name “Left_Shift” and “Right_Shift”, one for each side
-of the CharaChorder. 
+of the CharaChorder.
 
 By default, the Shift is accessible by pressing and holding either Shift Key. You do not have to hold them both, only one is required. Any key
 that requires the Shift Modifier can only be accessed by pressing and
@@ -349,7 +375,7 @@ key is pressed while the target key is pressed.
 AltGraph Modifier
 ^^^^^^^^^^^^^^^^^
 
-While using the US INTL OS layout on your computer, you can take advantage of a modifier known as AltGraph, AltGr, or right alt. This keyboard modifier is used to provide additional graphemes for most keys. You can use the AltGraph modifier to create accented characters such as á, é, í, ó, ú, among others. 
+While using the US INTL OS layout on your computer, you can take advantage of a modifier known as AltGraph, AltGr, or right alt. This keyboard modifier is used to provide additional graphemes for most keys. You can use the AltGraph modifier to create accented characters such as á, é, í, ó, ú, among others.
 
 The AltGraph modifier output is currently controlled by the Operating System that your CharaChorder is plugged into, and it is not possible to customize their outputs. Those outputs are determined by the computer's OS.
 
@@ -371,7 +397,7 @@ Practice
 ~~~~~~~~
 
 Now that you’re familiar with your new CharaChorder device, it’s time to
-use it! Head over to the :doc:`training section<DotIO>` for instructions
+use it! Head over to the :doc:`training section<Tools>` for instructions
 on how to get started with learning to :doc:`chord<Chords>`. If you want to just
 jump in without having to read a minute longer, head on over to our
 training website; https://www.iq-eq.io/#/
