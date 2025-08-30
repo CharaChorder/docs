@@ -166,29 +166,11 @@ If not done already, make sure that the USB-C side of the
 CharaChorder. It’s important to be certain that the cable is plugged all
 the way in, otherwise, the CharaChorder might not function as intended.
 
-.. warning::
-   IMPORTANT: During your first time plugging your CharaChorder in,
-   and every time thereafter when you have :ref:`realtime feedback<GenerativeTextMenu:Realtime feedback>` enabled, it’s
-   recommended that you have your cursor in a blank typing space. The
-   CharaChorder has a welcome message that can send instructions to your
-   computer that are not intended by the user. This feature can be disabled in
-   the :doc:`GTM<GenerativeTextMenu>`.
-
 After making sure that all the cables on the CharaChorder are properly
 plugged in, connect the USB-A side of the :ref:`power cable<power cable>` into
-a USB-A port on your computer. Upon connecting, you may notice the
-following things: - If your cursor is somewhere where text can be
-entered… - You will first see the text “Loading ### Chordmaps”
-highlighted, and a few moments later, “CCOS is ready.” - Regardless of
-whether or not your cursor is somewhere where text can be entered… - You
+a USB-A port on your computer. Upon connecting, you
 will be able to see a small, lime colored light inside the space that
 holds the USB-C port on the left half of the CharaChorder One.
-
-If you have :ref:`realtime feedback<GenerativeTextMenu:Realtime feedback>` enabled, once you can see the highlighted text that reads
-“CCOS is ready”, your device is ready to be used.
-
-.. note::
-   IMPORTANT: :ref:`Realtime feedback<GenerativeTextMenu:Realtime feedback>` is enabled by default on new CharaChorder devices.
 
 Getting Started
 ***************
@@ -240,7 +222,7 @@ which is the latest firmware release by visiting `this
 site <https://charachorder.io/ccos/>`__.
 
 .. warning::
-   IMPORTANT: Before performing the below steps, please make sure that you have a :ref:`backup of your layout<Device Manager:Backups>` as well as a :ref:`backup of your chord library<Device Manager:Backups>` and a :ref:`backup of your GTM settings<Device Manager:Backups>`. The update might reset those, so it's important that you keep backup files handy. For instructions on how to restore backed up files, visit the :ref:`Backups<Device Manager:Restoring from a Backup>` section.
+   IMPORTANT: Before performing the below steps, please make sure that you have a :ref:`backup of your layout, chord library, and settings<Device Manager:Creating a Backup>`. The update might reset those, so it's important that you keep backup files handy. For instructions on how to restore backed up files, visit the :ref:`Backups<Device Manager:Restoring from a Backup>` section.
 
 #. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://charachorder.io/config/layout/>`__
 #. If not auto-connected, click “Connect”
@@ -301,8 +283,7 @@ You can read an explanation on all of the settings on your CharaChorder device :
 Learning the Layout
 -------------------
 
-The default CharaChorder layout, which we will refer to as the CC
-English layout, has been designed to favor :doc:`bigrams<Logic behind the Layout>` and :doc:`trigrams<Logic behind the Layout>` commonly used in the English language while making the letters accessible for a logical choice of :doc:`lexical<Chords>`. You can find the map below.
+The default CharaChorder layout, which we will refer to as the CC English layout, has been designed to favor bigrams and trigrams commonly used in the English language while making the letters accessible for a logical choice of :doc:`lexical chords<Chords>`. You can find the quick reference guide for the layout below, and :ref:`read about how the layout was designed, here <Layout:Design of the layout>`.
 
 .. note::
    General consensus amongst the community is that, while not perfect,
@@ -319,34 +300,6 @@ English layout, has been designed to favor :doc:`bigrams<Logic behind the Layout
 .. image:: /assets/images/CCEnglish.png
   :width: 1200
   :alt: CC English Layout
-
-.. dropdown:: Design of the default layout
-
-  The design of the layout of the keys was by far the most time and iteration intensive part of designing the CC1.
-  Riley Keen, CEO of CharaChorder, said that it was 80% science, 20% art.
-
-  However, trying to validate or prove that any layout is better than others,
-  like we have seen with the QWERTY keyboard,
-  is very complex and it is not a simple answer.
-
-  One of the big benefits of the CC1 is you are actually using your thumbs.
-  On the smartphone, your thumbs can type almost as fast as all of your other fingers together combined,
-  and yet on a normal keyboard layout they are both tethered to a single button.
-
-  So, a design goal was to maximize left vs right hand and finger vs thumb alterations as well as
-  to pair the frequent keys with the ease of press-ability. This was a highly iterative process which filled up notebooks and notebooks of design sketches.
-
-  In general the process that Riley used and recommends using if you would like to make your own layout is as follows:
-
-  1. Make a list of individual inputs for your language weighted by their frequency of use in your favorite corpus
-  2. Make a list of most common bigrams and trigrams (groups of 2 and 3 letters) for your language weighted by their frequency of use in your favorite corpus
-  3. Make a list of most common words for your language weighted by their frequency of use in your favorite corpus
-  4. Create a list prioritizing each switch on your device based on how easy they are to access. This should consider both finger, direction, and handedness
-  5. To create a seed, sync your switch list with the individual input list, placing your most common input on the easiest switch to access, while doing your best to balance the total utilization of all left versus right hand inputs
-  6. Based on your seed, analyze the lists of bigrams and trigrams and note which ones require rolling inputs, antipodal inputs, same finger inputs, same hand non-rolling inputs, as well as same hand/finger trajectory inputs. Assign a scale to tokenize each of these input types and create a cumulative ranking for each bigram and trigram
-  7. Based on your seed, create a chord library. Now give each chord a rating based on how easy it is to physically accomplish, and how easy it is to remember or memorize
-  8. Analyze the weaknesses and strengths of your layout, then create a hypothesis of what could be changed within your seed to improve the total rating of all your bigrams, trigrams, and chords.
-  9. Shuffle your seed based on your hypothesis and repeat steps 5-9 until you are no longer able to improve upon your score
 
 Layers
 ~~~~~~
@@ -402,7 +355,7 @@ A3 Layer
 ^^^^^^^^
 
 The A3 layer, sometimes referred to as the “function layer”, is
-accessible with the :ref:`A3 access key<CharaChorder Keys>`. This key is not
+accessible with the :doc:`A3 access key<CharaChorder Keys>`. This key is not
 in the above :ref:`graphic<CCEnglish Layout>`, and instead
 is accessible by pressing and holding either pinky down, into the
 device. In the `Device Manager <https://charachorder.io/config/layout/>`__,

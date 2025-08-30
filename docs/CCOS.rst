@@ -27,7 +27,7 @@ If that's not exciting enough... this is only the tip of the iceberg. Here are
 some things you can expect to experience moving forward as we peel back the
 layers and start to unlock the full potential of CCOS with future updates:
 
-- Compound Chording, the ability for any chord combination in any
+- :ref:`Compound Chording<Chords:Compound Chords>`, the ability for any chord combination in any
   layout to be compounded with up to twelve other chords, with each compounding
   layer being tied to its own unique output.
 - An interface for programming advanced keyboard/mouse macros which can be
@@ -63,8 +63,9 @@ Upgrade to CCOS
 
 .. danger::
     These instructions are only for those that had a device shipped before 2023
-    and that wish to update to CCOS. For all other CCOS updates, see
-    :ref:`the device manager page<Device Manager:Updating Your Device>`.
+    and that wish to update to CCOS. For all other CCOS updates, see the
+    documentation page for your device.
+
 
 Part I - Back up chord library and update device
 ------------------------------------------------

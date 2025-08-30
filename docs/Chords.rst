@@ -1,7 +1,7 @@
 Chords
 ======
 One of CharaChorder devices’ greatest features is their
-:doc:`chording<Chords>` ability. Read this section to learn what
+chording ability. Read this section to learn what
 chording is and how you can benefit from it on your own CharaChorder.
 
 .. contents::  Table of Contents of this Page
@@ -240,10 +240,9 @@ We can create compound chords like these:
    * ``boat`` and ``big`` can output: ``ship``
    * ``car`` and ``car`` can output: ``traffic``
 
-.. _Compound Timeout Note:
 .. note::
 
-   The second or additional chords have to be pressed within the Compound timeout, by default it's one second (1000 ms).
+   The second or additional chords have to be pressed within the :ref:`Compound timeout<Compound Timeout Setting>`, by default it's one second (1000 ms).
 
 Add a compound chord
 ^^^^^^^^^^^^^^^^^^^^
@@ -284,7 +283,7 @@ If we want the compound chord output: ``www.charachorder.com``
 We have added a compound chord:
 
    * Now when we chord: ``w+b+s+t``
-   * followed (:ref:`within the Compound Timeout<Compound Timeout Note>`) by the chord: ``char``
+   * followed (:ref:`within the Compound timeout<Compound Timeout Setting>`) by the chord: ``c+h+a+r``
    * it outputs: ``www.charachorder.com``
 
 .. note::

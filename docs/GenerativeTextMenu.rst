@@ -420,7 +420,7 @@ This setting will change how long CCOS counts time in order to replace character
 
 CCOS devices have a running timer that starts after every single character that is entered in traditional chentry (character entry, i.e. one letter at a time). This timer controls whether or not the next chord that you perform deletes the preceding characters.
 
-This feature allows users to misfire chords, yet be able to correct them by quickly performing the chord correctly, without having to backspace manually to erase the misfired chord. The result is that the timeout will automatically backspace all of the preceding characters (up to the last :doc:`breaking character </Breaking Character>`) and replace them with the intended chord.
+This feature allows users to misfire chords, yet be able to correct them by quickly performing the chord correctly, without having to backspace manually to erase the misfired chord. The result is that the timeout will automatically backspace all of the preceding characters (up to the last :doc:`breaking character <Breaking Character>`) and replace them with the intended chord.
 
 You can set this setting to be as low as 0.0 seconds (s) or as high as 25.0 seconds (s), being able to adapt it to your individual :doc:`chording<Chords>` style.
 

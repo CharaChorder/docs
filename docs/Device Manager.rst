@@ -110,7 +110,7 @@ Save Button
   :width: 200
   :alt: The Save Button
 
-If you make changes in the :ref:`library<Device Manager:Library>`, the :ref:`layout editor<Device Manager:Layout>` or the :ref:`device menu<Device Manager:Settings Menu>`, a colored "save" button will pop up on your screen, towards the top left corner.
+If you make changes in the :ref:`library<Device Manager:Library>`, the :ref:`layout editor<Device Manager:Layout>` or the :ref:`device menu<Device Manager:Device>`, a colored "save" button will pop up on your screen, towards the top left corner.
 
 .. Note::
 	Your changes will not take effect until you click the save button.
@@ -128,7 +128,7 @@ Backup Section
   :width: 400
   :alt: The Backup Menu
 
-The Backup Menu is home to your backups as well as the place to go to in order to restore your device by using a backup file. There are different kinds of backups that you can create and we'll cover all of them in the :ref:`backups<Device Manager:Backups>` section.
+The Backup Menu is home to your backups as well as the place to go to in order to restore your device by using a backup file. There are different kinds of backups that you can create and we'll cover all of them in the next section.
 
 If you toggle the "Auto-backup" on, then the website will store a copy of your backup on your browser.  The backup is stored in the browser that you're using at that time and remains on your computer, so only YOU can access it.
 
@@ -166,7 +166,7 @@ Additionally, you can restore your chords, your layout, and your settings on the
 	.. note::
 		Files that you can restore from will have been created ahead of time by following the :ref:`steps to create a backup<Device Manager:Creating a Backup>`.
 
-4. If there are changes, the :ref:`save button<Device Manager:Save Button>` will appear on the top left. Note the changes in the appropriate tab. If you restored chords, check the :ref:`chords tab<Device Manager:Chord Manager>`, if you restored a layout, check the :ref:`layout tab<Device Manager:Layout>`, and if you restored settings, check the :ref:`settings tab<Device Manager:Settings Menu>`.
+4. If there are changes, the :ref:`save button<Device Manager:Save Button>` will appear on the top left. Note the changes in the appropriate tab. If you restored chords, check the :ref:`chords tab<Device Manager:Library>`, if you restored a layout, check the :ref:`layout tab<Device Manager:Layout>`, and if you restored settings, check the :ref:`settings tab<Device Manager:Device>`.
 
 	.. note::
 		The restore feature does NOT erase data from your device. If there is a conflict (such as a changed setting, a different key in the layout, or a chord that has a different :ref:`output<Chords:Chord Output>`), that will be overwritten by the restore file. Settings and layout backups ALWAYS overwrite everything.
@@ -367,10 +367,9 @@ Chording
 	By chording, we are able to type one word at a time instead of one letter at a time. It’s even possible to have chords for phrases and entire sentences.
 
 .. image:: /assets/images/ManagerSettingsChording.png
-  :width: 1200
-  :alt: The Chording settings box
+  :alt: The Chording settings
 
-In this box, you can adjust settings relating to :doc:`CCOS'<CCOS>` :doc:`chording<Chords>` abilities as well as turn off :doc:`chording<Chords>` alltogether, should you choose to.
+In this box, you can adjust settings relating to :doc:`CCOS'<CCOS>` :doc:`chording<Chords>` abilities as well as turn off :doc:`chording<Chords>` altogether, should you choose to.
 
 .. dropdown:: Press Tolerance
 
@@ -378,11 +377,25 @@ In this box, you can adjust settings relating to :doc:`CCOS'<CCOS>` :doc:`chordi
 
 .. dropdown:: Release Tolerance
 
-	he release tolerance refers to a window of time in which a chord can be performed, measured in milliseconds (ms). This timer is initiated upon the first “release” action of any key in a chord and ends once the chord is fully performed, or until the release tolerance runs out, whichever comes first. Read the :ref:`GTM section<GenerativeTextMenu:Release Tolerance>` for a more in-depth explanation.
+	The release tolerance refers to a window of time in which a chord can be performed, measured in milliseconds (ms). This timer is initiated upon the first “release” action of any key in a chord and ends once the chord is fully performed, or until the release tolerance runs out, whichever comes first. Read the :ref:`GTM section<GenerativeTextMenu:Release Tolerance>` for a more in-depth explanation.
 
-.. dropdown:: Compound Chording
+.. _Compound Timeout Setting:
+.. dropdown:: Compound timeout
 
-	This toggle allows you to enable or disable :ref:`compound chords<Chords:Compound Chords>`.
+	The Compound timeout determines if a :ref:`compound chord<Chords:Compound Chords>` succeeds or fails.
+
+	If the time between the individual chords in a compound chord is:
+
+	* less than the Compound timeout, then it succeeds and the individual chords are replaced with the compound chord's output
+	* greater than the Compound timeout, then it fails and the individual chords remain
+
+.. dropdown:: Detection method
+
+	There are three detection methods:
+
+	* Latency (classic) mode. Each key is printed instantly and backspaced after a successful chord.
+	* Smart adds a small amount of latency depending on your tolerances, and only prints characters when it is no longer plausible for the inputs to be a chord input.
+	* Continuous (spurring) allows you to jump from one chord to the next without releasing all keys, with more potential speed traded against the flexibility of character entry.
 
 Autocorrect
 -----------
@@ -551,7 +564,7 @@ Layer Selector
 
 	**A3 Layer**
 
-	The A3 layer, sometimes referred to as the “function layer”, is accessible with the :ref:`A3 access key<CharaChorder Keys>`. In the Device Manager, this key is assignable by the names “Function Layer (Left)” and “Function Layer (Right)”.
+	The A3 layer, sometimes referred to as the “function layer”, is accessible with the :doc:`A3 access key<CharaChorder Keys>`. In the Device Manager, this key is assignable by the names “Function Layer (Left)” and “Function Layer (Right)”.
 
 	Once you've mapped the A3 layer access buttons, the A3 Layer is accessible by pressing and holding either one of them. You do not have to hold them both in order to access the A3 layer. Any key that is on the A3 Layer can only be accessed by pressing and holding the :doc:`A3 access key<CharaChorder Keys>`, along with the target key. You do not need to :doc:`chord<Chords>` the keys together; it’s only required that the A3 layer access key is pressed while the target key is pressed.
 
@@ -652,19 +665,4 @@ If you select the "Remove" button while typing a :ref:`chord output<Chords:Chord
 
 Available Action Codes
 ^^^^^^^^^^^^^^^^^^^^^^
-You can see the action codes below, or view them externally `here. <https://docs.google.com/spreadsheets/d/1--T9bXshCIC-OVly-CY3rK87fgb7AHgJl3IySh7cmHc/edit#gid=0>`__
-
-.. raw:: html
-
-    <iframe src="https://docs.google.com/spreadsheets/d/1--T9bXshCIC-OVly-CY3rK87fgb7AHgJl3IySh7cmHc/edit#gid=0" width="600" height="600"></iframe>
-
-
-
-
-
-
-
-
-
-
-
+You can view the `action codes here. <https://docs.google.com/spreadsheets/d/1--T9bXshCIC-OVly-CY3rK87fgb7AHgJl3IySh7cmHc/edit#gid=0>`__
