@@ -45,7 +45,9 @@ community.
 
    Dynamic Chord Library
       Advanced system feature enabling activation of multiple named chord
-      libraries through action codes embedded in chord outputs. When an action
+      libraries through action codes embedded in chord outputs. You can have multiple chord libraries on your device, even if the chord inputs might otherwise conflict. This features allows you to have separate libraries for different settings, further allowing you to have the same input produce a different output on each different library. 
+
+      When an action
       code activates a specific library, subsequent chord creation automatically
       groups new chords within that library's structure, allowing for context-
       specific chord sets (e.g., multiligual, coding, email) that can be 
