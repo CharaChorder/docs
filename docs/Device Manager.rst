@@ -397,6 +397,24 @@ In this box, you can adjust settings relating to :doc:`CCOS'<CCOS>` :doc:`chordi
 	* Smart adds a small amount of latency depending on your tolerances, and only prints characters when it is no longer plausible for the inputs to be a chord input.
 	* Continuous (spurring) allows you to jump from one chord to the next without releasing all keys, with more potential speed traded against the flexibility of character entry.
 
+Autocorrect
+-----------
+
+.. image:: /assets/images/ManagerSettingsAutocorrect.png
+  :alt: The Autocorrect settings
+
+.. dropdown:: Maximum attempts
+
+	Set to 0 to turn off autocorrect. An attempt is every stroke from the first keypress to the next full release. Recommended to turn off when you are comfortable using Quickfix.
+
+.. dropdown:: Timeout
+
+	This setting will change how long CCOS counts time in order to replace characters that precede a chord.
+
+	CCOS devices have a running timer that starts after every single character that is entered in traditional chentry (character entry, i.e. one letter at a time). This timer controls whether or not the next chord that you perform deletes the preceding characters.
+
+	This feature allows users to misfire chords, yet be able to correct them by quickly performing the chord correctly, without having to backspace manually to erase the misfired chord. The result is that the timeout will automatically backspace all of the preceding characters (up to the last breaking character) and replace them with the intended chord.
+
 RGB
 ---
 The RGB settings ONLY affect the CharaChorder Lite as of February of 2024.
