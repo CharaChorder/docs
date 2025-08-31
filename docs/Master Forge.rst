@@ -55,7 +55,7 @@ The front of each digitizer has a slotted rail which allows :doc:`bolt-ons<Bolt-
   :width: 1200
   :alt: Picture showing the bridge connector and the ports
 
-The underside of each digitizer is partially hollow to allow for cables and connections to happen in a discreet manner underneath the device. Inside the cavity, we can find two additional USB-C ports and downward facing LED clusters. 
+The underside of each digitizer is partially hollow to allow for cables and connections to happen in a discreet manner underneath the device. Inside the cavity, we can find two additional USB-C ports and downward facing LED clusters.
 
 .. _M4G Below:
 .. image:: /assets/images/M4G-Under.webp
@@ -139,7 +139,7 @@ mindful that, as part of the device’s ergonomics, each switch has a
 slightly different angle, so feel free to familiarize yourself with your
 new device.
 
-Out of all eight switches, the pinky switch is made to be wider than the other seven in order to make using it easier, and also more optimized for held-key press functionality like that used with the shift key or layered keymaps.
+Out of all eight switches, the pinky switch is made to be wider than the other seven in order to make using it easier, and also more optimized for held-key press functionality like that used with the SHIFT key or layered keymaps.
 
 Earlier, we mentioned the five directions in which a switch can be
 actuated, or pressed. Aside from the four cardinal directions, each
@@ -196,7 +196,7 @@ These directions correspond to the letters U, O, E, T, N, and S. Now, let's try 
 
 .. dropdown:: How to perform a Chord?
 
-    A chord is a type of input that allows you to press multiple keys at a time in order to achieve a predetermined :ref:`output<Chords:Chord Output>`. In order to perform a chord, you must press all of the :ref:`input keys<Chords:Chord Input>` at the same time, within the :ref:`press time limit<GenerativeTextMenu:Press Tolerance>`. Additionally, you must release all of the keys at the same time, that is, within the :ref:`release time limit<GenerativeTextMenu:Release Tolerance>`. Once these steps are performed accurately, your CCOS device will, very quickly, type the keys pressed, backspace them, and then output the predetermined chord.
+    A chord is a type of input that allows you to press multiple keys at a time in order to achieve a predetermined :ref:`output<Chords:Chord Output>`. In order to perform a chord, you must press all of the :ref:`input keys<Chords:Chord Input>` at the same time, within the :ref:`press time limit<GenerativeTextMenu:Press Tolerance>`. Additionally, you must release all of the keys at the same time, that is, within the :ref:`release time limit<GenerativeTextMenu:Release Tolerance>`. Once these steps are performed accurately, your CCOS device will, very quickly, type the keys pressed, BACKSPACE them, and then output the predetermined chord.
 
 We can test out your preloaded chords, of which there are 500, by :doc:`chording<Chords>` both index fingers South, towards your body. You might need to play around with the timing a bit. Just remember that you have to press both switches together, at the same time, and then release them at the same time. As mentioned before, it might take a bit of playing around with the timing, but, eventually, you should see the word "the" output onto your typing space. Congratulations! You just performed a chord!
 
@@ -568,7 +568,7 @@ By default, the A3 Layer is accessible by [INFO]. You do not have to hold them b
    pressing and holding [INFO] and adding the letter ``a`` or ``r`` (location of number 1 on the default layout) to it.
 
 
-Shift Modifier
+SHIFT Modifier
 ^^^^^^^^^^^^^^
 
 .. dropdown:: List of shifted key actions
@@ -603,23 +603,23 @@ Shift Modifier
 
 
 
-On top of the three aforementioned layers, the :doc:`Shift key<CharaChorder Keys>`, which is a :doc:`modifier<Glossary>`, can be used to access some extra keys. The Shift keypress works just like it
+On top of the three aforementioned layers, the :doc:`SHIFT key<CharaChorder Keys>`, which is a :doc:`modifier<Glossary>`, can be used to access some extra keys. The SHIFT keypress works just like it
 would on a traditional keyboard. You can capitalize letters and access
 symbols attached to numbers. This works with any key on any layer, just
-like other modifiers (such as Ctrl and Alt). The Shift modifier output
+like other modifiers (such as CTRL and ALT). The SHIFT modifier output
 is currently controlled by the Operating System that your Forge is
 plugged into, and it is not possible to customize their outputs.
 
 In the above graphic, you’ll see
-the Shift key labeled as “Shift”. In the `Device Manager <https://charachorder.io/config/layout/>`__,
+the SHIFT key labeled as “Shift”. In the `Device Manager <https://charachorder.io/config/layout/>`__,
 this key has the name “Shift Keyboard Modifier (Left)” and “Shift Keyboard Modifier (Right)”, one for each :ref:`digitizer<Master Forge:The Digitizers>`.
 
-By default, the Shift is accessible by pressing and holding either pinky
+By default, the SHIFT is accessible by pressing and holding either pinky
 finger inwards, that is, east on the left pinky or west on the right
 pinky. You do not have to hold them both, only one is required. Any key
-that requires the Shift Modifier can only be accessed by pressing and
-holding the Shift key along with the target key. You do not need to
-:doc:`chord<Chords>` the keys together; it’s only required that the Shift
+that requires the SHIFT Modifier can only be accessed by pressing and
+holding the SHIFT key along with the target key. You do not need to
+:doc:`chord<Chords>` the keys together; it’s only required that the SHIFT
 key is pressed while the target key is pressed.
 
 .. note::
@@ -644,7 +644,7 @@ works and how to remap your device, visit the :ref:`remapping section<Device Man
 Master Forge Configurations
 ***************************
 
-When the Master Forge was `unveiled <https://youtu.be/fux9gU3M25E?si=u4KW7OaUUUNINfKD&t=1025>`__ in November of 2023, CharaChorder began taking pre-orders offering everyone the same bundle. In September of 2024, CharaChorder ran a `Kickstarter <https://www.kickstarter.com/projects/charachorder/the-master-forge-a-keyboard-built-for-you>`__ campaign for the Master Forge for 5 weeks, offering three different tiers, each with a different configuration. After the Kickstarter campaign finished, the Master Forge went on back-order sale on the `Forge website <https://forgekeyboard.com>`__. The following section identifies what each of these 5 bundles included. 
+When the Master Forge was `unveiled <https://youtu.be/fux9gU3M25E?si=u4KW7OaUUUNINfKD&t=1025>`__ in November of 2023, CharaChorder began taking pre-orders offering everyone the same bundle. In September of 2024, CharaChorder ran a `Kickstarter <https://www.kickstarter.com/projects/charachorder/the-master-forge-a-keyboard-built-for-you>`__ campaign for the Master Forge for 5 weeks, offering three different tiers, each with a different configuration. After the Kickstarter campaign finished, the Master Forge went on back-order sale on the `Forge website <https://forgekeyboard.com>`__. The following section identifies what each of these 5 bundles included.
 
 Forge Website Pre-Orders
 ------------------------

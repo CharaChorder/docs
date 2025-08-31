@@ -448,7 +448,7 @@ Under the page-turning brackets, you'll see a tall box with the text "Try typing
 
 Under the text box if your device supports it you can find some shortcuts to help you clear your chord library, add back in the starter chords that came on your device, add functional utility chords, and download a text file with all of your chord outputs separated by a pipe character for importing into practice tools.
 
-Finally, at the bottom of the page, if you hover over the Device name you'll notice that you can hold Shift and click on it to "Sync".  If you do this, it will have the device manager read your device's chord library again. This process can take a few seconds.
+Finally, at the bottom of the page, if you hover over the Device name you'll notice that you can hold SHIFT and click on it to "Sync".  If you do this, it will have the device manager read your device's chord library again. This process can take a few seconds.
 
 Creating a Chord
 ----------------
