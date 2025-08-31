@@ -51,7 +51,7 @@ Your device will come with two Digitizers which, together, comprise the Master F
   * two on the bottom back, under the two back rubber feet
   * one on the bottom front center (this screw is longer than the two back screws)
 
-Three :ref:`bookend rails<Master Forge:The Bookend Rails>` are held in place with M3 nylon screws, on the left shoulder, right shoulder, and at the back.
+Three :ref:`bookend rails<Master Forge:The Bookend Rails>` are held in place with M3 steel screws, on the left shoulder, right shoulder, and at the back.
 
 The feet are round, rubberized and help the device to have a grip on desks and other smooth surfaces.
 
@@ -211,7 +211,7 @@ the first time, it’s important to make sure that either the :ref:`electrical b
 
 As a rule of thumb, all Forge :doc:`anchor bodies<Anchor Bodies>`, including the Master Forge Digitizers, must receive power through their front left USB-C port. It's important to use that specific port to connect your device to your computer because no other port will permit your Forge to function correctly. The other three ports are outgoing ports in order to connect other anchor bodies and :doc:`bolt-ons<Bolt-Ons>`. Each additional anchor body or bolt-on will need to "receive" power from the "Master" anchor body, or from an anchor body or bolt-on connected to the Master. A "Master" anchor body is the one connected directly to your computer. Please note that some bolt-ons may function as a Master.
 
-If you haven't done so, now would be the time to plug the included USB-C to USB-A cable included with your order into the LEFT :ref:`digitizer<Master Forge:The Digitizers>`. If you would rather use an after-market USB-C to USB-C cable instead, due to a personal preference or computer requirement, that is also okay. Regardless of your selection, we'll refer to the cable that connects directly to the computer as the sole Power Cable. If you have any additional :doc:`bolt-ons<Bolt-Ons>`, now would be a good time to plug them into your Master.
+If you haven't done so, now would be the time to plug the included USB-C to USB-A cable into the LEFT :doc:`digitizer<Master Forge:The Digitizers>` using its FRONT LEFT USB-C port. If you would rather use an after-market USB-C to USB-C cable instead, due to a personal preference or computer requirement, that is also okay. Regardless of your selection, we'll refer to the cable that connects directly to the computer as the sole Power Cable. If you have any additional :doc:`bolt-ons<Bolt-Ons>`, now would be a good time to plug them into your Master.
 
 Once you have your setup connected, you can plug the Master Power Cable into your computer. Upon connecting, the LED lights under your :doc:`digitizers<Digitizers>` will start their rainbow cycle.
 
@@ -511,7 +511,7 @@ It will look something like this:
 Navigation around this menu is based on letter-presses. In the example
 above, you can select the desired submenu by pressing the letter between
 the angle brackets (for example: ``>K<``) in your target submenu on your
-CharaChorder One. In the example above, you would press:
+Master Forge. In the example above, you would press:
 
   * ``K`` for Keyboard
   * ``M`` for Mouse
