@@ -293,7 +293,7 @@ We have added a compound chord:
 Dynamic Libraries
 ~~~~~~~~~~~~~~~~~
 
-The same chord input can have a unique output in each dynamic library.
+Dynamic Libraries are a way with which you can store multiple different chord libraries on a device. You can switch between the different libraries by using a pre-defined chord. With Dynamic Libraries, you can use the same chord to produce different outputs, depending on what library is currently active.
 
 For example, the chord: ``r+a+l`` can output:
 
@@ -307,68 +307,80 @@ For example, the chord: ``r+a+l`` can output:
 * ``Eneot of Draconia`` in a library for Novel writing
 * ``OnePlus`` in a library for Cell Phone blogging
 
-Add dynamic library switching chords
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Add Dynamic Toggle Chords
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To switch between dynamic libraries, we add library chords in the device
-manager's library editor: https://charachorder.io/config/chords/
+To switch between Dynamic libraries, we add Dynamic Toggle Chords by using the device manager's chord editor: https://charachorder.io/config/chords/
 
-First, we add a base library chord. This exits any dynamic library.
+First, we add a Dynamic Toggle that will return us to the base library.
 
 * chord: ``b+a+l+i``
-* output: ``{action: base library}base``
+* output:
 
-Then, we add a work dynamic library chord.
+   Add the action: Base Library
+
+   .. figure:: /assets/images/BaseLibraryAction.png
+      :alt: Base Library Action
+
+   Then type the dynamic library name: ``base``
+
+Then, we add a Dynamic Toggle for a library used at work.
 
 * chord: ``w+l+i+b``
-* output: ``{action: dynamic library}wlib``
+* output:
+
+   Add the action: Dynamic Library
+
+   .. figure:: /assets/images/DynamicLibraryAction.png
+      :alt: Dynamic Library Action
+
+   Then type the dynamic library name: ``wlib``
+
+The Dynamic Toggle chords look like this:
+
+   .. image:: /assets/images/Dynamic-Toggle-Chords.png
+      :alt: Dynamic Toggle Chords
 
 .. note::
 
-   Both the chords ``b+a+l+i`` and ``w+l+i+b``, and the dynamic library
-   names ``base`` and ``wlib`` (in the chord output) are just examples.
-   Feel free to use your own chords and library names when you know how
-   this works.
+   The chords we used in the examples above (``b+a+l+i`` and ``w+l+i+b``) and their outputs (``base`` and ``wlib``) are merely examples; they don't have to be exactly that. You can make the chord inputs and their outputs whatever you want, as long as you include the dynamic library action in the chord output.
 
 Add a chord in a dynamic library
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Switch to the work library, by chording: ``w+l+i+b``
-#. It switches to the work library and outputs its name: ``wlib``
-#. You can ignore the name, erase it or just press ``enter`` to continue
-   on a new line. We'll make it easier to erase the library name in the
-   next section.
+#. It switches to the work library and outputs its name in plain text: ``wlib``
+#. You can ignore the name, erase it or just press ``ENTER`` to continue
+   on a new line. We'll get rid of the printed library name in the
+   :ref:`next section <Chords:Select the dynamic library name automatically>`
 #. Open the impulse chord menu: ``i+DUP``
 #. At the impulse output prompt, type your desired output:
    ``realtor@email.com``
-#. Press: ``enter``
+#. Press: ``ENTER``
 #. At the impulse input prompt, chord: ``r+a+l``
-#. Press: ``enter``
+#. Press: ``ENTER``
 
    .. note::
 
       Adding a chord in a dynamic library doesn't overwrite an existing
-      chord on the base library because it adds the dynamic library
+      chord on the base library because it adds the Dynamic Toggle
       chord as a prefix.
 
-      The screenshot below shows that the impulse prompt includes
-      the keys that were held:
-
-         * Num (left pinky west), the symbol: (2)
-         * Arrow down with a bottom line means: press and do not release the next key
-         * Shift (right pinky west)
-         * 2 (right index south, the ``t`` key is 2 on the number layer)
-         * Arrow up with a bottom line means: release the next key
-         * Shift
+      This is what the chords look like in the device manager's chord editor. The impulse prompt added the keys/actions that were pressed:
 
       .. _Dynamic Library Chord With Pressed Keys Num and Shift:
-      .. image:: /assets/images/Dynamic-Library-Chord-With-Pressed-Keys-Num-And-Shift.png
+      .. figure:: /assets/images/Dynamic-Library-Chord-With-Pressed-Keys-Num-And-Shift.png
          :alt: Dynamic Library Chord With Pressed Keys Num and Shift
 
-      The chord works fine: ``realtor@email.com``
+      * `(2)` with a thicker left line, is the left number layer key (left pinky west)
+      * Arrow down with a bottom line, is the action: Press and do not release the next key/action
+      * Arrow up with a thicker right line, is right shift (right pinky west)
+      * 2 can be typed on the number layer with either ``e`` (left index south) or ``t`` (right index south)
+      * Arrow up with a bottom line, is the action: Release the next key/action in the sequence
+      * Arrow up with a thicker right line, is right shift (right pinky west)
 
-      It can be edited in the device manager to look like its output:
-      https://charachorder.io
+      The chord works fine: ``realtor@email.com``
+      but if you want it to look like what it outputs, then you can replace the keys/actions, with an @ symbol, in the device manager's chord editor: https://charachorder.io
 
       .. _Dynamic Library Chord:
       .. image:: /assets/images/Dynamic-Library-Chord.png
@@ -379,7 +391,7 @@ Add a chord in a dynamic library
    * when we chord: ``r+a+l``
    * it outputs: ``realtor@email.com``
 
-#. Switch to the base library by using the base library chord we
+#. Switch to the base library by using the base Dynamic Toggle that we
    created earlier: ``b+a+l+i``
 #. It switches to the base library and outputs its name: ``base``
 
@@ -393,16 +405,14 @@ Select the dynamic library name automatically
 
 This step isn't required, but it's a convenience.
 
-When we switch between dynamic libraries, the library chord outputs the
-library name. It's an extra step to erase the library name manually.
+When we switch between dynamic libraries, the Dynamic Toggle chord outputs the library name. It's an extra step to erase the name manually.
 
 Instead, let's select the dynamic library name automatically by adding
-these actions to the end of the library chord output.
+these actions to the end of the Dynamic Toggle chord output.
 
 .. note::
 
-   The actions below are on the same line in the manager, they are only
-   on separate lines here to make them easier to read.
+   The actions below are on the same line in the device manager's chord editor, they are on separate lines here to make them easier to read.
 
 .. code-block::
 
@@ -411,15 +421,13 @@ these actions to the end of the library chord output.
    {release_next}{left_shift}
 
 The number of ``{arrow left}`` actions should match the number of
-characters in the base and dynamic library names, in this case we used
-four characters for both: ``base`` and ``wlib``
+characters in the dynamic library's name; in this case, we used four characters for both: ``base`` and ``wlib``
 
-The ``base`` and ``wlib`` dynamic library chords look like this:
+The ``base`` and ``wlib`` Dynamic Toggle chords look like this:
 
-.. _Dynamic Library Switching Chords:
-.. image:: /assets/images/Dynamic-Library-Switching-Chords.png
-  :width: 437
-  :alt: Dynamic Library Switching Chords
+.. _Dynamic Toggle Chords Select Library Name:
+.. image:: /assets/images/Dynamic-Toggle-Chords-Select-Library-Name.png
+   :alt: Dynamic Toggle Chords Select Library Name
 
 Now the library name will be selected automatically.
 
@@ -427,11 +435,11 @@ Pressing the chord: ``w+l+i+b``
 
 * Switches to the dynamic library
 * outputs the library name: ``wlib``
-* and selects it
+* and selects the name
 
 Now, it's easy to erase the name by:
 
-* Pressing: ``backspace``
+* Pressing: ``BACKSPACE``
 * or typing a character
 * or pressing a chord
 
