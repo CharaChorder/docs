@@ -256,10 +256,10 @@ There was a bug that could cause library corruption which has now been fixed. Th
 CC Lite S2 Fixes
 ~~~~~~~~~~~~~~~~
 
-Fixed swapped Right Shift and Quote keys
+Fixed swapped RIGHT SHIFT and Quote keys
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Right Shift typed a single quote, and the single quote key behaved as Right Shift.
+RIGHT SHIFT typed a single quote, and the single quote key behaved as RIGHT SHIFT.
 
 CC One Fixes
 ~~~~~~~~~~~~

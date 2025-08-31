@@ -448,7 +448,7 @@ RST SubCommands
    "STARTER","Adds starter chordmaps. This does not clear the chordmap library, but adds to it, replacing those that have the same chord."
    "CLEARCML","Permanently deletes all the chordmaps stored in the device memory."
    "UPGRADECML","Attempts to upgrade chordmaps that the system detects are older. This is under development."
-   "FUNC","Adds back in functional chords such as CAPSLOCKS and Backspace-X chords."
+   "FUNC","Adds back in functional chords such as CAPSLOCKS and BACKSPACE-X chords."
 
 
 RAM
