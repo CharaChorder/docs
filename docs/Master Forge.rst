@@ -573,17 +573,17 @@ By default, auxiliary layers are accessible by pressing and holding the "layer a
 
     In order to set your device up to have toggleable layers instead of shifted layers, you'll need to head to the `Device Manager <https://charachorder.io/config/layout/>`__ and remap some keys. We'll describe here how to remap the A2 layer access key, but the same steps apply to the A3 layer. These instructions assume that you have already connected your device to the `Device Manager <https://charachorder.io/config/layout/>`__.
 
-    #. Make sure that the A2 layer access key is mapped to the key of your choice on the Alpha layer (A1 layer). This is the key you will use to toggle into the A2 layer
+    #. Make sure that the A2 layer access key is mapped to the key of your choice on the A1 layer. This is the key you will use to toggle into the A2 layer
     #. On the A2 layer, find the same location that you mapped the A2 layer access key and change that key (on the A2 layer) to ``No Key Pressed``. This change is what prevents your device from shifting back into the A1 layer
-    #. On the A2 layer, choose another location and map the A1 layer access key there. This is the key that you will use to return to the Alpha layer (A1 layer).
+    #. On the A2 layer, choose another location and map the A1 layer access key there. This is the key that you will use to return to the A1 layer.
 
 A1 Layer
 ^^^^^^^^
 
-.. _M4G Alpha Layer:
+.. _M4G A1 Layer:
 .. image:: /assets/images/AlphaL.JPG
   :width: 1200
-  :alt: The Alpha Layer
+  :alt: The A1 Layer
 
 The A1 layer is the main layer that is active by default. The M4 English
 layout has all 26 letters of the English alphabet on the A1 layer so
