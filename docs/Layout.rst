@@ -54,7 +54,7 @@ First of all, here are some pitfalls
   You can use right-alt to access special characters.
   Holding right-alt and pressing `q` will give you an `ä`.
 
-The other solution is to use your local layout and mentally remap. So if you wanted to type the cyrillic `Ф`, you set the Russian layout on your OS, and map the key to `a` (which will send the key-code that corresponds to Ф on a Russian layout)
+The other solution is to use your local layout and mentally remap. So if you wanted to type the Cyrillic `Ф`, you set the Russian layout on your OS, and map the key to `a` (which will send the key-code that corresponds to Ф on a Russian layout)
 
 What's even going on?
 ^^^^^^^^^^^^^^^^^^^^^
@@ -63,7 +63,7 @@ Intuitively you'd expect keyboards to send the letter that's printed on the key 
 
 Keyboards send what's called a **key-code** to the operating system, which is the ID of the key pressed. This key-code stands in no relation to the actual letter typed, it's up to the OS to turn it into an actual character. This mapping is described by a keyboard layout, which *cannot* be set by the device itself, it *must* be applied on your operating system.
 
-The only convention here is *where* the keys are located - *on a standard layout keyboard*. There are a few standardised locations based on the US keyboard layout, like the ASCII character set, the GUI/Windows key, CTRL, SHIFT etc. However all or most of these assume a US-Layout.
+The only convention here is *where* the keys are located - *on a standard layout keyboard*. There are a few standardized locations based on the US keyboard layout, like the ASCII character set, the GUI/Windows key, CTRL, SHIFT etc. However all or most of these assume a US-Layout.
 
 There is no standard for other typing input devices,  nor is there a way for the device to know what layout is selected by the OS.
 
@@ -75,7 +75,7 @@ If you set a layout on the CCOS, it moves the key-code locations around.
 .. warning::
   Setting the letter `a` on a switch doesn't actually send "print a" to the computer - it sends a "key where the a would be on the us layout pressed" to the OS**.
 
-So how can I add äöüß etc when it's not on the US layout?
+So how can I add äöüß etc. when it's not on the US layout?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 There is a special feature on Windows that allows you to directly type *any* Unicode character with your keyboard, by holding `alt` and typing a numeric code.

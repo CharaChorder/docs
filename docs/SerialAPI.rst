@@ -318,7 +318,7 @@ CMD_VAR_COMMIT
    "INPUT","1","SubCommand","Hexadecimal VAR Code","B0","Commit parameters to memory"
    "OUTPUT","0","Command","Chars","VAR",""
    "OUTPUT","1","SubCommand","Hexadecimal VAR Code","B0",""
-   "OUTPUT","2","Success","Boolean Number","0","This will be 0 on success, or greater than zero for an error if there was a problem commiting"
+   "OUTPUT","2","Success","Boolean Number","0","This will be 0 on success, or greater than zero for an error if there was a problem committing"
 
 Example(s):
 
@@ -340,7 +340,7 @@ CMD_VAR_GET_PARAMETER
    "OUTPUT","1","SubCommand","Hexadecimal VAR Code","B1",""
    "OUTPUT","2","Parameter Code","Hexadecimal Parameter Code","0x15",""
    "OUTPUT","3","Data Out","Decimal Number","7",""
-   "OUTPUT","4","Success","Boolean Number","0","This will be 0 on success, or greater than zero for an error if the VAR Code or Parameter Code doesnt exist"
+   "OUTPUT","4","Success","Boolean Number","0","This will be 0 on success, or greater than zero for an error if the VAR Code or Parameter Code doesn't exist"
 
 Example(s):
 
@@ -448,13 +448,13 @@ RST SubCommands
    "STARTER","Adds starter chordmaps. This does not clear the chordmap library, but adds to it, replacing those that have the same chord."
    "CLEARCML","Permanently deletes all the chordmaps stored in the device memory."
    "UPGRADECML","Attempts to upgrade chordmaps that the system detects are older. This is under development."
-   "FUNC","Adds back in functional chords such as CAPSLOCKS and Backspace-X chords."
+   "FUNC","Adds back in functional chords such as CAPSLOCK and Backspace-X chords."
 
 
 RAM
 ~~~
 
-The `RAM` command returns the current number of bytes availabe in SRAM. This is useful for debugging when there is a suspected heap or stack issue.
+The `RAM` command returns the current number of bytes available in SRAM. This is useful for debugging when there is a suspected heap or stack issue.
 
 .. csv-table::
    :header: "I/O","Index","Name","Type","Example","Notes"

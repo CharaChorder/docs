@@ -63,7 +63,7 @@ Each CC2 half has nine 5-way switches. Starting from the
 outside on each half and working inwards, the switches correspond to the
 following fingers; pinky, ring, middle, and index. The three switches on
 the inner-most side of each half correspond to the thumb. You can see
-what characters are on each switch in :doc:`Layout<Layout>`. Additionally,
+what characters are on each switch in the :doc:`CC English Layout<Layout>`. Additionally,
 there are two switches off the “home-row” which can be accessed by
 the ring and middle fingers.
 
@@ -393,7 +393,7 @@ Practice
 ~~~~~~~~
 
 Now that you’re familiar with your new CharaChorder device, it’s time to
-use it! Head over the the :doc:`training section<Tools>` for instructions
+use it! Head over the :doc:`training section<Tools>` for instructions
 on how to get started with learning your device. If you want to just
 jump in without having to read a minute longer, head on over to our
 training website; https://www.iq-eq.io/#/
