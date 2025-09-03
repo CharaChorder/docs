@@ -44,7 +44,7 @@ The CharaChorder Lite's base is made of ABS plastic, which is designed and assem
 PCB
 ^^^
 
-The CCL comes with a PCB "motherboard" that holds your CharaChorder's :doc:`chords<Chords>`, :doc:`layout<Layout>`, :doc:`settings<GenerativeTextMenu>`, and the CCOS that powers the entire keyboard. It's held securely in place between the :ref:`base<CharaChorder_Lite:Base>` and the :ref:`key plate<CharaChorder_Lite:Key Plate>`.
+The CCL comes with a PCB "motherboard" that holds your CharaChorder's :doc:`chords<Chords>`, :ref:`layout<CharaChorder_Lite:Learning the Layout>`, :doc:`settings<GenerativeTextMenu>`, and the CCOS that powers the entire keyboard. It's held securely in place between the :ref:`base<CharaChorder_Lite:Base>` and the :ref:`key plate<CharaChorder_Lite:Key Plate>`.
 
 Front:
 
@@ -178,7 +178,7 @@ Updating your Device
    instructions on how to upgrade your device to our new CCOS :ref:`here<CCOS:Upgrade to CCOS>`. If your device is not running    :doc:`CCOS<CCOS>`, you will be unable to follow the
    steps below to update your device.
 
-Checking your Device’s Firmware
+Checking the Firmware
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You can check your device’s current firmware by following the steps
@@ -188,7 +188,6 @@ below:
 #. Click “Connect” at the bottom middle of the page
 #. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your CharaChorder device, then click the “connect” button
 
-   .. _Serial Port Popup Check Firmware:
    .. image:: /assets/images/SerialPort-Message-CCL.webp
       :width: 435
       :alt: Popup to select serial device
@@ -197,7 +196,6 @@ After following the above steps, you can find your
 firmware version in the bottom left of your screen. It will read
 something like this: ``CCOS 2.1.0``
 
-   .. _Bottom Bar Check Firmware:
    .. image:: /assets/images/DM-Bottom-Bar-CCL-S2.webp
       :width: 1200
       :alt: Checking the firmware on Device Manager
@@ -217,14 +215,12 @@ site <https://charachorder.io/ccos/>`__.
 #. If not auto-connected, click “Connect”
 #. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your CharaChorder device, then click the “connect” button
 
-   .. _Serial Port Popup Update Firmware:
    .. image:: /assets/images/SerialPort-Message-CCL.webp
       :width: 435
       :alt: Popup to select serial device
 
 #. Click on the CCOS version on the bottom left of the page
 
-   .. _Bottom Bar Update Firmware:
    .. image:: /assets/images/DM-Bottom-Bar-CCL-S2.webp
       :width: 1200
       :alt: Checking the firmware on Device Manager
@@ -234,7 +230,7 @@ site <https://charachorder.io/ccos/>`__.
 
 At this point, your device will automatically reboot. Congratulations! You have
 successfully updated your device. You can check your device’s firmware
-version by following the steps :ref:`here<CharaChorder_Lite:Checking your Device’s Firmware>`.
+version by following the steps :ref:`here<CharaChorder_Lite:Checking The Firmware>`.
 
 Understanding the Settings
 --------------------------
@@ -388,8 +384,8 @@ Configurability
 ~~~~~~~~~~~~~~~
 
 The CharaChorder Lite’s layout is configurable, which means that you can
-:doc:`remap<Glossary>` all keys. Though the QWERTY layout is loved by many, some users may
-choose to :doc:`remap<Glossary>` their device’s layout to better
+remap all keys. Though the QWERTY layout is loved by many, some users may
+choose to remap their device’s layout to better
 suit their personal needs. For an explanation of how remapping
 works and how to remap your device, visit the :ref:`remapping section<Device Manager:Remapping>`.
 
@@ -402,7 +398,7 @@ on how to get started with learning to :doc:`chord<Chords>`. If you want to just
 jump in without having to read a minute longer, head on over to our
 training website; https://www.iq-eq.io/#/
 
-.. _Dot I/O:
+.. _CCL Dot I/O:
 .. image:: /assets/images/DOTIO-lite.jpeg
   :width: 1200
   :alt: Practicing on DOT I/O
