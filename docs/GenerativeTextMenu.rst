@@ -523,6 +523,10 @@ Realtime feedback refers to the helpful text like ``SPURRING_ON``, ``SPURRING_OF
 Startup
 ~~~~~~~
 
+.. Note::
+
+    Devices running CCOS 2.1.0 or later. This Startup setting has been removed, with the introduction of the Instant Boot feature, which allows for character entry while the chords load in the background.
+
 ``Path: GTM > Display > Startup``
 
 Having this setting set to "ON" will result in your device displaying the text "CCOS is ready." after you have plugged your device into a computer. The startup text will be displayed wherever your cursor was last typing, if that window is active. This setting is useful so that you know when your CharaChorder device is ready to be used, since startup may take a couple of seconds.
