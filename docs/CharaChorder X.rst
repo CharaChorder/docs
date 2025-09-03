@@ -12,7 +12,7 @@ The CharaChorder X is a plug-and-play device that serves as a middle-man between
 
 What is :doc:`chording<Chords>`? Put simply, :doc:`chording<Chords>` is the action of pressing and releasing multiple keys at once to get a predetermined output. For example, we can press `b` and `c` simultaneously, and quickly release them, also simultaneously, to get the word "because". This enables you to type one word at a time, instead of one letter at a time.
 
-Although the CharaChorder X is a very powerful device, it is limited by the keyboard that you use it with. One example of this is that :doc:`chording<Chords>` relies on your keyboard's :doc:`rollover<Glossary>` limits. A keyboard with 3-key rollover (3KRO) will not be able to make use of :doc:`chords<Chords>` that use more than 3 keys in their :doc:`input<Chords>`. We recommend using a keyboard with N-key rollover (NKRO) for best results. Feel free to choose from the list below to read the topics that you find relevant.
+Although the CharaChorder X is a very powerful device, it is limited by the keyboard that you use it with. One example of this is that :doc:`chording<Chords>` relies on your keyboard's rollover limits. A keyboard with 3-key rollover (3KRO) will not be able to make use of :doc:`chords<Chords>` that use more than 3 keys in their :ref:`input<Chords:Chord Input>`. We recommend using a keyboard with N-key rollover (NKRO) for best results. Feel free to choose from the list below to read the topics that you find relevant.
 
 .. contents::
    :local:
@@ -104,7 +104,7 @@ device.
 Updating your Device
 --------------------
 
-Checking your Device’s Firmware
+Checking the Firmware
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You can check your device’s current firmware by following the steps
@@ -114,7 +114,6 @@ below:
 #. Click “Connect” at the bottom middle of the page
 #. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your CharaChorder device, then click the “connect” button
 
-   .. _Serial Port Popup Check Firmware:
    .. image:: /assets/images/SerialPort-Message-CCX.webp
       :width: 435
       :alt: Popup to select serial device
@@ -123,7 +122,6 @@ After following the above steps, you can find your
 firmware version in the bottom left of your screen. It will read
 something like this: ``CCOS 2.0.2``
 
-   .. _Bottom Bar Check Firmware:
    .. image:: /assets/images/DM-Bottom-Bar-CCX-S2.webp
       :width: 1200
       :alt: Checking the firmware on Device Manager
@@ -143,14 +141,12 @@ site <https://charachorder.io/ccos/>`__.
 #. If not auto-connected, click “Connect”
 #. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your CharaChorder device, then click the “connect” button
 
-   .. _Serial Port Popup Update Firmware:
    .. image:: /assets/images/SerialPort-Message-CCX.webp
       :width: 435
       :alt: Popup to select serial device
 
 #. Click on the CCOS version on the bottom left of the page
 
-   .. _Bottom Bar Update Firmware:
    .. image:: /assets/images/DM-Bottom-Bar-CCX-S2.webp
       :width: 1200
       :alt: Checking the firmware on Device Manager
@@ -160,7 +156,7 @@ site <https://charachorder.io/ccos/>`__.
 
 At this point, your device will automatically reboot. Congratulations! You have
 successfully updated your device. You can check your device’s firmware
-version by following the steps :ref:`here<CharaChorder X:Checking your Device’s Firmware>`.
+version by following the steps :ref:`here<CharaChorder X:Checking The Firmware>`.
 
 Understanding the Settings
 --------------------------
@@ -271,8 +267,8 @@ Configurability
 ~~~~~~~~~~~~~~~
 
 You can change the layout of your keyboard while it's connected to the CharaChorder X, which means that you can
-:doc:`remap<Glossary>` almost all keys. Some users may
-choose to :doc:`remap<Glossary>` their device’s layout to accommodate missing keys, such as the :doc:`DUP key<CharaChorder Keys>`. For a thorough explanation on how remapping
+remap almost all keys. Some users may
+choose to remap their device’s layout to accommodate missing keys, such as the :doc:`DUP key<CharaChorder Keys>`. For a thorough explanation on how remapping
 works and how to remap your device, visit the :ref:`remapping section<Device Manager:Remapping>`
 
 Practice
@@ -284,7 +280,7 @@ on how to get started with learning your device. If you want to just
 jump in without having to read a minute longer, head on over to our
 training website; https://www.iq-eq.io/#/
 
-.. _Dot I/O:
+.. _CCX Dot I/O:
 .. image:: /assets/images/DOTIOL.png
   :width: 1200
   :alt: Practicing on DOT I/O
