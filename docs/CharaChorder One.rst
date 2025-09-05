@@ -6,11 +6,11 @@ below to navigate to the topics that you find most relevant.
 
 .. _CC1:
 .. image:: /assets/images/CC1.png
-  :width: 1200
-  :alt: CharaChorder One
+    :width: 1200
+    :alt: CharaChorder One
 
 .. contents:: Table of Contents of this Page
-   :local:
+    :local:
 
 Out of the Box
 **************
@@ -20,8 +20,8 @@ Parts
 
 .. _CC1 Schematic:
 .. image:: /assets/images/CC1Scheme.png
-  :width: 1200
-  :alt: CC1 Scheme
+    :width: 1200
+    :alt: CC1 Scheme
 
 When you first receive your CharaChorder One, it will come in a black
 box with the CharaChorder logo on the outside. Once you open the box,
@@ -31,8 +31,8 @@ some functions that the CharaChorder One has.
 
 .. _CC1 Case:
 .. image:: /assets/images/CC1case.png
-  :width: 1200
-  :alt: CharaChorder One Travel Case
+    :width: 1200
+    :alt: CharaChorder One Travel Case
 
 Once you unzip the travel case, you’ll meet your shiny, new CharaChorder
 One. The CharaChorder One consists of two halves with 9, 5-way switches
@@ -84,13 +84,13 @@ there are two black switches off the “home-row” which can be accessed by
 the ring and middle fingers.
 
 .. note::
-   **IMPORTANT**: In this manual, we will refer to switches in the
-   following way, starting from the pinky finger and working inwards:
-   pinky, ring, middle, index, thumb 1, thumb 2, thumb 3. The black
-   switches below the “home-row” will be referred to as the arrow and
-   mouse switches, where the switch further to the left on the left half
-   of the CharaChorder is the mouse switch. Symmetrically, the mouse
-   switch is the switch furthest to the right on the right half.
+    **IMPORTANT**: In this manual, we will refer to switches in the
+    following way, starting from the pinky finger and working inwards:
+    pinky, ring, middle, index, thumb 1, thumb 2, thumb 3. The black
+    switches below the “home-row” will be referred to as the arrow and
+    mouse switches, where the switch further to the left on the left half
+    of the CharaChorder is the mouse switch. Symmetrically, the mouse
+    switch is the switch furthest to the right on the right half.
 
 Each switch has five press-able directions. Throughout this guide, we
 will use cardinal directions to refer to the directions in which each
@@ -184,10 +184,10 @@ Updating your Device
 --------------------
 
 .. warning::
-   IMPORTANT: If your device shipped from our warehouse before 2023,
-   it’s possible that it is running an obsolete firmware. You can read
-   instructions on how to upgrade your device to our new CCOS :ref:`here<CCOS:Upgrade to CCOS>`. If your device is not running    :doc:`CCOS<CCOS>`, you will be unable to follow the
-   steps below to update your device.
+    IMPORTANT: If your device shipped from our warehouse before 2023,
+    it’s possible that it is running an obsolete firmware. You can read
+    instructions on how to upgrade your device to our new CCOS :ref:`here<CCOS:Upgrade to CCOS>`. If your device is not running    :doc:`CCOS<CCOS>`, you will be unable to follow the
+    steps below to update your device.
 
 Checking your Device’s Firmware
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -199,19 +199,19 @@ below:
 #. Click “Connect” at the bottom middle of the page
 #. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your CharaChorder device, then click the “connect” button
 
-   .. _Serial Port Popup Check Firmware:
-   .. image:: /assets/images/SerialPort-Message-CC1.webp
-      :width: 435
-      :alt: Popup to select serial device
+    .. _Serial Port Popup Check Firmware:
+    .. image:: /assets/images/SerialPort-Message-CC1.webp
+        :width: 435
+        :alt: Popup to select serial device
 
 After following the above steps, you can find your
 firmware version in the bottom left of your screen. It will read
 something like this: ``CCOS 2.1.0``
 
-   .. _Bottom Bar Check Firmware:
-   .. image:: /assets/images/DM-Bottom-Bar-CC1-M0.webp
-      :width: 1200
-      :alt: Checking the firmware on Device Manager
+    .. _Bottom Bar Check Firmware:
+    .. image:: /assets/images/DM-Bottom-Bar-CC1-M0.webp
+        :width: 1200
+        :alt: Checking the firmware on Device Manager
 
 Updating the Firmware
 ~~~~~~~~~~~~~~~~~~~~~
@@ -222,23 +222,23 @@ which is the latest firmware release by visiting `this
 site <https://charachorder.io/ccos/>`__.
 
 .. warning::
-   IMPORTANT: Before performing the below steps, please make sure that you have a :ref:`backup of your layout, chord library, and settings<Device Manager:Creating a Backup>`. The update might reset those, so it's important that you keep backup files handy. For instructions on how to restore backed up files, visit the :ref:`Backups<Device Manager:Restoring from a Backup>` section.
+    IMPORTANT: Before performing the below steps, please make sure that you have a :ref:`backup of your layout, chord library, and settings<Device Manager:Creating a Backup>`. The update might reset those, so it's important that you keep backup files handy. For instructions on how to restore backed up files, visit the :ref:`Backups<Device Manager:Restoring from a Backup>` section.
 
 #. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://charachorder.io/config/layout/>`__
 #. If not auto-connected, click “Connect”
 #. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your CharaChorder device, then click the “connect” button
 
-   .. _Serial Port Popup Update Firmware:
-   .. image:: /assets/images/SerialPort-Message-CC1.webp
-      :width: 435
-      :alt: Popup to select serial device
+    .. _Serial Port Popup Update Firmware:
+    .. image:: /assets/images/SerialPort-Message-CC1.webp
+        :width: 435
+        :alt: Popup to select serial device
 
 #. Click on the CCOS version on the bottom left of the page
 
-   .. _Bottom Bar Update Firmware:
-   .. image:: /assets/images/DM-Bottom-Bar-CC1-M0.webp
-      :width: 1200
-      :alt: Checking the firmware on Device Manager
+    .. _Bottom Bar Update Firmware:
+    .. image:: /assets/images/DM-Bottom-Bar-CC1-M0.webp
+        :width: 1200
+        :alt: Checking the firmware on Device Manager
 
 #. You will see a list of available versions along with their release date. Click on the one you want.
 #. Follow the steps on screen to update your device.
@@ -286,20 +286,20 @@ Learning the Layout
 The default CharaChorder layout, which we will refer to as the CC English layout, has been designed to favor bigrams and trigrams commonly used in the English language while making the letters accessible for a logical choice of :doc:`lexical chords<Chords>`. You can find the quick reference guide for the layout below, and :ref:`read about how the layout was designed, here <Layout:Design of the layout>`.
 
 .. note::
-   General consensus amongst the community is that, while not perfect,
-   the letter arrangement of the default layout is good enough that further modifications would provide very little benefit
-   considering 500+ WPM have been reached in peak conditions.
+    General consensus amongst the community is that, while not perfect,
+    the letter arrangement of the default layout is good enough that further modifications would provide very little benefit
+    considering 500+ WPM have been reached in peak conditions.
 
-   **Most commonly only special character and number placement is changed**, for example to benefit coding.
+    **Most commonly only special character and number placement is changed**, for example to benefit coding.
 
-   Some exceptions include optimizing for VIM bindings, though people have successfully used the default layout for VIM as well
-   and benefits of such modifications are debatable.
+    Some exceptions include optimizing for VIM bindings, though people have successfully used the default layout for VIM as well
+    and benefits of such modifications are debatable.
 
 
 .. _CCEnglish Layout:
 .. image:: /assets/images/CCEnglish.png
-  :width: 1200
-  :alt: CC English Layout
+    :width: 1200
+    :alt: CC English Layout
 
 Layers
 ~~~~~~
@@ -347,9 +347,9 @@ need to :doc:`chord<Chords>` the keys together; it’s only required that the
 A2 Layer access key is pressed while the target key is pressed.
 
 .. note::
-   EXAMPLE: On the CC English layout, you can access the number
-   ``4`` by pressing and holding the right pinky to the east and the
-   left middle finger to the east.
+    EXAMPLE: On the CC English layout, you can access the number
+    ``4`` by pressing and holding the right pinky to the east and the
+    left middle finger to the east.
 
 A3 Layer
 ^^^^^^^^
@@ -371,8 +371,8 @@ together; it’s only required that the A3 layer access key is pressed
 while the target key is pressed.
 
 .. note::
-   EXAMPLE: On the CC English layout, you can access the F1 key by
-   pressing and holding either pinky down, into the device, and adding the letter ``a`` or ``r`` (location of number 1 on the default layout) to it.
+    EXAMPLE: On the CC English layout, you can access the F1 key by
+    pressing and holding either pinky down, into the device, and adding the letter ``a`` or ``r`` (location of number 1 on the default layout) to it.
 
 Shift Modifier
 ^^^^^^^^^^^^^^
@@ -398,12 +398,12 @@ holding the Shift key along with the target key. You do not need to
 key is pressed while the target key is pressed.
 
 .. note::
-   EXAMPLE: On the CC English layout, you can access the capital
-   ``A`` by pressing and holding the left pinky to the east and the
-   right index finger to the west.
+    EXAMPLE: On the CC English layout, you can access the capital
+    ``A`` by pressing and holding the left pinky to the east and the
+    right index finger to the west.
 
-   On the CC English layout, you can access the ``@`` symbol by pressing
-   and holding both pinkies to the east and the left index south.
+    On the CC English layout, you can access the ``@`` symbol by pressing
+    and holding both pinkies to the east and the left index south.
 
 Configurability
 ~~~~~~~~~~~~~~~
@@ -427,5 +427,5 @@ training website; https://www.iq-eq.io/#/
 
 .. _Dot I/O:
 .. image:: /assets/images/DOTIO.png
-  :width: 1200
-  :alt: Practicing on DOT I/O
+    :width: 1200
+    :alt: Practicing on DOT I/O

@@ -1,7 +1,7 @@
 .. this is a comment, it is not rendered
-   when adding new *.rst or *.md files, reference them here
-   in this index.rst for them to be rendered and added to the
-   table of contents
+    when adding new *.rst or *.md files, reference them here
+    in this index.rst for them to be rendered and added to the
+    table of contents
 
 Welcome to the Official CharaChorder Guide!
 ===========================================
@@ -21,20 +21,20 @@ Table of Contents
 =================
 
 .. toctree::
-   :maxdepth: 2
+    :maxdepth: 2
 
-   Master Forge.rst
-   CharaChorder One.rst
-   CharaChorder Two.rst
-   CharaChorder_Lite.rst
-   CharaChorder Engine.rst
-   CharaChorder X.rst
-   CCOS.rst
-   Chords.rst
-   Device Manager.rst
-   FAQs.rst
-   GenerativeTextMenu.rst
-   Glossary.rst
-   Layout.rst
-   SerialAPI.rst
-   Beta Releases.rst
+    Master Forge.rst
+    CharaChorder One.rst
+    CharaChorder Two.rst
+    CharaChorder_Lite.rst
+    CharaChorder Engine.rst
+    CharaChorder X.rst
+    CCOS.rst
+    Chords.rst
+    Device Manager.rst
+    FAQs.rst
+    GenerativeTextMenu.rst
+    Glossary.rst
+    Layout.rst
+    SerialAPI.rst
+    Beta Releases.rst

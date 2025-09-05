@@ -28,19 +28,19 @@ some things you can expect to experience moving forward as we peel back the
 layers and start to unlock the full potential of CCOS with future updates:
 
 - :ref:`Compound Chording<Chords:Compound Chords>`, the ability for any chord combination in any
-  layout to be compounded with up to twelve other chords, with each compounding
-  layer being tied to its own unique output.
+    layout to be compounded with up to twelve other chords, with each compounding
+    layer being tied to its own unique output.
 - An interface for programming advanced keyboard/mouse macros which can be
-  assigned to either individual switches or chord outputs
+    assigned to either individual switches or chord outputs
 - Soon, the only limitation for chord length will be the memory on your
-  device due to the new CCOS architecture's capability to link together an
-  infinite number of memory locations to a single chord output.
+    device due to the new CCOS architecture's capability to link together an
+    infinite number of memory locations to a single chord output.
 - Increased independence of CharaChorder devices, including the ability of
-  future generation devices to operate in the complete absence of an external computer.
+    future generation devices to operate in the complete absence of an external computer.
 - More sophisticated mouse and cursor control, and future generation devices
-  which function as a total mouse replacement, even for (and especially for)
-  activities which require high precision/high speed cursor control such as
-  gaming, modeling, & design.
+    which function as a total mouse replacement, even for (and especially for)
+    activities which require high precision/high speed cursor control such as
+    gaming, modeling, & design.
 
 CCOS was not designed for any one product, or even for a portfolio of products.
 In alignment with our :doc:`mission<CharaChorder's Mission>` to get the whole

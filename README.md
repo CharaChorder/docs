@@ -57,7 +57,7 @@ If you want to link to a specific anchor:
 
 ```
 .. csv-table::
-:header: "Device", "Default", "Min. Value", "Max. Value", "Increments"
+    :header: "Device", "Default", "Min. Value", "Max. Value", "Increments"
 
     "CharaChorder One", ""
     "CharaChorder Lite", ""
@@ -77,6 +77,6 @@ If you want to link to a specific anchor:
 
 ```
 .. image:: /assets/images/PATH-TO-IMAGE.png
-  :width: 1200
-  :alt: Alt text for screen readers
+    :width: 1200
+    :alt: Alt text for screen readers
 ```

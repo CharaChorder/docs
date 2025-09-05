@@ -5,8 +5,8 @@ Welcome to the Official CharaChorder X guide.
 
 .. _CCX:
 .. image:: /assets/images/CCX.png
-  :width: 1200
-  :alt: CharaChorder X
+    :width: 1200
+    :alt: CharaChorder X
 
 The CharaChorder X is a plug-and-play device that serves as a middle-man between your keyboard and your computer. It allows any keyboard to have :doc:`chording<Chords>` capabilities. Essentially, the CharaChorder X is a supersuit for your keyboard that will give it the power of :doc:`chording<Chords>`.
 
@@ -15,7 +15,7 @@ What is :doc:`chording<Chords>`? Put simply, :doc:`chording<Chords>` is the acti
 Although the CharaChorder X is a very powerful device, it is limited by the keyboard that you use it with. One example of this is that :doc:`chording<Chords>` relies on your keyboard's :doc:`rollover<Glossary>` limits. A keyboard with 3-key rollover (3KRO) will not be able to make use of :doc:`chords<Chords>` that use more than 3 keys in their :doc:`input<Chords>`. We recommend using a keyboard with N-key rollover (NKRO) for best results. Feel free to choose from the list below to read the topics that you find relevant.
 
 .. contents::
-   :local:
+    :local:
 
 Out of the Box
 **************
@@ -30,8 +30,8 @@ You will also find an insert that gives instructions on how to connect the Chara
 
 .. _CCX in the box:
 .. image:: /assets/images/CCXinBox.png
-  :width: 1200
-  :alt: CharaChorder X in its Box
+    :width: 1200
+    :alt: CharaChorder X in its Box
 
 
 The Body
@@ -40,21 +40,21 @@ The Body
 The CharaChorder X is a single piece comprised of a circuit board which is enclosed in an injection molded plastic shell. It has a single female USB-A port, and a single male USB-A connector. You can find the dimensions of the CharaChorder X in the table below.
 
 .. list-table:: CharaChorder X Dimensions
-   :widths: 25 25 25 25
-   :header-rows: 1
+    :widths: 25 25 25 25
+    :header-rows: 1
 
-   * -
-     - Length
-     - Width
-     - Height
-   * - **Shell**
-     - 59 mm (5/16 in)
-     - 23.25 mm (15/16 in)
-     - 16.15 mm (5/8 in)
-   * - **Shell + Connector**
-     - 71.5 mm (2 7/8 in)
-     - 23.25 mm (15/16 in)
-     - 16.15 mm (5/8 in)
+    * -
+      - Length
+      - Width
+      - Height
+    * - **Shell**
+      - 59 mm (5/16 in)
+      - 23.25 mm (15/16 in)
+      - 16.15 mm (5/8 in)
+    * - **Shell + Connector**
+      - 71.5 mm (2 7/8 in)
+      - 23.25 mm (15/16 in)
+      - 16.15 mm (5/8 in)
 
 
 Connections
@@ -70,13 +70,13 @@ The CharaChorder X is plug-and-play, so it doesn’t require any
 additional software to work.
 
 .. warning::
-   IMPORTANT: During your first time plugging your CharaChorder in,
-   and every time thereafter when you have :ref:`realtime feedback<GenerativeTextMenu:Realtime Feedback>`
-   enabled, it’s recommended
-   that you have your cursor in a blank typing space. The CharaChorder
-   has a welcome message that can send instructions to your computer
-   that are not intended by the user. This feature can be disabled in
-   the :doc:`GTM<GenerativeTextMenu>`.
+    IMPORTANT: During your first time plugging your CharaChorder in,
+    and every time thereafter when you have :ref:`realtime feedback<GenerativeTextMenu:Realtime Feedback>`
+    enabled, it’s recommended
+    that you have your cursor in a blank typing space. The CharaChorder
+    has a welcome message that can send instructions to your computer
+    that are not intended by the user. This feature can be disabled in
+    the :doc:`GTM<GenerativeTextMenu>`.
 
 Take the male USB-A connector from your keyboard and plug it into the CharaChorder X's female USB-A port. After that, take the male USB'A connector on the CharaChorder X and plug it into a female USB-A port on your computer.
 
@@ -91,7 +91,7 @@ If you have :ref:`realtime feedback<GenerativeTextMenu:Realtime Feedback>` enabl
 “CCOS is ready”, your device is ready to be used.
 
 .. note::
-   IMPORTANT: :ref:`Realtime feedback<GenerativeTextMenu:Realtime Feedback>` is enabled by default on new CharaChorder devices.
+    IMPORTANT: :ref:`Realtime feedback<GenerativeTextMenu:Realtime Feedback>` is enabled by default on new CharaChorder devices.
 
 Getting Started
 ***************
@@ -114,19 +114,19 @@ below:
 #. Click “Connect” at the bottom middle of the page
 #. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your CharaChorder device, then click the “connect” button
 
-   .. _Serial Port Popup Check Firmware:
-   .. image:: /assets/images/SerialPort-Message-CCX.webp
-      :width: 435
-      :alt: Popup to select serial device
+    .. _Serial Port Popup Check Firmware:
+    .. image:: /assets/images/SerialPort-Message-CCX.webp
+        :width: 435
+        :alt: Popup to select serial device
 
 After following the above steps, you can find your
 firmware version in the bottom left of your screen. It will read
 something like this: ``CCOS 2.0.2``
 
-   .. _Bottom Bar Check Firmware:
-   .. image:: /assets/images/DM-Bottom-Bar-CCX-S2.webp
-      :width: 1200
-      :alt: Checking the firmware on Device Manager
+    .. _Bottom Bar Check Firmware:
+    .. image:: /assets/images/DM-Bottom-Bar-CCX-S2.webp
+        :width: 1200
+        :alt: Checking the firmware on Device Manager
 
 Updating the Firmware
 ~~~~~~~~~~~~~~~~~~~~~
@@ -137,23 +137,23 @@ which is the latest firmware release by visiting `this
 site <https://charachorder.io/ccos/>`__.
 
 .. warning::
-   IMPORTANT: Before performing the below steps, please make sure that you have a :ref:`backup of your layout, chord library, and settings<Device Manager:Creating a Backup>`. The update might reset those, so it's important that you keep backup files handy. For instructions on how to restore backed up files, visit the :ref:`Backups<Device Manager:Restoring from a Backup>` section.
+    IMPORTANT: Before performing the below steps, please make sure that you have a :ref:`backup of your layout, chord library, and settings<Device Manager:Creating a Backup>`. The update might reset those, so it's important that you keep backup files handy. For instructions on how to restore backed up files, visit the :ref:`Backups<Device Manager:Restoring from a Backup>` section.
 
 #. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://charachorder.io/config/layout/>`__
 #. If not auto-connected, click “Connect”
 #. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your CharaChorder device, then click the “connect” button
 
-   .. _Serial Port Popup Update Firmware:
-   .. image:: /assets/images/SerialPort-Message-CCX.webp
-      :width: 435
-      :alt: Popup to select serial device
+    .. _Serial Port Popup Update Firmware:
+    .. image:: /assets/images/SerialPort-Message-CCX.webp
+        :width: 435
+        :alt: Popup to select serial device
 
 #. Click on the CCOS version on the bottom left of the page
 
-   .. _Bottom Bar Update Firmware:
-   .. image:: /assets/images/DM-Bottom-Bar-CCX-S2.webp
-      :width: 1200
-      :alt: Checking the firmware on Device Manager
+    .. _Bottom Bar Update Firmware:
+    .. image:: /assets/images/DM-Bottom-Bar-CCX-S2.webp
+        :width: 1200
+        :alt: Checking the firmware on Device Manager
 
 #. You will see a list of available versions along with their release date. Click on the one you want.
 #. Click "Apply Update"
@@ -176,7 +176,7 @@ allows text entry such as a notepad app. For an explanation on chords
 and how to perform them, visit the :doc:`Chords<Chords>` section.
 
 .. warning::
-   **A bug currently exists on Windows 11 default Notepad app where chording doesn't load correctly. We are looking into this, but, for now, we recommend using a different app.**
+    **A bug currently exists on Windows 11 default Notepad app where chording doesn't load correctly. We are looking into this, but, for now, we recommend using a different app.**
 
 Once you perform the chord to call up the :doc:`GTM<GenerativeTextMenu>`, your CharaChorder will type out the menu and its options.
 It will look something like this:
@@ -286,5 +286,5 @@ training website; https://www.iq-eq.io/#/
 
 .. _Dot I/O:
 .. image:: /assets/images/DOTIOL.png
-  :width: 1200
-  :alt: Practicing on DOT I/O
+    :width: 1200
+    :alt: Practicing on DOT I/O
