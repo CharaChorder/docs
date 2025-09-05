@@ -186,6 +186,10 @@ below:
 
 #. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://charachorder.io/config/layout/>`__ (Linux users see :ref:`this link<serialportaccess>` for more information about configuring serial port access.)
 #. Click “Connect” at the bottom middle of the page
+
+   .. image:: /assets/images/DM-connect-button.png
+      :alt: Image showing an arrow pointing at the Device Manager's bottom center connect button
+
 #. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your CharaChorder device, then click the “connect” button
 
    .. _Serial Port Popup Check Firmware:
@@ -215,6 +219,10 @@ site <https://charachorder.io/ccos/>`__.
 
 #. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://charachorder.io/config/layout/>`__
 #. If not auto-connected, click “Connect”
+
+   .. image:: /assets/images/DM-connect-button.png
+      :alt: Image showing an arrow pointing at the Device Manager's bottom center connect button
+
 #. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your CharaChorder device, then click the “connect” button
 
    .. _Serial Port Popup Update Firmware:
