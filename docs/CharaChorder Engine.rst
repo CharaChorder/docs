@@ -6,8 +6,8 @@ below to navigate to the topics that you find most relevant.
 
 .. _CCE:
 .. image:: /assets/images/CharaChorderEngine.jpg
-  :width: 1200
-  :alt: CharaChorder Engine
+    :width: 1200
+    :alt: CharaChorder Engine
 
 CharaChorder Engine is a multichip module that enables you to build your own
 CCOS powered text entry device. If you are interested in learning how to utilize
@@ -15,15 +15,15 @@ CharaChorder Engine, please visit the `CharaChorder Engine Discord channel <http
 and ping Riley Keen or Matt Swarts.
 
 .. contents:: Table of Contents of this Page
-   :local:
+    :local:
 
 Pinout Diagram
 **************
 
 .. _CCEPinout:
 .. image:: /assets/cce/pinout.png
-  :width: 1200
-  :alt: CharaChorder Engine pinout table
+    :width: 1200
+    :alt: CharaChorder Engine pinout table
 
 Design
 ******

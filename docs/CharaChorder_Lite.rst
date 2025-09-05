@@ -13,11 +13,11 @@ Those who would rather build onto their muscle memory on a traditional, QWERTY k
 
 .. _CCL:
 .. image:: /assets/images/CCL_1.webp
-  :width: 1200
-  :alt: CharaChorder Lite
+    :width: 1200
+    :alt: CharaChorder Lite
 
 .. contents:: Table of Contents of this Page
-   :local:
+    :local:
 
 Out of the Box
 **************
@@ -50,15 +50,15 @@ Front:
 
 .. _CCL PCB Front:
 .. image:: /assets/images/CCL-PCB-Front.png
-  :width: 1200
-  :alt: CharaChorder Lite PCB Front Side
+    :width: 1200
+    :alt: CharaChorder Lite PCB Front Side
 
 Back:
 
 .. _CCL PCB Back:
 .. image:: /assets/images/CCL-PCB-Back.png
-  :width: 1200
-  :alt: CharaChorder Lite PCB Back Side
+    :width: 1200
+    :alt: CharaChorder Lite PCB Back Side
 
 
 Key Plate
@@ -94,8 +94,8 @@ The CharaChorder Lite comes with a 60% set of Gateron Clear/White switches. Thes
 
 .. _Gateron Switch Reference:
 .. image:: /assets/images/GateronSwitches.jpeg
-  :width: 1200
-  :alt: A table comparing the different Gateron Switches
+    :width: 1200
+    :alt: A table comparing the different Gateron Switches
 
 Key Caps
 ^^^^^^^^
@@ -128,9 +128,9 @@ additional software to work.
 If not done already, make sure that the USB-C side of the :ref:`power cable<CharaChorder_Lite:Power and Communication>` is plugged into the back right of the CharaChorder Lite. It’s important to be certain that the cable is plugged all the way in; otherwise, the CharaChorder might not function as intended.
 
 .. note::
-  The CharaChorder Lite has been sold with two different chips: M0 and S2
+    The CharaChorder Lite has been sold with two different chips: M0 and S2
 
-  You can see which chip you have, by connecting to the `Device Manager <https://charachorder.io/>`__, then looking at the bottom middle of the page, after the device name:
+    You can see which chip you have, by connecting to the `Device Manager <https://charachorder.io/>`__, then looking at the bottom middle of the page, after the device name:
 
     * CharaChorder Lite M0 (bought before oct 1st, 2022)
         If you have the M0 chip, continue reading the warning and instructions about the startup message below.
@@ -139,8 +139,8 @@ If not done already, make sure that the USB-C side of the :ref:`power cable<Char
         If you have the S2 chip, then you can skip to the :ref:`Getting Started section<CharaChorder_Lite:Getting Started>`, because the startup message has been removed on instant boot devices (CCOS 2.1.0).
 
 .. warning::
-   By default, the device sends a :ref:`startup<GenerativeTextMenu:Startup>` message, on every boot or re-plug. In some cases, this can interfere with functions on your computer or cause unwanted behavior. This feature can be disabled in
-   the :doc:`GTM<GenerativeTextMenu>`.
+    By default, the device sends a :ref:`startup<GenerativeTextMenu:Startup>` message, on every boot or re-plug. In some cases, this can interfere with functions on your computer or cause unwanted behavior. This feature can be disabled in
+    the :doc:`GTM<GenerativeTextMenu>`.
 
 After making sure that the cable on the CharaChorder is properly
 plugged in, connect the USB-A side of the :ref:`power cable<CharaChorder_Lite:Power and Communication>` into
@@ -149,17 +149,17 @@ following things:
 
 - If your cursor is somewhere where text can be entered…
 
-	- You will first see the text “Loading ### Chordmaps” highlighted, and a few moments later, “CCOS is ready.”
+    - You will first see the text “Loading ### Chordmaps” highlighted, and a few moments later, “CCOS is ready.”
 
 - Regardless of whether or not your cursor is somewhere where text can be entered…
 
-	- You will be able to see your keyboard's lights flash from left to right, then go completely dark. After a few moments, the entire keyboard will be lit up with the LED backlighting.
+    - You will be able to see your keyboard's lights flash from left to right, then go completely dark. After a few moments, the entire keyboard will be lit up with the LED backlighting.
 
 If you have :ref:`startup<GenerativeTextMenu:Startup>` enabled, once you can see the highlighted text that reads
 “CCOS is ready.”, your device is ready to be used. If you have :ref:`LEDs<GenerativeTextMenu:LEDs (CharaChorder Lite only)>` turned on, once you see all of the lights turned on and static, your device is ready to be used.
 
 .. note::
-   The :ref:`Startup message<GenerativeTextMenu:Startup>` is enabled by default on new CharaChorder devices.
+    The :ref:`Startup message<GenerativeTextMenu:Startup>` is enabled by default on new CharaChorder devices.
 
 Getting Started
 ***************
@@ -173,10 +173,10 @@ Updating your Device
 --------------------
 
 .. warning::
-   IMPORTANT: If your device shipped from our warehouse before 2023,
-   it’s possible that it is running an obsolete firmware. You can read
-   instructions on how to upgrade your device to our new CCOS :ref:`here<CCOS:Upgrade to CCOS>`. If your device is not running    :doc:`CCOS<CCOS>`, you will be unable to follow the
-   steps below to update your device.
+    IMPORTANT: If your device shipped from our warehouse before 2023,
+    it’s possible that it is running an obsolete firmware. You can read
+    instructions on how to upgrade your device to our new CCOS :ref:`here<CCOS:Upgrade to CCOS>`. If your device is not running    :doc:`CCOS<CCOS>`, you will be unable to follow the
+    steps below to update your device.
 
 Checking your Device’s Firmware
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -188,19 +188,19 @@ below:
 #. Click “Connect” at the bottom middle of the page
 #. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your CharaChorder device, then click the “connect” button
 
-   .. _Serial Port Popup Check Firmware:
-   .. image:: /assets/images/SerialPort-Message-CCL.webp
-      :width: 435
-      :alt: Popup to select serial device
+    .. _Serial Port Popup Check Firmware:
+    .. image:: /assets/images/SerialPort-Message-CCL.webp
+        :width: 435
+        :alt: Popup to select serial device
 
 After following the above steps, you can find your
 firmware version in the bottom left of your screen. It will read
 something like this: ``CCOS 2.1.0``
 
-   .. _Bottom Bar Check Firmware:
-   .. image:: /assets/images/DM-Bottom-Bar-CCL-S2.webp
-      :width: 1200
-      :alt: Checking the firmware on Device Manager
+    .. _Bottom Bar Check Firmware:
+    .. image:: /assets/images/DM-Bottom-Bar-CCL-S2.webp
+        :width: 1200
+        :alt: Checking the firmware on Device Manager
 
 Updating the Firmware
 ~~~~~~~~~~~~~~~~~~~~~
@@ -211,23 +211,23 @@ which is the latest firmware release by visiting `this
 site <https://charachorder.io/ccos/>`__.
 
 .. warning::
-   IMPORTANT: Before performing the below steps, please make sure that you have a :ref:`backup of your layout, chord library, and settings<Device Manager:Creating a Backup>`. The update might reset those, so it's important that you keep backup files handy. For instructions on how to restore backed up files, visit the :ref:`Backups<Device Manager:Restoring from a Backup>` section.
+    IMPORTANT: Before performing the below steps, please make sure that you have a :ref:`backup of your layout, chord library, and settings<Device Manager:Creating a Backup>`. The update might reset those, so it's important that you keep backup files handy. For instructions on how to restore backed up files, visit the :ref:`Backups<Device Manager:Restoring from a Backup>` section.
 
 #. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://charachorder.io/config/layout/>`__
 #. If not auto-connected, click “Connect”
 #. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your CharaChorder device, then click the “connect” button
 
-   .. _Serial Port Popup Update Firmware:
-   .. image:: /assets/images/SerialPort-Message-CCL.webp
-      :width: 435
-      :alt: Popup to select serial device
+    .. _Serial Port Popup Update Firmware:
+    .. image:: /assets/images/SerialPort-Message-CCL.webp
+        :width: 435
+        :alt: Popup to select serial device
 
 #. Click on the CCOS version on the bottom left of the page
 
-   .. _Bottom Bar Update Firmware:
-   .. image:: /assets/images/DM-Bottom-Bar-CCL-S2.webp
-      :width: 1200
-      :alt: Checking the firmware on Device Manager
+    .. _Bottom Bar Update Firmware:
+    .. image:: /assets/images/DM-Bottom-Bar-CCL-S2.webp
+        :width: 1200
+        :alt: Checking the firmware on Device Manager
 
 #. You will see a list of available versions along with their release date. Click on the one you want.
 #. If you have a Lite S2, you'll be able to just click "Apply Update". If you device does not have that option, you have a M0 device and can follow the steps on screen to update your device.
@@ -271,12 +271,12 @@ Learning the Layout
 -------------------
 
 .. Note::
-	This section assumes that you are using your CharaChorder device with a US International OS layout selected on your computer. For instructions on how to change your OS layout, visit this :ref:`page<ChangingLanguage>`.
+    This section assumes that you are using your CharaChorder device with a US International OS layout selected on your computer. For instructions on how to change your OS layout, visit this :ref:`page<ChangingLanguage>`.
 
 .. _CCLLayout:
 .. image:: /assets/images/LiteLayout.png
-  :width: 1200
-  :alt: Image showing the CharaChorder Lite default layout
+    :width: 1200
+    :alt: Image showing the CharaChorder Lite default layout
 
 The CharaChorder Lite's layout is mostly traditional QWERTY. All of the letters and numbers are where you would expect them on other keyboards. However, there are some keys that are moved around, and a couple of extra keys as well. We'll describe the Lite's layout below. Remember that you can always :ref:`remap<Device Manager:Remapping>` the keys to your liking on the `CharaChorder Device Manager <https://charachorder.io>`__.
 
@@ -312,8 +312,8 @@ map the A1 access key, which bears the name “KM_1_R” or “KM_1_L”, on the
 :doc:`layout manager<Device Manager>` site. There is no real need to map the A1 access keys.
 
 .. image:: /assets/images/LiteLayoutAlpha.png
-  :width: 1200
-  :alt: The default A1 layer on the CharaChorder Lite
+    :width: 1200
+    :alt: The default A1 layer on the CharaChorder Lite
 
 A2 Layer
 ^^^^^^^^
@@ -330,8 +330,8 @@ need to :doc:`chord<Chords>` the keys together; it’s only required that the
 A2 Layer access key is pressed while the target key is pressed.
 
 .. image:: /assets/images/LiteLayoutNumber.png
-  :width: 1200
-  :alt: The default A2 layer on the CharaChorder Lite
+    :width: 1200
+    :alt: The default A2 layer on the CharaChorder Lite
 
 A3 Layer
 ^^^^^^^^
@@ -348,8 +348,8 @@ together; it’s only required that the A3 layer access key is pressed
 while the target key is pressed.
 
 .. image:: /assets/images/LiteLayoutFunction.png
-  :width: 1200
-  :alt: The default A3 layer on the CharaChorder Lite
+    :width: 1200
+    :alt: The default A3 layer on the CharaChorder Lite
 
 
 Shift Modifier
@@ -404,5 +404,5 @@ training website; https://www.iq-eq.io/#/
 
 .. _Dot I/O:
 .. image:: /assets/images/DOTIO-lite.jpeg
-  :width: 1200
-  :alt: Practicing on DOT I/O
+    :width: 1200
+    :alt: Practicing on DOT I/O

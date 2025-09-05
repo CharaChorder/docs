@@ -6,15 +6,15 @@ below to navigate to the topics that you find most relevant.
 
 .. _M4G:
 .. image:: /assets/images/M4G.webp
-  :width: 1200
-  :alt: The Master Forge
+    :width: 1200
+    :alt: The Master Forge
 
 The Master Forge bundle consists of two :ref:`Forge Digitizers<Master Forge:The Digitizers>`, a :ref:`mechanical bridge connector<Master Forge:The Bridge Connector>` to join the two, and, possibly, depending on which variation you purchased, some additional :doc:`bolt-ons<Bolt-Ons>` and :doc:`add-ons<Add-Ons>`. This section will discuss each of the items included in any of the Master Forge bundles, regardless of the specific configuration.
 
 :ref:`Click here to skip to the Getting Started Guide.<Master Forge:Getting Started>`
 
 .. contents:: Table of Contents of this Page
-   :local:
+    :local:
 
 Out of the Box
 **************
@@ -26,8 +26,8 @@ Parts
 
 .. _M4G Schema:
 .. image:: /assets/images/M4G-Separated.webp
-  :width: 1200
-  :alt: M4G parts
+    :width: 1200
+    :alt: M4G parts
 
 
 When you first receive your Master Forge Bundle, it will come in a cardboard
@@ -35,8 +35,8 @@ box. Once you open the box, you’ll find your brand new Master Forge inside its
 
 .. _M4G Case:
 .. image:: /assets/images/Case.webp
-  :width: 1200
-  :alt: Original Backer Case
+    :width: 1200
+    :alt: Original Backer Case
 
 Once you open the tactical case, you’ll meet your shiny, new Master Forge. The Master Forge consists of two digitizers with 8, 5-way switches, joined together by a :ref:`mechanical bridge connector<Master Forge:The Bridge Connector>`.
 
@@ -52,23 +52,23 @@ The front of each digitizer has a slotted rail which allows :doc:`bolt-ons<Bolt-
 
 .. _M4G Frontside:
 .. image:: /assets/images/M4G-Front.webp
-  :width: 1200
-  :alt: Picture showing the bridge connector and the ports
+    :width: 1200
+    :alt: Picture showing the bridge connector and the ports
 
-The underside of each digitizer is partially hollow to allow for cables and connections to happen in a discreet manner underneath the device. Inside the cavity, we can find two additional USB-C ports and downward facing LED clusters. 
+The underside of each digitizer is partially hollow to allow for cables and connections to happen in a discreet manner underneath the device. Inside the cavity, we can find two additional USB-C ports and downward facing LED clusters.
 
 .. _M4G Below:
 .. image:: /assets/images/M4G-Under.webp
-  :width: 1200
-  :alt: Bottom side of the Master Forge
+    :width: 1200
+    :alt: Bottom side of the Master Forge
 
 On the sides of each digitizer, you'll notice the :ref:`bookend rails<Master Forge:The Bookend Rails>`. Under each rail, on the body of the digitizer, you'll see holes for the screws that hold the bookend rails in place.
 
 
 .. _M4G Side:
 .. image:: /assets/images/M4G-Side.webp
-  :width: 1200
-  :alt: Original Backer Case
+    :width: 1200
+    :alt: Original Backer Case
 
 The Bridge Connector
 ~~~~~~~~~~~~~~~~~~~~
@@ -77,8 +77,8 @@ Out of the box, your :ref:`digitizers<Master Forge:The Digitizers>` will be conn
 
 .. _M4G Bridge Connector:
 .. image:: /assets/images/Bridge.webp
-  :width: 1200
-  :alt: The Mechanical and Electrical bridges
+    :width: 1200
+    :alt: The Mechanical and Electrical bridges
 
 Additionally, the two :ref:`digitizers<Master Forge:The Digitizers>` are connected by the electrical bridge connector, also known as the mini-connector. This piece fits inside the cavity of the :ref:`mechanical bridge connector<Master Forge:The Bridge Connector>` and should be removed BEFORE removing the mechanical bridge connector.
 
@@ -99,8 +99,8 @@ Each :ref:`digitizer<Master Forge:The Digitizers>` of the Master Forge comes wit
 
 .. _M4G Rails:
 .. image:: /assets/images/Rails.webp
-  :width: 1200
-  :alt: The three Bookend Rails
+    :width: 1200
+    :alt: The three Bookend Rails
 
 The bookend rails are made of machined aluminum and are held in place on the body of the :ref:`digitizers<Master Forge:The Digitizers>` by two (size), steel screws.
 
@@ -111,8 +111,8 @@ Included with every Master Forge order is a 3D-printed Splitter. This piece serv
 
 .. _M4G Splitter:
 .. image:: /assets/images/Splitter.webp
-  :width: 1200
-  :alt: The Splitter
+    :width: 1200
+    :alt: The Splitter
 
 The Switches
 ~~~~~~~~~~~~
@@ -123,13 +123,13 @@ Forge :ref:`digitizer<Master Forge:The Digitizers>` levers, which we will call s
 Each :ref:`digitizer<Master Forge:The Digitizers>` has eight 5-way switches. Starting from the outside on each :ref:`digitizer<Master Forge:The Digitizers>` and working inwards, the switches correspond to the following fingers; pinky, ring, middle, and index. The two switches along the "torso," that is, the inner-most side of each :ref:`digitizer<Master Forge:The Digitizers>`, correspond to the thumb. You can see what characters are on each switch by default in :doc:`Layout<Layout>`. Additionally, there are two more switches not on the “home-row” which can be accessed by the ring and middle fingers. The correct positioning of your fingers is for them to follow the arc in which the switches are laid out.
 
 .. note::
-   **IMPORTANT**: In this manual, we will refer to switches in the
-   following way, starting from the pinky finger and working inwards:
-   pinky, ring, middle, index, thumb 1, and thumb 2. The
-   switches below the “home-row” will be referred to as the aux 1 and aux 2
-   switches, where the switch further to the left on the left digitizer
-   is aux 1. Symmetrically, aux 1 is the switch furthest to the right on the
-   right half.
+    **IMPORTANT**: In this manual, we will refer to switches in the
+    following way, starting from the pinky finger and working inwards:
+    pinky, ring, middle, index, thumb 1, and thumb 2. The
+    switches below the “home-row” will be referred to as the aux 1 and aux 2
+    switches, where the switch further to the left on the left digitizer
+    is aux 1. Symmetrically, aux 1 is the switch furthest to the right on the
+    right half.
 
 Each switch has five press-able directions. Throughout this guide, we
 will use cardinal directions to refer to the directions in which each
@@ -161,16 +161,17 @@ cable that goes out to the computer inside the box. The power cable included wit
 
 .. _M4G Power Cable:
 .. image:: /assets/images/Power-Cable.webp
-  :width: 1200
-  :alt: The Power cable included with the Master Forge
+    :width: 1200
+    :alt: The Power cable included with the Master Forge
 
 Another cable that may be included with your order is a 3.2 gen 2, braided USB-C to USB-C cable. This cord is meant to be used if you choose to separate your :ref:`digitizers<Master Forge:The Digitizers>`.
 
 .. dropdown:: Things to remember if you separate your digitizers
 
     There are two main things to remember if you choose to use your Master Forge separated:
-        1. The cable that you use to connect the digitizers must be a 3.2 gen 2, C to C cable.
-        2. As pointed out in the :ref:`getting started section<Port Requirement>` of this page, power to an :doc:`anchor body<Anchor Bodies>` or :doc:`bolt-on<Bolt-Ons>` must be received through the front left USB-C port. This means that every anchor body or bolt-on that you add to your system has to be linked to the Master through the port on the front left.
+
+    1. The cable that you use to connect the digitizers must be a 3.2 gen 2, C to C cable.
+    2. As pointed out in the :ref:`getting started section<Port Requirement>` of this page, power to an :doc:`anchor body<Anchor Bodies>` or :doc:`bolt-on<Bolt-Ons>` must be received through the front left USB-C port. This means that every anchor body or bolt-on that you add to your system has to be linked to the Master through the port on the front left.
 
 Getting Started
 ***************
@@ -203,9 +204,10 @@ We can test out your preloaded chords, of which there are 500, by :doc:`chording
 .. dropdown:: Some other chords you can try
 
     Here are some other preloaded chords that you can try. You can read the section on :ref:`chord notation<Chords:Chord Notation>` for instructions on how to interpret the following chords.
-        - c+b = because
-        - m+b = maybe
-        - u+o+y = you
+
+    - c+b = because
+    - m+b = maybe
+    - u+o+y = you
 
 Now that you're up and running, and that you know how to perform chords, you can head over to the :doc:`training section<Tools>` for instructions
 on how to get started with learning your device. If you want to just
@@ -214,8 +216,8 @@ training website; https://www.iq-eq.io/#/
 
 .. _Dot I/O:
 .. image:: /assets/images/DOTIO.png
-  :width: 1200
-  :alt: Practicing on DOT I/O
+    :width: 1200
+    :alt: Practicing on DOT I/O
 
 Setting Up
 ----------
@@ -237,17 +239,17 @@ You can check your device’s current firmware by following the steps below:
 #. On a chromium based browser, such as Chrome, go to the `Device Manager <https://charachorder.io/>`__ (Linux users see :ref:`this link<serialportaccess>` for more information about configuring serial port access).
 #. Click “Connect” at the bottom center of the page.
 
-   .. _Connect Button Check Firmware:
-   .. image:: /assets/images/FW-connect-button.JPG
-      :width: 600
-      :alt: Connect Button on Device Manager
+    .. _Connect Button Check Firmware:
+    .. image:: /assets/images/FW-connect-button.JPG
+        :width: 600
+        :alt: Connect Button on Device Manager
 
 #. When the popup box comes up that reads “charachorder.io wants to connect to a serial port,” choose one of the two listed devices with the same name: Master Forge USB Serial (currently each Master Forge half is detected separately), then click the “connect” button.
 
-   .. _Serial Port Popup Check Firmware:
-   .. image:: /assets/images/SerialPort-Message-M4G.webp
-      :width: 435
-      :alt: Popup to select serial device
+    .. _Serial Port Popup Check Firmware:
+    .. image:: /assets/images/SerialPort-Message-M4G.webp
+        :width: 435
+        :alt: Popup to select serial device
 
 Now you can find your firmware version for the connected Master Forge half, at the bottom left of the page. It will read something like this: ``CCOS 2.1.0``
 
@@ -255,17 +257,17 @@ The device name is also shown at the bottom center.
 
 The left half is called: Forge M4G
 
-   .. _Bottom Bar Check Firmware M4G Left Half:
-   .. image:: /assets/images/DM-Bottom-Bar-M4G-S3.webp
-      :width: 724
-      :alt: Device Manager bottom bar, CCOS version and device name M4G (Master Forge's left half).
+    .. _Bottom Bar Check Firmware M4G Left Half:
+    .. image:: /assets/images/DM-Bottom-Bar-M4G-S3.webp
+        :width: 724
+        :alt: Device Manager bottom bar, CCOS version and device name M4G (Master Forge's left half).
 
 The right half is called: Forge M4GR
 
-   .. _Bottom Bar Check Firmware M4G Right Half:
-   .. image:: /assets/images/DM-Bottom-Bar-M4GR-S3.webp
-      :width: 724
-      :alt: Device Manager bottom bar, CCOS version and device name M4GR (Master Forge's right half).
+    .. _Bottom Bar Check Firmware M4G Right Half:
+    .. image:: /assets/images/DM-Bottom-Bar-M4GR-S3.webp
+        :width: 724
+        :alt: Device Manager bottom bar, CCOS version and device name M4GR (Master Forge's right half).
 
 To check the other half's firmware version, disconnect by clicking on the device name at the bottom center of the page. Then reconnect by clicking on the bottom center connect button and choose the other Master Forge USB Serial device.
 
@@ -275,7 +277,7 @@ Updating the Firmware
 Currently each half of the Master Forge has to be updated separately.
 
 .. warning::
-   IMPORTANT: Before updating the firmware, please make sure that you have a :ref:`backup of the Master Forge's left half (it's called Forge M4G), it has your layout, chord library, and settings<Device Manager:Creating a Backup>`. The update might reset those, so it's important that you keep backup files handy. Currently the Master Forge's right half (called Forge M4GR) only controls it's own LED settings. For instructions on how to restore backed up files, visit the :ref:`Restoring from a Backups<Device Manager:Restoring from a Backup>` section.
+    IMPORTANT: Before updating the firmware, please make sure that you have a :ref:`backup of the Master Forge's left half (it's called Forge M4G), it has your layout, chord library, and settings<Device Manager:Creating a Backup>`. The update might reset those, so it's important that you keep backup files handy. Currently the Master Forge's right half (called Forge M4GR) only controls it's own LED settings. For instructions on how to restore backed up files, visit the :ref:`Restoring from a Backups<Device Manager:Restoring from a Backup>` section.
 
 To check which is the latest firmware release for the Master Forge, here are the firmware pages for each half:
 
@@ -287,44 +289,44 @@ You can follow the steps below to update each Master Forge half:
 #. Head to the Device Manager `<https://charachorder.io/>`__
 #. Connect to the device manager by clicking the bottom middle ``Connect`` button.
 
-   .. _Connect Button Update Firmware:
-   .. image:: /assets/images/FW-connect-button.JPG
-      :width: 600
-      :alt: Connect Button on Device Manager
+    .. _Connect Button Update Firmware:
+    .. image:: /assets/images/FW-connect-button.JPG
+        :width: 600
+        :alt: Connect Button on Device Manager
 
 #. When the popup box comes up that reads “charachorder.io wants to connect to a serial port,” choose one of the two listed devices with the same name: Master Forge USB Serial (currently each Master Forge half is detected separately), then click the “connect” button.
 
-   .. _Serial Port Popup Update Firmware:
-   .. image:: /assets/images/SerialPort-Message-M4G.webp
-      :width: 435
-      :alt: Popup to select serial device
+    .. _Serial Port Popup Update Firmware:
+    .. image:: /assets/images/SerialPort-Message-M4G.webp
+        :width: 435
+        :alt: Popup to select serial device
 
-   Note, which Master Forge half we are updating first. The device name is shown at the bottom center:
+    Note, which Master Forge half we are updating first. The device name is shown at the bottom center:
 
-   The left half is called: Forge M4G
+    The left half is called: Forge M4G
 
-   .. _Bottom Bar Update Firmware M4G Left Half:
-   .. image:: /assets/images/DM-Bottom-Bar-M4G-S3.webp
-      :width: 724
-      :alt: Device Manager bottom bar, CCOS version and device name M4G (Master Forge's left half).
+    .. _Bottom Bar Update Firmware M4G Left Half:
+    .. image:: /assets/images/DM-Bottom-Bar-M4G-S3.webp
+        :width: 724
+        :alt: Device Manager bottom bar, CCOS version and device name M4G (Master Forge's left half).
 
-   The right half is called: Forge M4GR
+    The right half is called: Forge M4GR
 
-   .. _Bottom Bar Update Firmware M4G Right Half:
-   .. image:: /assets/images/DM-Bottom-Bar-M4GR-S3.webp
-      :width: 724
-      :alt: Device Manager bottom bar, CCOS version and device name M4GR (Master Forge's right half).
+    .. _Bottom Bar Update Firmware M4G Right Half:
+    .. image:: /assets/images/DM-Bottom-Bar-M4GR-S3.webp
+        :width: 724
+        :alt: Device Manager bottom bar, CCOS version and device name M4GR (Master Forge's right half).
 
 #. Click on the bottom left button: CCOS (your firmware version is listed here, for example: ``CCOS 2.1.0``).
 #. Click on the firmware version you want to install.
 #. Before you start the update, make sure that you don't type on the Master Forge while it's updating. It shouldn't take more than 30-60 seconds. The Master Forge supports over-the-air (OTA) updates, therefore it's enough to just click on the ``Apply Update`` button.
 
-   While it's updating, the device manager disconnects, and the Master Forge disconnects from the OS. In Windows, it plays a device disconnected sound. When it's done, Windows plays a device connected sound.
+    While it's updating, the device manager disconnects, and the Master Forge disconnects from the OS. In Windows, it plays a device disconnected sound. When it's done, Windows plays a device connected sound.
 
-   .. _Apply Update Button:
-   .. image:: /assets/images/DM-apply-update-button-M4G.png
-      :width: 600
-      :alt: Apply Update Button
+    .. _Apply Update Button:
+    .. image:: /assets/images/DM-apply-update-button-M4G.png
+        :width: 600
+        :alt: Apply Update Button
 
 #. Connect to the device manager and look at the CCOS x.x.x version, at the bottom left on the page, to see that the updated was successful.
 
@@ -332,88 +334,96 @@ Now repeat the steps, but pick the other Master Forge USB Serial device from the
 
 .. Dropdown: Only use in Emergency
 
-	If, for some reason, you weren't able to complete an OTA update, you can follow the steps below to update your CCOS manually.
+    If, for some reason, you weren't able to complete an OTA update, you can follow the steps below to update your CCOS manually.
 
- 	Doing it manually, the Master Forge must be updated one :ref:`digitizer<Master Forge:The Digitizers>` at a time.
- 		#. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://charachorder.io/ccos/>`__
- 		#. If not auto-connected, click "Connect"
+    Doing it manually, the Master Forge must be updated one :ref:`digitizer<Master Forge:The Digitizers>` at a time.
 
-       		   .. _Connect Button Emergency:
-     		   .. image:: /assets/images/FW-connect-button.jpg
-    		      :width: 600
-    		      :alt: Connect Button on Device Manager
- 		#. When the popup box comes up that reads “manager.charachorder.com wants to connect to a serial port”, choose the CCOS device you wish to update, then click the blue “connect” button
+    #. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://charachorder.io/ccos/>`__
+    #. If not auto-connected, click "Connect"
 
-        		 .. _Serial Port Popup Emergency:
-      		  .. image:: /assets/images/SerialPort-Message-M4G.webp
-       		   :width: 435
-        		  :alt: Popup to select serial device
- 		#. If not already on the Firmware Updates page, click "CCOS Updates" at the bottom left of the page
+    .. _Connect Button Emergency:
+    .. image:: /assets/images/FW-connect-button.jpg
+        :width: 600
+        :alt: Connect Button on Device Manager
 
-        		 .. _Firmware Updates Page:
-     		   .. image:: /assets/images/DM-CCOS-button.jpg
-     		     :width: 600
-      		    :alt: CCOS button
- 		#. You can compare the latest release (the version at the top of the list) with your device's version. Select your desired version.
- 		#. Use the blue "Bootloader" text to reboot your device into bootloader
+    #. When the popup box comes up that reads “manager.charachorder.com wants to connect to a serial port”, choose the CCOS device you wish to update, then click the blue “connect” button
 
-       		  .. _Bootloader button:
-      		  .. image:: /assets/images/DM-Bootloader-button.jpg
-        		  :width: 600
-        		  :alt: Bootloader button
- 		#. Click the blue "CURRENT.UF2" text to download the firmware file
+    .. _Serial Port Popup Emergency:
+    .. image:: /assets/images/SerialPort-Message-M4G.webp
+        :width: 435
+        :alt: Popup to select serial device
 
-      		   .. _Current.uf2 button:
-      		  .. image:: /assets/images/DM-UF2-button.jpg
-       		   :width: 600
-        		  :alt: CURRENT.UF2 button
+    #. If not already on the Firmware Updates page, click "CCOS Updates" at the bottom left of the page
 
-			.. warning::
-   				IMPORTANT: Make sure that the file you download is named exactly like this: CURRENT.UF2 . If there are any other characters in the file name, the file will not work. “CURRENT.UF2(1)” will NOT work. Additionally, the file name is case sensitive; all letters must be capitalized.
+    .. _Firmware Updates Page:
+    .. image:: /assets/images/DM-CCOS-button.jpg
+        :width: 600
+        :alt: CCOS button
 
+    #. You can compare the latest release (the version at the top of the list) with your device's version. Select your desired version.
+    #. Use the blue "Bootloader" text to reboot your device into bootloader
 
+    .. _Bootloader button:
+    .. image:: /assets/images/DM-Bootloader-button.jpg
+        :width: 600
+        :alt: Bootloader button
 
- 		#. Copy the CURRENT.UF2 file that you just downloaded and paste it into the Forge drive in your file explorer
- 		#. When your computer asks you how you would like to resolve the issue of two files with the same name, select “Replace file”.
+    #. Click the blue "CURRENT.UF2" text to download the firmware file
 
-			At this point, your Forge will automatically reboot and the Forge drive will have disappeared. Congratulations! You have successfully updated your device. You can check your device’s firmware version by following the steps :ref:`here<m4g-checking-your-devices-firmware>`.
+    .. _Current.uf2 button:
+    .. image:: /assets/images/DM-UF2-button.jpg
+        :width: 600
+        :alt: CURRENT.UF2 button
 
- 		#. Now, back in the `Firmware Updates page <https://charachorder.io/ccos/>`__, select ``m4gr_s3``
- 		#. If you haven't done so already, Connect your device to the Manager again by clicking "Connect" at the bottom of the page
+    .. warning::
 
-      		   .. _Connect Button:
-     		   .. image:: /assets/images/FW-connect-button.jpg
-     		     :width: 600
-     		     :alt: Connect Button on Device Manager
- 		#. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your Master Forge, then click the blue “connect” button
+        IMPORTANT: Make sure that the file you download is named exactly like this: CURRENT.UF2 . If there are any other characters in the file name, the file will not work. “CURRENT.UF2(1)” will NOT work. Additionally, the file name is case sensitive; all letters must be capitalized.
 
-        		 .. _Serial Port Popup:
-       		 .. image:: /assets/images/SerialPort-Message-M4G.webp
-       		   :width: 435
-      		    :alt: Popup to select serial device
- 		#. Use the blue "Bootloader" text to reboot the right digitizer into bootloader
+        #. Copy the CURRENT.UF2 file that you just downloaded and paste it into the Forge drive in your file explorer
+        #. When your computer asks you how you would like to resolve the issue of two files with the same name, select “Replace file”.
 
-     		    .. _Bootloader button:
-    		    .. image:: /assets/images/DM-Bootloader-button.jpg
-     		     :width: 600
-    		      :alt: Bootloader button
- 		#. Click the blue "CURRENT.UF2" text to download the firmware file
+        At this point, your Forge will automatically reboot and the Forge drive will have disappeared. Congratulations! You have successfully updated your device. You can check your device’s firmware version by following the steps :ref:`here<m4g-checking-your-devices-firmware>`.
 
-      		   .. _Current.uf2 button:
-       		 .. image:: /assets/images/DM-UF2-button.jpg
-        		  :width: 600
-        		  :alt: CURRENT.UF2 button
+        #. Now, back in the `Firmware Updates page <https://charachorder.io/ccos/>`__, select ``m4gr_s3``
+        #. If you haven't done so already, Connect your device to the Manager again by clicking "Connect" at the bottom of the page
 
-			.. warning::
-   				IMPORTANT: Make sure that the file you download is named exactly like this: CURRENT.UF2 . If there are any other characters in the file name, the file will not work. “CURRENT.UF2(1)” will NOT work. Additionally, the file name is case sensitive; all letters must be capitalized.
+        .. _Connect Button:
+        .. image:: /assets/images/FW-connect-button.jpg
+            :width: 600
+            :alt: Connect Button on Device Manager
 
-		 #. Copy the CURRENT.UF2 file that you just downloaded and paste it into the Forge drive in your file explorer
-		 #. When your computer asks you how you would like to resolve the issue of two files with the same name, select “Replace file”.
+        #. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your Master Forge, then click the blue “connect” button
 
-		Once again, your Forge will automatically reboot and the
+        .. _Serial Port Popup:
+        .. image:: /assets/images/SerialPort-Message-M4G.webp
+            :width: 435
+            :alt: Popup to select serial device
 
-  Forge drive will have disappeared. You can check your device’s firmware
-  version by following the steps :ref:`here<m4g-checking-your-devices-firmware>`.
+        #. Use the blue "Bootloader" text to reboot the right digitizer into bootloader
+
+        .. _Bootloader button:
+        .. image:: /assets/images/DM-Bootloader-button.jpg
+            :width: 600
+            :alt: Bootloader button
+
+        #. Click the blue "CURRENT.UF2" text to download the firmware file
+
+        .. _Current.uf2 button:
+        .. image:: /assets/images/DM-UF2-button.jpg
+            :width: 600
+            :alt: CURRENT.UF2 button
+
+        .. warning::
+
+            IMPORTANT: Make sure that the file you download is named exactly like this: CURRENT.UF2 . If there are any other characters in the file name, the file will not work. “CURRENT.UF2(1)” will NOT work. Additionally, the file name is case sensitive; all letters must be capitalized.
+
+        #. Copy the CURRENT.UF2 file that you just downloaded and paste it into the Forge drive in your file explorer
+        #. When your computer asks you how you would like to resolve the issue of two files with the same name, select “Replace file”.
+
+    Once again, your Forge will automatically reboot and the
+
+    Forge drive will have disappeared. You can check your device’s firmware
+    version by following the steps :ref:`here<m4g-checking-your-devices-firmware>`.
 
 
 Understanding the Settings
@@ -455,20 +465,20 @@ Learning the Layout
 The default Master Forge layout, which we will refer to as the M4 English layout, has been designed to favor bigrams and trigrams commonly used in the English language while making the letters accessible for a logical choice of :doc:`lexical chords<Chords>`. You can find the quick reference guide for the layout below, and :ref:`read about how the layout was designed, here <Layout:Design of the layout>`.
 
 .. note::
-   General consensus amongst the community is that, while not perfect,
-   the letter arrangement of the default layout is good enough that further modifications would provide very little benefit
-   considering 500+ WPM have been reached in peak conditions.
+    General consensus amongst the community is that, while not perfect,
+    the letter arrangement of the default layout is good enough that further modifications would provide very little benefit
+    considering 500+ WPM have been reached in peak conditions.
 
-   **Most commonly only special character and number placement are changed**, for example to benefit coding.
+    **Most commonly only special character and number placement are changed**, for example to benefit coding.
 
-   Some exceptions include optimizing for VIM bindings, though people have successfully used the default layout for VIM as well
-   and benefits of such modifications are debatable.
+    Some exceptions include optimizing for VIM bindings, though people have successfully used the default layout for VIM as well
+    and benefits of such modifications are debatable.
 
 
 .. _M4English Layout:
 .. image:: /assets/images/M4-Layout.png
-  :width: 1200
-  :alt: M4 English Layout
+    :width: 1200
+    :alt: M4 English Layout
 
 Layers
 ~~~~~~
@@ -505,8 +515,8 @@ A1 Layer
 
 .. _M4G Alpha Layer:
 .. image:: /assets/images/AlphaL.JPG
-  :width: 1200
-  :alt: The Alpha Layer
+    :width: 1200
+    :alt: The Alpha Layer
 
 The A1 layer is the main layer that is active by default. The M4 English
 layout has all 26 letters of the English alphabet on the A1 layer so
@@ -525,8 +535,8 @@ A2 Layer
 
 .. _M4G Num Layer:
 .. image:: /assets/images/NumberL.JPG
-  :width: 1200
-  :alt: The Numeric Layer
+    :width: 1200
+    :alt: The Numeric Layer
 
 The A2 layer, sometimes referred to as the “number layer”, is accessible
 with the :doc:`A2 access key<CharaChorder Keys>`. In the above :ref:`graphic<CCEnglish Layout>`, you’ll see this labeled
@@ -542,9 +552,9 @@ need to :doc:`chord<Chords>` the keys together; it’s only required that the
 A2 Layer access key is pressed while the target key is pressed.
 
 .. note::
-   EXAMPLE: On the M4 English layout, you can access the number
-   ``4`` by pressing and holding the right pinky to the east and the
-   left middle finger to the east.
+    EXAMPLE: On the M4 English layout, you can access the number
+    ``4`` by pressing and holding the right pinky to the east and the
+    left middle finger to the east.
 
 
 A3 Layer
@@ -552,8 +562,8 @@ A3 Layer
 
 .. _M4G Function Layer:
 .. image:: /assets/images/FunctionL.JPG
-  :width: 1200
-  :alt: The Function Layer
+    :width: 1200
+    :alt: The Function Layer
 
 The A3 layer, sometimes referred to as the “function layer”, is
 accessible with the :doc:`A3 access key<CharaChorder Keys>`. This key is not
@@ -564,8 +574,8 @@ this key has the name “Function Layer (Left)” and “Function Layer (Right)�
 By default, the A3 Layer is accessible by [INFO]. You do not have to hold them both in order to access the A3 layer. Any key that is on the A3 Layer can only be accessed by pressing and holding the :doc:`A3 access key<CharaChorder Keys>`, along with the target key. You do not need to :doc:`chord<Chords>` the keys together; it’s only required that the A3 layer access key is pressed while the target key is pressed.
 
 .. note::
-   EXAMPLE: On the M4 English layout, you can access the F1 key by
-   pressing and holding [INFO] and adding the letter ``a`` or ``r`` (location of number 1 on the default layout) to it.
+    EXAMPLE: On the M4 English layout, you can access the F1 key by
+    pressing and holding [INFO] and adding the letter ``a`` or ``r`` (location of number 1 on the default layout) to it.
 
 
 Shift Modifier
@@ -573,33 +583,33 @@ Shift Modifier
 
 .. dropdown:: List of shifted key actions
 
-        .. csv-table:: Shifted Key Actions
-           :header-rows: 1
-           :stub-columns: 0
-           :widths: auto
+    .. csv-table:: Shifted Key Actions
+        :header-rows: 1
+        :stub-columns: 0
+        :widths: auto
 
-           "Alpha key", "Shifted key"
-           "\`", "~"
-           "1", "\!"
-           "2", "\@"
-           "3", "\#"
-           "4", "\$"
-           "5", "\%"
-           "6", "\^"
-           "7", "\&"
-           "8", "\*"
-           "9", "\("
-           "0", "\)"
-           "\-", "\_"
-           "=", "\+"
-           "[", "\{"
-           "]", "\}"
-           "\\", "\|"
-           ";", ":"
-           "\'", """"
-           "\,", "\<"
-           ".", ">"
-           "/", "?"
+        "Alpha key", "Shifted key"
+        "\`", "~"
+        "1", "\!"
+        "2", "\@"
+        "3", "\#"
+        "4", "\$"
+        "5", "\%"
+        "6", "\^"
+        "7", "\&"
+        "8", "\*"
+        "9", "\("
+        "0", "\)"
+        "\-", "\_"
+        "=", "\+"
+        "[", "\{"
+        "]", "\}"
+        "\\", "\|"
+        ";", ":"
+        "\'", """"
+        "\,", "\<"
+        ".", ">"
+        "/", "?"
 
 
 
@@ -623,12 +633,12 @@ holding the Shift key along with the target key. You do not need to
 key is pressed while the target key is pressed.
 
 .. note::
-   EXAMPLE: On the M4 English layout, you can access the capital
-   ``A`` by pressing and holding the left pinky to the east and the
-   right index finger to the west.
+    EXAMPLE: On the M4 English layout, you can access the capital
+    ``A`` by pressing and holding the left pinky to the east and the
+    right index finger to the west.
 
-   On the M4 English layout, you can access the ``@`` symbol by pressing
-   and holding both pinkies to the east and the left index south.
+    On the M4 English layout, you can access the ``@`` symbol by pressing
+    and holding both pinkies to the east and the left index south.
 
 Configurability
 ~~~~~~~~~~~~~~~
@@ -644,26 +654,25 @@ works and how to remap your device, visit the :ref:`remapping section<Device Man
 Master Forge Configurations
 ***************************
 
-When the Master Forge was `unveiled <https://youtu.be/fux9gU3M25E?si=u4KW7OaUUUNINfKD&t=1025>`__ in November of 2023, CharaChorder began taking pre-orders offering everyone the same bundle. In September of 2024, CharaChorder ran a `Kickstarter <https://www.kickstarter.com/projects/charachorder/the-master-forge-a-keyboard-built-for-you>`__ campaign for the Master Forge for 5 weeks, offering three different tiers, each with a different configuration. After the Kickstarter campaign finished, the Master Forge went on back-order sale on the `Forge website <https://forgekeyboard.com>`__. The following section identifies what each of these 5 bundles included. 
+When the Master Forge was `unveiled <https://youtu.be/fux9gU3M25E?si=u4KW7OaUUUNINfKD&t=1025>`__ in November of 2023, CharaChorder began taking pre-orders offering everyone the same bundle. In September of 2024, CharaChorder ran a `Kickstarter <https://www.kickstarter.com/projects/charachorder/the-master-forge-a-keyboard-built-for-you>`__ campaign for the Master Forge for 5 weeks, offering three different tiers, each with a different configuration. After the Kickstarter campaign finished, the Master Forge went on back-order sale on the `Forge website <https://forgekeyboard.com>`__. The following section identifies what each of these 5 bundles included.
 
 Forge Website Pre-Orders
 ------------------------
 The Master Forge was announced at CharaChorder's annual `ChorderCon in 2023 <https://youtu.be/fux9gU3M25E?si=WmNs4bxXJcg0JbKM>`__. It was announced alongside the Forge brand and other Forge products such as the Coder's Forge and the Gamer's Forge. After a surge in Master Forge orders, the Master Forge was given development priority. Every Master Forge order placed between November 2023 and early August 2024 includes:
 
-    - :ref:`One (1) Left Digitizer<Master Forge:The Digitizers>`
-    - :ref:`One (1) Right Digitizer<Master Forge:The Digitizers>`
-    - :ref:`One (1) Electrical Bridge Connector<Master Forge:The Bridge Connector>`
-    - :ref:`One (1) Mechanical Bridge Bolt-On<Master Forge:The Bridge Connector>`
-    - :ref:`One (1) USB-A to USB-C Power Cable<Master Forge:Connections>`
-    - :ref:`One (1) Ergo Bolt-On set<Bolt-Ons:Ergo>`
-    - :ref:`Two (2) Forge Trackball Bolt-Ons<Bolt-Ons:Trackball>`
-    - :ref:`One (1) Tactical Carrying Case<Case>`
-    - :ref:`One (1) Forge Cleat<Add-Ons:Cleat>`
-    - One (1) M3 Allen wrench
-    - :ref:`One (1) Original Backer Deskmat<Add-Ons:Original Backer Deskmat>`
+- :ref:`One (1) Left Digitizer<Master Forge:The Digitizers>`
+- :ref:`One (1) Right Digitizer<Master Forge:The Digitizers>`
+- :ref:`One (1) Electrical Bridge Connector<Master Forge:The Bridge Connector>`
+- :ref:`One (1) Mechanical Bridge Bolt-On<Master Forge:The Bridge Connector>`
+- :ref:`One (1) USB-A to USB-C Power Cable<Master Forge:Connections>`
+- :ref:`One (1) Ergo Bolt-On set<Bolt-Ons:Ergo>`
+- :ref:`Two (2) Forge Trackball Bolt-Ons<Bolt-Ons:Trackball>`
+- :ref:`One (1) Tactical Carrying Case<Case>`
+- :ref:`One (1) Forge Cleat<Add-Ons:Cleat>`
+- One (1) M3 Allen wrench
+- :ref:`One (1) Original Backer Deskmat<Add-Ons:Original Backer Deskmat>`
 
 .. note::
-
     As of March of 2025, the Forge Trackball Bolt-On has not finished development. As such, some pre-orders and Kickstarter backers may not receive their trackball bolt-ons with their Master Forge. These will be shipped at a later time.
 
 
@@ -676,54 +685,54 @@ Basic
 ~~~~~
 The Basic backer tier on Kickstarter includes the following:
 
-    - :ref:`One (1) Left Digitizer<Master Forge:The Digitizers>`
-    - :ref:`One (1) Right Digitizer<Master Forge:The Digitizers>`
-    - :ref:`One (1) Electrical Bridge Connector<Master Forge:The Bridge Connector>`
-    - :ref:`One (1) Mechanical Bridge Bolt-On<Master Forge:The Bridge Connector>`
-    - :ref:`One (1) USB-A to USB-C Power Cable<Master Forge:Connections>`
-    - :ref:`One (1) "Original Backer" Tactical Carrying Case<Case>`
-    - One (1) M3 Allen Wrench
-    - Unlimited Forge CAD Access
+- :ref:`One (1) Left Digitizer<Master Forge:The Digitizers>`
+- :ref:`One (1) Right Digitizer<Master Forge:The Digitizers>`
+- :ref:`One (1) Electrical Bridge Connector<Master Forge:The Bridge Connector>`
+- :ref:`One (1) Mechanical Bridge Bolt-On<Master Forge:The Bridge Connector>`
+- :ref:`One (1) USB-A to USB-C Power Cable<Master Forge:Connections>`
+- :ref:`One (1) "Original Backer" Tactical Carrying Case<Case>`
+- One (1) M3 Allen Wrench
+- Unlimited Forge CAD Access
 
 Premium
 ~~~~~~~
 The Premium backer tier on Kickstarter includes the following:
 
-    - :ref:`One (1) Left Digitizer<Master Forge:The Digitizers>`
-    - :ref:`One (1) Right Digitizer<Master Forge:The Digitizers>`
-    - :ref:`One (1) Electrical Bridge Connector<Master Forge:The Bridge Connector>`
-    - :ref:`One (1) Mechanical Bridge Bolt-On<Master Forge:The Bridge Connector>`
-    - :ref:`One (1) USB-A to USB-C Power Cable<Master Forge:Connections>`
-    - :ref:`One (1) USB-C to USB-C Cable<Master Forge:Connections>`
-    - :ref:`One (1) Forge Trackball Bolt-On<Bolt-Ons:Trackball>`
-    - :ref:`One (1) "Original Backer" Tactical Carrying Case<Case>`
-    - :ref:`One (1) "Original Backer" Deskmat<Add-Ons:Original Backer Deskmat>`
-    - One (1) M3 Allen Wrench
-    - :ref:`One (1) Forge Cleat<Add-Ons:Cleat>`
-    - :ref:`Four (4) Ergo Bolt-On sets<Bolt-Ons:Ergo>`
-    - Unlimited Forge CAD Access
-    - 2 Years of VIP Membership
+- :ref:`One (1) Left Digitizer<Master Forge:The Digitizers>`
+- :ref:`One (1) Right Digitizer<Master Forge:The Digitizers>`
+- :ref:`One (1) Electrical Bridge Connector<Master Forge:The Bridge Connector>`
+- :ref:`One (1) Mechanical Bridge Bolt-On<Master Forge:The Bridge Connector>`
+- :ref:`One (1) USB-A to USB-C Power Cable<Master Forge:Connections>`
+- :ref:`One (1) USB-C to USB-C Cable<Master Forge:Connections>`
+- :ref:`One (1) Forge Trackball Bolt-On<Bolt-Ons:Trackball>`
+- :ref:`One (1) "Original Backer" Tactical Carrying Case<Case>`
+- :ref:`One (1) "Original Backer" Deskmat<Add-Ons:Original Backer Deskmat>`
+- One (1) M3 Allen Wrench
+- :ref:`One (1) Forge Cleat<Add-Ons:Cleat>`
+- :ref:`Four (4) Ergo Bolt-On sets<Bolt-Ons:Ergo>`
+- Unlimited Forge CAD Access
+- 2 Years of VIP Membership
 
 
 Super
 ~~~~~
 
-    - :ref:`One (1) Left Digitizer<Master Forge:The Digitizers>`
-    - :ref:`One (1) Right Digitizer<Master Forge:The Digitizers>`
-    - :ref:`One (1) Electrical Bridge Connector<Master Forge:The Bridge Connector>`
-    - :ref:`One (1) Mechanical Bridge Bolt-On<Master Forge:The Bridge Connector>`
-    - :ref:`One (1) USB-A to USB-C Power Cable<Master Forge:Connections>`
-    - :ref:`One (1) USB-C to USB-C Cable<Master Forge:Connections>`
-    - :ref:`One (1) Forge Trackball Bolt-On<Bolt-Ons:Trackball>`
-    - :ref:`One (1) "Original Backer" Tactical Carrying Case<Case>`
-    - :ref:`One (1) "Original Backer" Deskmat<Add-Ons:Original Backer Deskmat>`
-    - One (1) M3 Allen Wrench
-    - :ref:`One (1) Forge Cleat<Add-Ons:Cleat>`
-    - :ref:`Four (4) Ergo Bolt-On sets<Bolt-Ons:Ergo>`
-    - Unlimited Forge CAD Access
-    - Lifetime VIP Membership
-    - GTM Immortalization
-    - Digitizer Exoskeleton signed by Riley Keen, Founder and CEO of CharaChorder
+- :ref:`One (1) Left Digitizer<Master Forge:The Digitizers>`
+- :ref:`One (1) Right Digitizer<Master Forge:The Digitizers>`
+- :ref:`One (1) Electrical Bridge Connector<Master Forge:The Bridge Connector>`
+- :ref:`One (1) Mechanical Bridge Bolt-On<Master Forge:The Bridge Connector>`
+- :ref:`One (1) USB-A to USB-C Power Cable<Master Forge:Connections>`
+- :ref:`One (1) USB-C to USB-C Cable<Master Forge:Connections>`
+- :ref:`One (1) Forge Trackball Bolt-On<Bolt-Ons:Trackball>`
+- :ref:`One (1) "Original Backer" Tactical Carrying Case<Case>`
+- :ref:`One (1) "Original Backer" Deskmat<Add-Ons:Original Backer Deskmat>`
+- One (1) M3 Allen Wrench
+- :ref:`One (1) Forge Cleat<Add-Ons:Cleat>`
+- :ref:`Four (4) Ergo Bolt-On sets<Bolt-Ons:Ergo>`
+- Unlimited Forge CAD Access
+- Lifetime VIP Membership
+- GTM Immortalization
+- Digitizer Exoskeleton signed by Riley Keen, Founder and CEO of CharaChorder
 
 
 Post-Kickstarter
@@ -731,12 +740,10 @@ Post-Kickstarter
 
 Once the Kickstarter campaign ended, the Master Forge was put on sale for pre-orders on the `Forge Website <https://forgekeyboard.com>`__. Orders placed on the Forge website starting October of 2024 include:
 
-    - :ref:`One (1) Left Digitizer<Master Forge:The Digitizers>`
-    - :ref:`One (1) Right Digitizer<Master Forge:The Digitizers>`
-    - :ref:`One (1) Electrical Bridge Connector<Master Forge:The Bridge Connector>`
-    - :ref:`One (1) Mechanical Bridge Bolt-On<Master Forge:The Bridge Connector>`
-    - :ref:`One (1) USB-A to USB-C Power Cable<Master Forge:Connections>`
-    - :ref:`One (1) Tactical Carrying Case<Case>`
-    - One (1) M3 Allen wrench
-
-
+- :ref:`One (1) Left Digitizer<Master Forge:The Digitizers>`
+- :ref:`One (1) Right Digitizer<Master Forge:The Digitizers>`
+- :ref:`One (1) Electrical Bridge Connector<Master Forge:The Bridge Connector>`
+- :ref:`One (1) Mechanical Bridge Bolt-On<Master Forge:The Bridge Connector>`
+- :ref:`One (1) USB-A to USB-C Power Cable<Master Forge:Connections>`
+- :ref:`One (1) Tactical Carrying Case<Case>`
+- One (1) M3 Allen wrench

@@ -41,18 +41,21 @@ TL;DR, so what does this mean for me?
 First of all, here are some pitfalls
 
 * If you set for example `$`, the CCOS types this as "hold shift press 4 release shift".
-  Meaning if you press `$` and `3` together, **you'll actually type "$#" instead of "$3"**
-  because the CCOS needs to hold shift for typing the `$` sign
-  - *Avoid putting characters that need shift and normal characters on the same layer*
+
+    Meaning if you press `$` and `3` together, **you'll actually type "$#" instead of "$3"**
+    because the CCOS needs to hold shift for typing the `$` sign
+
+    - *Avoid putting characters that need shift and normal characters on the same layer*
+
 * Using for example a German layout on the OS will swap z and y, just like on a normal keyboard.
 * Using any non-ASCII, non-Chara, non-keyboard characters will *only* work on Windows.
 * The hacks used by Chara can have unexpected consequences in some programs which intercept raw input
 
 .. tip::
-  The easiest solution is
-  use `US-Intl <https://en.m.wikipedia.org/wiki/QWERTY#US-International>`_ on your OS.
-  You can use right-alt to access special characters.
-  Holding right-alt and pressing `q` will give you an `ä`.
+    The easiest solution is
+    use `US-Intl <https://en.m.wikipedia.org/wiki/QWERTY#US-International>`_ on your OS.
+    You can use right-alt to access special characters.
+    Holding right-alt and pressing `q` will give you an `ä`.
 
 The other solution is to use your local layout and mentally remap. So if you wanted to type the cyrillic `Ф`, you set the Russian layout on your OS, and map the key to `a` (which will send the key-code that corresponds to Ф on a Russian layout)
 
@@ -73,7 +76,7 @@ How does CharaChorder deal with this?
 If you set a layout on the CCOS, it moves the key-code locations around.
 
 .. warning::
-  Setting the letter `a` on a switch doesn't actually send "print a" to the computer - it sends a "key where the a would be on the us layout pressed" to the OS**.
+    Setting the letter `a` on a switch doesn't actually send "print a" to the computer - it sends a "key where the a would be on the us layout pressed" to the OS**.
 
 So how can I add äöüß etc when it's not on the US layout?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -81,7 +84,7 @@ So how can I add äöüß etc when it's not on the US layout?
 There is a special feature on Windows that allows you to directly type *any* Unicode character with your keyboard, by holding `alt` and typing a numeric code.
 
 .. warning::
-  Setting the letter `ä` on a switch means the device sends "hold alt press 0 press 2 press 2 press 8 release alt".
+    Setting the letter `ä` on a switch means the device sends "hold alt press 0 press 2 press 2 press 8 release alt".
 
 Because this is a Windows feature, this only works on Windows. However even this is *not* layout agnostic. Using a layout that moves letters around, like Programmer Dvorak, will completely mess up this hack as well.
 

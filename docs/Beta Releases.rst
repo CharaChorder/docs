@@ -2,7 +2,7 @@ Beta Releases
 =============
 
 .. contents::
-	:local:
+    :local:
 
 2.2.0-beta
 **********
@@ -38,57 +38,57 @@ With Profile B set up for gaming, the key bindings could look like this:
 
 Layer B1::
 
-	Left Ring
-	   any
-	any   any
-	   B3
+    Left Ring
+       any
+    any   any
+       B3
 
-	Left Middle
-	   any
-	any   any
-	   B2
+    Left Middle
+       any
+    any   any
+       B2
 
-	Left Thumb 1
-	   w
-	a     d
-	   s
+    Left Thumb 1
+       w
+    a     d
+       s
 
 
 Layer B2::
 
-	Left Middle
-	   any
-	any   any
-	   B2
+    Left Middle
+       any
+    any   any
+       B2
 
-	Left Thumb 1
-	   s
-	d     a
-	   w
+    Left Thumb 1
+       s
+    d     a
+       w
 
 Layer B3::
 
-	Left Ring
-	     any
-	any       any
-	     B3
+    Left Ring
+         any
+    any       any
+         B3
 
-	Left Thumb 1
-	     BLANK
-	BLANK     BLANK
-	     BLANK
+    Left Thumb 1
+         BLANK
+    BLANK     BLANK
+         BLANK
 
 We walk forward by holding Left Thumb 1 North (``w``).
 
 Reverse direction:
 
-	* We reverse direction temporarily by also holding Left Middle South (Layer B2), because it causes a repress of Left Thumb 1 North, which is now bound to ``s``.
-	* We start walking forward again by releasing Left Middle South (B2), it represses Left Thumb 1 North (``w``).
+* We reverse direction temporarily by also holding Left Middle South (Layer B2), because it causes a repress of Left Thumb 1 North, which is now bound to ``s``.
+* We start walking forward again by releasing Left Middle South (B2), it represses Left Thumb 1 North (``w``).
 
 Stop:
 
-	* We stop temporarily by holding Left Ring South (Layer B3), it represses Left Thumb 1 North, which isn't bound to anything.
-	* We start walking forward again by releasing Left Ring South (B3), it represses Left Thumb 1 North (``w``).
+* We stop temporarily by holding Left Ring South (Layer B3), it represses Left Thumb 1 North, which isn't bound to anything.
+* We start walking forward again by releasing Left Ring South (B3), it represses Left Thumb 1 North (``w``).
 
 Hyperspace
 ~~~~~~~~~~
@@ -99,41 +99,41 @@ The CAPTURE action makes it possible to replace the space after a chord with ano
 
 For this to work, we need to create at least two chords:
 
-1. One chord that has a space between two CAPTURE actions:
+* One chord that has a space between two CAPTURE actions:
 
-	.. code-block::
+    .. code-block::
 
-		CAPTURE CAPTURE
+        CAPTURE CAPTURE
 
-	It restores the default behavior of adding a space after each chord:
+    It restores the default behavior of adding a space after each chord:
 
-	.. code-block::
+    .. code-block::
 
-		the on us
+        the on us
 
-2. Another chord that has a character between the CAPTURE actions, to replace the space:
+* Another chord that has a character between the CAPTURE actions, to replace the space:
 
-	.. code-block::
+    .. code-block::
 
-		CAPTURE-CAPTURE
+        CAPTURE-CAPTURE
 
-	This results in:
+    This results in:
 
-	.. code-block::
+    .. code-block::
 
-		the-on-us-
+        the-on-us-
 
-3. Or:
+* Or:
 
-	.. code-block::
+    .. code-block::
 
-		CAPTURE_CAPTURE
+        CAPTURE_CAPTURE
 
-	Which results in:
+    Which results in:
 
-	.. code-block::
+    .. code-block::
 
-		the_on_us_
+        the_on_us_
 
 Prepend concatenation style
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -145,8 +145,8 @@ Vim mode
 
 .. note::
 
-	Mac users. Set the Operating System setting to: Mac
-	https://charachorder.io/config/settings/#misc
+    Mac users. Set the Operating System setting to: Mac
+    https://charachorder.io/config/settings/#misc
 
 Adds universal VIM motion emulation through the VIM action. This mode makes use of standard shortcuts like CTRL (or ⌘ on Mac) + RIGHT ARROW to emulate VIM motions in a best-effort way in any textbox. While not as powerful as native VIM or even just a VIM plugin, you don't always have the option to use either of them, so this is a way to carry around your VIM muscle memory to nearly every textbox you encounter.
 
@@ -228,13 +228,13 @@ chord, period, character, space, chord
 
 Before::
 
-	the. t The
+    the. t The
 
 The last chord became capitalized even though it wasn't the first character or chord after the period.
 
 Now::
 
-	the. t the
+    the. t the
 
 The last chord's capitalization was interrupted by the chentry.
 

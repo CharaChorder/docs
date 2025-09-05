@@ -12,13 +12,13 @@ learn how to use to make the device your own.
 You will notice that some settings have different press and release values. This is because the switches are read by the :doc:`CCOS<CCOS>` at two different moments in time: when they are pressed, and when they are released. We have designed :doc:`CCOS<CCOS>` to have configurable settings for each of those "events" separately, for maximum adjustability. Intuitively, each **press** setting, such as :ref:`debounce press<GenerativeTextMenu:Debounce Press>`, will affect the way that the :doc:`CCOS<CCOS>` reads the switch at the time that the switch is pressed into any one direction. Conversely, **release** settings, such as :ref:`release debounce<GenerativeTextMenu:Debounce Release>`, will change the way that the :doc:`CCOS<CCOS>` reads the switch at the exact moment that the switch is released, or un-pressed, from any one direction.
 
 .. note::
-	Although you can configure your CCOS settings anywhere that you can type through the GTM, you can also edit them on the :doc:`CharaChorder Device Manager<Device Manager>`.
+    Although you can configure your CCOS settings anywhere that you can type through the GTM, you can also edit them on the :doc:`CharaChorder Device Manager<Device Manager>`.
 
 .. warning::
-	Please note that updating your CCOS device might reset your GTM settings to default. Please make sure that you have a :ref:`backup of your GTM settings<Device Manager:Creating a Backup>` before updating your CCOS device. For instructions on how to restore backed up files, visit the :ref:`Restoring from a Backup<Device Manager:Restoring from a Backup>` section.
+    Please note that updating your CCOS device might reset your GTM settings to default. Please make sure that you have a :ref:`backup of your GTM settings<Device Manager:Creating a Backup>` before updating your CCOS device. For instructions on how to restore backed up files, visit the :ref:`Restoring from a Backup<Device Manager:Restoring from a Backup>` section.
 
 .. contents:: Table of Contents of this Page
-   :local:
+    :local:
 
 How to access the GTM
 *********************
@@ -48,7 +48,7 @@ Navigation around this menu is based on letter-presses. In the example above, yo
 
 In some submenus, you will see numeric values. In order to increase or decrease these, you can use the up and down arrow keys on your :doc:`CCOS<CCOS>` device.
 
-	``CharaChorder > Chording > Press Tolerance [ Use up/down arrow keys to adjust: 25ms ]``
+``CharaChorder > Chording > Press Tolerance [ Use up/down arrow keys to adjust: 25ms ]``
 
 
 Available Menus
@@ -183,7 +183,7 @@ The intent of this setting is to provide more accurate key mapping. As such, it 
     "CharaChorder X", "Windows"
 
 .. Warning::
-	As of December of 2023, this setting doesn't do anything on CCOS devices.
+    As of December of 2023, this setting doesn't do anything on CCOS devices.
 
 GUI-CTRL Soft Swap (CharaChorder Lite only)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -202,15 +202,15 @@ This setting has two options: GUI-CTRL and CTRL-GUI. This setting is set to GUI-
 
 .. _GUI-CTRL:
 .. image:: /assets/images/GUI-CTRL.jpg
-  :width: 1200
-  :alt: Default CharaChorder Lite CTRL mapping
+    :width: 1200
+    :alt: Default CharaChorder Lite CTRL mapping
 
 **Key Mapping after swapping:**
 
 .. _CTRL-GUI:
 .. image:: /assets/images/CTRL-GUI.jpg
-  :width: 1200
-  :alt: Alternative CharaChorder Lite CTRL mapping
+    :width: 1200
+    :alt: Alternative CharaChorder Lite CTRL mapping
 
 Users who are used to traditional keyboard layouts will want to take advantage of this setting so they don't have to relearn the new position of the keys.
 
@@ -232,7 +232,7 @@ However, :doc:`CCOS<CCOS>` uses ms (milliseconds) which is directly inverse to H
 
     In the context of frequency and period (time duration), the relationship is inverse. Frequency is the number of cycles per second, measured in Hz. The period is the time it takes for one cycle to complete, measured in seconds (s). The formula is:
 
-	``Frequency (Hz) = 1/Period (s), where s = 1000 ms``
+    ``Frequency (Hz) = 1/Period (s), where s = 1000 ms``
 
     If you convert the period to milliseconds (ms), the relationship remains inverse. For instance, if you have a frequency of 1000 Hz, the period is 1 ms (because 1 second = 1000 milliseconds). As the frequency increases, the period (measured in ms) decreases.
 
@@ -360,8 +360,8 @@ The press tolerance refers to a window of time in which a chord can be performed
 .. _Tolerances:
 
 .. image:: /assets/images/Press-and-Release-Tolerances.png
-  :width: 1200
-  :alt: Diagram Explaining Tolerances
+    :width: 1200
+    :alt: Diagram Explaining Tolerances
 
 Put simply, increasing the press tolerance (usually, done in conjunction with increasing the :ref:`release tolerance <GenerativeTextMenu:Release Tolerance>`) makes it easier to perform chords.
 
@@ -389,8 +389,8 @@ Release Tolerance
 The release tolerance refers to a window of time in which a chord can be performed, measured in milliseconds (ms). This timer is initiated upon the first "release" action of any key in a chord and ends once the chord is fully performed, or until the release tolerance runs out, whichever comes first.
 
 .. image:: /assets/images/Press-and-Release-Tolerances.png
-  :width: 1200
-  :alt: Diagram Explaining Tolerances
+    :width: 1200
+    :alt: Diagram Explaining Tolerances
 
 Put simply, increasing the release tolerance (usually, done in conjunction with increasing the :ref:`press tolerance <GenerativeTextMenu:Press Tolerance>`) makes it easier to perform chords.
 
@@ -518,7 +518,7 @@ This setting toggles realtime feedback ON or OFF.
 Realtime feedback refers to the helpful text like ``SPURRING_ON``, ``SPURRING_OFF`` etc, that lets the user know if a certain mode has been activated or deactivated on the CharaChorder device. Since there is no other visual way to know if the chord used to enable or disable certain settings, it is helpful to have these texts pop up as confirmation.
 
 .. Note::
-	The realtime feedback setting controls the :ref:`startup<GenerativeTextMenu:Startup>` setting. If realtime feedback is OFF, then startup will be OFF, regardless of that setting's individual toggle.
+    The realtime feedback setting controls the :ref:`startup<GenerativeTextMenu:Startup>` setting. If realtime feedback is OFF, then startup will be OFF, regardless of that setting's individual toggle.
 
 Startup
 ~~~~~~~
@@ -532,7 +532,7 @@ However, if you have editable text highlighted when you connect your CharaChorde
 If you would rather not have this message display every time that you connect your device, then you can toggle this setting OFF.
 
 .. Warning::
-	The Startup setting is dependent on the :ref:`realtime feedback setting<GenerativeTextMenu:Realtime Feedback>`. If that setting is set to OFF, then Startup won't display, even if Startup is set to ON.
+    The Startup setting is dependent on the :ref:`realtime feedback setting<GenerativeTextMenu:Realtime Feedback>`. If that setting is set to OFF, then Startup won't display, even if Startup is set to ON.
 
 LEDs (CharaChorder Lite only)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -542,7 +542,7 @@ LEDs (CharaChorder Lite only)
 The :doc:`CharaChorder Lite<CharaChorder_Lite>` comes with RGB LEDs that light up the keys of the keyboard from below with a static light. This section contains settings pertaining to those LED lights.
 
 .. note::
-	LED settings only exist in the GTM for :doc:`CharaChorder Lite<CharaChorder_Lite>` devices, not on any other CharaChorder devices.
+    LED settings only exist in the GTM for :doc:`CharaChorder Lite<CharaChorder_Lite>` devices, not on any other CharaChorder devices.
 
 On/Off
 ^^^^^^
@@ -561,17 +561,17 @@ Use this setting to change the color of the LED backlights on your CharaChorder 
 .. csv-table::
     :header: "Letter", "Color"
 
-	"W", "White"
-	"R", "Red"
-	"O", "Orange"
-	"Y", "Yellow"
-	"L", "Lime"
-	"G", "Green"
-	"C", "Cyan"
-	"B", "Blue"
-	"V", "Violet"
-	"P", "Pink"
-	"M", "Multicolor"
+    "W", "White"
+    "R", "Red"
+    "O", "Orange"
+    "Y", "Yellow"
+    "L", "Lime"
+    "G", "Green"
+    "C", "Cyan"
+    "B", "Blue"
+    "V", "Violet"
+    "P", "Pink"
+    "M", "Multicolor"
 
 Please note that, as of December of 2023, the LEDs are NOT individually addressable. The color setting changes the color of ALL LEDs at the same time.
 
@@ -605,10 +605,10 @@ This section contains links which may be helpful to you. These links include:
 .. csv-table::
     :header: "Letter", "Item", "Description"
 
-	"A", "About", "Opens https://www.charachorder.com/pages/about."
-	"G", "Get started", "Opens https://www.charachorder.com/pages/get-started."
-	"D", "Discord", "Invites you to the CharaChorder Discord"
-	"T", "Training", "Opens https://iq-eq.io, our free tool to help people learn to type at the speed of thought"
-	"M", "Message Riley", "Copies Riley Keen (CharaChorder CEO)'s email address to your clipboard"
-	"L", "Learn chords", "Opens The Starter Chord List"
-	"S", "Check system updates", "Opens the CCOS version updates page"
+    "A", "About", "Opens https://www.charachorder.com/pages/about."
+    "G", "Get started", "Opens https://www.charachorder.com/pages/get-started."
+    "D", "Discord", "Invites you to the CharaChorder Discord"
+    "T", "Training", "Opens https://iq-eq.io, our free tool to help people learn to type at the speed of thought"
+    "M", "Message Riley", "Copies Riley Keen (CharaChorder CEO)'s email address to your clipboard"
+    "L", "Learn chords", "Opens The Starter Chord List"
+    "S", "Check system updates", "Opens the CCOS version updates page"

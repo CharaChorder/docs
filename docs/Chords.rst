@@ -5,7 +5,7 @@ chording ability. Read this section to learn what
 chording is and how you can benefit from it on your own CharaChorder.
 
 .. contents::  Table of Contents of this Page
-   :local:
+    :local:
 
 What are Chords?
 ----------------
@@ -150,23 +150,23 @@ OUTPUT 5. CONFIRM INPUT
 
 .. _Impulse chording one:
 .. image:: /assets/images/Impulsegif.gif
-  :width: 1200
-  :alt: Impulse chording on the CharaChorder One
+    :width: 1200
+    :alt: Impulse chording on the CharaChorder One
 
 1. Anywhere that you can see a cursor, chord the input you want
-   (example: ``b+u+r+s+t``). You will either see a jumble of letters
-   (example: “tsubr”) or you will see a chord which is already
-   programmed to that input. If you continue, any conflicts will be
-   overwritten.
+    (example: ``b+u+r+s+t``). You will either see a jumble of letters
+    (example: “tsubr”) or you will see a chord which is already
+    programmed to that input. If you continue, any conflicts will be
+    overwritten.
 2. Call the impulse command the hard
-   coded chord ``i+DUP``.
+    coded chord ``i+DUP``.
 3. Follow the prompt and type your output in character entry mode.
-   (example: >I<mpulse output: burst ).
+    (example: >I<mpulse output: burst ).
 4. Press enter to confirm your output.
 5. Verify that the desired input is correct (you will see a confirmation
-   message similar to this: >I<mpulse input: b + r + u + t + s).
+    message similar to this: >I<mpulse input: b + r + u + t + s).
 6. If the input is incorrect, perform your desired input at this step.
-   Once the input is the desired input, press enter.
+    Once the input is the desired input, press enter.
 
 These steps should take 1-3 seconds.
 
@@ -179,23 +179,23 @@ OUTPUT, 5. CONFIRM INPUT
 
 .. _Impulse chording lite:
 .. image:: /assets/images/Impulsegif.gif
-  :width: 1200
-  :alt: Impulse chording on the CharaChorder Lite
+    :width: 1200
+    :alt: Impulse chording on the CharaChorder Lite
 
 1. Anywhere that you can see a cursor, chord the input you want
-   (example: ``b+u+r+s+t``). You will either see a jumble of letters
-   (example: “tsubr”) or you will see a chord which is already
-   programmed to that input. If you continue, any conflicts will be
-   overwritten.
+    (example: ``b+u+r+s+t``). You will either see a jumble of letters
+    (example: “tsubr”) or you will see a chord which is already
+    programmed to that input. If you continue, any conflicts will be
+    overwritten.
 2. Call the impulse command with the hard
-   coded chord ``i+DUP``.
+    coded chord ``i+DUP``.
 3. Follow the prompt and type your output in character entry mode.
-   (example: >I<mpulse output: burst ).
+    (example: >I<mpulse output: burst ).
 4. Press enter to confirm your output.
 5. Verify that the desired input is correct (you will see a confirmation
-   message similar to this: >I<mpulse input: b + r + u + t + s).
+    message similar to this: >I<mpulse input: b + r + u + t + s).
 6. If the input is incorrect, perform your desired input at this step.
-   Once the input is the desired input, press enter.
+    Once the input is the desired input, press enter.
 
 These steps should take 1-3 seconds.
 
@@ -208,24 +208,24 @@ OUTPUT, 5. CONFIRM INPUT
 
 .. _Impulse chording X:
 .. image:: /assets/images/Impulsexgif.gif
-  :width: 1200
-  :alt: Impulse chording on the CharaChorder X
+    :width: 1200
+    :alt: Impulse chording on the CharaChorder X
 
 1. Anywhere that you can see a cursor, chord the input you want
-   (example: ``b+u+r+s+t``). You will either see a jumble of letters
-   (example: “tsubr”) or you will see a chord which is already
-   programmed to that input. If you continue, any conflicts will be
-   overwritten.
+    (example: ``b+u+r+s+t``). You will either see a jumble of letters
+    (example: “tsubr”) or you will see a chord which is already
+    programmed to that input. If you continue, any conflicts will be
+    overwritten.
 2. Call the impulse command with the hard
-   coded chord ``i+ESC``.
+    coded chord ``i+ESC``.
 3. Follow the prompt and type your output in character entry mode.
-   (example: >I<mpulse output: burst ).
+    (example: >I<mpulse output: burst ).
 4. Press enter to confirm your output.
 5. Verify that the desired output is correct (you will see a
-   confirmation message similar to this: >I<mpulse input: b + u + r +
-   s + t).
+    confirmation message similar to this: >I<mpulse input: b + u + r +
+    s + t).
 6. If the input is incorrect, perform your desired input at this step.
-   Once the input is the desired input, press enter.
+    Once the input is the desired input, press enter.
 
 These steps should take 1-3 seconds
 
@@ -236,13 +236,13 @@ Multiple chords in a row can have a unique output.
 
 We can create compound chords like these:
 
-   * ``website`` and ``charachorder`` can output the url: ``www.charachorder.com``
-   * ``boat`` and ``big`` can output: ``ship``
-   * ``car`` and ``car`` can output: ``traffic``
+* ``website`` and ``charachorder`` can output the url: ``www.charachorder.com``
+* ``boat`` and ``big`` can output: ``ship``
+* ``car`` and ``car`` can output: ``traffic``
 
 .. note::
 
-   The second or additional chords have to be pressed within the :ref:`Compound timeout<Compound Timeout Setting>`, by default it's one second (1000 ms).
+    The second or additional chords have to be pressed within the :ref:`Compound timeout<Compound Timeout Setting>`, by default it's one second (1000 ms).
 
 Add a compound chord
 ^^^^^^^^^^^^^^^^^^^^
@@ -253,10 +253,10 @@ First, we decide what the compound chord should output. Then, we choose one or m
 
 If we want the compound chord output: ``www.charachorder.com``
 
-   * With chord input 1: ``w+b+s+t``
-   * Output: ``website``
-   * And chord input 2: ``c+h+a+r``
-   * Output: ``charachorder``
+* With chord input 1: ``w+b+s+t``
+* Output: ``website``
+* And chord input 2: ``c+h+a+r``
+* Output: ``charachorder``
 
 #. Open the impulse prompt by chording: ``i+DUP``
 #. At the impulse output prompt, type the compound chord output, one character at a time:
@@ -265,16 +265,16 @@ If we want the compound chord output: ``www.charachorder.com``
 #. At the impulse input prompt, press the first chord: ``w+b+s+t``
 #. ``impulse input: w + b + s + t``
 
-   .. note::
+    .. note::
 
-      The order of the chord input characters doesn't matter, they appear in the impulse input prompt in the order they were pressed.
+        The order of the chord input characters doesn't matter, they appear in the impulse input prompt in the order they were pressed.
 
 #. Hold ``shift`` and press ``enter``
 #. ``impulse input: w + b + s + t |``
 
-   .. Note::
+    .. Note::
 
-      The ``|`` (pipe symbol) after the chord input, indicates that it's waiting for a second chord.
+        The ``|`` (pipe symbol) after the chord input, indicates that it's waiting for a second chord.
 
 #. Press the second chord: ``c+h+a+r``
 #. ``impulse input: w + b + s + t | c + h + a + r``
@@ -282,10 +282,10 @@ If we want the compound chord output: ``www.charachorder.com``
 
 We have added a compound chord:
 
-   * Now when we chord: ``w+b+s+t``
-   * followed (:ref:`within the Compound timeout<Compound Timeout Setting>`) by the chord: ``c+h+a+r``
-   * it outputs: ``www.charachorder.com``
+* Now when we chord: ``w+b+s+t``
+* followed (:ref:`within the Compound timeout<Compound Timeout Setting>`) by the chord: ``c+h+a+r``
+* it outputs: ``www.charachorder.com``
 
 .. note::
 
-   Compound chords aren't limited to just two in a row.
+    Compound chords aren't limited to just two in a row.

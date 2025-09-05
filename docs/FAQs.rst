@@ -4,7 +4,7 @@ Frequently Asked Questions
 This page houses some Frequently Asked Questions about our technology and our devices.
 
 .. contents:: Table of Contents of this Page
-   :local:
+    :local:
 
 General FAQs
 ------------
