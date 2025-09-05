@@ -55,7 +55,7 @@ The front of each digitizer has a slotted rail which allows :doc:`bolt-ons<Bolt-
   :width: 1200
   :alt: Picture showing the bridge connector and the ports
 
-The underside of each digitizer is partially hollow to allow for cables and connections to happen in a discreet manner underneath the device. Inside the cavity, we can find two additional USB-C ports and downward facing LED clusters. 
+The underside of each digitizer is partially hollow to allow for cables and connections to happen in a discreet manner underneath the device. Inside the cavity, we can find two additional USB-C ports and downward facing LED clusters.
 
 .. _M4G Below:
 .. image:: /assets/images/M4G-Under.webp
@@ -237,10 +237,8 @@ You can check your device’s current firmware by following the steps below:
 #. On a chromium based browser, such as Chrome, go to the `Device Manager <https://charachorder.io/>`__ (Linux users see :ref:`this link<serialportaccess>` for more information about configuring serial port access).
 #. Click “Connect” at the bottom center of the page.
 
-   .. _Connect Button Check Firmware:
-   .. image:: /assets/images/FW-connect-button.JPG
-      :width: 600
-      :alt: Connect Button on Device Manager
+   .. image:: /assets/images/DM-connect-button.png
+     :alt: Image showing an arrow pointing at the Device Manager's bottom center connect button
 
 #. When the popup box comes up that reads “charachorder.io wants to connect to a serial port,” choose one of the two listed devices with the same name: Master Forge USB Serial (currently each Master Forge half is detected separately), then click the “connect” button.
 
@@ -287,10 +285,8 @@ You can follow the steps below to update each Master Forge half:
 #. Head to the Device Manager `<https://charachorder.io/>`__
 #. Connect to the device manager by clicking the bottom middle ``Connect`` button.
 
-   .. _Connect Button Update Firmware:
-   .. image:: /assets/images/FW-connect-button.JPG
-      :width: 600
-      :alt: Connect Button on Device Manager
+   .. image:: /assets/images/DM-connect-button.png
+     :alt: Image showing an arrow pointing at the Device Manager's bottom center connect button
 
 #. When the popup box comes up that reads “charachorder.io wants to connect to a serial port,” choose one of the two listed devices with the same name: Master Forge USB Serial (currently each Master Forge half is detected separately), then click the “connect” button.
 
@@ -338,10 +334,10 @@ Now repeat the steps, but pick the other Master Forge USB Serial device from the
  		#. On a chromium based browser, such as Chrome, go to the CharaChorder `Device Manager <https://charachorder.io/ccos/>`__
  		#. If not auto-connected, click "Connect"
 
-       		   .. _Connect Button Emergency:
-     		   .. image:: /assets/images/FW-connect-button.jpg
-    		      :width: 600
-    		      :alt: Connect Button on Device Manager
+      .. _Connect Button Emergency:
+      .. image:: /assets/images/DM-connect-button.png
+        :alt: Image showing an arrow pointing at the Device Manager's bottom center connect button
+
  		#. When the popup box comes up that reads “manager.charachorder.com wants to connect to a serial port”, choose the CCOS device you wish to update, then click the blue “connect” button
 
         		 .. _Serial Port Popup Emergency:
@@ -381,10 +377,10 @@ Now repeat the steps, but pick the other Master Forge USB Serial device from the
  		#. Now, back in the `Firmware Updates page <https://charachorder.io/ccos/>`__, select ``m4gr_s3``
  		#. If you haven't done so already, Connect your device to the Manager again by clicking "Connect" at the bottom of the page
 
-      		   .. _Connect Button:
-     		   .. image:: /assets/images/FW-connect-button.jpg
-     		     :width: 600
-     		     :alt: Connect Button on Device Manager
+      .. _Connect Button:
+      .. image:: /assets/images/DM-connect-button.png
+        :alt: Image showing an arrow pointing at the Device Manager's bottom center connect button
+
  		#. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your Master Forge, then click the blue “connect” button
 
         		 .. _Serial Port Popup:
@@ -644,7 +640,7 @@ works and how to remap your device, visit the :ref:`remapping section<Device Man
 Master Forge Configurations
 ***************************
 
-When the Master Forge was `unveiled <https://youtu.be/fux9gU3M25E?si=u4KW7OaUUUNINfKD&t=1025>`__ in November of 2023, CharaChorder began taking pre-orders offering everyone the same bundle. In September of 2024, CharaChorder ran a `Kickstarter <https://www.kickstarter.com/projects/charachorder/the-master-forge-a-keyboard-built-for-you>`__ campaign for the Master Forge for 5 weeks, offering three different tiers, each with a different configuration. After the Kickstarter campaign finished, the Master Forge went on back-order sale on the `Forge website <https://forgekeyboard.com>`__. The following section identifies what each of these 5 bundles included. 
+When the Master Forge was `unveiled <https://youtu.be/fux9gU3M25E?si=u4KW7OaUUUNINfKD&t=1025>`__ in November of 2023, CharaChorder began taking pre-orders offering everyone the same bundle. In September of 2024, CharaChorder ran a `Kickstarter <https://www.kickstarter.com/projects/charachorder/the-master-forge-a-keyboard-built-for-you>`__ campaign for the Master Forge for 5 weeks, offering three different tiers, each with a different configuration. After the Kickstarter campaign finished, the Master Forge went on back-order sale on the `Forge website <https://forgekeyboard.com>`__. The following section identifies what each of these 5 bundles included.
 
 Forge Website Pre-Orders
 ------------------------

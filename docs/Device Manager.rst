@@ -21,6 +21,10 @@ You can follow the steps below to connect to the device manager for the first ti
 
 1. On a chromium based browser, such as Chrome or Edge, go to the `CharaChorder Device Manager <https://charachorder.io>`__
 2. Click “Connect” at the bottom center of the screen
+
+	.. image:: /assets/images/DM-connect-button.png
+		:alt: Image showing an arrow pointing at the Device Manager's bottom center connect button
+
 3. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your CharaChorder device, then click the “Connect” button
 
 .. image:: /assets/images/ManagerSELECTDEVICE.png
