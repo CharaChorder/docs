@@ -121,6 +121,123 @@ Device
 The Device Tab is the place where you can configure most settings of your :ref:`connected<Device Manager:Connecting to the Device Manager>` CCOS device and create backups.
 Read on to see the different settings you can change. You can find more detailed explanations in the :doc:`GTM<GenerativeTextMenu>` section.
 
+Keyboard Section
+----------------
+
+.. image:: /assets/images/DM-Keyboard.png
+    :alt: The Keyboard section
+
+.. dropdown:: What is Character Entry?
+
+    Character entry, known to the CharaChorder community as “chentry,”
+    refers to typing one character at time.
+
+    This setting is a toggle that disables chording capabilities on
+    :doc:`CCOS<CCOS>` devices. It is off by default and can be enabled
+    in case we don't want any chording at all. This setting can be
+    useful in cases where we don't want to accidentally trigger chords
+    unintentionally, such as when gaming.
+
+    If your :doc:`CCOS<CCOS>` device suddenly loses its chording
+    ability, it's a good idea to check if this setting is toggled off.
+
+.. dropdown:: Command Control Swap
+
+    This setting will swap the behavior of the two keys on the
+    bottom-left of the CharaChorder Lite.
+
+    Traditional QWERTY keyboards keep the ``CTRL`` key at the bottom
+    left corner of the keyboard with the ``GUI`` key (Command key on
+    Mac, Windows key on Windows, Super key on Linux, etc.) to the right
+    of the ``CTRL`` key. The CharaChorder Lite has these two keys
+    swapped by default, which some users find odd and difficult to
+    adjust to. A brand new CharaChorder Lite will have the ``GUI`` key
+    at the bottom-left corner with the ``CTRL`` key to the right of
+    the ``GUI`` key.
+
+    With this setting, you can effectively swap the two keys' location
+    at the level of the :doc:`CCOS<CCOS>` so that ``CTRL`` is at the bottom-left
+    corner.
+
+.. dropdown:: Poll Rate
+
+    The poll rate (also known as polling rate or polling interval) refers
+    to how frequently your keyboard sends updates to your computer about
+    which keys are being pressed. It's measured in Hertz (Hz), which
+    means "times per second".
+
+    For example, a poll rate of 200 Hz means the keyboard sends key
+    state data 200 times per second, or once every 5 milliseconds (ms).
+
+    A higher poll rate (more reports per second) results in lower
+    latency, meaning your keystrokes are registered faster.
+
+    Conversely, a lower poll rate means longer intervals between
+    updates, which can introduce slight delays.
+
+    **Responsiveness**
+
+    A faster poll rate improves how quickly your input
+    is detected, which is especially important for gaming or fast-paced
+    typing.
+
+    **Precision**
+
+    It reduces the chance of missing quick key presses.
+
+    **Quick Reference Table**
+
+    ==============  ==================
+    Poll Rate (Hz)  Poll Interval (ms)
+    ==============  ==================
+    125 Hz          8 ms
+    250 Hz          4 ms
+    500 Hz          2 ms
+    1000 Hz         1 ms
+    ==============  ==================
+
+    **In short**
+
+    Lower milliseconds = higher Hz = faster response. But once
+    you're below ~5 ms, the difference becomes nearly imperceptible to
+    most users.
+
+.. dropdown:: Key Debounce Press
+
+    The debounce press setting refers to the time frame (measured in
+    milliseconds) in which :doc:`CCOS<CCOS>` will filter out duplicate
+    key activations on a press event. In other words, any duplicate
+    activations within the given time frame will only be counted as one.
+
+    We should adjust this setting if we are having unintentional
+    duplicate characters while typing. Increasing this value will lower
+    the probability that unwanted duplicate characters will appear
+    because it tells :doc:`CCOS<CCOS>` to wait longer before typing an
+    additional character that's assigned to the same switch-direction.
+    However, having this setting set too high might also cause issues
+    with CCOS not reading intentional double-presses, so it's
+    recommended to try different numbers in small increments. This
+    setting should be used in connection with the debounce release
+    setting.
+
+.. dropdown:: Key Debounce Release
+
+    The debounce release setting refers to the time frame (measured in
+    milliseconds) in which :doc:`CCOS<CCOS>` will filter out duplicate
+    key activations on a release event. In other words, any duplicate
+    activations within the given time frame will only be counted as one.
+
+    We should adjust this setting if we are having unintentional
+    duplicate characters while typing. Increasing this value will lower
+    the probability that unwanted duplicate characters will appear
+    because it tells :doc:`CCOS<CCOS>` to wait longer before typing an
+    additional character that's assigned to the same switch-direction.
+    However, having this setting set too high might also cause issues
+    with CCOS not reading intentional double-presses, so it's
+    recommended to try different numbers in small increments. This
+    setting should be used in connection with the debounce press
+    setting.
+
 Backup Section
 --------------
 
@@ -270,57 +387,6 @@ Comparative
 The comparative modifier modifies supported chords so that they turn into their comparative variant. "Big" becomes "bigger" and "small" turns into "smaller". This :ref:`modifier<Device Manager:Chord Modifiers>` can be performed together with a :ref:`chord<Chords:What are Chords?>` or :ref:`arpeggiately<GenerativeTextMenu:Arpeggiate>`.
 
 The comparative modifier is located on the "NUMERIC LAYER (RIGHT)" key on both the CharaChorder One and the CharaChorder Lite.
-
-
-Character Entry
----------------
-.. dropdown:: What is Character Entry?
-
-	Character entry, known to the CharaChorder community as "chentry," refers to typing one character at time.
-
-.. image:: /assets/images/ManagerSettingsChentry.png
-  :width: 1200
-  :alt: The Character Entry settings box
-
-In this box, you can change a few settings that relate to using your device for character entry.
-
-.. dropdown:: Swap Keymap 0 and 1
-
-	This setting will swap the behavior of the two keys on the bottom-left of the CharaChorder Lite.
-
-	Traditional QWERTY keyboards keep the ``CTRL`` key at the bottom left corner of the keyboard with the ``GUI`` key (Command key on Mac, Windows key on Windows, Super key on Linux, etc.) to the right of the ``CTRL`` key. The CharaChorder Lite has these two keys swapped by default, which some users find odd and difficult to adjust to. A brand new CharaChorder Lite will have the ``GUI`` key at the bottom-left corner with the ``CTRL`` key to the right of the ``GUI`` key.
-
-	With this setting, you can effectively swap the two keys’ location at the level of the CCOS so that CTRL is at the bottom-left corner.
-
-.. dropdown:: Character Entry (chentry)
-
-	This setting is a toggle that disables chording capabilities on CCOS devices. It is off by default and can be enabled in case we don’t want any chording at all. This setting can be useful in cases where we don’t want to accidentally trigger chords unintentionally, such as when gaming.
-
-	If your CCOS device suddenly loses its chording ability, it’s a good idea to check if this setting is toggled off.
-
-.. dropdown:: Key Scan Rate
-
-	The scan rate, sometimes known as the “Key scan duration,” refers to the frequency at which the device checks the state of the input keys. For reference, 5 ms corresponds to 200 Hz, which means that :doc:`CCOS<CCOS>` checks the position of the keys once every 5 milliseconds, which equals 200 times in a second. Having a lower number is usually better as it makes CCOS more responsive, though the difference at low numbers is usually negligible. In the GTM, this setting is adjustable in millisecond (ms) units.
-
-.. dropdown:: Key Debounce Press
-
-	The debounce press setting refers to the time frame (measured in milliseconds) in which :doc:`CCOS<CCOS>` will filter out duplicate key activations on a press event. In other words, any duplicate activations within the given time frame will only be counted as one.
-
-	We should adjust this setting if we are having unintentional duplicate characters while typing. Increasing this value will lower the probability that unwanted duplicate characters will appear because it tells :doc:`CCOS<CCOS>` to wait longer before typing an additional character that’s assigned to the same switch-direction. However, having this setting set too high might also cause issues with :doc:`CCOS<CCOS>` not reading intentional double-presses, so it’s recommended to try different numbers in small increments. This setting should be used in connection with the debounce release setting.
-
-.. dropdown:: Key Debounce Release
-
-	The debounce release setting refers to the time frame (measured in milliseconds) in which :doc:`CCOS<CCOS>` will filter out duplicate key activations on a release event. In other words, any duplicate activations within the given time frame will only be counted as one.
-
-	We should adjust this setting if we are having unintentional duplicate characters while typing. Increasing this value will lower the probability that unwanted duplicate characters will appear because it tells :doc:`CCOS<CCOS>` to wait longer before typing an additional character that’s assigned to the same switch-direction. However, having this setting set too high might also cause issues with :doc:`CCOS<CCOS>` not reading intentional double-presses, so it’s recommended to try different numbers in small increments. This setting should be used in connection with the debounce press setting.
-
-.. dropdown:: Output Character Delay
-
-	This setting adds a small delay to keystroke inputs. It is measured in microseconds (μs) and is very small by default.
-
-	You should increase this value if your computer is not accepting all of the characters output by your device, such as when using the :doc:`GTM<GenerativeTextMenu>`. If you are having this issue, your :doc:`GTM<GenerativeTextMenu>` would look weird, with missing chunks or characters.
-
-	If you have a faster computer, then you can lower this setting to make chording and the :doc:`GTM<GenerativeTextMenu>` feel snappier and more responsive.
 
 Mouse
 -----
