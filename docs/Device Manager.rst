@@ -400,7 +400,7 @@ In this box, you can adjust settings relating to :doc:`CCOS'<CCOS>` :doc:`chordi
 Autocorrect
 -----------
 
-.. image:: /assets/images/ManagerSettingsAutocorrect.png
+.. image:: /assets/images/ManagerSettingsAutoCorrect.png
   :alt: The Autocorrect settings
 
 .. dropdown:: Maximum attempts
