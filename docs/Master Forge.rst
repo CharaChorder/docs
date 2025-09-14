@@ -322,7 +322,7 @@ You can follow the steps below to update each Master Forge half:
    While it's updating, the device manager disconnects, and the Master Forge disconnects from the OS. In Windows, it plays a device disconnected sound. When it's done, Windows plays a device connected sound.
 
    .. _Apply Update Button:
-   .. image:: /assets/images/DM-apply-update-button-M4G.png
+   .. image:: /assets/images/DM-apply-update-button-m4g.png
       :width: 600
       :alt: Apply Update Button
 
@@ -339,7 +339,7 @@ Now repeat the steps, but pick the other Master Forge USB Serial device from the
  		#. If not auto-connected, click "Connect"
 
        		   .. _Connect Button Emergency:
-     		   .. image:: /assets/images/FW-connect-button.jpg
+     		   .. image:: /assets/images/FW-connect-button.JPG
     		      :width: 600
     		      :alt: Connect Button on Device Manager
  		#. When the popup box comes up that reads “manager.charachorder.com wants to connect to a serial port”, choose the CCOS device you wish to update, then click the blue “connect” button
@@ -382,7 +382,7 @@ Now repeat the steps, but pick the other Master Forge USB Serial device from the
  		#. If you haven't done so already, Connect your device to the Manager again by clicking "Connect" at the bottom of the page
 
       		   .. _Connect Button:
-     		   .. image:: /assets/images/FW-connect-button.jpg
+     		   .. image:: /assets/images/FW-connect-button.JPG
      		     :width: 600
      		     :alt: Connect Button on Device Manager
  		#. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your Master Forge, then click the blue “connect” button
