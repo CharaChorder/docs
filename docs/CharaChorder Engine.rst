@@ -21,8 +21,7 @@ Pinout Diagram
 **************
 
 .. _CCEPinout:
-.. image:: /assets/cce/pinout.png
-  :width: 1200
+.. image:: /assets/images/cce-pinout.png
   :alt: CharaChorder Engine pinout table
 
 Design
