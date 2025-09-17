@@ -19,6 +19,7 @@
 #
 import os
 import sys
+sys.path.append(os.path.abspath("./_ext"))
 # sys.path.insert(0, os.path.abspath('../source'))
 
 
@@ -32,8 +33,14 @@ import sys
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 # extensions = ['sphinx.ext.autodoc']
-extensions = ['myst_parser', 'sphinx.ext.autosectionlabel', "sphinx_design",
-'sphinx.ext.autosectionlabel', 'sphinx_copybutton']
+extensions = [
+    'case_check_image_file_and_ref_names',
+    'myst_parser',
+    'sphinx_copybutton',
+    'sphinx.ext.autosectionlabel',
+    'sphinx.ext.autosectionlabel',
+    "sphinx_design",
+]
 
 # Automatically prefix labels with the document name
 autosectionlabel_prefix_document = True
