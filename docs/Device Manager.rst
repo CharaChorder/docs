@@ -415,16 +415,43 @@ Autocorrect
 
 	This feature allows users to misfire chords, yet be able to correct them by quickly performing the chord correctly, without having to backspace manually to erase the misfired chord. The result is that the timeout will automatically backspace all of the preceding characters (up to the last breaking character) and replace them with the intended chord.
 
-RGB
----
-The RGB settings ONLY affect the CharaChorder Lite as of February of 2024.
+Leds
+----
 
-These settings adjust the color and brightness of your CharaChorder Lite.
+.. image:: /assets/images/DM-leds.png
+    :alt: The LED settings
 
+.. dropdown:: Effect
 
-.. image:: /assets/images/ManagerSettingsRGB.png
-  :width: 1200
-  :alt: The RGB settings box
+    The **Effect** dropdown list has two options:
+
+    * **Rainbow**, this cycles through the colors
+    * **Static**, this only shows the chosen color
+
+.. dropdown:: Effect cycle
+
+    This sets the time (in seconds), that it takes to cycle through the
+    colors, before they repeat.
+
+.. dropdown:: Color
+
+    The static color can be chosen here.
+
+The LED settings are available on the:
+
+* CharaChorder Lite
+* Master Forge
+
+.. note::
+    Currently the Master Forge LED settings have to be changed on each
+    half separately, by connecting that half to the Device Manager
+    https://charachorder.io
+
+    The name of the Master Forge half is shown at the bottom center on
+    the Device manager page after connecting.
+
+    * M4G is the left half.
+    * M4GR is the right half.
 
 Library
 *******
