@@ -183,7 +183,20 @@ the first time, it’s important to make sure that either the :ref:`electrical b
 
 All Forge :doc:`anchor bodies<Anchor Bodies>`, including the Master Forge Digitizers, should be connected to a power source through their front, left USB-C port. It's important to use that specific port to connect your device to your computer because no other port will permit your Forge to function correctly. As a rule of thumb, all Forge :doc:`anchor bodies<Anchor Bodies>` must receive power through their front, left port. The other three ports are outgoing ports in order to connect other :doc:`anchor bodies<Anchor Bodies>` and :doc:`bolt-ons<Bolt-Ons>`. Each additional :doc:`anchor body<Anchor Bodies>` or :doc:`bolt-on<Bolt-Ons>` will need to "receive" power from the "Master" :doc:`anchor body<Anchor Bodies>`, or from an :doc:`anchor body<Anchor Bodies>` or :doc:`bolt-on<Bolt-Ons>` connected to the Master. A "Master" :doc:`anchor body<Anchor Bodies>` is the one connected directly to your computer. Please note that some :doc:`bolt-ons<Bolt-Ons>` may function as a Master.
 
+.. _M4G connections together:
+.. image:: /assets/images/m4g-connections-together.png
+  :alt: Both Master Forge Digitizers together, showing the left digitizer's front left port as output.
+
 If you haven't done so, now would be the time to plug the included USB-C to USB-A cable included with your order into the LEFT :ref:`digitizer<Master Forge:The Digitizers>`. If you would rather use an after-market USB-C to USB-C cable instead, due to a personal preference or computer requirement, that is also okay. Regardless of your selection, we'll refer to the cable that connects directly to the computer as the sole Power Cable. If you have any additional :doc:`bolt-ons<Bolt-Ons>`, now would be a good time to plug them into your Master.
+
+If you choose to separate the :ref:`Master Forge Digitizers<Master Forge:The Digitizers>`. Connect them like this.
+
+.. note::
+   The cable connecting both digitizers must be USB 3.2 gen 2 or above, USB-C to USB-C.
+
+.. _M4G connections separated:
+.. image:: /assets/images/m4g-connections-separated.png
+  :alt: Both Master Forge Digitizers separated, showing the left digitizer's front left port as output.
 
 Once you have your setup connected, you can plug the Master Power Cable into your computer. Upon connecting, the LED lights under your :doc:`digitizers<Digitizers>` will start their rainbow cycle.
 
