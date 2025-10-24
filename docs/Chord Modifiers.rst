@@ -5,10 +5,19 @@ Chord Modifiers
 
 	Chord modifiers are actions that change a chord when :ref:`chorded<Chords:What are Chords?>` at the same time as the :ref:`chord input<Chords:Chord Input>`, or when pressed immediately after (arpeggiately) the :ref:`chord<Chords:What are Chords?>`, provided that :ref:`arpeggiates<GenerativeTextMenu:Arpeggiate>` are enabled.
 
-	As of February of 2024, only the CharaChorder One and CharaChorder Lite support the use of chord modifiers. Additionally, as of that same time, chord modifiers only work in English.
-
 	.. note::
 		Chord modifiers are NOT the same as keyboard modifiers. Keyboard modifiers affect keys pressed on a keyboard. Those keys include ``CTRL``, ``ALT``, and ``FN``. Chord modifiers affect chords.
+
+.. dropdown:: Limitations
+
+	**As of October 2025**
+
+	Chord modifiers don't work on:
+
+	- CharaChorder X
+	- CharaChorder Engine
+
+	Chord modifiers only work in English.
 
 .. image:: /assets/images/ManagerSettingsModifiers.png
   :width: 1200
