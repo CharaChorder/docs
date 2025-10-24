@@ -211,7 +211,7 @@ Arpeggiates
 -----------
 .. dropdown:: What are arpeggiates?
 
-	arpeggiate actions are timed actions that can modify a :ref:`chord<chords:what are chords?>` after the chord is performed. a quick example of this is the use of :doc:`chord modifiers<chord modifiers>` after you perform the chord. you can read that section for information on how the chord modifiers work.
+	arpeggiate actions are timed actions that can modify a :ref:`chord<chords:what are chords?>` after the chord is performed. a quick example of this is the use of :doc:`chord modifiers<Chord Modifiers>` after you perform the chord. you can read that section for information on how the chord modifiers work.
 
 	With arpeggiates enabled, you can chord the word run and then, within the :ref:`arpeggiate timeout window<GenerativeTextMenu:Arpeggiate Timeout>`, press the :ref:`past tense modifier<Chord Modifiers:Past Tense>` for the word to be “modified” into its past tense variant; in english, ran.
 
