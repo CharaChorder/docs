@@ -279,7 +279,7 @@ Practice
 ~~~~~~~~
 
 Now that you’re familiar with your new CharaChorder device, it’s time to
-use it! Head over the the :doc:`training section<Tools>` for instructions
+use it! Head over the :doc:`training section<Tools>` for instructions
 on how to get started with learning your device. If you want to just
 jump in without having to read a minute longer, head on over to our
 training website; https://www.iq-eq.io/#/

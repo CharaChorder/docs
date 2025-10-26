@@ -515,7 +515,7 @@ Realtime Feedback
 
 This setting toggles realtime feedback ON or OFF.
 
-Realtime feedback refers to the helpful text like ``SPURRING_ON``, ``SPURRING_OFF`` etc, that lets the user know if a certain mode has been activated or deactivated on the CharaChorder device. Since there is no other visual way to know if the chord used to enable or disable certain settings, it is helpful to have these texts pop up as confirmation.
+Realtime feedback refers to the helpful text like ``SPURRING_ON``, ``SPURRING_OFF`` etc., that lets the user know if a certain mode has been activated or deactivated on the CharaChorder device. Since there is no other visual way to know if the chord used to enable or disable certain settings, it is helpful to have these texts pop up as confirmation.
 
 .. Note::
 	The realtime feedback setting controls the :ref:`startup<GenerativeTextMenu:Startup>` setting. If realtime feedback is OFF, then startup will be OFF, regardless of that setting's individual toggle.
@@ -585,7 +585,7 @@ This setting lets you adjust the brightness of the LED backlights on your CharaC
 Please note that LEDs are NOT individually addressable as of December of 2023. The brightness setting adjusts the brightness for ALL LEDs equally.
 
 .. note::
-    If you are using a low power usb bank or port, having a high LED brightness may lead to issues with your CharaChorder Lite's power. If you have issues on your device that seem to keep your CharaChorder Lite from properly powering on or staying on, it may be a good idea to lower this setting.
+    If you are using a low power USB bank or port, having a high LED brightness may lead to issues with your CharaChorder Lite's power. If you have issues on your device that seem to keep your CharaChorder Lite from properly powering on or staying on, it may be a good idea to lower this setting.
 
 You can find the default settings for the CharaChorder Lite in the table below:
 

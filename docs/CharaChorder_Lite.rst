@@ -64,7 +64,7 @@ Back:
 Key Plate
 ^^^^^^^^^
 
-The Lite's Key Plate is also made of ABS plastic, designed and assembed in America.
+The Lite's Key Plate is also made of ABS plastic, designed and assembled in America.
 
 
 External Parts
