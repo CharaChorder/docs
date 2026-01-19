@@ -283,23 +283,16 @@ You can read an explanation on all of the settings on your CharaChorder device :
 Learning the Layout
 -------------------
 
-The default CharaChorder layout, which we will refer to as the CC English layout, has been designed to favor bigrams and trigrams commonly used in the English language while making the letters accessible for a logical choice of :doc:`lexical chords<Chords>`. You can find the quick reference guide for the layout below, and :ref:`read about how the layout was designed, here <Layout:Design of the layout>`.
+On the default CC English layout, all 26 letters are accessible without moving your hands from the home position.
 
-.. note::
-   General consensus amongst the community is that, while not perfect,
-   the letter arrangement of the default layout is good enough that further modifications would provide very little benefit
-   considering 500+ WPM have been reached in peak conditions.
-
-   **Most commonly only special character and number placement is changed**, for example to benefit coding.
-
-   Some exceptions include optimizing for VIM bindings, though people have successfully used the default layout for VIM as well
-   and benefits of such modifications are debatable.
-
+You can find the quick reference guide below, and :ref:`read about how the layout was designed, here <Layout:Design of the layout>`.
 
 .. _CCEnglish Layout:
 .. image:: /assets/images/CCEnglish.png
   :width: 1200
   :alt: CC English Layout
+
+Ready to start learning? Start your training on `DOT I/O <https://www.iq-eq.io/#/>`__!
 
 Layers
 ~~~~~~
