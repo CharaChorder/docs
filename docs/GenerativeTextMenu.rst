@@ -133,29 +133,6 @@ You can find the default debounce release value of the different  CharaChorder d
 | CharaChorder X   | 1 ms           | 0 ms       | 100 ms     | 1 ms          |
 +------------------+----------------+------------+------------+---------------+
 
-Keystroke Delay
-~~~~~~~~~~~~~~~
-
-``Path: GTM > Keyboard > Keystroke Delay``
-
-This setting adds a small delay to keystroke inputs. It is measured in microseconds (μs) and is very small by default.
-
-You should increase this value if your computer is not accepting all of the characters output by your device, such as when using the GTM. If you are having this issue, your GTM would look weird, with missing chunks or characters.
-
-If you have a faster computer, then you can lower this setting to make chording and the GTM feel snappier and more responsive.
-
-This value is adjusted in 40us increments. You can find the default debounce press of the different  CharaChorder devices in the table below:
-
-+------------------+----------------+------------+-------------+--------------+
-| Device           | Default Value  | Min. Value | Max. Value  | Increments   |
-+==================+================+============+=============+==============+
-| CharaChorder One | 480 μs         | 0 μs       | 10200 μs    | 40 μs        |
-+------------------+----------------+------------+-------------+--------------+
-| CharaChorder Lite| 480 μs         | 0 μs       | 10200 μs    | 40 μs        |
-+------------------+----------------+------------+-------------+--------------+
-| CharaChorder X   | 480 μs         | 0 μs       | 10200 μs    | 40 μs        |
-+------------------+----------------+------------+-------------+--------------+
-
 Capslock
 ~~~~~~~~
 
