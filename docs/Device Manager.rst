@@ -314,14 +314,6 @@ In this box, you can change a few settings that relate to using your device for 
 
 	We should adjust this setting if we are having unintentional duplicate characters while typing. Increasing this value will lower the probability that unwanted duplicate characters will appear because it tells :doc:`CCOS<CCOS>` to wait longer before typing an additional character that’s assigned to the same switch-direction. However, having this setting set too high might also cause issues with :doc:`CCOS<CCOS>` not reading intentional double-presses, so it’s recommended to try different numbers in small increments. This setting should be used in connection with the debounce press setting.
 
-.. dropdown:: Output Character Delay
-
-	This setting adds a small delay to keystroke inputs. It is measured in microseconds (μs) and is very small by default.
-
-	You should increase this value if your computer is not accepting all of the characters output by your device, such as when using the :doc:`GTM<GenerativeTextMenu>`. If you are having this issue, your :doc:`GTM<GenerativeTextMenu>` would look weird, with missing chunks or characters.
-
-	If you have a faster computer, then you can lower this setting to make chording and the :doc:`GTM<GenerativeTextMenu>` feel snappier and more responsive.
-
 Mouse
 -----
 .. dropdown:: Mouse???
