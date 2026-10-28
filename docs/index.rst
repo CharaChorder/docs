@@ -14,7 +14,7 @@ Before even unboxing your CharaChorder, we encourage you to set up your computer
 
 This guide has been designed to link itself to other sections of itself for quick reference and ease of access. Anything that is highlighted in blue or purple is clickable and will take you to another portion of the guide. Please note that this guide is currently a work in progress and is not final in any way. As such, many of the pages that are linked might be empty. We thank you for your patience as we work arduously to release more pages.
 
-If you would like to submit a correction to something you've read in this guide, or if you have suggestions for the guide, please email alan@charachorder.com.
+If you would like to submit a correction to something you've read in this guide, or if you have suggestions for the guide, please email docs@charachorder.com.
 
 
 Table of Contents
@@ -24,12 +24,14 @@ Table of Contents
    :maxdepth: 2
 
    Master Forge.rst
+   Forge_Trackball.rst
    CharaChorder One.rst
    CharaChorder Two.rst
    CharaChorder_Lite.rst
    CharaChorder Engine.rst
    CharaChorder X.rst
    CCOS.rst
+   CC_DUO.rst
    Chords.rst
    Device Manager.rst
    FAQs.rst
