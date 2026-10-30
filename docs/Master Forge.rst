@@ -151,7 +151,7 @@ lateral movement in order to work, just apply force onto the switch
 
 The four cardinal directions on a switch can be mapped
 to a configurable key, which can include letters, numbers, symbols,
-control keys and even function keys. You can see the most current list of configurable action codes in the `Device Manager <https://manager.charachorder.com/config/layout/>`__. The 3D press cannot be assigned to an individual character, but, instead, allows you to press all four cardinal directions on a switch simultaneously, as a :doc:`chord<Chords>`.
+control keys and even function keys. You can see the most current list of configurable action codes in the `Device Manager <https://charachorder.io/config/layout/>`__. The 3D press cannot be assigned to an individual character, but, instead, allows you to press all four cardinal directions on a switch simultaneously, as a :doc:`chord<Chords>`.
 
 Connections
 -----------
@@ -342,7 +342,7 @@ Now repeat the steps, but pick the other Master Forge USB Serial device from the
      		   .. image:: /assets/images/FW-connect-button.jpg
     		      :width: 600
     		      :alt: Connect Button on Device Manager
- 		#. When the popup box comes up that reads “manager.charachorder.com wants to connect to a serial port”, choose the CCOS device you wish to update, then click the blue “connect” button
+ 		#. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose the CCOS device you wish to update, then click the blue “connect” button
 
         		 .. _Serial Port Popup Emergency:
       		  .. image:: /assets/images/SerialPort-Message-M4G.webp
