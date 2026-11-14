@@ -16,12 +16,12 @@ Welcome to the Official **CC DUO** guide. You can select the links below to navi
 
 Download CC Duo
 ----------------
-You can download CC Duo from CharaChorder's Github: `CC Duo on Github `CC Duo on Github <https://github.com/CharaChorder/CC-Duo>`_
+You can download CC Duo from CharaChorder's Github: `CC Duo on Github <https://github.com/CharaChorder/CC-Duo>`_
 
 On the CC Duo Github page, click on the green (by default) button that says "<> Code"
 
 .. _Github Code button:
-.. image:: /assets/images/CC_Duo_Github.webp
+.. image:: /assets/images/CCDuoGithub.webp
    :width: 600
    :alt: CC Duo Github page
 
