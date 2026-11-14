@@ -14,6 +14,34 @@ Welcome to the Official **CC DUO** guide. You can select the links below to navi
 .. contents:: Table of Contents of this Page
    :local:
 
+Download CC Duo
+----------------
+You can download CC Duo from CharaChorder's Github: [CC Duo on Github](https://github.com/CharaChorder/CC-Duo)
+
+On the CC Duo Github page, click on the green (by default) button that says "<> Code"
+
+.. _Github Code button:
+.. image:: /assets/images/CC_Duo_Github.webp
+   :width: 600
+   :alt: CC Duo Github page
+
+In the dropdown menu, select "Download ZIP". If prompted, select the folder that you'd like to save the ZIP folder to. 
+
+Once the download is complete, unzip the folder to a location of your choosing. If you need help extracting a ZIP folder, you can use this online guide: [Microsoft Support](https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/zip-and-unzip-files)
+
+Once the folder is unzipped, navigate to the extracted folder. Open the entire folder in a command prompt and use the following commands:
+
+`` pip install -r requirements.txt 
+This installs the required dependencies
+
+`` python dual_mouse_hands.py
+This runs CC Duo
+
+If you aren't missing any dependencies, CC Duo will open in a medium-sized window.
+
+If you followed these steps and are unable to get CC Duo to open, please ping @Riley_Keen on [Discord](https://discord.gg/charachorder).
+
+
 Software Overview & System Requirements
 ---------------------------------------
 
