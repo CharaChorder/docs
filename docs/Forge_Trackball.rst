@@ -175,7 +175,7 @@ Master Forge Rail Mounting
 
 If you own a :doc:`Master Forge <Master Forge>`, the Forge Trackball integrates directly into the Forge rail ecosystem:
 
-* **Bottom Set Screws**: Set screws on the underside of the Forge Trackball allow it to attach securely to the :ref:`slotted bookend rails <Master Forge:The Bookend Rails>` on the Master Forge (``M4G``).
+* **Bottom Set Screws**: Loosen the screws on the underside of the Forge Trackball to attach it securely to the :ref:`slotted bookend rails <Master Forge:The Bookend Rails>` on the Master Forge (``M4G``).
 * **Universal Rail Compatibility**: The Forge Trackball can attach to **any rail** on the Master Forge—including outboard right, outboard left, front/rear shoulders, or center positions.
 * **Structural Bridge Capability**: In addition to outer rail mounting, the Forge Trackball can act as a **structural bridge/connector** between two other Forge modules, physically joining two digitizers or anchor bodies together.
 
