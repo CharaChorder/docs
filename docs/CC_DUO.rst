@@ -25,7 +25,7 @@ On the CC Duo Github page, click on the green (by default) button that says "<> 
    :width: 600
    :alt: CC Duo Github page
 
-In the dropdown menu, select "Download ZIP". If prompted, select the folder that you'd like to save the ZIP folder to. 
+In the dropdown menu, select "Download ZIP". If prompted, select the folder that you'd like to save the ZIP folder to.
 
 Once the download is complete, unzip the folder to a location of your choosing. If you need help extracting a ZIP folder, you can use this online guide: `Microsoft Support <https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/zip-and-unzip-files>`_
 
