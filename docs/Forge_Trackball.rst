@@ -75,7 +75,7 @@ Like the :doc:`Master Forge <Master Forge>` digitizers, the Forge Trackball is c
 
 The module's cut-face housing is **completely symmetrical and reversible**. This geometry allows you to orient the Forge Trackball for either **fingertip control** or **thumb control**, and makes it equally comfortable for **left-handed** and **right-handed** users.
 
-On the underside of the module, you'll find the **same round, rubberized feet** used across CharaChorder's other hardware products (:doc:`Master Forge <Master Forge>` and :doc:`CharaChorder Two <CharaChorder Two>`), providing a stable, non-slip grip on desks and smooth surfaces when used as a standalone device. The bottom of the housing also includes **set screws** that allow the module to attach directly to :doc:`Master Forge <Master Forge>` slotted bookend rails.
+On the underside of the module, you'll find the **same round, rubberized feet** used across CharaChorder's other hardware products (:doc:`Master Forge <Master Forge>` and :doc:`CharaChorder Two <CharaChorder Two>`), providing a stable, non-slip grip on desks and smooth surfaces when used as a standalone device. The bottom plate also has a **dovetail rail** that slides onto :doc:`Master Forge <Master Forge>` slotted bookend rails, and is locked in place with two socket screws.
 
 .. warning::
    **IMPORTANT: Do Not Open the Exoskeleton.** Internal components of the Forge Trackball are not user-serviceable, and **opening the Aluminum 5052 exoskeleton will void your manufacturer warranty**. Because the exoskeleton shell is formed using tight precision folds, folding and unfolding the shell multiple times can fatigue and break the metal seams.
@@ -175,8 +175,12 @@ Master Forge Rail Mounting
 
 If you own a :doc:`Master Forge <Master Forge>`, the Forge Trackball integrates directly into the Forge rail ecosystem:
 
-* **Bottom Set Screws**: Set screws on the underside of the Forge Trackball allow it to attach securely to the :ref:`slotted bookend rails <Master Forge:The Bookend Rails>` on the Master Forge (``M4G``).
-* **Universal Rail Compatibility**: The Forge Trackball can attach to **any rail** on the Master Forge—including outboard right, outboard left, front/rear shoulders, or center positions.
+* **Dovetail Rail Mounting**: The bottom plate of the Forge Trackball has a dovetail rail that slides onto the slotted bookend rails on the Master Forge (``M4G``). It can attach to any of the slotted rails on the outside of the Master Forge. To mount it:
+
+  #. Use the included Allen key to loosen the two metal socket screws on the bottom plate. This gives the plate a little play.
+  #. Slide the dovetail rail onto the :ref:`slotted bookend rail <Master Forge:The Bookend Rails>` you want to use and position the Forge Trackball where you want it. It will still be loose at this point.
+  #. Tighten the screws to lock it in place. The screws seat against brass embeds, so the clamp is metal on metal rather than metal on plastic.
+
 * **Structural Bridge Capability**: In addition to outer rail mounting, the Forge Trackball can act as a **structural bridge/connector** between two other Forge modules, physically joining two digitizers or anchor bodies together.
 
 Angle & Tilt Adjustments
