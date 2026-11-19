@@ -67,6 +67,17 @@ Do you have an affiliate program?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Yes! Check it out here: https://www.charachorder.com/pages/affiliate-program
 
+Master Forge FAQs
+-----------------
+
+Why doesn't the right half work on it's own?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The two halves are not yet independent. To simplify things we made it so
+the right half is similar to the right half of a CC2 (sending over it's
+keystrokes to the left half). To truly have the forge ecosystem where
+either anchor body can be the one connected to the PC requires quite a
+bit of firmware change.
+
 CharaChorder Two FAQs
 ---------------------
 How do you access a full keyboard with fewer buttons?
