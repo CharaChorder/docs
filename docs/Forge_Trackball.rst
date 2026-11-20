@@ -197,7 +197,7 @@ Because the Forge Trackball runs its own firmware, you can plug it directly into
 * **Recommended Cable Length**: Any data-capable cable length **under 10 feet (10')** is recommended.
 * **Wired Connection**: The Forge Trackball is a **wired USB-C** device and does not use wireless or Bluetooth connectivity.
 
-Master Forge Integration 
+Master Forge Integration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 When connecting the Forge Trackball directly to a :doc:`Master Forge <Master Forge>` digitizer:
