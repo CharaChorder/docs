@@ -415,6 +415,50 @@ Autocorrect
 
 	This feature allows users to misfire chords, yet be able to correct them by quickly performing the chord correctly, without having to backspace manually to erase the misfired chord. The result is that the timeout will automatically backspace all of the preceding characters (up to the last breaking character) and replace them with the intended chord.
 
+Misc
+----
+
+.. image:: /assets/images/DM-Misc.png
+  :alt: The Misc settings
+
+.. dropdown:: Operating system
+
+    This setting refers to your host computer's operating system.
+    Because the keys on the different computer operating systems may
+    vary, you can set your :doc:`CCOS<CCOS>` device up so that it
+    matches your computer.
+
+    Currently, on :doc:`CCOS<CCOS>`, you can select between Windows,
+    Mac, Linux, iOS, or Android.
+
+    The intent of this setting is to provide more accurate key mapping.
+    As such, it is recommendable to set this setting to match whatever
+    computer operating system you're using your :doc:`CCOS<CCOS>` device
+    on.
+
+    =================  =======
+    Device             Default
+    =================  =======
+    CharaChorder One   Windows
+    CharaChorder Two   Windows
+    CharaChorder Lite  Windows
+    CharaChorder X     Windows
+    Master Forge       Windows
+    =================  =======
+
+    .. warning::
+        As of December of 2023, this setting doesn't do anything on
+        :doc:`CCOS<CCOS>` devices.
+
+.. dropdown:: Realtime feedback
+
+    Realtime feedback refers to the helpful text like ``SPURRING_ON``,
+    ``SPURRING_OFF`` etc, that lets the user know if a certain mode has
+    been activated or deactivated on the CharaChorder device. Since
+    there is no other visual way to know if the chord used to enable or
+    disable certain settings, it is helpful to have these texts pop up
+    as confirmation.
+
 RGB
 ---
 The RGB settings ONLY affect the CharaChorder Lite as of February of 2024.
