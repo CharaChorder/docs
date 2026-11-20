@@ -121,6 +121,21 @@ Device
 The Device Tab is the place where you can configure most settings of your :ref:`connected<Device Manager:Connecting to the Device Manager>` CCOS device and create backups.
 Read on to see the different settings you can change. You can find more detailed explanations in the :doc:`GTM<GenerativeTextMenu>` section.
 
+Auto-connect
+------------
+
+.. _Autoreconnect:
+
+.. image:: /assets/images/DM-Auto-connect.png
+    :alt: The Auto-connect toggle button
+
+By enabling Auto-connect, the device manager will automatically connect
+your paired device through a :doc:`serial connection<SerialAPI>` every
+time that you open it. In doing so, it will also read your chords to
+detect changes that you may have made since the last time you connected
+it. If you have this enabled, you won't have to manually connect your
+device to the manager ever again!
+
 Backup Section
 --------------
 
@@ -172,25 +187,6 @@ Additionally, you can restore your chords, your layout, and your settings on the
 		The restore feature does NOT erase data from your device. If there is a conflict (such as a changed setting, a different key in the layout, or a chord that has a different :ref:`output<Chords:Chord Output>`), that will be overwritten by the restore file. Settings and layout backups ALWAYS overwrite everything.
 
 5. Once you see the changes that the restore file made, you can click :ref:`save<Device Manager:Save Button>` to apply the changes.
-
-Device Section
---------------
-
-.. _Autoreconnect:
-
-Here you'll find a helpful toggle labeled "Auto-connect". By enabling this, the device manager
-will automatically connect your paired device through a :doc:`serial connection<SerialAPI>`
-every time that you open it. In doing so, it will also read your chords to detect changes
-that you may have made since the last time you connected it. If you have this enabled,
-you won't have to manually connect your device to the manager ever again!
-
-
-The :ref:`boot message<GenerativeTextMenu:Startup>` and :ref:`realtime feedback<GenerativeTextMenu:Realtime Feedback>` can be enabled or disabled in this box.
-Additionally, you can reset some parts of your device files such as your chords, your layout, and even return to factory settings.
-
-.. image:: /assets/images/ManagerSettingsDevice.png
-  :width: 1200
-  :alt: The Device settings box
 
 Spurring
 --------
