@@ -3,6 +3,11 @@
 Layout
 ======
 
+Layout Philosophy
+-----------------
+
+The default CC English layout is optimized around common letter pairs and triplets in English (bigrams and trigrams: 'er', 'at', 'ing'), so frequent words feel effortless to type and supports logical :doc:`lexical chords<Chords>`.
+
 Design of the layout
 --------------------
 
@@ -31,6 +36,15 @@ In general the process that Riley used and recommends using if you would like to
 7. Based on your seed, create a chord library. Now give each chord a rating based on how easy it is to physically accomplish, and how easy it is to remember or memorize
 8. Analyze the weaknesses and strengths of your layout, then create a hypothesis of what could be changed within your seed to improve the total rating of all your bigrams, trigrams, and chords.
 9. Shuffle your seed based on your hypothesis and repeat steps 5-9 until you are no longer able to improve upon your score
+
+Community Consensus
+-------------------
+
+The consensus is the default letter arrangement is effective as-is, with 500+ WPM achieved.
+
+**Most commonly only special character and number placement is changed**, for example to benefit coding.
+
+VIM users occasionally customize bindings, but many use the default.
 
 Layout quirks
 -------------
