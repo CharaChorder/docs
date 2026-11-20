@@ -41,14 +41,14 @@ surfaces.
 The left half of the CC2 contains the “brain” of the device, where it stores
 chords, layouts, and settings. It also contains a female USB-C port on
 the left side of the half and a 3.5 mm “audio jack” port on the right
-side of the half (See :ref:`Connections<CharaChorder Two:Connections>`). The right half is nearly a mirror image of the left half. It has a 3.5 mm “audio jack” port on the left side of the half and a no other ports (See :ref:`Connections<CharaChorder Two:Connections>`).
+side of the half (See :ref:`Connections<CharaChorder Two:Connections>`). The right half is nearly a mirror image of the left half. It has a 3.5 mm “audio jack” port on the left side of the half and no other ports (See :ref:`Connections<CharaChorder Two:Connections>`).
 
 The Center Bar
 ~~~~~~~~~~~~~~
 
 Out of the box, your CC2 will have a machined aluminum
 “bridge” which is often referred to as a metal bar. The metal bar is held in
-place by four M2 x 3 mm screws, with two screws on each end fastening it to each half. The metal bar can be removed by removing these four screws. In doing so, your CC2 halves will now be able to separate as far as you need, provided that you have a long enough :ref:`TRS Cable<TRS Cable>`.
+place by four M2 x 3 mm screws, with two screws on each end fastening it to each half. The metal bar can be removed by removing these four screws. In doing so, your CC2 halves will now be able to separate as far as you need, provided that you have a long enough :ref:`TRS Cable<CC2 TRS Cable>`.
 
 The Switches
 ~~~~~~~~~~~~
@@ -63,7 +63,7 @@ Each CC2 half has nine 5-way switches. Starting from the
 outside on each half and working inwards, the switches correspond to the
 following fingers; pinky, ring, middle, and index. The three switches on
 the inner-most side of each half correspond to the thumb. You can see
-what characters are on each switch in :doc:`Layout<Layout>`. Additionally,
+what characters are on each switch in :ref:`Layout<CC2 CCEnglish Layout>`. Additionally,
 there are two switches off the “home-row” which can be accessed by
 the ring and middle fingers.
 
@@ -119,7 +119,7 @@ computer, or into a mobile device, usually with the help of an adapter.
 Communication
 ~~~~~~~~~~~~~
 
-.. _power cable:
+.. _CC2 Power Cable:
 
 The Power Cable also doubles as a way for the CC2 to
 communicate with your computer. For this reason, it’s important that the
@@ -127,7 +127,7 @@ USB-A end of the power cable is inserted into a port on your computer
 that’s capable of sending and receiving data, and not just an energy
 port.
 
-.. _TRS cable:
+.. _CC2 TRS Cable:
 
 In between the two CharaChorder halves, there’s a single 3.5 mm TRS cable, commonly known as an AUX cable. This cable facilitates
 instant communication between the right half and the left half of the
@@ -138,15 +138,15 @@ and settings.
 Plugging In
 -----------
 
-The CC2 is plug-and-play, so it doesn’t require any software to work. Before plugging your CharaChorder in for the first time, it’s important to make sure that the :ref:`TRS cable<TRS cable>` is fully plugged into both halves. With constant movement, it’s possible that this cable becomes slightly dislodged which could lead to issues with the device, so it’s a good idea to check these connections when moving the CharaChorder to a new computer.
+The CC2 is plug-and-play, so it doesn’t require any software to work. Before plugging your CharaChorder in for the first time, it’s important to make sure that the :ref:`TRS cable<CC2 TRS Cable>` is fully plugged into both halves. With constant movement, it’s possible that this cable becomes slightly dislodged which could lead to issues with the device, so it’s a good idea to check these connections when moving the CharaChorder to a new computer.
 
 If not done already, make sure that the USB-C side of the
-:ref:`power cable<power cable>` is plugged into the left half of the
+:ref:`power cable<CC2 Power Cable>` is plugged into the left half of the
 CharaChorder. It’s important to be certain that the cable is plugged all
 the way in, otherwise, the CC2 might not function as intended.
 
 After making sure that all the cables on the CharaChorder are properly
-plugged in, connect the USB-A side of the :ref:`power cable<power cable>` into
+plugged in, connect the USB-A side of the :ref:`power cable<CC2 Power Cable>` into
 a USB-A port on your computer. Upon connecting, you will be able to see a small, lime colored light inside the space that holds the USB-C port on the left half of the CC2.
 
 Getting Started
@@ -154,16 +154,14 @@ Getting Started
 
 There are a few steps that you’ll likely want to take if this is your
 first time using your CharaChorder device. In the following section, we
-will update your device, explain navigation in the :doc:`GTM<GenerativeTextMenu>`, and demonstrate the default layout on your new
+will update your device, explain navigation in the :doc:`GTM<GenerativeTextMenu>`, and demonstrate the :ref:`default layout<CC2 CCEnglish Layout>` on your new
 device.
 
 Updating your Device
 --------------------
 
-.. _charachorder-two-checking-your-devices-firmware:
-
-Checking your Device’s Firmware
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Checking the Firmware
+~~~~~~~~~~~~~~~~~~~~~
 
 You can check your device’s current firmware by following the steps
 below:
@@ -172,7 +170,6 @@ below:
 #. Click “Connect” at the bottom middle of the page
 #. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your CharaChorder device, then click the “connect” button
 
-   .. _Serial Port Popup Check Firmware:
    .. image:: /assets/images/SerialPort-Message-CC2.webp
       :width: 435
       :alt: Popup to select serial device
@@ -181,7 +178,6 @@ After following the above steps, you can find your
 firmware version in the bottom left of your screen. It will read
 something like this: ``CCOS 2.1.0``
 
-   .. _Bottom Bar Check Firmware:
    .. image:: /assets/images/DM-Bottom-Bar-CC2-S3.webp
       :width: 1200
       :alt: Checking the firmware on Device Manager
@@ -201,14 +197,12 @@ site <https://charachorder.io/ccos/>`__.
 #. If not auto-connected, click “Connect”
 #. When the popup box comes up that reads “charachorder.io wants to connect to a serial port”, choose your CharaChorder device, then click the “connect” button
 
-   .. _Serial Port Popup Update Firmware:
    .. image:: /assets/images/SerialPort-Message-CC2.webp
       :width: 435
       :alt: Popup to select serial device
 
 #. Click on the CCOS version on the bottom left of the page
 
-   .. _Bottom Bar Update Firmware:
    .. image:: /assets/images/DM-Bottom-Bar-CC2-S3.webp
       :width: 1200
       :alt: Checking the firmware on Device Manager
@@ -218,7 +212,7 @@ site <https://charachorder.io/ccos/>`__.
 
 At this point, your device will automatically reboot. Congratulations! You have
 successfully updated your device. You can check your device’s firmware
-version by following the steps :ref:`here<charachorder-two-checking-your-devices-firmware>`.
+version by following the steps :ref:`here<CharaChorder Two:Checking The Firmware>`.
 
 Understanding the Settings
 --------------------------
@@ -226,12 +220,12 @@ Understanding the Settings
 The CC2 has settings that are user-configurable. Since the
 device is plug-and-play, you don’t need any software to edit the
 device’s settings; all you need is a place to type text. We call these
-settings the Generative Text Menu, or GTM for short.
+settings the :doc:`Generative Text Menu<GenerativeTextMenu>`, or GTM for short.
 
-You can access the :doc:`GTM<GenerativeTextMenu>` by
-:doc:`chording<Chords>` both pinkies `north`_ on any space that
-allows text entry such as a notepad app. For an explanation on chords
-and how to perform them, visit the :doc:`Chords<Chords>` section.
+You can access the GTM by :doc:`chording<Chords>` both pinkies `north`_
+on any space that allows text entry such as a notepad app. For an
+explanation on chords and how to perform them, visit the
+:doc:`Chords<Chords>` section.
 
 Once you perform the chord to call up the :doc:`GTM<GenerativeTextMenu>`, your CharaChorder will type out the menu and its options.
 It will look something like this:
@@ -256,7 +250,7 @@ You can read an explanation on all of the settings on your CharaChorder device :
 Learning the Layout
 -------------------
 
-The default CharaChorder layout, which we will refer to as the CC English layout, has been designed to favor bigrams and trigrams commonly used in the English language while making the letters accessible for a logical choice of :doc:`lexical chords<Chords>`. You can find the quick reference guide for the layout below, and :ref:`read about how the layout was designed, here <Layout:Design of the layout>`.
+The default CharaChorder layout, which we will refer to as the :ref:`CC English layout<CC2 CCEnglish Layout>`, has been designed to favor bigrams and trigrams commonly used in the English language while making the letters accessible for a logical choice of :doc:`lexical chords<Chords>`. You can find the quick reference guide for the layout below, and :ref:`read about how the layout was designed, here <Layout:Design of the layout>`.
 
 .. note::
    General consensus amongst the community is that, while not perfect,
@@ -269,7 +263,7 @@ The default CharaChorder layout, which we will refer to as the CC English layout
    and benefits of such modifications are debatable.
 
 
-.. _CCEnglish Layout:
+.. _CC2 CCEnglish Layout:
 .. image:: /assets/images/CCEnglish2.png
   :width: 1200
   :alt: CC English Layout
@@ -284,8 +278,8 @@ into account that each switch can access 5 different positions, and
 considering that each layer has access to all of those 9 switches, we
 have over 250 assignable slots between the two CharaChorder halves.
 
-In this section, we’ll refer only to the default CC English layout. If
-you have modified your layout to something different, then the next
+In this section, we’ll refer only to the default :ref:`CC English layout<CC2 CCEnglish Layout>`.
+If you have modified your layout to something different, then the next
 portion might not be accurate for your device. If you have purchased
 your device from CharaChorder, then the following is accurate to your
 device.
@@ -293,8 +287,8 @@ device.
 A1 Layer
 ^^^^^^^^
 
-The A1 layer is the main layer that is active by default. The CC English
-layout has all 26 letters of the English alphabet on the A1 layer so
+The A1 layer is the main layer that is active by default. The :ref:`CC English layout<CC2 CCEnglish Layout>`
+has all 26 letters of the English alphabet on the A1 layer so
 that you can access all of them without having to hold or press anything
 else. Your device will always be in the A1 layer upon boot.
 
@@ -306,7 +300,7 @@ A2 Layer
 ^^^^^^^^
 
 The A2 layer, sometimes referred to as the “number layer”, is accessible
-with the :doc:`A2 access key<CharaChorder Keys>`. In the above :ref:`graphic<CCEnglish Layout>`, you’ll see this labeled
+with the :doc:`A2 access key<CharaChorder Keys>`. In the above :ref:`graphic<CC2 CCEnglish Layout>`, you’ll see this labeled
 as “②” In the `Device Manager <https://charachorder.io/config/layout/>`__,
 this key has the name “Numeric Layer (Left)” and “Numeric Layer (Right)”, one for each side of the
 CharaChorder.
@@ -320,7 +314,7 @@ need to :doc:`chord<Chords>` the keys together; it’s only required that the
 A2 Layer access key is pressed while the target key is pressed.
 
 .. note::
-   EXAMPLE: On the CC English layout, you can access the number
+   EXAMPLE: On the :ref:`CC English layout<CC2 CCEnglish Layout>`, you can access the number
    ``4`` by pressing and holding the right pinky to the east and the
    left middle finger to the east.
 
@@ -330,7 +324,7 @@ A3 Layer
 The A3 layer, sometimes referred to as the “function layer”, is
 accessible with the :doc:`A3 access key<CharaChorder Keys>`. This key is shown as ③
 
-in the above :ref:`graphic<CCEnglish Layout>`. It is accessible by pressing and
+in the above :ref:`graphic<CC2 CCEnglish Layout>`. It is accessible by pressing and
 holding either pinky down, into the device. In the `Device Manager <https://charachorder.io/config/layout/>`__,
 this key has the name “Function Layer (Left)” and “Function Layer (Right)”, one for each side of the
 CharaChorder.
@@ -344,7 +338,7 @@ together; it’s only required that the A3 layer access key is pressed
 while the target key is pressed.
 
 .. note::
-   EXAMPLE: On the CC English layout, you can access the F1 key by
+   EXAMPLE: On the :ref:`CC English layout<CC2 CCEnglish Layout>`, you can access the F1 key by
    pressing and holding either pinky down, into the device, and adding the letter ``a`` or ``r`` (location of number 1 on the default layout) to it.
 
 Shift Modifier
@@ -357,7 +351,7 @@ like other modifiers (such as Ctrl and Alt). The Shift modifier output
 is currently controlled by the Operating System that your CharaChorder is
 plugged to, and it is not possible to customize their outputs.
 
-In the above :ref:`graphic<CCEnglish Layout>`, you’ll see
+In the above :ref:`graphic<CC2 CCEnglish Layout>`, you’ll see
 the Shift key labeled as “⇧”. In the `Device Manager <https://charachorder.io/config/layout/>`__,
 this key has the name “Shift Keyboard Modifier (Left)” and “Shift Keyboard Modifier (Right)”, one for each half
 of the CharaChorder.
@@ -371,7 +365,7 @@ holding the Shift key along with the target key. You do not need to
 key is pressed while the target key is pressed.
 
 .. note::
-   EXAMPLE: On the CC English layout, you can access the capital
+   EXAMPLE: On the :ref:`CC English layout<CC2 CCEnglish Layout>`, you can access the capital
    ``A`` by pressing and holding the left pinky to the east and the
    right index finger to the west.
 
@@ -382,10 +376,10 @@ Configurability
 ~~~~~~~~~~~~~~~
 
 The CC2’s layout is configurable, which means that you can
-:doc:`remap<Glossary>` almost all keys. Though the CC English
-layout has been optimized for writing in English by
+remap almost all keys. Though the :ref:`CC English layout<CC2 CCEnglish Layout>`
+has been optimized for writing in English by
 :doc:`chentry<Glossary>` and :doc:`chording<Chords>`, some users may
-choose to :doc:`remap<Glossary>` their device’s layout to better
+choose to remap their device’s layout to better
 suit their personal needs. For a thorough explanation on how remapping
 works and how to remap your device, visit the :ref:`remapping section<Device Manager:Remapping>`
 
@@ -398,7 +392,7 @@ on how to get started with learning your device. If you want to just
 jump in without having to read a minute longer, head on over to our
 training website; https://www.iq-eq.io/#/
 
-.. _Dot I/O:
+.. _CC2 Dot I/O:
 .. image:: /assets/images/DOTIO.png
   :width: 1200
   :alt: Practicing on DOT I/O
