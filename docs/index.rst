@@ -33,6 +33,7 @@ Table of Contents
    CCOS.rst
    CC_DUO.rst
    Chords.rst
+   Chord Modifiers.rst
    Device Manager.rst
    FAQs.rst
    GenerativeTextMenu.rst
