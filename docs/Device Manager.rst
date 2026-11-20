@@ -326,35 +326,54 @@ Mouse
 -----
 .. dropdown:: Mouse???
 
-	:doc:`CCOS<CCOS>` has mouse functionality. This means that your CharaChorder, or CCOS-powered keyboard, has the ability to control your computer's mouse. These settings affect the mouse usage on your CharaChorder.
+    :doc:`CCOS<CCOS>` has mouse functionality. This means that your
+    CharaChorder, or CCOS-powered keyboard, has the ability to control
+    your computer's mouse. These settings affect the mouse usage on your
+    CharaChorder.
 
-.. image:: /assets/images/ManagerSettingsMouse.png
-  :width: 1200
-  :alt: The Mouse settings box
+.. image:: /assets/images/DM-Mouse.png
+    :alt: The Mouse settings box
 
-In this box, you can adjust settings relating to :doc:`CCOS'<CCOS>` mouse abilities.
+In this box, you can adjust settings relating to :doc:`CCOS'<CCOS>`
+mouse abilities.
 
 .. dropdown:: Mouse Speed(s)
 
-	:doc:`CCOS<CCOS>` has two mouse speeds, a fast speed and a slow speed. The slow speed is activated when you use only one of the mouse keys in a single direction (as opposed to using 2 keys in the same direction). The fast speed is activated when you use two mouse keys in a single direction (as opposed to using only one key in the same direction).
+    :doc:`CCOS<CCOS>` has two mouse speeds, a fast speed and a slow
+    speed. The slow speed is activated when you use only one of the
+    mouse keys in a single direction (as opposed to using 2 keys in the
+    same direction). The fast speed is activated when you use two mouse
+    keys in a single direction (as opposed to using only one key in the
+    same direction).
 
-	You can read a more in-depth explanation of mouse speeds in the :ref:`GTM section<GenerativeTextMenu:Slow Speed>`.
+    You can read a more in-depth explanation of mouse speeds in the
+    :ref:`GTM section<GenerativeTextMenu:Slow Speed>`.
+
+.. dropdown:: Caffeine
+
+    Caffeine mode nudges your mouse cursor one pixel every minute or so
+    (not a specific timing). This setting can be used to keep your
+    computer from going to sleep. You might turn this setting off if you
+    notice desktop apps are preventing you from getting mobile
+    notifications (for example on Discord or Microsoft Teams).
 
 .. dropdown:: Scroll Speed
 
-	Scroll speed refers to the speed at which your :doc:`CCOS<CCOS>` scroll will scroll.
+    Scroll speed refers to the speed at which your :doc:`CCOS<CCOS>`
+    scroll will scroll.
 
-	You can read a more in-depth explanation of the scroll speed in the :ref:`GTM section<GenerativeTextMenu:Scroll Speed>`.
-
-.. dropdown:: Active Mouse
-
-	Active mode nudges your mouse cursor one pixel every minute or so (not a specific timing). This setting can be used to keep your computer from going to sleep. You might turn this setting off if you notice desktop apps are preventing you from getting mobile notifications (for example on Discord or Microsoft Teams).
+    You can read a more in-depth explanation of the scroll speed in the
+    :ref:`GTM section<GenerativeTextMenu:Scroll Speed>`.
 
 .. dropdown:: Poll Rate
 
-	The polling rate (poll rate) is the frequency at which data from the CharaChorder’s mouse functionality is sent to the device it’s connected to. In other words, how often it updates the cursor’s position to the computer.
+    The polling rate (poll rate) is the frequency at which data from the
+    CharaChorder's mouse functionality is sent to the device it's
+    connected to. In other words, how often it updates the cursor's
+    position to the computer.
 
-	You can read a more in-depth explanation of the polling rate in the :ref:`GTM section<GenerativeTextMenu:Poll Rate>`.
+    You can read a more in-depth explanation of the polling rate in the
+    :ref:`GTM section<GenerativeTextMenu:Poll Rate>`.
 
 Chording
 --------
