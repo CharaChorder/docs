@@ -32,7 +32,7 @@ community.
       capitalization, conjugation, part of speech, language, or structure of a chord.  Note, these can be used arpeggiately.
 
    :ref:`Compound Chords<Chords:Compound Chords>`
-      Multiple chords which behave differently when used together consecutively wihthin the :ref:`Compound timeout<Device Manager:Compound Timeout Setting>`.
+      Multiple chords which behave differently when used together consecutively within the :ref:`Compound timeout<Compound Timeout Setting>`.
       Example: know + ledge = knowledge.
 
    Cursor Warping
@@ -45,12 +45,12 @@ community.
 
    Dynamic Chord Library
       Advanced system feature enabling activation of multiple named chord
-      libraries through action codes embedded in chord outputs. You can have multiple chord libraries on your device, even if the chord inputs might otherwise conflict. This features allows you to have separate libraries for different settings, further allowing you to have the same input produce a different output on each different library. 
+      libraries through action codes embedded in chord outputs. You can have multiple chord libraries on your device, even if the chord inputs might otherwise conflict. This features allows you to have separate libraries for different settings, further allowing you to have the same input produce a different output on each different library.
 
       When an action
       code activates a specific library, subsequent chord creation automatically
       groups new chords within that library's structure, allowing for context-
-      specific chord sets (e.g., multiligual, coding, email) that can be 
+      specific chord sets (e.g., multiligual, coding, email) that can be
       programmatically switched during use.
 
    Forced Chord Phenomenon
@@ -75,8 +75,8 @@ community.
 
    Spurring
       A 'chording only' mode which outputs chords on a press rather than a
-      press & release. Enables jumping from one chord to another without 
-      releasing everything. It can provide significant speed gains with chording, 
-      but also takes away the flexibility of character entry. Spurring also 
-      helps new users learn how to chord by eliminating the need to focus on 
+      press & release. Enables jumping from one chord to another without
+      releasing everything. It can provide significant speed gains with chording,
+      but also takes away the flexibility of character entry. Spurring also
+      helps new users learn how to chord by eliminating the need to focus on
       timing.
