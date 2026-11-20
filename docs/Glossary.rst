@@ -32,7 +32,7 @@ community.
       capitalization, conjugation, part of speech, language, or structure of a chord.  Note, these can be used arpeggiately.
 
    :ref:`Compound Chords<Chords:Compound Chords>`
-      Multiple chords which behave differently when used together consecutively wihthin the :ref:`Compound timeout<Device Manager:Compound Timeout Setting>`.
+      Multiple chords which behave differently when used together consecutively within the :ref:`Compound timeout<Device Manager:Compound Timeout Setting>`.
       Example: know + ledge = knowledge.
 
    Cursor Warping
@@ -50,7 +50,7 @@ community.
       When an action
       code activates a specific library, subsequent chord creation automatically
       groups new chords within that library's structure, allowing for context-
-      specific chord sets (e.g., multiligual, coding, email) that can be 
+      specific chord sets (e.g., multilingual, coding, email) that can be
       programmatically switched during use.
 
    Forced Chord Phenomenon
