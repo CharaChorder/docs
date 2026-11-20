@@ -32,7 +32,7 @@ import sys
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 # extensions = ['sphinx.ext.autodoc']
-extensions = ['myst_parser', 'sphinx.ext.autosectionlabel', "sphinx_design",
+extensions = ['myst_parser', 'sphinx_design',
 'sphinx.ext.autosectionlabel', 'sphinx_copybutton']
 
 # Automatically prefix labels with the document name
