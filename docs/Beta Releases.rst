@@ -25,8 +25,6 @@ Each profile has its own settings. For example, on the Master Forge, each profil
 
 Profiles are backed up individually, by switching to profile A, B, or C at the top of the Device Manager's Device/Settings page before backing up.
 
-During the beta period, the profiles can be configured on: https://master.dev.charachorder.io/
-
 Layer warp
 ~~~~~~~~~~
 
