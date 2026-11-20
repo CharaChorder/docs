@@ -347,27 +347,27 @@ while the target key is pressed.
    EXAMPLE: On the CC English layout, you can access the F1 key by
    pressing and holding either pinky down, into the device, and adding the letter ``a`` or ``r`` (location of number 1 on the default layout) to it.
 
-Shift Modifier
+SHIFT Modifier
 ^^^^^^^^^^^^^^
 
-On top of the three aforementioned layers, the :doc:`Shift key<CharaChorder Keys>`, which is a :doc:`modifier<Glossary>`, can be used to access some extra keys. The Shift keypress works just like it
+On top of the three aforementioned layers, the :doc:`SHIFT key<CharaChorder Keys>`, which is a :doc:`modifier<Glossary>`, can be used to access some extra keys. The SHIFT keypress works just like it
 would on a traditional keyboard. You can capitalize letters and access
 symbols attached to numbers. This works with any key on any layer, just
-like other modifiers (such as Ctrl and Alt). The Shift modifier output
+like other modifiers (such as CTRL and ALT). The SHIFT modifier output
 is currently controlled by the Operating System that your CharaChorder is
 plugged to, and it is not possible to customize their outputs.
 
 In the above :ref:`graphic<CCEnglish Layout>`, you’ll see
-the Shift key labeled as “⇧”. In the `Device Manager <https://charachorder.io/config/layout/>`__,
+the SHIFT key labeled as “⇧”. In the `Device Manager <https://charachorder.io/config/layout/>`__,
 this key has the name “Shift Keyboard Modifier (Left)” and “Shift Keyboard Modifier (Right)”, one for each half
 of the CharaChorder.
 
-By default, the Shift is accessible by pressing and holding either pinky
+By default, the SHIFT is accessible by pressing and holding either pinky
 finger inwards, that is, east on the left pinky or west on the right
 pinky. You do not have to hold them both, only one is required. Any key
-that requires the Shift Modifier can only be accessed by pressing and
-holding the Shift key along with the target key. You do not need to
-:doc:`chord<Chords>` the keys together; it’s only required that the Shift
+that requires the SHIFT Modifier can only be accessed by pressing and
+holding the SHIFT key along with the target key. You do not need to
+:doc:`chord<Chords>` the keys together; it’s only required that the SHIFT
 key is pressed while the target key is pressed.
 
 .. note::

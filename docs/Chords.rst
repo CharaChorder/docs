@@ -162,11 +162,11 @@ OUTPUT 5. CONFIRM INPUT
    coded chord ``i+DUP``.
 3. Follow the prompt and type your output in character entry mode.
    (example: >I<mpulse output: burst ).
-4. Press enter to confirm your output.
+4. Press ``ENTER`` to confirm your output.
 5. Verify that the desired input is correct (you will see a confirmation
    message similar to this: >I<mpulse input: b + r + u + t + s).
 6. If the input is incorrect, perform your desired input at this step.
-   Once the input is the desired input, press enter.
+   Once the input is the desired input, press ``ENTER``.
 
 These steps should take 1-3 seconds.
 
@@ -191,11 +191,11 @@ OUTPUT, 5. CONFIRM INPUT
    coded chord ``i+DUP``.
 3. Follow the prompt and type your output in character entry mode.
    (example: >I<mpulse output: burst ).
-4. Press enter to confirm your output.
+4. Press ``ENTER`` to confirm your output.
 5. Verify that the desired input is correct (you will see a confirmation
    message similar to this: >I<mpulse input: b + r + u + t + s).
 6. If the input is incorrect, perform your desired input at this step.
-   Once the input is the desired input, press enter.
+   Once the input is the desired input, press ``ENTER``.
 
 These steps should take 1-3 seconds.
 
@@ -220,12 +220,12 @@ OUTPUT, 5. CONFIRM INPUT
    coded chord ``i+ESC``.
 3. Follow the prompt and type your output in character entry mode.
    (example: >I<mpulse output: burst ).
-4. Press enter to confirm your output.
+4. Press ``ENTER`` to confirm your output.
 5. Verify that the desired output is correct (you will see a
    confirmation message similar to this: >I<mpulse input: b + u + r +
    s + t).
 6. If the input is incorrect, perform your desired input at this step.
-   Once the input is the desired input, press enter.
+   Once the input is the desired input, press ``ENTER``.
 
 These steps should take 1-3 seconds
 
@@ -261,7 +261,7 @@ If we want the compound chord output: ``www.charachorder.com``
 #. Open the impulse prompt by chording: ``i+DUP``
 #. At the impulse output prompt, type the compound chord output, one character at a time:
 #. ``www.charachorder.com``
-#. Press: ``enter``
+#. Press: ``ENTER``
 #. At the impulse input prompt, press the first chord: ``w+b+s+t``
 #. ``impulse input: w + b + s + t``
 
@@ -269,7 +269,7 @@ If we want the compound chord output: ``www.charachorder.com``
 
       The order of the chord input characters doesn't matter, they appear in the impulse input prompt in the order they were pressed.
 
-#. Hold ``shift`` and press ``enter``
+#. Hold ``SHIFT`` and press ``ENTER``
 #. ``impulse input: w + b + s + t |``
 
    .. Note::
@@ -278,7 +278,7 @@ If we want the compound chord output: ``www.charachorder.com``
 
 #. Press the second chord: ``c+h+a+r``
 #. ``impulse input: w + b + s + t | c + h + a + r``
-#. Press: ``enter``
+#. Press: ``ENTER``
 
 We have added a compound chord:
 

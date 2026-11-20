@@ -30,10 +30,10 @@ Use the table below to find out how to trigger the GTM for your CCOS device. Ple
 .. csv-table::
     :header: "Device", "How to access"
 
-    "CharaChorder One", "Chord both pinky keys north (``Alt`` keys)"
-    "CharaChorder Lite", "Chord ``G`` and Middle ``Alt`` key (``Dup`` key)"
-    "CharaChorder X", "Chord ``G`` and ``Esc`` key"
-    "CharaChorder Engine", "Chord ``G`` and ``Esc`` key"
+    "CharaChorder One", "Chord both pinky keys north (``ALT`` keys)"
+    "CharaChorder Lite", "Chord ``G`` and ``MIDDLE ALT`` key (``DUP`` key)"
+    "CharaChorder X", "Chord ``G`` and ``ESC`` key"
+    "CharaChorder Engine", "Chord ``G`` and ``ESC`` key"
 
 How to navigate through the GTM
 *******************************
@@ -420,7 +420,7 @@ This setting will change how long CCOS counts time in order to replace character
 
 CCOS devices have a running timer that starts after every single character that is entered in traditional chentry (character entry, i.e. one letter at a time). This timer controls whether or not the next chord that you perform deletes the preceding characters.
 
-This feature allows users to misfire chords, yet be able to correct them by quickly performing the chord correctly, without having to backspace manually to erase the misfired chord. The result is that the timeout will automatically backspace all of the preceding characters (up to the last :doc:`breaking character <Breaking Character>`) and replace them with the intended chord.
+This feature allows users to misfire chords, yet be able to correct them by quickly performing the chord correctly, without having to BACKSPACE manually to erase the misfired chord. The result is that the timeout will automatically BACKSPACE all of the preceding characters (up to the last :doc:`breaking character <Breaking Character>`) and replace them with the intended chord.
 
 You can set this setting to be as low as 0.0 seconds (s) or as high as 25.0 seconds (s), being able to adapt it to your individual :doc:`chording<Chords>` style.
 
@@ -494,7 +494,7 @@ Arpeggiate Timeout
 
 The arpeggiate timeout is a window of time after a chord is performed during which CCOS will expect arpeggiates to be performed. After this timer runs out, CCOS will NO LONGER modify the preceding chord.
 
-A common issue that users may run into while having arpeggiates enabled is the shift key modifying the preceding chord instead of the next key. For this reason, some users lower the arpeggiate timeout to a really low amount of time in order to reduce the possibility of this happening unintentionally.
+A common issue that users may run into while having arpeggiates enabled is the SHIFT key modifying the preceding chord instead of the next key. For this reason, some users lower the arpeggiate timeout to a really low amount of time in order to reduce the possibility of this happening unintentionally.
 
 Display
 -------

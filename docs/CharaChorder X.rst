@@ -247,13 +247,13 @@ along with the target key. You do not need to :doc:`chord<Chords>` the keys
 together; it’s only required that the A3 layer access key is pressed
 while the target key is pressed.
 
-Shift Modifier
+SHIFT Modifier
 ^^^^^^^^^^^^^^
 
-On top of the three aforementioned layers, the :doc:`Shift key<CharaChorder Keys>`, which is a :doc:`modifier<Glossary>`, can be used to access some extra keys. The Shift keypress works just like it
+On top of the three aforementioned layers, the :doc:`SHIFT key<CharaChorder Keys>`, which is a :doc:`modifier<Glossary>`, can be used to access some extra keys. The SHIFT keypress works just like it
 would on a traditional keyboard. You can capitalize letters and access
 symbols attached to numbers. This works with any key on any layer, just
-like other modifiers (such as CTRL and ALT). The Shift modifier output
+like other modifiers (such as CTRL and ALT). The SHIFT modifier output
 is currently controlled by the Operating System that your CharaChorder is
 plugged to, and it is not possible to customize their outputs.
 
@@ -261,10 +261,10 @@ In the `Device Manager <https://charachorder.io/config/layout/>`__,
 this key has the name “Shift Keyboard Modifier (Left)” and “Shift Keyboard Modifier (Right)”, one for each side
 of the keyboard.
 
-The Shift is accessible by pressing the key labeled "Shift" on your keyboard. Any key
-that requires the Shift Modifier can only be accessed by pressing and
-holding the Shift key along with the target key. You do not need to
-:doc:`chord<Chords>` the keys together; it’s only required that the Shift
+The SHIFT is accessible by pressing the key labeled "Shift" on your keyboard. Any key
+that requires the SHIFT Modifier can only be accessed by pressing and
+holding the SHIFT key along with the target key. You do not need to
+:doc:`chord<Chords>` the keys together; it’s only required that the SHIFT
 key is pressed while the target key is pressed.
 
 Configurability

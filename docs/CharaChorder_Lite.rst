@@ -245,7 +245,7 @@ device’s settings; all you need is a place to type text. We call these
 settings the Generative Text Menu, or :doc:`GTM<GenerativeTextMenu>` for short.
 
 On the CharaChorder Lite, you can access the :doc:`GTM<GenerativeTextMenu>` by
-:doc:`chording<Chords>` the right ``ALT`` key and the letter ``G``.
+:doc:`chording<Chords>` the ``RIGHT ALT`` key and the letter ``G``.
 
 Once you perform the chord to call up the :doc:`GTM<GenerativeTextMenu>`, your CharaChorder will type out the menu and its options.
 It will look something like this:
@@ -282,7 +282,7 @@ The CharaChorder Lite's layout is mostly traditional QWERTY. All of the letters 
 
 Earlier, we explained that the CharaChorder Lite is a 60% keyboard. It's been named that because it's missing the navigation keys usually present on 65% keyboards, though it still has four arrow keys. Therefore, it is accurate to refer to the CCL as a 60%+6 keyboard, where the 6 refers to keys that aren't usually on a 60% keyboard. Additionally, the CCL has 67 keys, instead of the 61 keys that 60% keyboards traditionally have.
 
-Keys that are included are on the CharaChorder Lite are the 26 letters of the English alphabet, the 10 number keys (along with their SHIFT variants), a single backspace, one ``TAB`` key, opening (``[``) and closing (``]``) bracket keys as well as their SHIFT variants, a backslash (``\``) and its SHIFT variant, a CAPSLOCK key, a colon (``:``) key and its SHIFT variant, an apostrophe (``'``) and its SHIFT variant, an ``ENTER`` key, a full-size ``SHIFT`` key on the left as well as a smaller ``SHIFT`` key on the right side, comma (``,``), period (``.``),  and forward slash (``/``) keys and their SHIFT variants, a small ``DELETE`` key, a ``GUI`` key on the left and one on the right (Windows key, Command key, Super key, etc), a single ``CONTROL`` key, ``LEFT ALT`` and ``RIGHT ALT`` keys, two space keys, two :ref:`A2 layer access keys<CharaChorder_Lite:A2 Layer>` labeled ``Fn``, and four arrow keys.
+Keys that are included are on the CharaChorder Lite are the 26 letters of the English alphabet, the 10 number keys (along with their SHIFT variants), a single ``BACKSPACE``, one ``TAB`` key, opening (``[``) and closing (``]``) bracket keys as well as their SHIFT variants, a backslash (``\``) and its SHIFT variant, a CAPSLOCK key, a colon (``:``) key and its SHIFT variant, an apostrophe (``'``) and its SHIFT variant, an ``ENTER`` key, a full-size ``SHIFT`` key on the left as well as a smaller ``SHIFT`` key on the right side, comma (``,``), period (``.``),  and forward slash (``/``) keys and their SHIFT variants, a small ``DELETE`` key, a ``GUI`` key on the left and one on the right (Windows key, Command key, Super key, etc), a single ``CONTROL`` key, ``LEFT ALT`` and ``RIGHT ALT`` keys, two space keys, two :ref:`A2 layer access keys<CharaChorder_Lite:A2 Layer>` labeled ``Fn``, and four arrow keys.
 
 Layers
 ~~~~~~
@@ -352,34 +352,34 @@ while the target key is pressed.
   :alt: The default A3 layer on the CharaChorder Lite
 
 
-Shift Modifier
+SHIFT Modifier
 ^^^^^^^^^^^^^^
 
-On top of the three aforementioned layers, the :doc:`Shift key<CharaChorder Keys>`, which is a :doc:`keyboard modifier<Glossary>`, can be used to access some extra keys. The Shift key press works just like it
+On top of the three aforementioned layers, the :doc:`SHIFT key<CharaChorder Keys>`, which is a :doc:`keyboard modifier<Glossary>`, can be used to access some extra keys. The SHIFT key press works just like it
 would on a traditional keyboard. You can capitalize letters and access
 symbols attached to numbers. This works with any key on any layer, just
-like other keyboard modifiers (such as Ctrl and Alt). The Shift modifier output
+like other keyboard modifiers (such as CTRL and ALT). The SHIFT modifier output
 is currently controlled by the Operating System that your CharaChorder is
 plugged to, and it is not possible to customize their outputs.
 
 On the :doc:`CharaChorder Device Manager<Device Manager>`,
-this key has the name “Left_Shift” and “Right_Shift”, one for each side
+this key has the name “LEFT_SHIFT” and “RIGHT_SHIFT”, one for each side
 of the CharaChorder.
 
-By default, the Shift is accessible by pressing and holding either Shift Key. You do not have to hold them both, only one is required. Any key
-that requires the Shift Modifier can only be accessed by pressing and
-holding the Shift key along with the target key. You do not need to
-:doc:`chord<Chords>` the keys together; it’s only required that the Shift
+By default, the SHIFT is accessible by pressing and holding either SHIFT Key. You do not have to hold them both, only one is required. Any key
+that requires the SHIFT Modifier can only be accessed by pressing and
+holding the SHIFT key along with the target key. You do not need to
+:doc:`chord<Chords>` the keys together; it’s only required that the SHIFT
 key is pressed while the target key is pressed.
 
 AltGraph Modifier
 ^^^^^^^^^^^^^^^^^
 
-While using the US INTL OS layout on your computer, you can take advantage of a modifier known as AltGraph, AltGr, or right alt. This keyboard modifier is used to provide additional graphemes for most keys. You can use the AltGraph modifier to create accented characters such as á, é, í, ó, ú, among others.
+While using the US INTL OS layout on your computer, you can take advantage of a modifier known as AltGraph, AltGr, or RIGHT ALT. This keyboard modifier is used to provide additional graphemes for most keys. You can use the AltGraph modifier to create accented characters such as á, é, í, ó, ú, among others.
 
 The AltGraph modifier output is currently controlled by the Operating System that your CharaChorder is plugged into, and it is not possible to customize their outputs. Those outputs are determined by the computer's OS.
 
-By default, the right alt is accessible by pressing and holding the right alt. You do not need to
+By default, the RIGHT ALT is accessible by pressing and holding the RIGHT ALT. You do not need to
 :doc:`chord<Chords>` the keys together; it’s only required that the AltGraph
 key is pressed while the target key is pressed. On the :doc:`CharaChorder Device Manager<Device Manager>`,
 this key has the name “AltGraph”.
