@@ -207,20 +207,6 @@ Spurring
 
 In this box, you can enable or disable spurring mode as well as increase or decrease the :ref:`spurring timeout setting<GenerativeTextMenu:Spurring Timeout>`.
 
-Arpeggiates
------------
-.. dropdown:: What are arpeggiates?
-
-	Arpeggiate actions are timed actions that can modify a :ref:`chord<Chords:What are Chords?>` after the chord is performed. A quick example of this is the use of :ref:`chord modifiers<Device Manager:Chord Modifiers>` after you perform the chord. You can read that section for information on how the chord modifiers work.
-
-	With arpeggiates enabled, you can chord the word run and then, within the :ref:`arpeggiate timeout window<GenerativeTextMenu:Arpeggiate Timeout>`, press the :ref:`past tense modifier<Device Manager:Past Tense>` for the word to be “modified” into its past tense variant; in english, ran.
-
-.. image:: /assets/images/ManagerSettingsArpeggiates.png
-  :width: 1200
-  :alt: The Arpeggiates settings box
-
-In this box, ou can enable or disable arpeggiates as well as increase or decrease the :ref:`arpeggiate timeout setting<GenerativeTextMenu:Arpeggiate Timeout>`.
-
 Chord Modifiers
 ---------------
 .. dropdown:: What are chord modifiers?
@@ -414,6 +400,27 @@ Autocorrect
 	CCOS devices have a running timer that starts after every single character that is entered in traditional chentry (character entry, i.e. one letter at a time). This timer controls whether or not the next chord that you perform deletes the preceding characters.
 
 	This feature allows users to misfire chords, yet be able to correct them by quickly performing the chord correctly, without having to backspace manually to erase the misfired chord. The result is that the timeout will automatically backspace all of the preceding characters (up to the last breaking character) and replace them with the intended chord.
+
+Arpeggiates
+-----------
+.. dropdown:: What are arpeggiates?
+
+    Arpeggiate actions are timed actions that can modify a
+    :ref:`chord<Chords:What are Chords?>` after the chord is performed.
+    A quick example of this is the use of :ref:`chord modifiers<Device
+    Manager:Chord Modifiers>` after you perform the chord. You can read
+    that section for information on how the chord modifiers work.
+
+    With arpeggiates enabled, you can chord the word run and then,
+    within the :ref:`arpeggiate timeout
+    window<GenerativeTextMenu:Arpeggiate Timeout>`, press the :ref:`past
+    tense modifier<Device Manager:Past Tense>` for the word to be
+    “modified” into its past tense variant; in english, ran.
+
+.. image:: /assets/images/DM-Arpeggiates.png
+  :alt: The Arpeggiates settings box
+
+In this box, you can enable or disable arpeggiates as well as increase or decrease the :ref:`arpeggiate timeout setting<GenerativeTextMenu:Arpeggiate Timeout>`.
 
 RGB
 ---
