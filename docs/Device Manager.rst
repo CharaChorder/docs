@@ -121,58 +121,6 @@ Device
 The Device Tab is the place where you can configure most settings of your :ref:`connected<Device Manager:Connecting to the Device Manager>` CCOS device and create backups.
 Read on to see the different settings you can change. You can find more detailed explanations in the :doc:`GTM<GenerativeTextMenu>` section.
 
-Backup Section
---------------
-
-.. image:: /assets/images/ManagerHistoryMenu.png
-  :width: 400
-  :alt: The Backup Menu
-
-The Backup Menu is home to your backups as well as the place to go to in order to restore your device by using a backup file. There are different kinds of backups that you can create and we'll cover all of them in the next section.
-
-If you toggle the "Auto-backup" on, then the website will store a copy of your backup on your browser.  The backup is stored in the browser that you're using at that time and remains on your computer, so only YOU can access it.
-
-On the Device Manager, you can create backups of your chords, your layout, and even your settings. Follow the steps below to create a backup and to restore saved backups to your :doc:`CCOS<CCOS>` device.
-
-Creating a Backup
-~~~~~~~~~~~~~~~~~
-.. Note::
-	In order to follow these steps, you must already have your device :ref:`connected<Device Manager:Connecting to the Device Manager>` to the device manager.
-
-1. Open the Device tab and locate the "Backup" menu in the top left.
-
-2. Choose an "individual backup" to download to your computer, or select "download everything" to download a single file with all three parts. The file(s) will be downloaded in .json format.
-
-	.. note::
-		You can make individual backups of just your chords, just your layout, or just your settings. The "download everything" option will download all three of these in a single file instead of three separate files.
-
-3. If prompted, select a location to save to on your computer and rename the file to your liking.
-
-Congratulations! Now you have created a backup.
-
-Restoring from a Backup
-~~~~~~~~~~~~~~~~~~~~~~~
-Additionally, you can restore your chords, your layout, and your settings on the Device Manager. Follow the steps below to do so.
-
-.. Note::
-	In order to follow these steps, you must already have your device :ref:`connected<Device Manager:Connecting to the Device Manager>` to the device manager.
-
-1. Open the Device tab and locate the "Backup" menu in the top left.
-
-2. Click on "Restore".
-
-3. Select a file to use to restore from. This file should be in .json format.
-
-	.. note::
-		Files that you can restore from will have been created ahead of time by following the :ref:`steps to create a backup<Device Manager:Creating a Backup>`.
-
-4. If there are changes, the :ref:`save button<Device Manager:Save Button>` will appear on the top left. Note the changes in the appropriate tab. If you restored chords, check the :ref:`chords tab<Device Manager:Library>`, if you restored a layout, check the :ref:`layout tab<Device Manager:Layout>`, and if you restored settings, check the :ref:`settings tab<Device Manager:Device>`.
-
-	.. note::
-		The restore feature does NOT erase data from your device. If there is a conflict (such as a changed setting, a different key in the layout, or a chord that has a different :ref:`output<Chords:Chord Output>`), that will be overwritten by the restore file. Settings and layout backups ALWAYS overwrite everything.
-
-5. Once you see the changes that the restore file made, you can click :ref:`save<Device Manager:Save Button>` to apply the changes.
-
 Device Section
 --------------
 
@@ -425,6 +373,83 @@ These settings adjust the color and brightness of your CharaChorder Lite.
 .. image:: /assets/images/ManagerSettingsRGB.png
   :width: 1200
   :alt: The RGB settings box
+
+Backup Section
+--------------
+
+.. image:: /assets/images/DM-Backup.png
+    :alt: The Backup settings
+
+The Backup Menu is home to your backups as well as the place to go to in order to restore your device by using a backup file. There are different kinds of backups that you can create and we'll cover all of them in the next section.
+
+If you toggle the "Auto-backup" on, then the website will store a copy
+of your backup, in the browser that you're using at that time and it
+remains on your computer, so only YOU can access it.
+
+On the Device Manager, you can create backups of your chords, your layout, and even your settings. Follow the steps below to create a backup and to restore saved backups to your :doc:`CCOS<CCOS>` device.
+
+Creating a Backup
+~~~~~~~~~~~~~~~~~
+.. Note::
+    In order to follow these steps, you must already have your device
+    :ref:`connected<Device Manager:Connecting to the Device Manager>` to
+    the device manager.
+
+1. Open the Device tab and locate the "Backup" menu.
+
+2. Choose an "individual backup" to download to your computer, or select
+   "everything" to download a single file with all three parts. The
+   file(s) will be downloaded in .json format.
+
+    .. note::
+        You can make individual backups of just your chords, just your
+        layout, or just your settings. The "everything" option will
+        download all three of these in a single file instead of three
+        separate files.
+
+3. If prompted, select a location to save to on your computer and rename
+   the file to your liking.
+
+Congratulations! Now you have created a backup.
+
+Restoring from a Backup
+~~~~~~~~~~~~~~~~~~~~~~~
+Additionally, you can restore your chords, your layout, and your settings on the Device Manager. Follow the steps below to do so.
+
+.. Note::
+    In order to follow these steps, you must already have your device
+    :ref:`connected<Device Manager:Connecting to the Device Manager>` to
+    the device manager.
+
+1. Open the Device tab and locate the "Backup" menu.
+
+2. Click on "Restore".
+
+3. Select a file to use to restore from. This file should be in .json
+   format.
+
+    .. note::
+        Files that you can restore from will have been created ahead of
+        time by following the :ref:`steps to create a backup<Device
+        Manager:Creating a Backup>`.
+
+4. If there are changes, the :ref:`save button<Device Manager:Save
+   Button>` will appear on the top left. Note the changes in the
+   appropriate tab. If you restored chords, check the :ref:`chords
+   tab<Device Manager:Library>`, if you restored a layout, check the
+   :ref:`layout tab<Device Manager:Layout>`, and if you restored
+   settings, check the :ref:`device tab<Device Manager:Device>`.
+
+    .. note::
+        The restore feature does NOT erase data from your device. If
+        there is a conflict (such as a changed setting, a different key
+        in the layout, or a chord that has a different
+        :ref:`output<Chords:Chord Output>`), that will be overwritten by
+        the restore file. Settings and layout backups ALWAYS overwrite
+        everything.
+
+5. Once you see the changes that the restore file made, you can click
+   :ref:`save<Device Manager:Save Button>` to apply the changes.
 
 Library
 *******
