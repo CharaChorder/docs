@@ -3,7 +3,7 @@ Serial API
 
 The Serial API allows users and developers to interact with their CCOS powered device over a serial connection.  This can be used to add and remove chords, change advanced parameters, and perform common commands such as resetting keymaps or resetting the device to factory settings. You can utilize this serial API by using any serial terminal such as `serialterminal.com <https://www.serialterminal.com/>`_ on a `serial enabled web browser <https://caniuse.com/web-serial>`_. The serial connection operates at a baud rate of 115200 bps. In general, a success returns a 0 at the end, while a failure returns a number greater than zero, which represents an error code. When sending Serial API commands to a CharaChorder device, allow for at least 100 microseconds (us) between commands to allow time for the commands to be processed on the device. If there is no time allowed to process commands on the device, then the serial input buffer on the device can fill up and overflow, causing a system crash. Ideally, sequential Serial API commands should be called in a restful manner by waiting for a response from the previous command.
 
-.. figure:: /assets/serial/serialterminal.png
+.. figure:: /assets/images/serialterminal.png
   :alt: Running some simple commands on serialterminal.com
 
   Running some simple commands on serialterminal.com
