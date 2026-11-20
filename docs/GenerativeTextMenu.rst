@@ -31,9 +31,12 @@ Use the table below to find out how to trigger the GTM for your CCOS device. Ple
     :header: "Device", "How to access"
 
     "CharaChorder One", "Chord both pinky keys north (``Alt`` keys)"
+    "CharaChorder Two", "Chord both pinky keys north (``ALT`` keys)"
     "CharaChorder Lite", "Chord ``G`` and Middle ``Alt`` key (``Dup`` key)"
     "CharaChorder X", "Chord ``G`` and ``Esc`` key"
     "CharaChorder Engine", "Chord ``G`` and ``Esc`` key"
+    "Master Forge", "Chord both pinky keys north (``ALT`` keys)"
+    "Master Forge", "Hold ``NUM`` and press ``Right Aux1 North``"
 
 How to navigate through the GTM
 *******************************
