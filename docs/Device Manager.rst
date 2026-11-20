@@ -426,6 +426,60 @@ These settings adjust the color and brightness of your CharaChorder Lite.
   :width: 1200
   :alt: The RGB settings box
 
+Reset and Recovery
+------------------
+
+.. image:: /assets/images/DM-Reset-Recovery.png
+    :alt: The Reset and Recovery settings
+
+.. dropdown:: Reset Settings
+
+    The **Reset Settings** button restores the default settings on the
+    device tab.
+
+.. dropdown:: Recovery...
+
+    The **Recovery...** button opens the Reset Device menu.
+
+    .. figure:: /assets/images/DM-Reset-Device-Menu.png
+        :alt: The Reset Device menu
+
+    **Factory Reset...** restores the default settings, layout, and
+    chords.
+
+    .. note::
+        **Factor Reset...** does not change the firmware version.
+
+    Or each section can be reset individually.
+
+    The **Add starter chords...** choice, adds the starter chords to
+    your current chords list. If you only want the starter chords, then
+    clear the chords first.
+
+    The **Add functional chords...** choice, adds some chords that might
+    be useful. For example:
+
+    * ``CAPSLOCK`` can be toggled by chording both ``SHIFT`` keys.
+
+    * The text cursor can be moved x nr of steps by chording a key that
+      corresponds to a number and an arrow key.
+
+      For example: ``n + ARROW LEFT`` moves the cursor five characters
+      left, because ``n`` is nr 5 on the number layer.
+
+      .. note::
+          Do not hold the number layer key, just chord with a key that
+          corresponds to a number. For example: t = 2, f = 7, etc.
+
+    * Likewise a corresponding number key and ``BACKSPACE`` or
+      ``DELETE``, erases that number of times.
+
+    * There's also chords for quotes and brackets that type a pair and
+      move the cursor between the pair.
+
+    .. image:: /assets/images/DM-functional-chords-quotes-brackets.png
+        :alt: Functional chords, quotes and brackets
+
 Library
 *******
 .. image:: /assets/images/ChordManager.png
